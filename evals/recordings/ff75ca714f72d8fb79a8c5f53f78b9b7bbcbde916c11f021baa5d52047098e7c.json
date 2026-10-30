@@ -1,0 +1,23 @@
+{
+  "key": "ff75ca714f72d8fb79a8c5f53f78b9b7bbcbde916c11f021baa5d52047098e7c",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step4",
+  "recordedAt": "2026-10-24T09:33:22.297Z",
+  "usage": {
+    "inputTokens": 1565,
+    "outputTokens": 407,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000306,
+  "latencyMs": 2901,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಬೆರಳು ಜಾರಿಸುತ್ತಾ 'ಮ... ರ... ಮರ' ಅಂತ ಎಳೆದು ಹೇಳಿಸಿ.",
+    "reason": "Both actions match card steps 2 and 3: sliding a finger while stretching the word, and having children draw a picture for each word read."
+  },
+  "attempts": 1
+}

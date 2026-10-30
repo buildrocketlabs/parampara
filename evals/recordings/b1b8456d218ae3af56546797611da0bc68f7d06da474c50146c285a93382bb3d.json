@@ -1,0 +1,23 @@
+{
+  "key": "b1b8456d218ae3af56546797611da0bc68f7d06da474c50146c285a93382bb3d",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-03-hi-number-sense:step2",
+  "recordedAt": "2026-10-24T09:32:46.247Z",
+  "usage": {
+    "inputTokens": 2234,
+    "outputTokens": 224,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000282,
+  "latencyMs": 2808,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಹತ್ತು ಕಡ್ಡಿ ಆದ ತಕ್ಷಣ ರಬ್ಬರ್ ಬ್ಯಾಂಡ್ ಹಾಕಿ ಒಂದು ಕಟ್ಟು ಮಾಡಿಸಿ, 'ಇದು ಒಂದು ಹತ್ತು' ಅಂತ ಹೇಳಿಸಿ.",
+    "reason": "The step matches card step 2 exactly in action, material, and wording; the Hindi version is a faithful translation of the same instruction."
+  },
+  "attempts": 1
+}

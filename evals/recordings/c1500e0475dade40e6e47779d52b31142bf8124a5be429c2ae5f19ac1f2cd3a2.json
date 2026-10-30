@@ -1,0 +1,105 @@
+{
+  "key": "c1500e0475dade40e6e47779d52b31142bf8124a5be429c2ae5f19ac1f2cd3a2",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v1",
+  "itemId": "extractor-03-multi-level",
+  "recordedAt": "2026-10-24T09:28:10.980Z",
+  "usage": {
+    "inputTokens": 6367,
+    "outputTokens": 2345,
+    "cacheReadTokens": 4020,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.028546,
+  "latencyMs": 13028,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಓದುವ ಮಟ್ಟದ ಮೂರು ಗುಂಪುಗಳು",
+        "titleEn": "Three groups by reading level",
+        "problemKn": "ಒಂದು ಮತ್ತು ಎರಡನೇ ತರಗತಿ ಒಂದೇ ಕೋಣೆಯಲ್ಲಿ, ನಲವತ್ತು ಮಕ್ಕಳು, ನೀವೊಬ್ಬರೇ ಶಿಕ್ಷಕರು. ಎಲ್ಲರಿಗೂ ಒಂದೇ ಪಾಠ ಮಾಡಿದರೆ ಎಲ್ಲರಿಗೂ ಸರಿಹೋಗುವುದಿಲ್ಲ.",
+        "problemEn": "Classes 1 and 2 sit in one room, forty children, and you are the only teacher. Teaching everyone the same lesson does not suit everyone.",
+        "gradeBand": "1-2",
+        "subject": "general",
+        "topic": "multi_level",
+        "steps": [
+          {
+            "kn": "ತರಗತಿ ನೋಡಿ ಗುಂಪು ಮಾಡಬೇಡಿ. ಮಕ್ಕಳ ಓದುವ ಮಟ್ಟ ನೋಡಿ ಮೂರು ಗುಂಪು ಮಾಡಿ.",
+            "en": "Do not group children by class. Look at their reading level and make three groups.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಪ್ರತಿ ಗುಂಪಿಗೆ ಒಂದು ಹೂವಿನ ಹೆಸರು ಕೊಡಿ: ಮಲ್ಲಿಗೆ, ಸಂಪಿಗೆ, ಗುಲಾಬಿ. ಯಾವ ಗುಂಪು ಮೇಲು, ಯಾವುದು ಕೀಳು ಅನ್ನೋ ಭಾವನೆ ಬರಬಾರದು.",
+            "en": "Give each group a flower name: Mallige, Sampige, Gulabi. That way no one feels one group is higher or lower.",
+            "evidence": [
+              "S4"
+            ]
+          },
+          {
+            "kn": "ನೀವು ಒಂದು ಗುಂಪಿನ ಜೊತೆ ಕೂತಿರುವಾಗ, ಉಳಿದ ಎರಡು ಗುಂಪಿಗೆ ಕೆಲಸ ಮೊದಲೇ ಕೊಟ್ಟಿರಿ. ಒಂದಕ್ಕೆ ಅಕ್ಷರ ಕಾರ್ಡ್ ಜೋಡಿಸೋದು, ಇನ್ನೊಂದಕ್ಕೆ ಚಿತ್ರ ನೋಡಿ ಕಥೆ ಹೇಳೋದು.",
+            "en": "While you sit with one group, give the other two their work beforehand. One matches letter cards, the other tells a story from a picture.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ ಎರಡನೇ ತರಗತಿಯ ಒಂದು ಮಗುವನ್ನು ನಾಯಕ ಮಾಡಿ. ಆ ಮಗು ಚಿಕ್ಕವರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತೆ.",
+            "en": "In each group, make one Class 2 child the leader, who helps the younger ones.",
+            "evidence": [
+              "S6"
+            ]
+          },
+          {
+            "kn": "ಒಂದು ಗುಂಪಿನ ಜೊತೆ ಹದಿನೈದು ನಿಮಿಷ ಕೂತಿರಿ. ಕೈಯಲ್ಲಿ ಸಣ್ಣ ಗಂಟೆ ಇಟ್ಟುಕೊಳ್ಳಿ. ಗಂಟೆ ಹೊಡೆದರೆ ಗುಂಪು ಬದಲಾಯಿಸಿ.",
+            "en": "Sit with each group for fifteen minutes. Keep a small bell in your hand, and when it rings, switch groups.",
+            "evidence": [
+              "S8"
+            ]
+          },
+          {
+            "kn": "ಪ್ರತಿ ಶುಕ್ರವಾರ ಗುಂಪುಗಳನ್ನು ಮತ್ತೆ ನೋಡಿ. ಮುಂದೆ ಹೋಗಿರುವ ಮಕ್ಕಳನ್ನು ಮುಂದಿನ ಗುಂಪಿಗೆ ಕಳಿಸಿ.",
+            "en": "Every Friday, look at the groups again. Move children who have moved ahead into the next group.",
+            "evidence": [
+              "S9"
+            ]
+          },
+          {
+            "kn": "ಮೊದಲ ತಿಂಗಳು ಗಲಾಟೆ ಆಗಬಹುದು. ಕೆಲಸ ಮುಗಿಸಿದ ಗುಂಪು ಕೂತು ಕಥೆ ಪುಸ್ತಕ ನೋಡಬಹುದು ಅಂತ ನಿಯಮ ಮಾಡಿ.",
+            "en": "The first month may be noisy. Make a rule that a group that finishes its work can sit and look at story books.",
+            "evidence": [
+              "S11"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಅಕ್ಷರ ಕಾರ್ಡ್‌ಗಳು",
+            "en": "letter cards"
+          },
+          {
+            "kn": "ಚಿತ್ರಗಳು",
+            "en": "pictures"
+          },
+          {
+            "kn": "ಸಣ್ಣ ಗಂಟೆ",
+            "en": "a small bell"
+          },
+          {
+            "kn": "ಕಥೆ ಪುಸ್ತಕಗಳು",
+            "en": "story books"
+          }
+        ],
+        "whyKn": "ಓದುವ ಮಟ್ಟ ನೋಡಿ ಗುಂಪು ಮಾಡಿದರೆ ಪ್ರತಿ ಮಗುವಿಗೆ ತನ್ನ ಮಟ್ಟದ ಕೆಲಸ ಸಿಗುತ್ತದೆ. ಹೂವಿನ ಹೆಸರಿನಿಂದ ಯಾರಿಗೂ ಕೀಳು ಅನ್ನಿಸುವುದಿಲ್ಲ.",
+        "whyEn": "Grouping by reading level gives each child work at their own level. Flower names mean no group feels lower.",
+        "quoteRef": "S3",
+        "flags": []
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

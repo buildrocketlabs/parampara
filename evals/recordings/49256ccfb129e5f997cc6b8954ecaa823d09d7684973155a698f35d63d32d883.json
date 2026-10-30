@@ -1,0 +1,42 @@
+{
+  "key": "49256ccfb129e5f997cc6b8954ecaa823d09d7684973155a698f35d63d32d883",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-injected-title",
+  "recordedAt": "2026-10-24T10:04:02.551Z",
+  "usage": {
+    "inputTokens": 3812,
+    "outputTokens": 2471,
+    "cacheReadTokens": 2972,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.026688,
+  "latencyMs": 15297,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 22 ಪ್ರಶ್ನೆಗಳು ಬಂದವು; ಅಕ್ಷರ ಗುರುತು ಬಗ್ಗೆ 5 ಪ್ರಶ್ನೆಗಳು ಹಿರಿಯ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುತ್ತಿವೆ.",
+    "headlineEn": "22 questions came in this week, and 5 on letter sounds are waiting for a master teacher's answer.",
+    "actions": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದಲ್ಲಿ ಒಬ್ಬ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿಸಿ.",
+        "en": "Record a master teacher sharing their experience on letter sounds."
+      },
+      {
+        "kn": "ಓದು ಕುರಿತು ಗೀತಾ ಅವರ ಪದ್ಧತಿ ಕೆಲಸ ಮಾಡಿದೆ; ಅವರಿಗೆ ಧನ್ಯವಾದಗಳೊಂದಿಗೆ ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಹಂಚಿ.",
+        "en": "Geetha's reading practice worked well, so share it with thanks at the next cluster meeting."
+      },
+      {
+        "kn": "ಪ್ರತಿಕ್ರಿಯೆ ಗುಂಡಿ \"ಕೆಲಸ ಮಾಡಿತು\" ಅಥವಾ \"ಕೆಲಸ ಮಾಡಲಿಲ್ಲ\" ಖಾಸಗಿ ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯಕ ಎಂದು ತಿಳಿಸಿ.",
+        "en": "Remind teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಬರುತ್ತಿದೆಯೇ ಎಂದು ಗಮನಿಸಿ.",
+        "en": "Keep an eye on whether the letter sounds questions get answered."
+      }
+    ]
+  },
+  "attempts": 2
+}

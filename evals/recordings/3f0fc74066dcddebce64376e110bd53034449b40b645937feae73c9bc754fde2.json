@@ -1,0 +1,64 @@
+{
+  "key": "3f0fc74066dcddebce64376e110bd53034449b40b645937feae73c9bc754fde2",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v3",
+  "itemId": "answer-11-card-without-why",
+  "recordedAt": "2026-10-24T18:38:27.987Z",
+  "usage": {
+    "inputTokens": 2730,
+    "outputTokens": 761,
+    "cacheReadTokens": 1747,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.009751,
+  "latencyMs": 4576,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಕಲ್ಲು ಸಾಲಿನಲ್ಲಿ ಎಣಿಕೆ",
+      "en": "Counting stones in line",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಪ್ರತಿ ಮಗುವಿಗೆ ಒಂದು ಬಟ್ಟೆ ಚೀಲದಲ್ಲಿ ಹತ್ತು ಸಣ್ಣ ಕಲ್ಲು ಕೊಡಿ.",
+        "en": "Give each child ten small stones in a cloth bag.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ನೀವು ಒಂದು ಸಂಖ್ಯೆ ಹೇಳಿ; ಮಕ್ಕಳು ಅಷ್ಟು ಕಲ್ಲನ್ನು ನೆಲದ ಮೇಲೆ ಸಾಲಾಗಿ ಇಡಲಿ.",
+        "en": "Say a number; the children lay that many stones in a line on the floor.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಆಮೇಲೆ ಪ್ರತಿ ಕಲ್ಲನ್ನು ಮುಟ್ಟುತ್ತಾ ಜೋರಾಗಿ ಎಣಿಸಲಿ.",
+        "en": "Then they count aloud, touching each stone.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮೊದಲ ವಾರ ಐದರವರೆಗೆ ಮಾತ್ರ ಮಾಡಿ; ಆಮೇಲೆ ಹತ್ತರವರೆಗೆ ಹೋಗಿ.",
+        "en": "Go only up to five in the first week; then up to ten.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಸಣ್ಣ ಕಲ್ಲುಗಳು",
+        "en": "small stones",
+        "hi": null
+      },
+      {
+        "kn": "ಬಟ್ಟೆ ಚೀಲ",
+        "en": "a cloth bag",
+        "hi": null
+      }
+    ],
+    "why": null
+  },
+  "attempts": 1
+}

@@ -1,0 +1,12 @@
+pnpm-lock.yaml
+.next/
+node_modules/
+docs/demos/
+playwright-report/
+test-results/
+supabase/.temp/
+*.md
+video/node_modules/
+video/out/
+video/pnpm-lock.yaml
+.release/

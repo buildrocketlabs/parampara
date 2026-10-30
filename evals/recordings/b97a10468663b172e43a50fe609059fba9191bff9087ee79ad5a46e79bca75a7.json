@@ -1,0 +1,32 @@
+{
+  "key": "b97a10468663b172e43a50fe609059fba9191bff9087ee79ad5a46e79bca75a7",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-32-hindi-hungry",
+  "recordedAt": "2026-10-24T10:47:02.563Z",
+  "usage": {
+    "inputTokens": 2903,
+    "outputTokens": 152,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000113,
+  "latencyMs": 1964,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "मेरी कक्षा के कुछ बच्चे भूखे आते हैं और पहले घंटे में ध्यान नहीं देते। क्या करूँ?",
+    "language": "hi",
+    "topic": "engagement",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "hunger"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

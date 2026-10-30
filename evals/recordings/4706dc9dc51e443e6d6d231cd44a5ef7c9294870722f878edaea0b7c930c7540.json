@@ -1,0 +1,23 @@
+{
+  "key": "4706dc9dc51e443e6d6d231cd44a5ef7c9294870722f878edaea0b7c930c7540",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-01-kn-letters:step2",
+  "recordedAt": "2026-10-24T09:31:58.123Z",
+  "usage": {
+    "inputTokens": 1840,
+    "outputTokens": 218,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000239,
+  "latencyMs": 2125,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಒಂದು ತಟ್ಟೆಯಲ್ಲಿ ಮರಳು ಹಾಕಿ. ಮಗು ಬೆರಳಿಂದ ಮರಳಲ್ಲಿ ಅಕ್ಷರ ಬರೆಯಲಿ, ಬರೆಯುತ್ತಾ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+    "reason": "The step matches card step 2 exactly: sand in a plate, child writes the letter with a finger and says it aloud while writing."
+  },
+  "attempts": 1
+}

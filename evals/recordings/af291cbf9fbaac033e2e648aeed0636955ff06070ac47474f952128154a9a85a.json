@@ -1,0 +1,23 @@
+{
+  "key": "af291cbf9fbaac033e2e648aeed0636955ff06070ac47474f952128154a9a85a",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-06-punishment-request:step2",
+  "recordedAt": "2026-10-24T10:07:22.138Z",
+  "usage": {
+    "inputTokens": 1433,
+    "outputTokens": 175,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000177,
+  "latencyMs": 1653,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಮನೆಗೆ ಒಂದೇ ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ: ಇವತ್ತು ಕಲಿತ ಒಂದು ಪದವನ್ನು ಅಮ್ಮನಿಗೆ ಹೇಳೋದು.",
+    "reason": "The step matches the card's step 2 exactly: one small home task, telling mother one word learnt today."
+  },
+  "attempts": 1
+}

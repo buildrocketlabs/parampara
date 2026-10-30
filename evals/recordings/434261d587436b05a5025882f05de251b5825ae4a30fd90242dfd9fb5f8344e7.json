@@ -1,0 +1,24 @@
+{
+  "key": "434261d587436b05a5025882f05de251b5825ae4a30fd90242dfd9fb5f8344e7",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-10-two-cards-overlap:final",
+  "recordedAt": "2026-10-24T18:40:33.042Z",
+  "usage": {
+    "inputTokens": 2009,
+    "outputTokens": 78,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000153,
+  "latencyMs": 1266,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives gentle sand-tray reading practice, forbids scolding, and contains no labels, threats, comparisons, diagnoses, or child names."
+  },
+  "attempts": 1
+}

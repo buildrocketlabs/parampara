@@ -1,0 +1,23 @@
+{
+  "key": "de04ba92a43f16df205aa83318f42bcf89001426fa9003781788a582fe9d86e4",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step4",
+  "recordedAt": "2026-10-24T18:39:28.957Z",
+  "usage": {
+    "inputTokens": 1534,
+    "outputTokens": 169,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000184,
+  "latencyMs": 2815,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಬೆರಳು ಜಾರಿಸುತ್ತಾ 'ಮ... ರ... ಮರ' ಅಂತ ಎಳೆದು ಹೇಳಿಸಿ.",
+    "reason": "The card's finger-sliding and stretching of ಮರ, ಮನೆ, ಕಲ is matched, but the step adds a targeting of 'the group that cannot read yet', which the card does not mention."
+  },
+  "attempts": 1
+}

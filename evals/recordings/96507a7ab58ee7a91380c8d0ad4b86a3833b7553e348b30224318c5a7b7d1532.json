@@ -1,0 +1,33 @@
+{
+  "key": "96507a7ab58ee7a91380c8d0ad4b86a3833b7553e348b30224318c5a7b7d1532",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-12-unanswerable",
+  "recordedAt": "2026-10-24T10:45:58.936Z",
+  "usage": {
+    "inputTokens": 2863,
+    "outputTokens": 361,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000214,
+  "latencyMs": 3084,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಏನು ಮಾಡೋದು?",
+    "language": "kn",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "other",
+    "needsClarification": true,
+    "clarifyingQuestion": {
+      "kn": "ದಯವಿಟ್ಟು ನೀವು ಯಾವ ತರಗತಿಯ ಯಾವ ವಿಷಯದ ಬಗ್ಗೆ ಕೇಳುತ್ತಿದ್ದೀರಿ, ಮತ್ತು ತರಗತಿಯಲ್ಲಿ ಏನು ಸಮಸ್ಯೆ ಆಗುತ್ತಿದೆ ಎಂದು ಸ್ವಲ್ಪ ವಿವರವಾಗಿ ಹೇಳಬಹುದೇ?",
+      "en": "Could you please tell us a little more: which class and subject is this about, and what problem are you facing in the classroom?"
+    },
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

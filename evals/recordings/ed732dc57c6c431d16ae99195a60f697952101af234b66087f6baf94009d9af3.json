@@ -1,0 +1,23 @@
+{
+  "key": "ed732dc57c6c431d16ae99195a60f697952101af234b66087f6baf94009d9af3",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-15-faithful-in-other-words",
+  "recordedAt": "2026-10-24T18:06:10.398Z",
+  "usage": {
+    "inputTokens": 2116,
+    "outputTokens": 182,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000249,
+  "latencyMs": 1934,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಇಬ್ಬರಿಬ್ಬರನ್ನು ಜೋಡಿ ಮಾಡಿ: ಒಬ್ಬರು ಎಣಿಸಲಿ, ಇನ್ನೊಬ್ಬರು ಕಟ್ಟಲಿ.",
+    "reason": "The card's step 4 says to pair children so one counts and the other ties, which matches the step's partner roles of counting sticks and fastening the bundle."
+  },
+  "attempts": 1
+}

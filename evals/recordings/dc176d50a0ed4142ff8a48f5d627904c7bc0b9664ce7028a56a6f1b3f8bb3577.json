@@ -1,0 +1,69 @@
+{
+  "key": "dc176d50a0ed4142ff8a48f5d627904c7bc0b9664ce7028a56a6f1b3f8bb3577",
+  "role": "answerer",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-01-kn-letters",
+  "recordedAt": "2026-10-24T10:45:33.362Z",
+  "usage": {
+    "inputTokens": 2890,
+    "outputTokens": 1028,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1701
+  },
+  "costUsd": 0.000846,
+  "latencyMs": 3942,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಮರಳಲ್ಲಿ ದಿನಕ್ಕೊಂದು ಅಕ್ಷರ",
+      "en": "One letter a day in sand",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಎಲ್ಲಾ ಅಕ್ಷರ ಒಟ್ಟಿಗೆ ಕಲಿಸೋದು ಬಿಡಿ. ದಿನಕ್ಕೆ ಒಂದೇ ಅಕ್ಷರ ಆಯ್ಕೆ ಮಾಡಿ.",
+        "en": "Stop teaching all letters together. Pick just one letter a day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಒಂದು ತಟ್ಟೆಯಲ್ಲಿ ಮರಳು ಹಾಕಿ. ಮಗು ಬೆರಳಿಂದ ಅಕ್ಷರ ಬರೆದು ಜೋರಾಗಿ ಹೇಳಲಿ.",
+        "en": "Spread sand in a plate. Let the child write the letter with a finger, saying it aloud.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮೊದಲ ಹದಿನೈದು ದಿನ, ಪ್ರಾರ್ಥನೆ ಆದ ಮೇಲೆ ದಿನಕ್ಕೆ ಹತ್ತು ನಿಮಿಷ ಮಾಡಿ.",
+        "en": "For the first fifteen days, do this for ten minutes after morning prayer.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮರೆತರೆ ಬೈಯಬೇಡಿ. ಮರುದಿನ ಅದೇ ಅಕ್ಷರ ಮತ್ತೆ ಮರಳಲ್ಲಿ ಬರೆಸಿ.",
+        "en": "If the child forgets, do not scold. Repeat the same letter in the sand the next day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮೂರು ದಿನ ಸತತ ಗುರುತಿಸಿದರೆ ಮುಂದಿನ ಅಕ್ಷರಕ್ಕೆ ಹೋಗಿ.",
+        "en": "When the child knows it three days in a row, move to the next letter.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಮರಳು ಹಾಕಿದ ತಟ್ಟೆ",
+        "en": "a plate of sand",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಒಂದೇ ಅಕ್ಷರ ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಮುಂದೆ ಹೋಗೋದು.",
+      "en": "One letter at a time, moving on only when it is firm.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

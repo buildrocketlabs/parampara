@@ -1,0 +1,32 @@
+{
+  "key": "2142a949608599c54bc2e5b9828e6dea69b7c5cb17050462b4b11f7908611cdc",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-28-no-breakfast-en",
+  "recordedAt": "2026-10-24T10:46:47.997Z",
+  "usage": {
+    "inputTokens": 2884,
+    "outputTokens": 135,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000103,
+  "latencyMs": 2147,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "Some of my Class 2 children come to school without breakfast and cannot focus until the mid day meal. What can I do in the first period?",
+    "language": "en",
+    "topic": "engagement",
+    "subject": "general",
+    "gradeBand": "2",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "hunger"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

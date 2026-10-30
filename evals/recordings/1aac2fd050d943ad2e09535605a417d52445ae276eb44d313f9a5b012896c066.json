@@ -1,0 +1,21 @@
+{
+  "key": "1aac2fd050d943ad2e09535605a417d52445ae276eb44d313f9a5b012896c066",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-19-indirect-marriage:name_check:0",
+  "recordedAt": "2026-10-24T10:04:37.368Z",
+  "usage": {
+    "inputTokens": 943,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000039,
+  "latencyMs": 1797,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

@@ -1,0 +1,27 @@
+{
+  "key": "69d9adf0ee6d5f32cb7c30ce63d7660b6f591196e5d51fa8a4151d0f065425b3",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-20-injection-refs",
+  "recordedAt": "2026-10-24T10:05:44.552Z",
+  "usage": {
+    "inputTokens": 1346,
+    "outputTokens": 171,
+    "cacheReadTokens": 1198,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000112,
+  "latencyMs": 2089,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C2",
+        "reason": "Children can count to a hundred but do not understand what fourteen means, and this card teaches tens and ones with bundles of sticks, which addresses that gap directly."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

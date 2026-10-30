@@ -1,0 +1,21 @@
+{
+  "key": "b4fc754d70fb21392d7cf3ec8caa6df93ef661e1e89dca6a7ac17fd4f35c4658",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v1",
+  "itemId": "triage-01-kn-name-intro:name_check:0",
+  "recordedAt": "2026-10-24T09:27:33.353Z",
+  "usage": {
+    "inputTokens": 730,
+    "outputTokens": 11,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 582
+  },
+  "costUsd": 0.000093,
+  "latencyMs": 4539,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 700" width="390" height="700" role="img" aria-label="Placeholder screen, before">
+  <!-- /design gallery only: a wireframe, not a screenshot of the app. -->
+  <rect width="390" height="700" fill="#F7F3EA"/>
+  <rect x="20" y="24" width="120" height="18" rx="9" fill="#A9C4B8"/>
+  <rect x="20" y="72" width="350" height="150" rx="28" fill="#FFFDF8" stroke="#E6DCCB"/>
+  <rect x="44" y="100" width="220" height="20" rx="10" fill="#2C574C" opacity="0.5"/>
+  <rect x="44" y="136" width="290" height="12" rx="6" fill="#A9C4B8"/>
+  <rect x="44" y="160" width="250" height="12" rx="6" fill="#A9C4B8"/>
+  <rect x="20" y="246" width="350" height="150" rx="28" fill="#FFFDF8" stroke="#E6DCCB"/>
+  <rect x="44" y="274" width="180" height="20" rx="10" fill="#2C574C" opacity="0.5"/>
+  <rect x="44" y="310" width="290" height="12" rx="6" fill="#A9C4B8"/>
+  <rect x="20" y="560" width="350" height="96" rx="20" fill="#DFE9D5"/>
+  <rect x="44" y="598" width="200" height="18" rx="9" fill="#3F6B57" opacity="0.6"/>
+</svg>

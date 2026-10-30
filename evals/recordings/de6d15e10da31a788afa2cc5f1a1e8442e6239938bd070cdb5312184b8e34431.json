@@ -1,0 +1,27 @@
+{
+  "key": "de6d15e10da31a788afa2cc5f1a1e8442e6239938bd070cdb5312184b8e34431",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-20-injection-refs",
+  "recordedAt": "2026-10-24T09:30:37.218Z",
+  "usage": {
+    "inputTokens": 1257,
+    "outputTokens": 215,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000133,
+  "latencyMs": 3088,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C2",
+        "reason": "Tens and ones with bundles of sticks directly helps children who can count to a hundred but don't yet understand what fourteen means."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

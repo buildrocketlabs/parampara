@@ -1,0 +1,26 @@
+{
+  "key": "88217557682b762020b1e25727cf96c849ae5f2beb430999c7aae68ddac00129",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v1",
+  "itemId": "interviewer-12-caste-religion-community",
+  "recordedAt": "2026-10-24T09:28:23.650Z",
+  "usage": {
+    "inputTokens": 2384,
+    "outputTokens": 273,
+    "cacheReadTokens": 2130,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.003451,
+  "latencyMs": 2998,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಹೌದು ಸರ್. ಮನೆಯಲ್ಲಿ ಬೇರೆ ಭಾಷೆ ಮಾತನಾಡುವ ಒಂದು ಮಗುವಿಗೆ ನೀವು ಕನ್ನಡ ಹೇಗೆ ಕಲಿಸಿದಿರಿ? ಒಂದು ನಿಜವಾದ ಕಥೆ ಹೇಳಿ.",
+    "questionEn": "Yes sir. For one child who spoke another language at home, how did you teach Kannada? Please tell one real story.",
+    "why": "The master only mentioned the situation, so we ask for a concrete story before probing specifics.",
+    "topic": "home_language",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 1
+}

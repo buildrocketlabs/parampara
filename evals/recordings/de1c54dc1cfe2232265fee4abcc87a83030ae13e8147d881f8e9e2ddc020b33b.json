@@ -1,0 +1,63 @@
+{
+  "key": "de1c54dc1cfe2232265fee4abcc87a83030ae13e8147d881f8e9e2ddc020b33b",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-12-one-step-fits",
+  "recordedAt": "2026-10-24T18:03:29.617Z",
+  "usage": {
+    "inputTokens": 2824,
+    "outputTokens": 831,
+    "cacheReadTokens": 1701,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.010726,
+  "latencyMs": 5216,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಮೂರು ದಿನ ಗುರುತಿಸಿದರೆ ಮುಂದೆ",
+      "en": "Three days in a row",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ದಿನಕ್ಕೆ ಒಂದೇ ಅಕ್ಷರ ಕಲಿಸಿ, ಎಲ್ಲಾ ಅಕ್ಷರ ಒಟ್ಟಿಗೆ ಬೇಡ.",
+        "en": "Teach just one letter a day, not all the letters together.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮಗು ತಟ್ಟೆಯ ಮರಳಲ್ಲಿ ಬೆರಳಿನಿಂದ ಬರೆಯಲಿ, ಬರೆಯುತ್ತಾ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+        "en": "Let the child write it in sand with a finger, saying it aloud.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮರೆತರೆ ಬೈಯಬೇಡಿ, ಮರುದಿನ ಅದೇ ಅಕ್ಷರ ಮತ್ತೆ ಮರಳಲ್ಲಿ ಮಾಡಿಸಿ.",
+        "en": "If the child forgets, do not scold; do the same letter in sand next day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮಗು ಮೂರು ದಿನ ಸತತ ಗುರುತಿಸಿದರೆ ಮುಂದಿನ ಅಕ್ಷರಕ್ಕೆ ಹೋಗಿ.",
+        "en": "When the child knows it three days in a row, move to the next letter.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಮರಳು ಹಾಕಿದ ತಟ್ಟೆ",
+        "en": "A plate of sand",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಒಂದು ಅಕ್ಷರ ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಮಾತ್ರ ಮುಂದೆ ಹೋಗಬೇಕು.",
+      "en": "Move on only when one letter is firm.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

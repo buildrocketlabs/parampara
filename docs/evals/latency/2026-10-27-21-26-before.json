@@ -1,0 +1,842 @@
+{
+  "summary": {
+    "label": "before",
+    "at": "2026-10-27T21:26:40.662Z",
+    "freshN": 8,
+    "freshAnswered": 5,
+    "textP50": 15770,
+    "textP95": 17028,
+    "audioP50": 19829,
+    "chipN": 10,
+    "chipReplayed": 6,
+    "chipOutcomeP50": 1427,
+    "chipOutcomeMax": 5322,
+    "stageP50": {
+      "triage": 3000,
+      "retrieval": 2000,
+      "draft": 6400,
+      "grounding": 3300,
+      "safety": 1900,
+      "traceTotal": null
+    },
+    "phaseP50": {
+      "understanding": 3135,
+      "findingAndDrafting": 7301,
+      "checkingToOutcome": 3280,
+      "outcomeToText": 454,
+      "textToVoice": 3585
+    },
+    "spentUsd": 0.22
+  },
+  "rows": [
+    {
+      "what": "letters",
+      "lang": "en",
+      "chip": true,
+      "outcome": "answered",
+      "replayed": true,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 999
+        }
+      ],
+      "outcomeMs": 1718,
+      "textMs": 2530,
+      "voiceMs": 3988,
+      "voiceRequestMs": 1470,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "cache",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 3400,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 2200,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 8300,
+          "usd": 0.012
+        },
+        {
+          "kind": "grounding",
+          "ms": 2200,
+          "usd": 0.001
+        },
+        {
+          "kind": "safety",
+          "ms": 1400,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": 0
+    },
+    {
+      "what": "numbers",
+      "lang": "en",
+      "chip": true,
+      "outcome": "answered",
+      "replayed": true,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 322
+        }
+      ],
+      "outcomeMs": 619,
+      "textMs": 1106,
+      "voiceMs": 1773,
+      "voiceRequestMs": 683,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "cache",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 2500,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 1800,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 6600,
+          "usd": 0.014
+        },
+        {
+          "kind": "grounding",
+          "ms": 2200,
+          "usd": 0.001
+        },
+        {
+          "kind": "safety",
+          "ms": 1200,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": 0
+    },
+    {
+      "what": "multilevel",
+      "lang": "en",
+      "chip": true,
+      "outcome": "answered",
+      "replayed": true,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 425
+        }
+      ],
+      "outcomeMs": 997,
+      "textMs": 1455,
+      "voiceMs": 1706,
+      "voiceRequestMs": 266,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "cache",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 3100,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 1200,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 5000,
+          "usd": 0.011
+        },
+        {
+          "kind": "grounding",
+          "ms": 1900,
+          "usd": 0.0005
+        },
+        {
+          "kind": "safety",
+          "ms": 1600,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": 0
+    },
+    {
+      "what": "safety",
+      "lang": "en",
+      "chip": true,
+      "outcome": "escalated",
+      "replayed": null,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 1299
+        }
+      ],
+      "outcomeMs": 5043,
+      "textMs": null,
+      "voiceMs": null,
+      "voiceRequestMs": null,
+      "voiceStatus": null,
+      "trace": [],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "nocard",
+      "lang": "en",
+      "chip": true,
+      "outcome": "no-card",
+      "replayed": null,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 299
+        },
+        {
+          "stage": "finding",
+          "at": 4460
+        }
+      ],
+      "outcomeMs": 4462,
+      "textMs": null,
+      "voiceMs": null,
+      "voiceRequestMs": null,
+      "voiceStatus": null,
+      "trace": [],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "letters",
+      "lang": "kn",
+      "chip": true,
+      "outcome": "answered",
+      "replayed": true,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 304
+        }
+      ],
+      "outcomeMs": 1136,
+      "textMs": 1604,
+      "voiceMs": 5566,
+      "voiceRequestMs": 3978,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "cache",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 5000,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 2900,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 8200,
+          "usd": 0.016
+        },
+        {
+          "kind": "grounding",
+          "ms": 3300,
+          "usd": 0.001
+        },
+        {
+          "kind": "safety",
+          "ms": 2200,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": 0
+    },
+    {
+      "what": "numbers",
+      "lang": "kn",
+      "chip": true,
+      "outcome": "answered",
+      "replayed": true,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 264
+        }
+      ],
+      "outcomeMs": 475,
+      "textMs": 1066,
+      "voiceMs": 4826,
+      "voiceRequestMs": 3772,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "cache",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 5200,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 2200,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 8400,
+          "usd": 0.019
+        },
+        {
+          "kind": "grounding",
+          "ms": 3700,
+          "usd": 0.001
+        },
+        {
+          "kind": "safety",
+          "ms": 1800,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": 0
+    },
+    {
+      "what": "multilevel",
+      "lang": "kn",
+      "chip": true,
+      "outcome": "answered",
+      "replayed": true,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 299
+        }
+      ],
+      "outcomeMs": 577,
+      "textMs": 1011,
+      "voiceMs": 5332,
+      "voiceRequestMs": 4324,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "cache",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 3800,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 2200,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 7600,
+          "usd": 0.016
+        },
+        {
+          "kind": "grounding",
+          "ms": 4100,
+          "usd": 0.001
+        },
+        {
+          "kind": "safety",
+          "ms": 3700,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": 0
+    },
+    {
+      "what": "safety",
+      "lang": "kn",
+      "chip": true,
+      "outcome": "escalated",
+      "replayed": null,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 316
+        }
+      ],
+      "outcomeMs": 3959,
+      "textMs": null,
+      "voiceMs": null,
+      "voiceRequestMs": null,
+      "voiceStatus": null,
+      "trace": [],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "nocard",
+      "lang": "kn",
+      "chip": true,
+      "outcome": "no-card",
+      "replayed": null,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 700
+        },
+        {
+          "stage": "finding",
+          "at": 4823
+        }
+      ],
+      "outcomeMs": 5322,
+      "textMs": null,
+      "voiceMs": null,
+      "voiceRequestMs": null,
+      "voiceStatus": null,
+      "trace": [],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 1",
+      "lang": "kn",
+      "chip": false,
+      "outcome": "answered",
+      "replayed": false,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 300
+        },
+        {
+          "stage": "finding",
+          "at": 3280
+        },
+        {
+          "stage": "checking",
+          "at": 9183
+        }
+      ],
+      "outcomeMs": 12463,
+      "textMs": 12917,
+      "voiceMs": 16420,
+      "voiceRequestMs": 3517,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 2800,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 1300,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 5800,
+          "usd": 0.013
+        },
+        {
+          "kind": "grounding",
+          "ms": 3300,
+          "usd": 0.001
+        },
+        {
+          "kind": "safety",
+          "ms": 1900,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 2",
+      "lang": "en",
+      "chip": false,
+      "outcome": "answered",
+      "replayed": false,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 338
+        },
+        {
+          "stage": "finding",
+          "at": 3473
+        },
+        {
+          "stage": "checking",
+          "at": 10822
+        }
+      ],
+      "outcomeMs": 16583,
+      "textMs": 17028,
+      "voiceMs": 21120,
+      "voiceRequestMs": 4104,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 3000,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 1200,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 7300,
+          "usd": 0.016
+        },
+        {
+          "kind": "grounding",
+          "ms": 5700,
+          "usd": 0.001
+        },
+        {
+          "kind": "safety",
+          "ms": 1600,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 3",
+      "lang": "kn",
+      "chip": false,
+      "outcome": "answered",
+      "replayed": false,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 358
+        },
+        {
+          "stage": "finding",
+          "at": 3134
+        },
+        {
+          "stage": "checking",
+          "at": 10435
+        }
+      ],
+      "outcomeMs": 15318,
+      "textMs": 15770,
+      "voiceMs": 19829,
+      "voiceRequestMs": 4077,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 2700,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 3300,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 5000,
+          "usd": 0.01
+        },
+        {
+          "kind": "grounding",
+          "ms": 4800,
+          "usd": 0.0005
+        },
+        {
+          "kind": "safety",
+          "ms": 1600,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 4",
+      "lang": "en",
+      "chip": false,
+      "outcome": "answered",
+      "replayed": false,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 349
+        },
+        {
+          "stage": "finding",
+          "at": 3795
+        },
+        {
+          "stage": "checking",
+          "at": 11001
+        }
+      ],
+      "outcomeMs": 13504,
+      "textMs": 13972,
+      "voiceMs": 17444,
+      "voiceRequestMs": 3491,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 3300,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 2400,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 6400,
+          "usd": 0.011
+        },
+        {
+          "kind": "grounding",
+          "ms": 2100,
+          "usd": 0.0005
+        },
+        {
+          "kind": "safety",
+          "ms": 2200,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 5",
+      "lang": "kn",
+      "chip": false,
+      "outcome": "answered",
+      "replayed": false,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 547
+        },
+        {
+          "stage": "finding",
+          "at": 4270
+        },
+        {
+          "stage": "checking",
+          "at": 13975
+        }
+      ],
+      "outcomeMs": 16142,
+      "textMs": 16620,
+      "voiceMs": 20205,
+      "voiceRequestMs": 3599,
+      "voiceStatus": 200,
+      "trace": [
+        {
+          "kind": "transcript",
+          "ms": null,
+          "usd": null
+        },
+        {
+          "kind": "triage",
+          "ms": 3600,
+          "usd": 0.0005
+        },
+        {
+          "kind": "retrieval",
+          "ms": 2000,
+          "usd": 0.0005
+        },
+        {
+          "kind": "draft",
+          "ms": 9400,
+          "usd": 0.021
+        },
+        {
+          "kind": "grounding",
+          "ms": 2100,
+          "usd": 0.0005
+        },
+        {
+          "kind": "safety",
+          "ms": 1900,
+          "usd": 0.0005
+        }
+      ],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 6",
+      "lang": "en",
+      "chip": false,
+      "outcome": "no-card",
+      "replayed": null,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 416
+        },
+        {
+          "stage": "finding",
+          "at": 3173
+        }
+      ],
+      "outcomeMs": 3937,
+      "textMs": null,
+      "voiceMs": null,
+      "voiceRequestMs": null,
+      "voiceStatus": null,
+      "trace": [],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 7",
+      "lang": "kn",
+      "chip": false,
+      "outcome": "no-card",
+      "replayed": null,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 1238
+        },
+        {
+          "stage": "finding",
+          "at": 6592
+        }
+      ],
+      "outcomeMs": 6986,
+      "textMs": null,
+      "voiceMs": null,
+      "voiceRequestMs": null,
+      "voiceStatus": null,
+      "trace": [],
+      "traceTotalMs": null,
+      "costUsd": null
+    },
+    {
+      "what": "fresh 8",
+      "lang": "en",
+      "chip": false,
+      "outcome": "no-card",
+      "replayed": null,
+      "stages": [
+        {
+          "stage": "understanding",
+          "at": 319
+        },
+        {
+          "stage": "finding",
+          "at": 3501
+        }
+      ],
+      "outcomeMs": 5529,
+      "textMs": null,
+      "voiceMs": null,
+      "voiceRequestMs": null,
+      "voiceStatus": null,
+      "trace": [],
+      "traceTotalMs": null,
+      "costUsd": null
+    }
+  ]
+}

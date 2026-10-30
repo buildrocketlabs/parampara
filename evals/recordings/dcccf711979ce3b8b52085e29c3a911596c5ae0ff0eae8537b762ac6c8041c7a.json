@@ -1,0 +1,27 @@
+{
+  "key": "dcccf711979ce3b8b52085e29c3a911596c5ae0ff0eae8537b762ac6c8041c7a",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-07-parents",
+  "recordedAt": "2026-10-24T10:05:18.565Z",
+  "usage": {
+    "inputTokens": 1348,
+    "outputTokens": 208,
+    "cacheReadTokens": 1159,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000134,
+  "latencyMs": 2277,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C8",
+        "reason": "This card's problem is the same as yours: parents who cannot read do not take part in their child's learning, and it shows a way to bring them in."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

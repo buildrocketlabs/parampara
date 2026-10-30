@@ -1,0 +1,21 @@
+{
+  "key": "85935b3426d8c0dea6898eff4c0df89bbd8a4c368bd5aac7887c9e5c632c5753",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v1",
+  "itemId": "triage-05-hi-question:name_check:0",
+  "recordedAt": "2026-10-24T09:27:52.552Z",
+  "usage": {
+    "inputTokens": 677,
+    "outputTokens": 11,
+    "cacheReadTokens": 582,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000021,
+  "latencyMs": 1969,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

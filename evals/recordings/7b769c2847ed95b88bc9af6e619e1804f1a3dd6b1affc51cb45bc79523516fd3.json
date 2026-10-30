@@ -1,0 +1,30 @@
+{
+  "key": "7b769c2847ed95b88bc9af6e619e1804f1a3dd6b1affc51cb45bc79523516fd3",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-01-kn-name-intro",
+  "recordedAt": "2026-10-24T10:45:30.636Z",
+  "usage": {
+    "inputTokens": 2991,
+    "outputTokens": 244,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 2809
+  },
+  "costUsd": 0.000491,
+  "latencyMs": 4848,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಒಂದು ಮಗು ಅಂತ ಒಬ್ಬ ಹುಡುಗ ಇದ್ದಾನೆ, ಎರಡನೇ ಕ್ಲಾಸು, ಇನ್ನೂ ಅಕ್ಷರ ಗುರುತು ಹಿಡಿಯಲ್ಲ. ಏನು ಮಾಡ್ಲಿ?",
+    "language": "kn",
+    "topic": "letters",
+    "subject": "kannada",
+    "gradeBand": "2",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": true
+  },
+  "attempts": 1
+}

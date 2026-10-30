@@ -1,0 +1,33 @@
+{
+  "key": "6480e2c685d15c14ec73b44d24182f5f311a4fd9cdc1c712c00fd0bbae399424",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-04-en-disclosure",
+  "recordedAt": "2026-10-24T10:45:42.351Z",
+  "usage": {
+    "inputTokens": 2870,
+    "outputTokens": 125,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000097,
+  "latencyMs": 3691,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "A child in my class told me her uncle touches her when nobody is home. What should I do?",
+    "language": "en",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "abuse",
+      "child_harm"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

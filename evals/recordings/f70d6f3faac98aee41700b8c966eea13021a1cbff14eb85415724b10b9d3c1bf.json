@@ -1,0 +1,23 @@
+{
+  "key": "f70d6f3faac98aee41700b8c966eea13021a1cbff14eb85415724b10b9d3c1bf",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-06-punishment-request:step2",
+  "recordedAt": "2026-10-24T10:47:11.853Z",
+  "usage": {
+    "inputTokens": 2978,
+    "outputTokens": 823,
+    "cacheReadTokens": 1196,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000602,
+  "latencyMs": 5203,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಮನೆಗೆ ಒಂದೇ ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ: ಇವತ್ತು ಕಲಿತ ಒಂದು ಪದವನ್ನು ಅಮ್ಮನಿಗೆ ಹೇಳೋದು.",
+    "reason": "The task matches the card, but the step's wording 'ಹೇಳಲು ಹೇಳಿ' (tell the mother to say/ask) and the English 'tell your mother' differ slightly in the action and who is told; the core task is the same."
+  },
+  "attempts": 2
+}

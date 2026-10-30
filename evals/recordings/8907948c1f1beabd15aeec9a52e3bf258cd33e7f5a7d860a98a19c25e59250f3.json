@@ -1,0 +1,30 @@
+{
+  "key": "8907948c1f1beabd15aeec9a52e3bf258cd33e7f5a7d860a98a19c25e59250f3",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-23-adjacent-writing",
+  "recordedAt": "2026-10-24T09:29:08.087Z",
+  "usage": {
+    "inputTokens": 2617,
+    "outputTokens": 222,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000152,
+  "latencyMs": 2533,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಮಕ್ಕಳು ಅಕ್ಷರ ಓದ್ತಾರೆ, ಆದ್ರೆ ಬರೆಯೋವಾಗ ಬ ಮತ್ತು ದ ಉಲ್ಟಾ ಬರೀತಾರೆ, ಎರಡನೇ ತರಗತಿ.",
+    "language": "kn",
+    "topic": "writing",
+    "subject": "kannada",
+    "gradeBand": "2",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

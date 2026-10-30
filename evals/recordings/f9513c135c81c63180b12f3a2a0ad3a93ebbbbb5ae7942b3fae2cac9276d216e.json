@@ -1,0 +1,46 @@
+{
+  "key": "f9513c135c81c63180b12f3a2a0ad3a93ebbbbb5ae7942b3fae2cac9276d216e",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-nothing-waiting",
+  "recordedAt": "2026-10-24T10:03:47.251Z",
+  "usage": {
+    "inputTokens": 1988,
+    "outputTokens": 1498,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.016133,
+  "latencyMs": 9039,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 30 ಪ್ರಶ್ನೆಗಳು ಬಂದವು, ಎಲ್ಲಕ್ಕೂ ಉತ್ತರ ಸಿಕ್ಕಿತು, 12 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿದರು, 9 ಬಾರಿ ಫಲಿಸಿತು.",
+    "headlineEn": "This week 30 questions were asked and all 30 were answered, 12 ideas were tried and 9 worked.",
+    "actions": [
+      {
+        "kn": "ಶಾರದಾ ಅವರು ಹಂಚಿಕೊಂಡ ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಕಲಿಸುವ ವಿಧಾನದಲ್ಲಿ 8 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿ 6 ಬಾರಿ ಫಲಿಸಿದೆ; ಇದನ್ನು ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಧನ್ಯವಾದಗಳೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ.",
+        "en": "Thanks to Sharada, her tens and ones with bundles of sticks idea was tried 8 times and worked 6 times; share it at the next cluster meeting with thanks to her."
+      },
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ಮತ್ತು ಓದು ವಿಷಯಗಳಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ; ಈ ವಿಷಯಗಳಲ್ಲಿ ಒಬ್ಬ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿಸುವುದನ್ನು ಪರಿಗಣಿಸಿ.",
+        "en": "Letter sounds and Reading drew the most questions, so consider recording a master teacher on these topics."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೂ ನೆನಪಿಸಿ: ಕಲ್ಪನೆ ಫಲಿಸಿತೇ ಇಲ್ಲವೇ ಎಂದು \"ಫಲಿಸಿತು\" ಅಥವಾ \"ಫಲಿಸಲಿಲ್ಲ\" ಒತ್ತುವುದು ಖಾಸಗಿ, ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask questions."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಸಂಖ್ಯೆ ಜ್ಞಾನ ವಿಷಯದಲ್ಲಿ 8 ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ; ಮುಂದಿನ ವಾರ ಈ ವಿಷಯದ ಪ್ರಶ್ನೆಗಳು ಹೇಗಿವೆ ಎಂದು ಗಮನಿಸಿ.",
+        "en": "Number sense had 8 questions, so see how questions on this topic go next week."
+      }
+    ]
+  },
+  "attempts": 1
+}

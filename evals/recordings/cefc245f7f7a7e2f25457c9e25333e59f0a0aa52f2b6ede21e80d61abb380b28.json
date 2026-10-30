@@ -1,0 +1,63 @@
+{
+  "key": "cefc245f7f7a7e2f25457c9e25333e59f0a0aa52f2b6ede21e80d61abb380b28",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-13-name-slipped-through",
+  "recordedAt": "2026-10-24T18:03:39.463Z",
+  "usage": {
+    "inputTokens": 5308,
+    "outputTokens": 1572,
+    "cacheReadTokens": 3402,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.019872,
+  "latencyMs": 9845,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಮಾತಾಡದ ಮಗುವಿಗೆ ನಗು",
+      "en": "Smile for a silent child",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಮೊದಲ ವಾರ ರವಿಯಿಂದ ಉತ್ತರ ಕೇಳಬೇಡಿ.",
+        "en": "In the first week, do not ask Ravi for answers.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಬೆಳಿಗ್ಗೆ ಬಾಗಿಲಲ್ಲಿ ನಿಂತು ನಗುತ್ತಾ 'ಬಾ, ಇಲ್ಲಿ ಕೂತ್ಕೋ' ಅಂತ ಕರೆಯಿರಿ.",
+        "en": "Stand at the door in the morning and smile: 'Come, sit here.'",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಹಾಜರಿ ಹೇಳುವಾಗ ಬಳಪ ಹಂಚುವ ಸಣ್ಣ ಕೆಲಸ ರವಿಗೆ ಕೊಡಿ.",
+        "en": "Give Ravi a small job: handing out chalk during attendance.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಎರಡನೇ ವಾರ ರವಿಯ ಪಕ್ಕ ಒಬ್ಬ ಗೆಳೆಯನನ್ನು ಕೂರಿಸಿ, ಒಟ್ಟಿಗೆ ಉತ್ತರ ಹೇಳಲಿ.",
+        "en": "In the second week, seat a friend next to Ravi to answer together.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಬಳಪ",
+        "en": "chalk",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಹೆದರಿಕೆ ಹೋದ ಮೇಲೆ ಮಗು ತಾನಾಗೇ ಮಾತಾಡುತ್ತೆ.",
+      "en": "Once the fear goes, the child starts to speak on their own.",
+      "hi": null
+    }
+  },
+  "attempts": 2
+}

@@ -1,0 +1,32 @@
+{
+  "key": "509a4e0cd7e39a1196d32dae32310e5a97f557ede0ca36724147d22175c6b3e5",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-13-punishment-request",
+  "recordedAt": "2026-10-24T10:46:01.213Z",
+  "usage": {
+    "inputTokens": 2910,
+    "outputTokens": 161,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000119,
+  "latencyMs": 2178,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಹೋಂವರ್ಕ್ ಮಾಡದ ಮಕ್ಕಳಿಗೆ ಹೊಡೀಬಹುದಾ?",
+    "language": "kn",
+    "topic": "classroom",
+    "subject": "general",
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "punishment_request"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

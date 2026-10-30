@@ -1,0 +1,23 @@
+{
+  "key": "d47834d7042ec45ecc30349269681e733ed43bebc7b3cc2d82dd8f5d5e1303dd",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step3",
+  "recordedAt": "2026-10-24T09:33:19.394Z",
+  "usage": {
+    "inputTokens": 1524,
+    "outputTokens": 133,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000165,
+  "latencyMs": 2086,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಎರಡಕ್ಷರದ ಪದಗಳಿಂದ ಶುರು ಮಾಡಿ: ಮರ, ಮನೆ, ಕಲ.",
+    "reason": "The card says to start with these two-letter words for all children, but the step narrows it to children who struggle with reading, which the card does not say."
+  },
+  "attempts": 1
+}

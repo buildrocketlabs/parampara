@@ -1,0 +1,26 @@
+{
+  "key": "0edc0431b05093cffe3698e569a3051bda2f835ede2c272481bf8b465d51e2f2",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-01-start",
+  "recordedAt": "2026-10-24T10:03:18.033Z",
+  "usage": {
+    "inputTokens": 2507,
+    "outputTokens": 321,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 2167
+  },
+  "costUsd": 0.009308,
+  "latencyMs": 4326,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ನಮಸ್ಕಾರ ಶಂಕರಪ್ಪನವರೇ. ಮೊದಲು ನಿಮ್ಮ ಬಗ್ಗೆ ಸ್ವಲ್ಪ ಹೇಳಿ: ನೀವು ಎಷ್ಟು ವರ್ಷ ಪಾಠ ಮಾಡಿದಿರಿ, ಯಾವ ಯಾವ ತರಗತಿಗಳಿಗೆ, ಮತ್ತು ಯಾವ ಶಾಲೆಯಲ್ಲಿ?",
+    "questionEn": "Namaskara, Shankarappa. First, tell me a little about yourself: how many years you taught, which classes, and at which school?",
+    "why": "This opens the interview with the planned warmup question about the master's background.",
+    "topic": "warmup",
+    "probe": false,
+    "done": false
+  },
+  "attempts": 1
+}

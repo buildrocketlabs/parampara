@@ -1,0 +1,69 @@
+{
+  "key": "72fd853a379e7d7c80b00094277dac1e9e097d36d6ed5536d3f0c2718ce2a876",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-08-hi-letters",
+  "recordedAt": "2026-10-24T18:04:28.229Z",
+  "usage": {
+    "inputTokens": 5794,
+    "outputTokens": 2479,
+    "cacheReadTokens": 3402,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.029914,
+  "latencyMs": 15182,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಮರಳಲ್ಲಿ ದಿನಕ್ಕೊಂದು ಅಕ್ಷರ",
+      "en": "One letter in sand",
+      "hi": "रेत में रोज़ एक अक्षर"
+    },
+    "steps": [
+      {
+        "kn": "ಎಲ್ಲಾ ಅಕ್ಷರ ಒಟ್ಟಿಗೆ ಬೇಡ, ದಿನಕ್ಕೆ ಒಂದೇ ಅಕ್ಷರ ಕಲಿಸಿ.",
+        "en": "Do not teach all letters together. Teach just one letter a day.",
+        "hi": "सारे अक्षर एक साथ नहीं, दिन में बस एक अक्षर सिखाइए।",
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ತಟ್ಟೆಯ ಮರಳಲ್ಲಿ ಮಗು ಬೆರಳಿಂದ ಬರೆಯಲಿ, ಬರೆಯುತ್ತಾ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+        "en": "Let the child write it in a plate of sand with a finger, saying it aloud.",
+        "hi": "बच्चा थाली की रेत में उँगली से लिखे और लिखते हुए ज़ोर से बोले।",
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮೊದಲ ಹದಿನೈದು ದಿನ ಪ್ರಾರ್ಥನೆ ನಂತರ ದಿನಕ್ಕೆ ಹತ್ತು ನಿಮಿಷ ಮಾಡಿ.",
+        "en": "For the first fifteen days, do this for ten minutes after prayer.",
+        "hi": "पहले पंद्रह दिन प्रार्थना के बाद रोज़ दस मिनट यह कीजिए।",
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮರೆತರೆ ಬೈಯಬೇಡಿ, ಮರುದಿನ ಅದೇ ಅಕ್ಷರ ಮತ್ತೆ ಮರಳಲ್ಲಿ ಬರೆಸಿ.",
+        "en": "If the child forgets, do not scold. Do the same letter in sand the next day.",
+        "hi": "भूल जाए तो डाँटिए नहीं, अगले दिन वही अक्षर फिर रेत में लिखवाइए।",
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮೂರು ದಿನ ಸತತ ಗುರುತಿಸಿದರೆ ಮಾತ್ರ ಮುಂದಿನ ಅಕ್ಷರಕ್ಕೆ ಹೋಗಿ.",
+        "en": "When the child knows it three days in a row, move to the next letter.",
+        "hi": "लगातार तीन दिन पहचान ले, तभी अगले अक्षर पर जाइए।",
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಮರಳು ಹಾಕಿದ ತಟ್ಟೆ",
+        "en": "A plate of sand",
+        "hi": "रेत भरी थाली"
+      }
+    ],
+    "why": {
+      "kn": "ಒಂದೇ ಅಕ್ಷರ ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಮುಂದೆ ಹೋಗಬೇಕು.",
+      "en": "One letter at a time, moving on only when it is firm.",
+      "hi": "एक अक्षर पक्का होने पर ही आगे बढ़ें।"
+    }
+  },
+  "attempts": 2
+}

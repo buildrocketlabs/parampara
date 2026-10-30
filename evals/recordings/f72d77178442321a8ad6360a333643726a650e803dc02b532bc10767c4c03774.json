@@ -1,0 +1,69 @@
+{
+  "key": "f72d77178442321a8ad6360a333643726a650e803dc02b532bc10767c4c03774",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v1",
+  "itemId": "extractor-04-beating-dropped",
+  "recordedAt": "2026-10-24T09:28:20.317Z",
+  "usage": {
+    "inputTokens": 5654,
+    "outputTokens": 1208,
+    "cacheReadTokens": 4020,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.01575,
+  "latencyMs": 9333,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಹೋಂವರ್ಕ್ ಶಾಲೆಯಲ್ಲೇ, ಮನೆಗೆ ಒಂದೇ ಪದ",
+        "titleEn": "Homework at school, one word for home",
+        "problemKn": "ಕೆಲವು ಮಕ್ಕಳು ಹೋಂವರ್ಕ್ ಮಾಡಿಕೊಂಡು ಬರುವುದಿಲ್ಲ. ಕೆಲವರಿಗೆ ಮನೆಯಲ್ಲಿ ಕೆಲಸ ಇರುತ್ತದೆ, ಓದಲು ಸಮಯವೇ ಸಿಗುವುದಿಲ್ಲ.",
+        "problemEn": "Some children do not bring homework done. Some have work at home and simply have no time to study.",
+        "gradeBand": "any",
+        "subject": "general",
+        "topic": "parents",
+        "steps": [
+          {
+            "kn": "ಹೋಂವರ್ಕ್ ಅನ್ನು ಶಾಲೆಯಲ್ಲೇ ಮಾಡಿಸಿ. ದಿನದ ಕೊನೆಯ ಹತ್ತು ನಿಮಿಷ ಎಲ್ಲ ಮಕ್ಕಳು ಒಟ್ಟಿಗೆ ಮಾಡಲಿ.",
+            "en": "Have the homework done at school. In the last ten minutes of the day, let all the children do it together.",
+            "evidence": [
+              "S7"
+            ]
+          },
+          {
+            "kn": "ಮನೆಗೆ ಒಂದೇ ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ: ಇವತ್ತು ಕಲಿತ ಒಂದು ಪದವನ್ನು ಅಮ್ಮನಿಗೆ ಹೇಳಲಿ.",
+            "en": "Send home just one small task: the child tells their mother one word learnt today.",
+            "evidence": [
+              "S8"
+            ]
+          },
+          {
+            "kn": "ಓದಲು ಬರದ ಅಪ್ಪ ಅಮ್ಮನೂ ಇದನ್ನು ಕೇಳಿಸಿಕೊಳ್ಳಬಹುದು.",
+            "en": "Even parents who cannot read can listen to the word.",
+            "evidence": [
+              "S8"
+            ]
+          }
+        ],
+        "materials": [],
+        "whyKn": "ಕೆಲವು ಮಕ್ಕಳಿಗೆ ಮನೆಯಲ್ಲಿ ಕೆಲಸ ಇರುತ್ತದೆ, ಸಮಯವೇ ಇರುವುದಿಲ್ಲ ಅಂತ ಶಿಕ್ಷಕರಿಗೆ ಆಮೇಲೆ ಗೊತ್ತಾಯ್ತು. ಅದಕ್ಕೆ ಶಾಲೆಯಲ್ಲೇ ಮಾಡಿಸಿದರು.",
+        "whyEn": "The master later learnt that a child had cattle to graze and no time at home, so he had the work done at school.",
+        "quoteRef": "S7",
+        "flags": []
+      }
+    ],
+    "dropped": [
+      {
+        "reason": "punishment",
+        "summaryEn": "Caning children on the hand for not doing homework, and the belief that children must fear the teacher."
+      },
+      {
+        "reason": "punishment",
+        "summaryEn": "Making a child stand in the sun after three days of missed homework. The master now says it was wrong."
+      }
+    ]
+  },
+  "attempts": 1
+}

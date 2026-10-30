@@ -1,0 +1,46 @@
+{
+  "key": "c63a0388ad3f938df236cd5a50653b107eaca0b23955e3fef051386569a76ea6",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-anonymous-master",
+  "recordedAt": "2026-10-24T10:04:20.244Z",
+  "usage": {
+    "inputTokens": 1993,
+    "outputTokens": 1295,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.014113,
+  "latencyMs": 8375,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 18 ಪ್ರಶ್ನೆಗಳು ಬಂದವು, 16ಕ್ಕೆ ಉತ್ತರ ಸಿಕ್ಕಿತು; ಪೋಷಕರು ಮತ್ತು ಸಮುದಾಯ ವಿಷಯದಲ್ಲಿ 9 ಪ್ರಶ್ನೆಗಳಿದ್ದವು.",
+    "headlineEn": "This week 18 questions came in and 16 were answered, with 9 questions on Parents and community.",
+    "actions": [
+      {
+        "kn": "ಪೋಷಕರ ಕಲಿಕಾ ಮೇಳ ಎಂಬ ಅಭ್ಯಾಸವನ್ನು (ಒಬ್ಬ ಹಿರಿಯ ಶಿಕ್ಷಕರಿಗೆ ಧನ್ಯವಾದಗಳೊಂದಿಗೆ) ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ CRP ಮತ್ತು BRP ಮೂಲಕ ಹಂಚಿಕೊಳ್ಳಿ; 7 ಪ್ರಯತ್ನಗಳಲ್ಲಿ 6 ಬಾರಿ ಅದು ಫಲಿಸಿದೆ.",
+        "en": "Share the parents' learning fair practice, with thanks to a master teacher, at the next cluster meeting through your CRPs and BRPs; it worked in 6 of the 7 tries."
+      },
+      {
+        "kn": "\"ಫಲಿಸಿತು\" ಅಥವಾ \"ಫಲಿಸಲಿಲ್ಲ\" ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಎಂದು ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚಿನ ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask their questions."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಓದು ವಿಷಯದಲ್ಲಿ ಕೇಳಿದವರು 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು; ಈ ವಿಷಯದ ಮೇಲೆ ಗಮನವಿರಲಿ.",
+        "en": "On Reading, fewer than 5 teachers asked; keep an eye on this topic."
+      },
+      {
+        "kn": "ಈ ವಾರ 9 ಅಭ್ಯಾಸ ಪ್ರಯತ್ನಗಳಲ್ಲಿ 7 ಫಲಿಸಿದವು; ಮುಂದಿನ ವಾರವೂ ಗಮನಿಸಿ.",
+        "en": "This week 7 of 9 tried ideas worked; see how it goes next week."
+      }
+    ]
+  },
+  "attempts": 1
+}

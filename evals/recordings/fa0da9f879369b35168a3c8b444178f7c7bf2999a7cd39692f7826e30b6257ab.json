@@ -1,0 +1,26 @@
+{
+  "key": "fa0da9f879369b35168a3c8b444178f7c7bf2999a7cd39692f7826e30b6257ab",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v1",
+  "itemId": "interviewer-02-half-story",
+  "recordedAt": "2026-10-24T09:27:33.715Z",
+  "usage": {
+    "inputTokens": 2553,
+    "outputTokens": 258,
+    "cacheReadTokens": 2130,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.003639,
+  "latencyMs": 3156,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಆ ಮಗುವನ್ನು ಪಕ್ಕ ಕೂರಿಸಿಕೊಂಡ ಮೇಲೆ ನೀವು ಮಗುವಿಗೆ ಏನು ಹೇಳಿದಿರಿ, ಏನು ಮಾಡಿದಿರಿ? ಒಂದು ನಿಜವಾದ ಘಟನೆ ಹೇಳಿ.",
+    "questionEn": "After you seated that child beside you, what did you say to the child and what did you do? Please tell one real incident.",
+    "why": "The master gave a brief first step; we need the exact words, materials and actions that followed.",
+    "topic": "letters",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 1
+}

@@ -1,0 +1,50 @@
+{
+  "key": "d56ad38144e0cfa50636aabe729bb9c35bc4dcb2b3458c75fe730cc4d010529c",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-nothing-waiting",
+  "recordedAt": "2026-10-24T10:19:12.415Z",
+  "usage": {
+    "inputTokens": 1988,
+    "outputTokens": 1730,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.018453,
+  "latencyMs": 9856,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 30 ಪ್ರಶ್ನೆಗಳು ಬಂದವು, ಎಲ್ಲದಕ್ಕೂ ಉತ್ತರ ಸಿಕ್ಕಿದೆ, 12 ಬಾರಿ ಪ್ರಯತ್ನಿಸಲಾಗಿದ್ದು 9 ಬಾರಿ ಫಲ ಕೊಟ್ಟಿದೆ.",
+    "headlineEn": "This week 30 questions came in, all 30 were answered, 12 ideas were tried and 9 of them worked.",
+    "actions": [
+      {
+        "kn": "ಶಾರದಾ ಅವರ ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಕಲಿಸುವ ವಿಧಾನವನ್ನು 8 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿ 6 ಬಾರಿ ಫಲ ಕೊಟ್ಟಿದೆ; ಅವರಿಗೆ ಧನ್ಯವಾದ ಹೇಳಿ ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಇದನ್ನು ಹಂಚಿಕೊಳ್ಳಿ.",
+        "en": "Thanks to Sharada, her tens and ones with bundles of sticks practice was tried 8 times and worked 6 times; please share it at the next cluster meeting."
+      },
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ಮತ್ತು ಓದು ವಿಷಯಗಳ ಪ್ರಶ್ನೆಗಳು ಹೆಚ್ಚು ಬಂದಿವೆ; ಈ ವಿಷಯಗಳಲ್ಲಿ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಇನ್ನಷ್ಟು ಅನುಭವಗಳನ್ನು ದಾಖಲಿಸಲು ಪ್ರೋತ್ಸಾಹಿಸಿ.",
+        "en": "Letter sounds and Reading drew the most questions, so consider recording more master teacher practices on these topics."
+      },
+      {
+        "kn": "\"ಫಲ ಕೊಟ್ಟಿತು\" ಅಥವಾ \"ಫಲ ಕೊಡಲಿಲ್ಲ\" ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿಯಾಗಿದೆ ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಎಂದು ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask their questions."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಸಂಖ್ಯೆ ಜ್ಞಾನ ವಿಷಯದಲ್ಲಿ 8 ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ; ಮುಂದಿನ ವಾರವೂ ಈ ವಿಷಯದ ಪ್ರಶ್ನೆಗಳನ್ನು ಗಮನಿಸಿ.",
+        "en": "Number sense had 8 questions, so keep an eye on this topic next week."
+      },
+      {
+        "kn": "ಉತ್ತರ ಸಿಕ್ಕ 30 ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 12 ಮಾತ್ರ ಪ್ರಯತ್ನಕ್ಕೆ ಬಂದಿವೆ; ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಆಲೋಚನೆಗಳನ್ನು ಪ್ರಯತ್ನಿಸುವಂತೆ ಪ್ರೋತ್ಸಾಹಿಸಿ.",
+        "en": "Of the 30 answered questions, 12 ideas were tried, so gently encourage more teachers to try ideas."
+      }
+    ]
+  },
+  "attempts": 1
+}

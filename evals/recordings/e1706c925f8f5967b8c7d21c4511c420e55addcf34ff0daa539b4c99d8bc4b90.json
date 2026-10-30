@@ -1,0 +1,23 @@
+{
+  "key": "e1706c925f8f5967b8c7d21c4511c420e55addcf34ff0daa539b4c99d8bc4b90",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-10-ten-to-thirty-minutes",
+  "recordedAt": "2026-10-24T18:06:02.866Z",
+  "usage": {
+    "inputTokens": 1780,
+    "outputTokens": 174,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000211,
+  "latencyMs": 1691,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಮೊದಲ ಹದಿನೈದು ದಿನ, ಪ್ರಾರ್ಥನೆ ಆದ ಮೇಲೆ ದಿನಕ್ಕೆ ಹತ್ತು ನಿಮಿಷ ಮಾಡಿ.",
+    "reason": "The card says ten minutes, but the step changes it to thirty minutes; the rest (first fifteen days, after prayer) matches."
+  },
+  "attempts": 1
+}

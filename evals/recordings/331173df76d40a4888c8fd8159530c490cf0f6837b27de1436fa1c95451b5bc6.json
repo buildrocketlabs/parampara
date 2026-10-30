@@ -1,0 +1,97 @@
+{
+  "key": "331173df76d40a4888c8fd8159530c490cf0f6837b27de1436fa1c95451b5bc6",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-13-two-practices",
+  "recordedAt": "2026-10-24T18:04:03.843Z",
+  "usage": {
+    "inputTokens": 5586,
+    "outputTokens": 1545,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.0188,
+  "latencyMs": 8484,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಸುದ್ದಿ ಸಮಯ",
+        "titleEn": "News time",
+        "problemKn": "ಮಕ್ಕಳು ತರಗತಿಯಲ್ಲಿ ಮಾತಾಡುವುದೇ ಇಲ್ಲ.",
+        "problemEn": "Children do not speak in class.",
+        "gradeBand": "any",
+        "subject": "general",
+        "topic": "oral_language",
+        "steps": [
+          {
+            "kn": "ಬೆಳಿಗ್ಗೆ ಪ್ರಾರ್ಥನೆ ಆದ ಮೇಲೆ 'ಸುದ್ದಿ ಸಮಯ' ಮಾಡಿ. ಒಂದು ಮಗು ಎದ್ದು ನಿಂತು ಮನೆಯ ಅಥವಾ ಊರಿನ ಒಂದು ಸುದ್ದಿ ಹೇಳಲಿ.",
+            "en": "After the morning prayer, hold 'news time'. One child stands up and tells one piece of news from home or the village.",
+            "evidence": [
+              "S2"
+            ]
+          },
+          {
+            "kn": "ಸುದ್ದಿ ಏನಾದರೂ ಸರಿ: ಹಸು ಕರು ಹಾಕಿತು, ಅಜ್ಜಿ ಬಂದ್ರು. ಉಳಿದ ಮಕ್ಕಳು ಒಂದು ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು.",
+            "en": "Any news will do: the cow had a calf, grandmother came. The other children may ask one question.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ದಿನಕ್ಕೆ ಮೂರು ಮಕ್ಕಳಿಗೆ ಅವಕಾಶ ಕೊಡಿ.",
+            "en": "Give the chance to three children each day.",
+            "evidence": [
+              "S3"
+            ]
+          }
+        ],
+        "materials": [],
+        "whyKn": "ಮಾತಾಡೋ ಧೈರ್ಯ ಬಂದ್ರೆ ಓದೂ ಬರುತ್ತೆ.",
+        "whyEn": "When children gain the courage to speak, reading follows.",
+        "quoteRef": "S6",
+        "flags": []
+      },
+      {
+        "titleKn": "ಮೊದಲ ಹತ್ತು ನಿಮಿಷ ಆಟ ಅಥವಾ ಕಥೆ",
+        "titleEn": "A game or story in the first ten minutes",
+        "problemKn": "ಕೆಲವು ಮಕ್ಕಳು ಶಾಲೆಗೆ ತಡವಾಗಿ ಬರುತ್ತಾರೆ.",
+        "problemEn": "Some children come late to school.",
+        "gradeBand": "any",
+        "subject": "general",
+        "topic": "engagement",
+        "steps": [
+          {
+            "kn": "ಮೊದಲ ಹತ್ತು ನಿಮಿಷ ಯಾವಾಗಲೂ ಮಕ್ಕಳಿಗೆ ಇಷ್ಟವಾದ ಒಂದು ಆಟ ಅಥವಾ ಕಥೆ ಇಡಿ.",
+            "en": "Always keep the first ten minutes for a game or story the children love.",
+            "evidence": [
+              "S4"
+            ]
+          },
+          {
+            "kn": "ಮಕ್ಕಳು ಅದನ್ನು ತಪ್ಪಿಸಿಕೊಳ್ಳಬಾರದು ಅಂತ ಬೇಗ ಬರಲು ಶುರು ಮಾಡುತ್ತಾರೆ.",
+            "en": "Children start coming early so they do not miss it.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ತಡವಾಗಿ ಬಂದ ಮಗುವಿಗೆ ಏನೂ ಹೇಳಬೇಡಿ, ಸುಮ್ಮನೆ ಕೂರಿಸಿ.",
+            "en": "Say nothing to a child who comes late. Just seat the child.",
+            "evidence": [
+              "S5"
+            ]
+          }
+        ],
+        "materials": [],
+        "whyKn": "ಶಾಲೆ ಖುಷಿ ಅನ್ನಿಸಿದ್ರೆ ಮಗು ತಾನೇ ಬೇಗ ಬರುತ್ತೆ.",
+        "whyEn": "When school feels happy, a child comes early on their own.",
+        "quoteRef": "S6",
+        "flags": []
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

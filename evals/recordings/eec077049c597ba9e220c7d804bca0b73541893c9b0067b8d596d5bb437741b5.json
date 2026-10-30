@@ -1,0 +1,23 @@
+{
+  "key": "eec077049c597ba9e220c7d804bca0b73541893c9b0067b8d596d5bb437741b5",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step1",
+  "recordedAt": "2026-10-24T10:06:58.741Z",
+  "usage": {
+    "inputTokens": 1643,
+    "outputTokens": 131,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000176,
+  "latencyMs": 1852,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ತರಗತಿ ನೋಡಿ ಅಲ್ಲ, ಓದೋ ಮಟ್ಟ ನೋಡಿ ಮೂರು ಗುಂಪು ಮಾಡಿ.",
+    "reason": "The card states the same instruction: make three groups by reading level, not by class."
+  },
+  "attempts": 1
+}

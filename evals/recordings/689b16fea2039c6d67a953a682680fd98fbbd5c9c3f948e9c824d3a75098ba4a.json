@@ -1,0 +1,23 @@
+{
+  "key": "689b16fea2039c6d67a953a682680fd98fbbd5c9c3f948e9c824d3a75098ba4a",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-05-extra-material",
+  "recordedAt": "2026-10-24T09:34:10.712Z",
+  "usage": {
+    "inputTokens": 1749,
+    "outputTokens": 101,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000172,
+  "latencyMs": 1683,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಒಂದು ತಟ್ಟೆಯಲ್ಲಿ ಮರಳು ಹಾಕಿ",
+    "reason": "The card uses a plate of sand, but the step adds flash cards, which the card never mentions."
+  },
+  "attempts": 1
+}

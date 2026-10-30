@@ -1,0 +1,23 @@
+{
+  "key": "02907281f15dc96c85fdc25ab361a03987fa8bf3ff759a0b065dc35c9d2e616b",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-02-en-number-sense:step4",
+  "recordedAt": "2026-10-24T18:39:13.500Z",
+  "usage": {
+    "inputTokens": 2096,
+    "outputTokens": 170,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000241,
+  "latencyMs": 1975,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಇಬ್ಬರಿಬ್ಬರನ್ನು ಜೋಡಿ ಮಾಡಿ: ಒಬ್ಬರು ಎಣಿಸಲಿ, ಇನ್ನೊಬ್ಬರು ಕಟ್ಟಲಿ.",
+    "reason": "The card's step 4 says to put children in pairs, with one counting and the other tying, which matches the step exactly."
+  },
+  "attempts": 1
+}

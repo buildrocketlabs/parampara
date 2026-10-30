@@ -1,0 +1,26 @@
+{
+  "key": "d9b0caf32bb79693f98eaae8a577dbf5eedce2f41d40b8004be3bec438b66e24",
+  "role": "photo_reader",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "photo_reader@v1",
+  "itemId": "photo-05-face-refusal",
+  "recordedAt": "2026-10-24T09:27:45.109Z",
+  "usage": {
+    "inputTokens": 1796,
+    "outputTokens": 176,
+    "cacheReadTokens": 1397,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.002698,
+  "latencyMs": 3598,
+  "outcome": "ok",
+  "output": {
+    "seenKn": "ಈ ಫೋಟೋದಲ್ಲಿ ಒಬ್ಬ ವ್ಯಕ್ತಿಯ ಮುಖವಿದೆ, ಆದ್ದರಿಂದ ಇದನ್ನು ಬಳಸಲಾಗಿಲ್ಲ.",
+    "seenEn": "The photo shows a person and was not used.",
+    "relevant": false,
+    "faces": true,
+    "welfareConcern": false,
+    "problemHint": null
+  },
+  "attempts": 1
+}

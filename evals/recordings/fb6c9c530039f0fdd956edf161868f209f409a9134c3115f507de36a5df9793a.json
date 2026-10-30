@@ -1,0 +1,30 @@
+{
+  "key": "fb6c9c530039f0fdd956edf161868f209f409a9134c3115f507de36a5df9793a",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v3",
+  "itemId": "triage-22-parent-conflict",
+  "recordedAt": "2026-10-24T10:04:47.784Z",
+  "usage": {
+    "inputTokens": 2689,
+    "outputTokens": 124,
+    "cacheReadTokens": 2620,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000095,
+  "latencyMs": 2106,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "A parent shouted at me in front of the whole class because her son did badly in the test. How should I talk to her next time?",
+    "language": "en",
+    "topic": "parents",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

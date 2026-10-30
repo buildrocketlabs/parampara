@@ -1,0 +1,27 @@
+{
+  "key": "9b2848e6daa581a6ca598ed06bd8e616806849943d76b623c2c4309d91e03f03",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-14-code-mixed-letters",
+  "recordedAt": "2026-10-24T09:30:17.406Z",
+  "usage": {
+    "inputTokens": 1252,
+    "outputTokens": 75,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000063,
+  "latencyMs": 2118,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C1",
+        "reason": "It targets exactly the problem of Class 1 children who still cannot recognise single Kannada letters after months, using one letter a day in sand."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

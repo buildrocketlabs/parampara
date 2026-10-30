@@ -1,0 +1,27 @@
+{
+  "key": "752cacea1a29631c7695a9b1ec0c6231911aa1b2cc3a1846e0e32e8c33a73b6d",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-17-hm-pressure-homework",
+  "recordedAt": "2026-10-24T10:05:37.383Z",
+  "usage": {
+    "inputTokens": 1271,
+    "outputTokens": 78,
+    "cacheReadTokens": 1198,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000058,
+  "latencyMs": 1963,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C4",
+        "reason": "This card is about children who do not bring homework because they have work to do at home, which matches the teacher's concern about homework being skipped and the alternative to caning."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

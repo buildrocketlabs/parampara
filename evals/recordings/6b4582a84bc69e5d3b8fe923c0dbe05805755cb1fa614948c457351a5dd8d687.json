@@ -1,0 +1,32 @@
+{
+  "key": "6b4582a84bc69e5d3b8fe923c0dbe05805755cb1fa614948c457351a5dd8d687",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-25-name-in-mixed-hunger",
+  "recordedAt": "2026-10-24T10:46:36.237Z",
+  "usage": {
+    "inputTokens": 3038,
+    "outputTokens": 269,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000185,
+  "latencyMs": 2417,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ನಮ್ಮ class ಅಲ್ಲಿ ಒಂದು ಮಗು ಮನೆಯಿಂದ ಊಟ ಮಾಡದೆ ಬರ್ತಾನೆ, ಮೊದಲ period ನಲ್ಲಿ ನಿದ್ದೆ ಮಾಡ್ತಾನೆ. ಅವನ ಗಮನ ಹೇಗೆ ಹಿಡಿಯೋದು?",
+    "language": "kn",
+    "topic": "engagement",
+    "subject": "general",
+    "gradeBand": "any",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "hunger"
+    ],
+    "namesRedacted": true
+  },
+  "attempts": 1
+}

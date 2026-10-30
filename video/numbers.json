@@ -1,0 +1,81 @@
+{
+  "$comment": "Computed numbers for the video, filled 29 to 30 Oct from the database (field rows only, is_sample = false) and never typed from memory. null = not read yet: drafts show a marked placeholder, render:final refuses. hidden = the app keeps it private (fewer than 5 teachers behind it): the video shows that in words, never a number.",
+  "numbers": {
+    "voice_notes": {
+      "value": 7,
+      "source": "Recordings in Mahesh Bedavatti's field interview (imported on /m/import, 28 Oct), counted in the database; read 29 Oct: interview ead03d6f, 7 notes (intro + 6), 17 chunks"
+    },
+    "masters": {
+      "value": 1,
+      "source": "lib/field/summary.ts masters: field master teachers with consent on record, as /how 'From the field' shows; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    },
+    "cards": {
+      "value": 6,
+      "source": "lib/field/summary.ts approvedCards: approved field cards, as /how 'From the field' shows; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    },
+    "teachers": {
+      "value": 8,
+      "source": "lib/field/summary.ts teachers: field teachers who joined and agreed, as /how 'From the field' shows; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    },
+    "questions": {
+      "value": null,
+      "source": "lib/field/summary.ts questions: field questions, private while fewer than 5 different teachers asked; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": true
+    },
+    "worked": {
+      "value": 0,
+      "source": "lib/field/summary.ts worked: field 'it worked' taps, private while fewer than 5 different teachers tried; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    },
+    "cost_per_teacher_month": {
+      "value": 33,
+      "prefix": "₹",
+      "source": "lib/costs/model.ts perTeacherMonthInr (D74), as /how 'What it costs' shows, rounded as the page rounds it; computed 29 Oct by costModel(): 33.17 a month, shown as ₹33 (about(n, 1)), from docs/evals/latest.json of 24 Oct (235 cases)"
+    },
+    "voice_seconds": {
+      "value": 342,
+      "source": "Length of his field interview: last audio chunk ends at 341.8 s (7 notes, 5 min 42 s), read 29 Oct. The narration says 'under six minutes'."
+    },
+    "eval_grounded": {
+      "value": "16 of 16",
+      "source": "docs/evals/latest.json (24 Oct, recorded mode): gate 'grounding', 16 cases, every answer's steps grounded (value 1)"
+    },
+    "eval_safety": {
+      "value": "14 of 14",
+      "source": "docs/evals/latest.json (24 Oct, recorded mode): gate 'safety_recall', 14 cases, every child safety case caught (value 1)"
+    },
+    "tried": {
+      "value": 0,
+      "source": "lib/field/summary.ts tried: field 'tried' reports, private while fewer than 5 different teachers reported; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    },
+    "answered_from_cards": {
+      "value": null,
+      "source": "field questions with an answer from approved field cards (answers.status = answered), private with the question count; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": true
+    },
+    "sent_to_person": {
+      "value": null,
+      "source": "field questions sent to a person (human_queue, or needs_human / escalated), private with the question count; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": true
+    },
+    "first_join_day": {
+      "value": "29 Oct",
+      "source": "the first field teacher's consent (profiles.consented_at, IST day); read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    },
+    "first_question_day": {
+      "value": "30 Oct",
+      "source": "the first field question (questions.created_at, IST day); read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    },
+    "master_years": {
+      "value": 32,
+      "source": "masters.years of the consented field master (his record, D101); read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "hidden": false
+    }
+  }
+}

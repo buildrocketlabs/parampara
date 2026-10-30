@@ -1,0 +1,21 @@
+{
+  "key": "11047239da4ccd8c8ed5a8fdb8185ce1fec2e4153c19d3fc09a41143a3e77372",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v1",
+  "itemId": "triage-25-name-in-mixed-hunger:name_check:0",
+  "recordedAt": "2026-10-24T09:29:20.953Z",
+  "usage": {
+    "inputTokens": 798,
+    "outputTokens": 11,
+    "cacheReadTokens": 582,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000033,
+  "latencyMs": 2535,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

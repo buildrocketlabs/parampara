@@ -1,0 +1,20 @@
+{
+  "key": "20e034ab551c96c82a11d66d5ed4904227901b8e721b90fe764919ed106af543",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step5",
+  "recordedAt": "2026-10-24T18:39:36.220Z",
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0,
+  "latencyMs": 7262,
+  "outcome": "needs_human",
+  "reason": "timeout",
+  "problems": [],
+  "attempts": 1
+}

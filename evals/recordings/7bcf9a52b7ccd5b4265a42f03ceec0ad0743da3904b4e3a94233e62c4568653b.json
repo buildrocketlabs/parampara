@@ -1,0 +1,57 @@
+{
+  "key": "7bcf9a52b7ccd5b4265a42f03ceec0ad0743da3904b4e3a94233e62c4568653b",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-16-card-does-not-fit-her",
+  "recordedAt": "2026-10-24T18:03:59.797Z",
+  "usage": {
+    "inputTokens": 2650,
+    "outputTokens": 685,
+    "cacheReadTokens": 1701,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.008918,
+  "latencyMs": 4759,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಪೋಷಕರಿಗೆ ಕಲಿಕೆ ತೋರಿಸಿ",
+      "en": "Show parents the learning",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ತಿಂಗಳ ಕೊನೆಯ ಶನಿವಾರ ಪೋಷಕರನ್ನು ಶಾಲೆಗೆ ಕರೆಯಿರಿ.",
+        "en": "Invite parents to school on the last Saturday of the month.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಪ್ರತಿ ಮಗು ತಾನು ಕಲಿತ ಒಂದು ಹಾಡು ಅಥವಾ ಪದವನ್ನು ಪೋಷಕರ ಮುಂದೆ ಹೇಳಲಿ.",
+        "en": "Let every child show their parents one song or word they have learnt.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಓದೋಕೆ ಬರದ ಪೋಷಕರಿಗೆ ಮಗುವಿನ ಕೆಲಸದ ಚಿತ್ರಗಳನ್ನು ತೋರಿಸಿ.",
+        "en": "Show parents who cannot read pictures of their child's work.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಮಕ್ಕಳ ಚಿತ್ರಗಳು",
+        "en": "Children's drawings",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಪೋಷಕರು ಮಗು ಕಲಿಯೋದನ್ನು ತಾವೇ ನೋಡಿದಾಗ ಮಗುವನ್ನು ದಿನಾ ಶಾಲೆಗೆ ಕಳಿಸ್ತಾರೆ.",
+      "en": "When parents see their child learning, they send the child to school every day.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "key": "68dd2c89ab315328bd9c7a30c21732e42e58504274905297a2b2cd6c0e687531",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "redactor-04-master-and-places-kept:clean",
+  "recordedAt": "2026-10-24T10:03:26.954Z",
+  "usage": {
+    "inputTokens": 1127,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000057,
+  "latencyMs": 1124,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

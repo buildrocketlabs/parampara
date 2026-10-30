@@ -1,0 +1,27 @@
+{
+  "key": "7846a6d60d72365786a0a4fbcde21e929969d15b53f2efbbc1677bee57f505ac",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-02-number-sense",
+  "recordedAt": "2026-10-24T09:29:27.047Z",
+  "usage": {
+    "inputTokens": 1243,
+    "outputTokens": 88,
+    "cacheReadTokens": 1070,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000072,
+  "latencyMs": 2095,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C2",
+        "reason": "Children can recite numbers to a hundred but do not know how much fourteen is, and this card uses tens and ones with bundles of sticks to build that meaning for Class 1-2."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

@@ -1,0 +1,64 @@
+<!-- {"title": "Built for Slow 3G", "nav": "Reach", "src": "docs/evals/network.md (live site, {{n:net_date}}) · lib/costs/model.ts, as /how shows it · screen: live app offline, 30 Oct, Sample"} -->
+<style>
+  #s08 { --h: 80px; --t-lead: 28px; }
+  #s08 .phone { top: 64px; bottom: 64px; display: flex; }
+  #s08 .phone .screen { flex: 1; height: auto; }
+  #s08 .phone .screen img { margin-top: -12px; }
+  #s08 .head { top: 64px; }
+  #s08 .h1 { margin-top: 24px; }
+  #s08 .net { top: 302px; bottom: 64px; display: flex; flex-direction: column; }
+  #s08 h3 { font: 700 var(--t-lead)/1.1 var(--display); display: flex; align-items: center; gap: 16px; }
+  #s08 h3 .dot { width: 16px; height: 16px; border-radius: 999px; background: var(--moss); }
+  #s08 h3 .dot.d { background: var(--flame-deep); }
+  #s08 .arrows { margin-top: 16px; gap: 16px; }
+  #s08 .deg { margin-top: 40px; }
+  #s08 .proof { margin-top: auto; padding-top: 24px; border-top: 1.5px solid rgb(21 48 42 / 0.1); }
+  #s08 .proof { display: grid; grid-template-columns: auto 1fr; gap: 24px; align-items: center; }
+  #s08 .proof .num { font-size: 40px; line-height: 1; white-space: nowrap; }
+  #s08 .proof p { font: 400 var(--t-label)/1.4 var(--body); color: var(--ink-3); }
+  #s08 .cost { top: 302px; height: 330px; display: flex; flex-direction: column; box-shadow: var(--shadow); }
+  #s08 .cost .big { font: 700 176px/0.85 var(--display); letter-spacing: -0.03em; margin-top: 24px; }
+  #s08 .cost .kicker { color: var(--ink); }
+  #s08 .cost p { margin-top: auto; font: 400 var(--t-body)/1.45 var(--body); }
+  #s08 .cost p b { font-weight: 700; }
+  #s08 .tile { top: 656px; height: 200px; display: flex; flex-direction: column; justify-content: center; }
+  #s08 .tile .num { font-size: var(--t-lead); line-height: 1.1; margin-top: 8px; }
+  #s08 .tile p { font: 400 var(--t-label)/1.35 var(--body); color: var(--ink-3); margin-top: 8px; }
+  #s08 .sources { left: calc(96px + 3 * var(--P)); }
+</style>
+<div class="at phone" style="--c: 1; --s: 3"><div class="screen"><img src="{{img:shot-08-queued.jpg}}" alt="Offline: your question is saved and will be sent when the network is back"></div></div>
+<div class="at head" style="--c: 4; --s: 9">
+  <div class="kicker">07 · Low connectivity, low data, low cost</div>
+  <h1 class="h1">Works on a weak network,<span class="l2">at a price a state can pay.</span></h1>
+</div>
+<div class="at card net" style="--c: 4; --s: 4">
+  <h3><span class="dot"></span>Works with no network</h3>
+  <ul class="arrows">
+    <li>Saved answers open, text first</li>
+    <li>A question waits and sends on reconnect</li>
+    <li>Recordings upload in pieces and resume</li>
+  </ul>
+  <h3 class="deg"><span class="dot d"></span>Needs the network</h3>
+  <ul class="arrows">
+    <li>Voice and photos. Typing still works.</li>
+  </ul>
+  <div class="proof">
+    <div class="num">{{n:net_pass}}</div>
+    <p>network checks pass on the live site. Returning on Slow 3G, first words in {{n:net_slow_fcp_warm}}. Offline {{n:net_offline_pass}}.</p>
+  </div>
+</div>
+<div class="at card flame cost" style="--c: 8; --s: 5">
+  <div class="kicker">Cost per teacher a month</div>
+  <div class="big">{{n:cost_teacher_month}}</div>
+  <p>At an assumed {{n:cost_q_per_month}} questions a month, <b>{{n:cost_q_inr}}</b> per answered question: Claude {{n:cost_q_model_inr}}, listening {{n:cost_q_listen_inr}}, speaking {{n:cost_q_speak_inr}}.</p>
+</div>
+<div class="at card sage tile" style="--c: 8; --s: 2.5">
+  <div class="kicker" style="color:var(--moss)">Speed, measured</div>
+  <div class="num">{{n:live_fresh_p50}} typical</div>
+  <p>for a new answer, live. 1 in 20 takes {{n:gate_latency_p95}} (eval, {{n:eval_date}}). Repeats {{n:live_chip}}.</p>
+</div>
+<div class="at card tile" style="--c: 10.5; --s: 2.5">
+  <div class="kicker">At scale</div>
+  <div class="num">{{n:cost_at_scale}}</div>
+  <p>a month for {{n:cost_teachers_at_scale}} teachers</p>
+</div>

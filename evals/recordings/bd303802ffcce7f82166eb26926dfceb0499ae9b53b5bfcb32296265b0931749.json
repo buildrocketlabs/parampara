@@ -1,0 +1,42 @@
+{
+  "key": "bd303802ffcce7f82166eb26926dfceb0499ae9b53b5bfcb32296265b0931749",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-small-field-week",
+  "recordedAt": "2026-10-24T10:19:02.555Z",
+  "usage": {
+    "inputTokens": 1872,
+    "outputTokens": 1313,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.014051,
+  "latencyMs": 8046,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ ಬಹು ಹಂತದ ತರಗತಿ ಮತ್ತು ಅಕ್ಷರ ಗುರುತು ಕುರಿತು ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ, ಆದರೆ ಪ್ರತಿ ಗುಂಪಿನಲ್ಲೂ 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು ಇರುವುದರಿಂದ ಸಂಖ್ಯೆಗಳನ್ನು ತೋರಿಸಲಾಗುವುದಿಲ್ಲ.",
+    "headlineEn": "Questions came in this week on multi level classes and letter sounds, but each group has fewer than 5 teachers, so the numbers are too small to show.",
+    "actions": [
+      {
+        "kn": "ಬಹು ಹಂತದ ತರಗತಿಯ ಬಗ್ಗೆ ಒಬ್ಬ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿಸಿ, ಏಕೆಂದರೆ ಆ ವಿಷಯದಲ್ಲಿ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಪ್ರಶ್ನೆಗಳು ಕಾಯುತ್ತಿವೆ.",
+        "en": "Please record a master teacher on multi level classes, because questions on this topic are waiting for a master's answer."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೂ ನೆನಪಿಸಿ: ‘ಕೆಲಸ ಮಾಡಿತು’ ಅಥವಾ ‘ಕೆಲಸ ಮಾಡಲಿಲ್ಲ’ ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ, ಮತ್ತು ಅದು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Please remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಸಾಧ್ಯವಾಗುವಂತೆ ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Please send invite links so more teachers can ask."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದಲ್ಲಿ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಯಾವುದೇ ಪ್ರಶ್ನೆ ಕಾಯುತ್ತಿಲ್ಲ, ಹೊಸ ಪ್ರಶ್ನೆಗಳು ಬರುತ್ತವೆಯೇ ಎಂದು ಗಮನಿಸಿ.",
+        "en": "No questions on letter sounds are waiting for a master's answer, so watch whether new ones arrive."
+      }
+    ]
+  },
+  "attempts": 1
+}

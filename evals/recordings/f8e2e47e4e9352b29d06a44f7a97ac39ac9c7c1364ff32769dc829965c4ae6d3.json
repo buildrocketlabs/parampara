@@ -1,0 +1,26 @@
+{
+  "key": "f8e2e47e4e9352b29d06a44f7a97ac39ac9c7c1364ff32769dc829965c4ae6d3",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v1",
+  "itemId": "interviewer-06-time-up",
+  "recordedAt": "2026-10-24T09:27:59.193Z",
+  "usage": {
+    "inputTokens": 2405,
+    "outputTokens": 391,
+    "cacheReadTokens": 2130,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.004673,
+  "latencyMs": 3592,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಶಂಕರಪ್ಪ ಅವರೇ, ನಿಮ್ಮ ಅನುಭವ ಹಂಚಿಕೊಂಡಿದ್ದಕ್ಕೆ ತುಂಬಾ ಧನ್ಯವಾದ. ಕೊನೆಯದಾಗಿ ಒಂದು ಪ್ರಶ್ನೆ: ಒಬ್ಬ ಯುವ ಶಿಕ್ಷಕರು ನಿಮ್ಮಿಂದ ಒಂದೇ ಒಂದು ವಿಷಯ ನೆನಪಿಟ್ಟುಕೊಳ್ಳುವುದಾದರೆ, ಅದು ಏನಾಗಿರಬೇಕು?",
+    "questionEn": "Thank you so much for sharing your experience, Shankarappa. One last question: if a young teacher remembers only one thing from you, what should it be?",
+    "why": "The session is past the planned time, so it is time to ask the closing question.",
+    "topic": "close",
+    "probe": false,
+    "done": false
+  },
+  "attempts": 1
+}

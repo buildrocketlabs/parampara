@@ -1,0 +1,73 @@
+{
+  "key": "cbaead1bab9a4b35d49695e4198a5dc3fd60fd937937301220abd94dd989389c",
+  "role": "answerer",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-02-en-number-sense",
+  "recordedAt": "2026-10-24T10:45:48.924Z",
+  "usage": {
+    "inputTokens": 3140,
+    "outputTokens": 1196,
+    "cacheReadTokens": 1701,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000759,
+  "latencyMs": 4380,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು ಮತ್ತು ಬಿಡಿ",
+      "en": "Tens and ones with stick bundles",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಮಕ್ಕಳೇ ಬೆಂಕಿ ಕಡ್ಡಿ ಅಥವಾ ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿ ಸಂಗ್ರಹಿಸಿ, ಪ್ರತಿ ಮಗುವಿಗೂ ಒಂದು ಡಬ್ಬಿ ಕೊಡಿ.",
+        "en": "Let children collect matchsticks or ice cream sticks, one small box for each child.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಹತ್ತು ಕಡ್ಡಿ ಆದಾಗ ರಬ್ಬರ್ ಬ್ಯಾಂಡ್ ಹಾಕಿ ಕಟ್ಟು ಮಾಡಿಸಿ, 'ಇದು ಒಂದು ಹತ್ತು' ಎಂದು ಹೇಳಿಸಿ.",
+        "en": "When there are ten sticks, have them tie a rubber band round them and say, 'This is one ten.'",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಹದಿನಾಲ್ಕು ಅಂದರೆ ಒಂದು ಕಟ್ಟು ಮತ್ತು ನಾಲ್ಕು ಬಿಡಿ ಕಡ್ಡಿ; ಮಕ್ಕಳೇ ಮಾಡಿ ತೋರಿಸಲಿ.",
+        "en": "Fourteen is one bundle and four loose sticks; let the children make it and show you.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ನೆಲದ ಮೇಲೆ ಸೀಮೆಸುಣ್ಣದಲ್ಲಿ ಹತ್ತರ ಮನೆ ಮತ್ತು ಬಿಡಿ ಮನೆ ಬರೆಯಿರಿ.",
+        "en": "Draw a tens house and a ones house on the floor with chalk.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಬೆಂಕಿ ಕಡ್ಡಿ ಅಥವಾ ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿ",
+        "en": "matchsticks or ice cream sticks",
+        "hi": null
+      },
+      {
+        "kn": "ರಬ್ಬರ್ ಬ್ಯಾಂಡ್",
+        "en": "rubber bands",
+        "hi": null
+      },
+      {
+        "kn": "ಸೀಮೆಸುಣ್ಣ",
+        "en": "chalk",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಸಂಖ್ಯೆ ಕೈಯಲ್ಲಿ ಹಿಡಿಯುವ ಹಾಗೆ ಆದಾಗ ಮಗುವಿಗೆ ಅದರ ಅರ್ಥ ಕಾಣುತ್ತದೆ.",
+      "en": "When a number becomes something children can hold, they see what it means.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

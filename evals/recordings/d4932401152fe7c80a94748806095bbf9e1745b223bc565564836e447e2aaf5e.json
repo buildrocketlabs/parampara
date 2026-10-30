@@ -1,0 +1,23 @@
+{
+  "key": "d4932401152fe7c80a94748806095bbf9e1745b223bc565564836e447e2aaf5e",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-07-mixed-kn-en:step3",
+  "recordedAt": "2026-10-24T18:39:51.490Z",
+  "usage": {
+    "inputTokens": 2124,
+    "outputTokens": 185,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000251,
+  "latencyMs": 2418,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಹದಿನಾಲ್ಕು ಅಂದ್ರೆ ಒಂದು ಕಟ್ಟು, ನಾಲ್ಕು ಬಿಡಿ ಕಡ್ಡಿ. ಮಕ್ಕಳೇ ಮಾಡಿ ತೋರಿಸಲಿ.",
+    "reason": "The card's step 3 states fourteen is one bundle and four loose sticks and that the children should make it and show it."
+  },
+  "attempts": 1
+}

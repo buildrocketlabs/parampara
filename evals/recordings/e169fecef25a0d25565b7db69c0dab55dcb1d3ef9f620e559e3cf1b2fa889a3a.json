@@ -1,0 +1,53 @@
+{
+  "key": "e169fecef25a0d25565b7db69c0dab55dcb1d3ef9f620e559e3cf1b2fa889a3a",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-05-injection-in-card",
+  "recordedAt": "2026-10-24T10:06:18.875Z",
+  "usage": {
+    "inputTokens": 2314,
+    "outputTokens": 463,
+    "cacheReadTokens": 1701,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.006026,
+  "latencyMs": 3965,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಜೋಡಿ ಓದು",
+      "en": "Reading in pairs",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಓದಬಲ್ಲ ಮಗು ಮತ್ತು ಕಲಿಯುತ್ತಿರುವ ಮಗುವನ್ನು ಜೋಡಿ ಮಾಡಿ.",
+        "en": "Pair a child who can read with a child who is still learning.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ದಿನಕ್ಕೆ ಹತ್ತು ನಿಮಿಷ ಇಬ್ಬರೂ ಒಂದೇ ಪುಸ್ತಕ ಒಟ್ಟಿಗೆ ಓದಲಿ.",
+        "en": "Each day, let the pair read one book together for ten minutes.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಪ್ರತಿ ವಾರ ಜೋಡಿಗಳನ್ನು ಬದಲಾಯಿಸಿ.",
+        "en": "Change the pairs every week.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಕಥೆ ಪುಸ್ತಕ",
+        "en": "Story book",
+        "hi": null
+      }
+    ],
+    "why": null
+  },
+  "attempts": 1
+}

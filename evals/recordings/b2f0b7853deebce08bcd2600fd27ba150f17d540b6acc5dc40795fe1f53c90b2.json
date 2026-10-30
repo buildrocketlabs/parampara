@@ -1,0 +1,27 @@
+{
+  "key": "b2f0b7853deebce08bcd2600fd27ba150f17d540b6acc5dc40795fe1f53c90b2",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-17-hm-pressure-homework",
+  "recordedAt": "2026-10-24T09:30:26.496Z",
+  "usage": {
+    "inputTokens": 1182,
+    "outputTokens": 69,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000053,
+  "latencyMs": 2943,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C4",
+        "reason": "It addresses children who skip homework because they have chores at home, by moving the homework work into school so no child is punished for home duties."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

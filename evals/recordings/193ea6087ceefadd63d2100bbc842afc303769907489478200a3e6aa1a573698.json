@@ -1,0 +1,23 @@
+{
+  "key": "193ea6087ceefadd63d2100bbc842afc303769907489478200a3e6aa1a573698",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-20-first-not-last",
+  "recordedAt": "2026-10-24T18:06:19.447Z",
+  "usage": {
+    "inputTokens": 1411,
+    "outputTokens": 127,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000151,
+  "latencyMs": 1811,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ದಿನದ ಕೊನೆಯ ಹತ್ತು ನಿಮಿಷ, ಎಲ್ಲರೂ ಒಟ್ಟಿಗೆ",
+    "reason": "The card says the last ten minutes of the day, but the step changes this to the first ten minutes of the day."
+  },
+  "attempts": 1
+}

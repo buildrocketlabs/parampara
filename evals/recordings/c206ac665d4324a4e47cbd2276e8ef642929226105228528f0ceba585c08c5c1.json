@@ -1,0 +1,78 @@
+{
+  "key": "c206ac665d4324a4e47cbd2276e8ef642929226105228528f0ceba585c08c5c1",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-04-beating-dropped",
+  "recordedAt": "2026-10-24T10:04:04.569Z",
+  "usage": {
+    "inputTokens": 5751,
+    "outputTokens": 1286,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.01654,
+  "latencyMs": 8383,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಹೋಂವರ್ಕ್ ಶಾಲೆಯಲ್ಲೇ, ಮನೆಗೆ ಒಂದು ಪದ",
+        "titleEn": "Homework at school, one word for home",
+        "problemKn": "ಕೆಲವು ಮಕ್ಕಳು ಮನೆಯ ಕೆಲಸದಿಂದ ಹೋಂವರ್ಕ್ ಮಾಡಿಕೊಂಡು ಬರುವುದಿಲ್ಲ. ಮನೆಯಲ್ಲಿ ಓದು ಬರದ ಪೋಷಕರು ಸಹಾಯ ಮಾಡಲು ಆಗುವುದಿಲ್ಲ.",
+        "problemEn": "Some children do not bring homework because they have chores at home. Parents who cannot read cannot help them.",
+        "gradeBand": "any",
+        "subject": "general",
+        "topic": "classroom",
+        "steps": [
+          {
+            "kn": "ಹೋಂವರ್ಕ್ ಮನೆಗೆ ಕೊಡಬೇಡಿ. ಶಾಲೆಯಲ್ಲೇ ಮಾಡಿಸಿ.",
+            "en": "Do not send homework home. Have it done at school.",
+            "evidence": [
+              "S7"
+            ]
+          },
+          {
+            "kn": "ದಿನದ ಕೊನೆಯ ಹತ್ತು ನಿಮಿಷ ಎಲ್ಲ ಮಕ್ಕಳೂ ಒಟ್ಟಿಗೆ ಹೋಂವರ್ಕ್ ಮಾಡಲಿ.",
+            "en": "In the last ten minutes of the day, let all the children do it together.",
+            "evidence": [
+              "S7"
+            ]
+          },
+          {
+            "kn": "ಮನೆಗೆ ಒಂದೇ ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ: ಇವತ್ತು ಕಲಿತ ಒಂದು ಪದವನ್ನು ಅಮ್ಮನಿಗೆ ಹೇಳುವುದು.",
+            "en": "Give just one small task for home: tell your mother one word you learnt today.",
+            "evidence": [
+              "S8"
+            ]
+          },
+          {
+            "kn": "ಓದಲು ಬರದ ಅಪ್ಪ ಅಮ್ಮನೂ ಕೇಳಿಸಿಕೊಳ್ಳಬಹುದು.",
+            "en": "Even parents who cannot read can listen.",
+            "evidence": [
+              "S8"
+            ]
+          }
+        ],
+        "materials": [],
+        "whyKn": "ಒಬ್ಬ ಮಗುವಿಗೆ ಮನೆಯಲ್ಲಿ ದನ ಕಾಯುವ ಕೆಲಸ ಇದ್ದು ಸಮಯವೇ ಇರಲಿಲ್ಲ ಎಂದು ಶಿಕ್ಷಕರಿಗೆ ಆಮೇಲೆ ಗೊತ್ತಾಯಿತು. ಅದಕ್ಕೇ ಹೋಂವರ್ಕ್ ಶಾಲೆಯಲ್ಲಿ ಮಾಡಿಸಿದರು.",
+        "whyEn": "The master later learnt that a child had cattle to graze at home and no time. So the homework was moved into school.",
+        "quoteRef": "S8",
+        "flags": [
+          "child_name_redacted"
+        ]
+      }
+    ],
+    "dropped": [
+      {
+        "reason": "punishment",
+        "summaryEn": "Caning children on the hand for not doing homework, and the belief that children must fear the teacher."
+      },
+      {
+        "reason": "punishment",
+        "summaryEn": "Making a child stand in the sun after three days without homework."
+      }
+    ]
+  },
+  "attempts": 1
+}

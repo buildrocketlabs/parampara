@@ -1,0 +1,23 @@
+{
+  "key": "cf6d3a856e912504c4c89ed6fd2d247752229b1b0cd57b28d62c6c63161eee22",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-18-safeguard-reversed",
+  "recordedAt": "2026-10-24T18:06:15.514Z",
+  "usage": {
+    "inputTokens": 1516,
+    "outputTokens": 190,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000193,
+  "latencyMs": 1690,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಮಗು ತನ್ನ ಭಾಷೆಯ ಪದ ಹೇಳಿದಾಗ ನಗಬೇಡಿ. ಮೆಚ್ಚಿಕೊಂಡು ಜೊತೆಗೆ ಕನ್ನಡ ಪದ ಹೇಳಿ.",
+    "reason": "The card says to praise the child's word and say the Kannada word alongside, not to correct it; the step's 'correct it' changes the action."
+  },
+  "attempts": 1
+}

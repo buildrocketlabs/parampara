@@ -1,0 +1,23 @@
+{
+  "key": "f8099a53e77b85053d11108c1c14913fda80870b2d42fcf45b88bcb5d29c49b3",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-14-merged-with-a-number",
+  "recordedAt": "2026-10-24T18:06:08.463Z",
+  "usage": {
+    "inputTokens": 1489,
+    "outputTokens": 55,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000123,
+  "latencyMs": 1090,
+  "outcome": "ok",
+  "output": {
+    "verdict": "unsupported",
+    "cardQuote": null,
+    "reason": "The card says five words a day and does not mention pairs or ten minutes of daily reading."
+  },
+  "attempts": 1
+}

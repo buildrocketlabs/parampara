@@ -1,0 +1,42 @@
+{
+  "key": "e271f0171fea1f78b204717bad528df575c826f54b4182da8c6961bfeadee128",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-small-field-week",
+  "recordedAt": "2026-10-24T10:03:38.208Z",
+  "usage": {
+    "inputTokens": 1872,
+    "outputTokens": 1298,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.013901,
+  "latencyMs": 8103,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ ಬಹು ಹಂತದ ತರಗತಿ ಮತ್ತು ಅಕ್ಷರ ಗುರುತು ವಿಷಯಗಳ ಬಗ್ಗೆ ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ, ಆದರೆ ಪ್ರತಿ ಗುಂಪಿನಲ್ಲೂ 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು ಇದ್ದಾರೆ.",
+    "headlineEn": "This week questions came in on Multi level class and Letter sounds, with fewer than 5 teachers in each group.",
+    "actions": [
+      {
+        "kn": "ಬಹು ಹಂತದ ತರಗತಿ ವಿಷಯದಲ್ಲಿ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಪ್ರಶ್ನೆಗಳು ಕಾಯುತ್ತಿವೆ (5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು), ಆದ್ದರಿಂದ ಒಬ್ಬ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ಈ ವಾರ ರೆಕಾರ್ಡ್ ಮಾಡಿ.",
+        "en": "Questions on Multi level class are waiting for a master teacher's answer (fewer than 5 teachers), so please record a master teacher on this topic this week."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ: \"ಕೆಲಸ ಮಾಡಿತು\" ಅಥವಾ \"ಕೆಲಸ ಮಾಡಲಿಲ್ಲ\" ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ, ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ತಮ್ಮ ತರಗತಿಯ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳುವಂತೆ ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask their classroom questions."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಈಗ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುವುದು ಏನೂ ಇಲ್ಲ; ಈ ವಿಷಯದ ಮೇಲೆ ಗಮನವಿಡಿ.",
+        "en": "No Letter sounds questions are waiting for a master teacher's answer right now; keep an eye on this topic."
+      }
+    ]
+  },
+  "attempts": 1
+}

@@ -1,0 +1,30 @@
+{
+  "key": "78228cd42b86babae4f1d151f3b356393e4e3b5b7d11b6c9b11a39571f8e401f",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-02-kn-bare-name",
+  "recordedAt": "2026-10-24T10:45:33.152Z",
+  "usage": {
+    "inputTokens": 3034,
+    "outputTokens": 270,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000186,
+  "latencyMs": 2340,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಮೇಡಂ, ನಮ್ಮ ಕ್ಲಾಸಿನಲ್ಲಿ ಒಂದು ಮಗು ಯಾವಾಗಲೂ ಸುಮ್ಮನೆ ಕೂತಿರ್ತಾಳೆ, ಒಂದು ಮಾತೂ ಆಡಲ್ಲ. ಆ ಮಗುವಿಗೆ ಏನು ಮಾಡ್ಲಿ?",
+    "language": "kn",
+    "topic": "engagement",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": true
+  },
+  "attempts": 1
+}

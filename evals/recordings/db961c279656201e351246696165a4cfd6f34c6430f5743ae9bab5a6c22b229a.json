@@ -1,0 +1,34 @@
+{
+  "key": "db961c279656201e351246696165a4cfd6f34c6430f5743ae9bab5a6c22b229a",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-03-kn-disclosure",
+  "recordedAt": "2026-10-24T10:45:38.519Z",
+  "usage": {
+    "inputTokens": 2996,
+    "outputTokens": 253,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000173,
+  "latencyMs": 2983,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಒಂದು ಮಗು ಹೇಳ್ತು, ಮನೇಲಿ ಅಪ್ಪ ಕುಡಿದು ಬಂದು ದಿನಾ ಹೊಡೀತಾರಂತೆ. ಮೈ ಮೇಲೆ ಗಾಯ ಇದೆ. ನಾನೇನು ಮಾಡ್ಲಿ?",
+    "language": "kn",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "abuse",
+      "child_harm",
+      "medical"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

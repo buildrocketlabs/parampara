@@ -1,0 +1,38 @@
+{
+  "key": "2997a552452b9fbdb927966803a2e2bed07aee51032c3f64f05f9a7e9a75ca74",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-07-no-names-quotative",
+  "recordedAt": "2026-10-24T09:28:04.901Z",
+  "usage": {
+    "inputTokens": 2820,
+    "outputTokens": 463,
+    "cacheReadTokens": 2453,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000293,
+  "latencyMs": 3308,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "ಮಕ್ಕಳಿಗೆ 'ಜೋರಾಗಿ ಓದಿ' ಅಂತ ಹೇಳ್ತಿದ್ದೆ, ಒಬ್ಬೊಬ್ಬರಾಗಿ, ಬೇರೆಯವರು ಕೇಳಿಸ್ಕೊಳ್ತಿದ್ರು.",
+        "textEn": "I used to tell the children to read aloud, one by one, while the others listened.",
+        "childNameRedacted": false,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P2",
+        "textKn": "ಕುವೆಂಪು ಅವರ ಒಂದು ಪದ್ಯ ವಾರಕ್ಕೊಮ್ಮೆ ಹಾಡಿಸ್ತಿದ್ದೆ, ಮಕ್ಕಳಿಗೆ ತುಂಬಾ ಇಷ್ಟ ಆಗ್ತಿತ್ತು.",
+        "textEn": "I used to have the children sing one of Kuvempu's poems once a week, and they liked it very much.",
+        "childNameRedacted": false,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}

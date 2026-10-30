@@ -1,0 +1,24 @@
+{
+  "key": "824294e47f4ad64bc5e1bc993e8e99f62b3a178d695f20e09cdd4488d0978e64",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-13-name-slipped-through:final",
+  "recordedAt": "2026-10-24T18:40:56.901Z",
+  "usage": {
+    "inputTokens": 1673,
+    "outputTokens": 276,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000218,
+  "latencyMs": 2517,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer offers gentle, non-harmful supports such as smiling, a small job, and peer seating, with no punishment, shaming, diagnosis, or child name."
+  },
+  "attempts": 1
+}

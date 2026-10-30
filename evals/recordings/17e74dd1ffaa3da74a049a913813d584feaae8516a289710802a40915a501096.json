@@ -1,0 +1,30 @@
+{
+  "key": "17e74dd1ffaa3da74a049a913813d584feaae8516a289710802a40915a501096",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-24-hindi-silent",
+  "recordedAt": "2026-10-24T09:29:12.074Z",
+  "usage": {
+    "inputTokens": 2548,
+    "outputTokens": 152,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00011,
+  "latencyMs": 1735,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "मेरी कक्षा 2 में दो बच्चे पूरे दिन एक शब्द नहीं बोलते। उनसे बात शुरू कैसे करूँ?",
+    "language": "hi",
+    "topic": "engagement",
+    "subject": null,
+    "gradeBand": "2",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

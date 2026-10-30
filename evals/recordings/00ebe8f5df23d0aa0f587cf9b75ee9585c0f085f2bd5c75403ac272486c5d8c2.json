@@ -1,0 +1,33 @@
+{
+  "key": "00ebe8f5df23d0aa0f587cf9b75ee9585c0f085f2bd5c75403ac272486c5d8c2",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-17-coding-kn-mixed",
+  "recordedAt": "2026-10-24T09:28:42.396Z",
+  "usage": {
+    "inputTokens": 2597,
+    "outputTokens": 452,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000265,
+  "latencyMs": 3336,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಆರನೇ ತರಗತಿ ಮಕ್ಕಳಿಗೆ Scratch coding ಹೇಗೆ ಶುರು ಮಾಡೋದು? ಶಾಲೆಯಲ್ಲಿ ಎರಡೇ computer ಇದೆ.",
+    "language": "kn",
+    "topic": "other",
+    "subject": "general",
+    "gradeBand": "any",
+    "intent": "off_topic",
+    "needsClarification": true,
+    "clarifyingQuestion": {
+      "kn": "ಈ ಪ್ರಶ್ನೆ ನಿಮ್ಮ 1 ರಿಂದ 3ನೇ ತರಗತಿ ಕಲಿಕೆಗೆ ಸಂಬಂಧಿಸಿದೆಯೇ? ದಯವಿಟ್ಟು ನಿಮ್ಮ ತರಗತಿಯಲ್ಲಿ ಯಾವ ಕಲಿಕೆಯ ಸಮಸ್ಯೆ ಇದೆ ಎಂದು ತಿಳಿಸಿ.",
+      "en": "Is this question about your class 1 to 3 learning? Please tell us what learning problem you face in your class."
+    },
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

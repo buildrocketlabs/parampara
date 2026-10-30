@@ -1,0 +1,21 @@
+{
+  "key": "1b7e89f112e07ac0708516cab2c049701951adce7151c574f7dbd8b6746025d1",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v1",
+  "itemId": "redactor-09-cross-chunk-bare-name:clean",
+  "recordedAt": "2026-10-24T09:28:36.554Z",
+  "usage": {
+    "inputTokens": 798,
+    "outputTokens": 11,
+    "cacheReadTokens": 582,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000033,
+  "latencyMs": 1094,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

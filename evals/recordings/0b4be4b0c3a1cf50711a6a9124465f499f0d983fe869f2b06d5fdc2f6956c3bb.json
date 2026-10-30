@@ -1,0 +1,42 @@
+{
+  "key": "0b4be4b0c3a1cf50711a6a9124465f499f0d983fe869f2b06d5fdc2f6956c3bb",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v1",
+  "itemId": "digest-comparison-bait",
+  "recordedAt": "2026-10-24T09:28:49.694Z",
+  "usage": {
+    "inputTokens": 4108,
+    "outputTokens": 2724,
+    "cacheReadTokens": 2798,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.03014,
+  "latencyMs": 17724,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 45 ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 40ಕ್ಕೆ ಉತ್ತರ ಸಿಕ್ಕಿದೆ, ಶರಣಪ್ಪ ಅವರ ಹೂವಿನ ಗುಂಪು ಪದ್ಧತಿ 10 ಬಾರಿ ಪ್ರಯತ್ನವಾಗಿ 8 ಬಾರಿ ಫಲಿಸಿದೆ.",
+    "headlineEn": "This week 40 of 45 questions were answered, and Sharanappa's flower groups practice was tried 10 times and worked 8 times.",
+    "actions": [
+      {
+        "kn": "ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಶರಣಪ್ಪ ಅವರ ಓದೋ ಮಟ್ಟದ ಮೂರು ಹೂವಿನ ಗುಂಪು ಪದ್ಧತಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ, ಅವರಿಗೆ ಧನ್ಯವಾದ ಹೇಳಿ.",
+        "en": "Share Sharanappa's three flower groups by reading level practice at the next cluster meeting, with thanks to him."
+      },
+      {
+        "kn": "ಶಾರದಾ ಅವರ ಕಡ್ಡಿ ಕಟ್ಟಿನ ಪದ್ಧತಿಯನ್ನು ಸಭೆಯಲ್ಲಿ ಚರ್ಚಿಸಿ, ಶಿಕ್ಷಕರು ತಮ್ಮ ಅನುಭವ ಹೇಳಲು ಅವಕಾಶ ಕೊಡಿ.",
+        "en": "Talk about Sharada's bundles of sticks practice at the meeting and let teachers share what they found."
+      },
+      {
+        "kn": "ಆಯ್ಕೆ \"ಕೆಲಸ ಮಾಡಿತು\" ಅಥವಾ \"ಕೆಲಸ ಮಾಡಲಿಲ್ಲ\" ಒತ್ತುವುದು ಖಾಸಗಿ ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಎಂದು ಎಲ್ಲರಿಗೂ ನೆನಪಿಸಿ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಕಡ್ಡಿ ಕಟ್ಟಿನ ಪದ್ಧತಿ 9 ಬಾರಿ ಪ್ರಯತ್ನವಾಗಿ 2 ಬಾರಿ ಮಾತ್ರ ಫಲಿಸಿದೆ, ಸಂಖ್ಯೆ ಜ್ಞಾನ ವಿಷಯಕ್ಕೆ ಇನ್ನೊಂದು ಪದ್ಧತಿ ಬೇಕಾಗಬಹುದು.",
+        "en": "The bundles of sticks practice was tried 9 times and worked only 2 times, so number sense may need another practice."
+      }
+    ]
+  },
+  "attempts": 2
+}

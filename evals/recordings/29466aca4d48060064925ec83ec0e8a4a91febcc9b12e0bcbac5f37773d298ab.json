@@ -1,0 +1,26 @@
+{
+  "key": "29466aca4d48060064925ec83ec0e8a4a91febcc9b12e0bcbac5f37773d298ab",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-13-leading-questions",
+  "recordedAt": "2026-10-24T10:04:10.045Z",
+  "usage": {
+    "inputTokens": 2419,
+    "outputTokens": 289,
+    "cacheReadTokens": 2167,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.003611,
+  "latencyMs": 2931,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಸರಿ ಸರ್. ಆ ವಿಧಾನವನ್ನು ಬಳಸಿದ ಒಂದು ನಿಜವಾದ ಸಂದರ್ಭವನ್ನು ಕಥೆಯ ಹಾಗೆ ಹೇಳಿ. ಆ ಮಗುವಿಗೆ ನೀವು ಏನು ಹೇಳಿದಿರಿ, ಏನು ಮಾಡಿದಿರಿ?",
+    "questionEn": "Alright, sir. Please tell us one real instance of using that method, like a story. What did you say to the child, and what did you do?",
+    "why": "The master mentioned a method without details, so we ask for a concrete story with their exact words and actions.",
+    "topic": "letters",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 1
+}

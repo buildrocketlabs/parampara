@@ -1,0 +1,108 @@
+{
+  "key": "4b7ba539262410b9fb4e1ea2f5143d25ebce32dbc9bf2899301aa1eaecffb66d",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-03-multi-level",
+  "recordedAt": "2026-10-24T10:03:56.169Z",
+  "usage": {
+    "inputTokens": 6464,
+    "outputTokens": 2487,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.029976,
+  "latencyMs": 14127,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಓದುವ ಮಟ್ಟದ ಮೂರು ಗುಂಪುಗಳು",
+        "titleEn": "Three groups by reading level",
+        "problemKn": "ಒಂದು ಮತ್ತು ಎರಡನೇ ತರಗತಿಯ ನಲವತ್ತು ಮಕ್ಕಳು ಒಂದೇ ಕೋಣೆಯಲ್ಲಿ, ನೀವೊಬ್ಬರೇ ಶಿಕ್ಷಕರು. ಎಲ್ಲರಿಗೂ ಒಂದೇ ಪಾಠ ಮಾಡಿದರೆ ಎಲ್ಲರಿಗೂ ಸರಿಹೋಗುವುದಿಲ್ಲ.",
+        "problemEn": "You have forty children from Classes 1 and 2 in one room, and you are the only teacher. Teaching everyone the same lesson does not work for all of them.",
+        "gradeBand": "1-2",
+        "subject": "general",
+        "topic": "multi_level",
+        "steps": [
+          {
+            "kn": "ಎಲ್ಲರಿಗೂ ಒಂದೇ ಪಾಠ ಮಾಡಬೇಡಿ. ತರಗತಿ ನೋಡಿ ಅಲ್ಲ, ಓದುವ ಮಟ್ಟ ನೋಡಿ ಮಕ್ಕಳನ್ನು ಮೂರು ಗುಂಪು ಮಾಡಿ.",
+            "en": "Do not teach everyone the same lesson. Make three groups by reading level, not by class.",
+            "evidence": [
+              "S2",
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಪ್ರತಿ ಗುಂಪಿಗೆ ಒಂದು ಹೂವಿನ ಹೆಸರು ಕೊಡಿ: ಮಲ್ಲಿಗೆ, ಸಂಪಿಗೆ, ಗುಲಾಬಿ. ಯಾವ ಗುಂಪು ಮೇಲು, ಯಾವುದು ಕೀಳು ಅನ್ನೋ ಭಾವನೆ ಬರಬಾರದು.",
+            "en": "Give each group a flower name: Mallige, Sampige, Gulabi. That way no group feels higher or lower than another.",
+            "evidence": [
+              "S4"
+            ]
+          },
+          {
+            "kn": "ನೀವು ಒಂದು ಗುಂಪಿನ ಜೊತೆ ಕೂತಾಗ, ಉಳಿದ ಎರಡು ಗುಂಪಿಗೆ ಕೆಲಸ ಮೊದಲೇ ಕೊಟ್ಟಿರಿ. ಒಂದಕ್ಕೆ ಅಕ್ಷರ ಕಾರ್ಡ್ ಜೋಡಿಸುವುದು, ಇನ್ನೊಂದಕ್ಕೆ ಚಿತ್ರ ನೋಡಿ ಕಥೆ ಹೇಳುವುದು.",
+            "en": "Before you sit with one group, give the other two their work. One group matches letter cards, the other tells a story from a picture.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ ಎರಡನೇ ತರಗತಿಯ ಒಂದು ಮಗುವನ್ನು ನಾಯಕ ಮಾಡಿ. ಆ ಮಗು ಚಿಕ್ಕವರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+            "en": "Make one Class 2 child the leader of each group. That child helps the younger ones.",
+            "evidence": [
+              "S6"
+            ]
+          },
+          {
+            "kn": "ಒಂದು ಗುಂಪಿನ ಜೊತೆ ಹದಿನೈದು ನಿಮಿಷ ಕೂತುಕೊಳ್ಳಿ. ಕೈಯಲ್ಲಿ ಸಣ್ಣ ಗಂಟೆ ಇಟ್ಟುಕೊಳ್ಳಿ. ಗಂಟೆ ಹೊಡೆದಾಗ ಗುಂಪು ಬದಲಾಯಿಸಿ.",
+            "en": "Sit with one group for fifteen minutes. Keep a small bell in your hand. When it rings, switch groups.",
+            "evidence": [
+              "S7",
+              "S8"
+            ]
+          },
+          {
+            "kn": "ಪ್ರತಿ ಶುಕ್ರವಾರ ಗುಂಪುಗಳನ್ನು ಮತ್ತೆ ನೋಡಿ. ಮುಂದೆ ಹೋಗಿರುವ ಮಕ್ಕಳನ್ನು ಮುಂದಿನ ಗುಂಪಿಗೆ ಕಳಿಸಿ.",
+            "en": "Every Friday, look at the groups again. Move children who have gone ahead into the next group.",
+            "evidence": [
+              "S9"
+            ]
+          },
+          {
+            "kn": "ಮೊದಲ ತಿಂಗಳು ಗಲಾಟೆ ಆಗಬಹುದು. ಕೆಲಸ ಮುಗಿಸಿದ ಗುಂಪು ಕೂತು ಕಥೆ ಪುಸ್ತಕ ನೋಡಬಹುದು ಅನ್ನೋ ನಿಯಮ ಮಾಡಿ. ಆಮೇಲೆ ಗಲಾಟೆ ಕಡಿಮೆ ಆಗುತ್ತದೆ.",
+            "en": "There may be noise in the first month. Make a rule that a group that finishes its work can sit and look at story books. After that the noise comes down.",
+            "evidence": [
+              "S10",
+              "S11"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಅಕ್ಷರ ಕಾರ್ಡ್‌ಗಳು",
+            "en": "letter cards"
+          },
+          {
+            "kn": "ಚಿತ್ರಗಳು",
+            "en": "pictures"
+          },
+          {
+            "kn": "ಸಣ್ಣ ಗಂಟೆ",
+            "en": "a small bell"
+          },
+          {
+            "kn": "ಕಥೆ ಪುಸ್ತಕಗಳು",
+            "en": "story books"
+          }
+        ],
+        "whyKn": "ಓದುವ ಮಟ್ಟದ ಪ್ರಕಾರ ಗುಂಪು ಮಾಡಿದಾಗ ಪ್ರತಿ ಮಗುವಿಗೆ ತನ್ನ ಮಟ್ಟದ ಕೆಲಸ ಸಿಗುತ್ತದೆ. ಹೂವಿನ ಹೆಸರುಗಳಿಂದ ಯಾವ ಗುಂಪೂ ಕೀಳು ಅನಿಸುವುದಿಲ್ಲ.",
+        "whyEn": "Grouping by reading level gives each child work at their own level. The flower names keep any group from feeling lower.",
+        "quoteRef": "S3",
+        "flags": []
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

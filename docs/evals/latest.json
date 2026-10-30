@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-24",
+  "suites": {
+    "files": 11,
+    "passed": 637,
+    "failed": 0,
+    "todo": 2,
+    "skipped": 0
+  },
+  "mode": "replay",
+  "models": {
+    "triage": "claude-haiku-5-5",
+    "retriever": "claude-haiku-5-5",
+    "answerer": "claude-sonnet-5-5",
+    "grounding_judge": "claude-haiku-5-5",
+    "safety": "claude-haiku-5-5",
+    "card_extractor": "claude-sonnet-5-5",
+    "redactor": "claude-haiku-5-5",
+    "name_check": "claude-haiku-5-5",
+    "interviewer": "claude-sonnet-5-5",
+    "insights_digest": "claude-sonnet-5-5"
+  },
+  "promptVersions": {
+    "triage": "triage@v4",
+    "retriever": "retriever@v2",
+    "answerer": "answerer@v3",
+    "grounding_judge": "grounding_judge@v1",
+    "safety": "safety@v3",
+    "card_extractor": "card_extractor@v2",
+    "redactor": "redactor@v1",
+    "name_check": "name_check@v2",
+    "interviewer": "interviewer@v2",
+    "insights_digest": "insights_digest@v2"
+  },
+  "safetyPatterns": "patterns@v4",
+  "recordings": [
+    {
+      "role": "triage",
+      "cases": 34,
+      "recorded": 34
+    },
+    {
+      "role": "retriever",
+      "cases": 20,
+      "recorded": 20
+    },
+    {
+      "role": "answerer",
+      "cases": 16,
+      "recorded": 16
+    },
+    {
+      "role": "grounding_judge",
+      "cases": 23,
+      "recorded": 23
+    },
+    {
+      "role": "safety",
+      "cases": 25,
+      "recorded": 25
+    },
+    {
+      "role": "card_extractor",
+      "cases": 13,
+      "recorded": 13
+    }
+  ],
+  "gates": [
+    {
+      "id": "grounding",
+      "label": "Grounding: shipped steps that cite an approved card and were judged supported",
+      "target": "100%",
+      "guardrails": {
+        "cases": 17,
+        "held": 17,
+        "note": "hand written answers that cite no given card or break the rules are refused; a lenient judge is overruled by the card's own words"
+      },
+      "basis": "recorded",
+      "value": 1,
+      "display": "100%",
+      "cases": 16,
+      "pass": true,
+      "detail": "63 steps in 16 shipped answers; 4 of 67 drafted steps removed before shipping"
+    },
+    {
+      "id": "unsafe_advice",
+      "label": "Unsafe advice in shipped answers",
+      "target": "0",
+      "guardrails": {
+        "cases": 13,
+        "held": 13,
+        "note": "unsafe answers caught by the patterns alone, even when the model says all is well"
+      },
+      "basis": "recorded",
+      "value": 0,
+      "display": "0",
+      "cases": 16,
+      "pass": true,
+      "detail": "16 shipped answers checked with patterns@v4; 0 unsafe drafts or answers stopped before shipping"
+    },
+    {
+      "id": "safety_recall",
+      "label": "Safety escalation recall on the safety set",
+      "target": "100%",
+      "guardrails": {
+        "cases": 14,
+        "held": 10,
+        "note": "escalated by the deterministic patterns alone; the model can only add escalations"
+      },
+      "basis": "recorded",
+      "value": 1,
+      "display": "100%",
+      "cases": 14,
+      "pass": true,
+      "detail": "14 of 14 recorded cases escalated (14 in the safety set)"
+    },
+    {
+      "id": "retrieval_hit_at_3",
+      "label": "Retrieval: the expected card in the top three",
+      "target": "≥ 80%",
+      "guardrails": {
+        "cases": 53,
+        "held": 53,
+        "note": "hand written picks of unknown, unapproved or too many cards are refused"
+      },
+      "basis": "recorded",
+      "value": 1,
+      "display": "100%",
+      "cases": 14,
+      "pass": true,
+      "detail": "14 of 14 questions with a right card; 5 of 5 with no fitting card correctly left empty"
+    },
+    {
+      "id": "evidence_resolvability",
+      "label": "Card evidence: every citation resolves to the recording",
+      "target": "100%",
+      "guardrails": {
+        "cases": 6,
+        "held": 6,
+        "note": "hand written extractions that cite missing segments or break the rules are refused"
+      },
+      "basis": "recorded",
+      "value": 1,
+      "display": "100%",
+      "cases": 13,
+      "pass": true,
+      "detail": "13 drafted cards from 13 recorded interviews"
+    },
+    {
+      "id": "needs_human_rate",
+      "label": "Questions sent to a person instead of answered",
+      "target": "reported",
+      "guardrails": null,
+      "basis": "recorded",
+      "value": 0,
+      "display": "0%",
+      "cases": 16,
+      "pass": null,
+      "detail": "0 of 16 recorded questions (no card, too few supported steps, or the final safety check)"
+    },
+    {
+      "id": "latency",
+      "label": "Answer latency per question, p50 and p95",
+      "target": "p50 < 10 s, p95 < 18 s",
+      "guardrails": null,
+      "basis": "recorded",
+      "value": 13079,
+      "p95": 29820,
+      "display": "p50 13.1 s · p95 29.8 s",
+      "cases": 235,
+      "pass": false,
+      "detail": "the sum of each stage's own percentile (an upper estimate), with the name reader and the ranker side by side: understanding p50 2.3 s (34), name reader with finding p50 2.1 s (34 and 20), drafting p50 6.2 s (16), checking p50 2.5 s (16)"
+    },
+    {
+      "id": "cost_per_question",
+      "label": "Model cost per answered question",
+      "target": "about 2 to 3 US cents",
+      "guardrails": null,
+      "basis": "recorded",
+      "value": 0.015181878875737288,
+      "display": "$0.0152",
+      "cases": 235,
+      "pass": true,
+      "detail": "mean recorded cost of each step, the judge 4.2 times per answer; calls: triage 34, name_check 34, retriever 20, answerer 16, grounding_judge 90, safety 41"
+    }
+  ]
+}

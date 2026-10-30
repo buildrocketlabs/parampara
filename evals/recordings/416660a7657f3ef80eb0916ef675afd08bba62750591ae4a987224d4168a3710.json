@@ -1,0 +1,105 @@
+{
+  "key": "416660a7657f3ef80eb0916ef675afd08bba62750591ae4a987224d4168a3710",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-01-letter-sounds",
+  "recordedAt": "2026-10-24T10:03:28.741Z",
+  "usage": {
+    "inputTokens": 6743,
+    "outputTokens": 2448,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 4117
+  },
+  "costUsd": 0.040025,
+  "latencyMs": 15023,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ದಿನಕ್ಕೆ ಒಂದು ಅಕ್ಷರ, ಮರಳಿನ ತಟ್ಟೆಯಲ್ಲಿ",
+        "titleEn": "One letter a day in a sand tray",
+        "problemKn": "ಒಂದನೇ ಕ್ಲಾಸಿನ ಒಂದು ಮಗು ತಿಂಗಳುಗಟ್ಟಲೆ ಆದರೂ ಅಕ್ಷರಗಳನ್ನು ಗುರುತಿಸುವುದಿಲ್ಲ. ಮೂರು ತಿಂಗಳಾದರೂ 'ಅ' ಕೂಡ ಗುರುತು ಹಿಡಿಯುವುದಿಲ್ಲ.",
+        "problemEn": "A Class 1 child still does not recognise letters after months. After three months the child cannot even recognise 'ಅ'.",
+        "gradeBand": "1",
+        "subject": "kannada",
+        "topic": "letters",
+        "steps": [
+          {
+            "kn": "ಎಲ್ಲಾ ಅಕ್ಷರಗಳನ್ನು ಒಟ್ಟಿಗೆ ಕಲಿಸುವುದನ್ನು ಬಿಡಿ. ದಿನಕ್ಕೆ ಒಂದೇ ಅಕ್ಷರ ಕಲಿಸಿ.",
+            "en": "Stop teaching all the letters together. Teach just one letter a day.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಮರಳನ್ನು ತಟ್ಟೆಯಲ್ಲಿ ಹರಡಿ. ಮಗು ಬೆರಳಿನಿಂದ ಮರಳಲ್ಲಿ ಅಕ್ಷರ ಬರೆಯಲಿ, ಬರೆಯುತ್ತಾ 'ಮ, ಮ' ಅಂತ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+            "en": "Spread sand in a plate. Let the child write the letter in the sand with a finger, saying 'ಮ, ಮ' aloud while writing.",
+            "evidence": [
+              "S4"
+            ]
+          },
+          {
+            "kn": "ಆ ಅಕ್ಷರಕ್ಕೆ ಒಂದು ವಸ್ತುವನ್ನು ಜೋಡಿಸಿ. 'ಮ' ಅಂದರೆ ಮಾವಿನಕಾಯಿ. ಒಮ್ಮೆ ನಿಜವಾದ ಮಾವಿನಕಾಯಿಯನ್ನೇ ತರಗತಿಗೆ ತನ್ನಿ.",
+            "en": "Tie the letter to a thing. 'ಮ' is for ಮಾವಿನಕಾಯಿ, a raw mango. Once, bring a real mango to class.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಮೊದಲ ಹದಿನೈದು ದಿನ, ಪ್ರಾರ್ಥನೆ ಆದ ಮೇಲೆ ದಿನಕ್ಕೆ ಹತ್ತು ನಿಮಿಷ ಹೀಗೆ ಮಾಡಿ. ಆ ಮಗುವಿನ ಜೊತೆ ಇನ್ನೂ ಮೂರು ನಾಲ್ಕು ಮಕ್ಕಳನ್ನು ಸೇರಿಸಿಕೊಳ್ಳಿ, ಒಬ್ಬರೇ ಇದ್ದರೆ ಮಗುವಿಗೆ ನಾಚಿಕೆ ಆಗುತ್ತದೆ.",
+            "en": "For the first fifteen days, do this for ten minutes a day after the morning prayer. Add three or four more children with that child, because alone the child would feel shy.",
+            "evidence": [
+              "S7"
+            ]
+          },
+          {
+            "kn": "ಬೋರ್ಡ್ ಮೇಲೆ ನಾಲ್ಕು ಅಕ್ಷರ ಬರೆದು 'ಮ ಎಲ್ಲಿದೆ ತೋರಿಸು' ಅಂತ ಕೇಳಿ. ಮೂರು ದಿನ ಸತತ ತೋರಿಸಿದರೆ ಮುಂದಿನ ಅಕ್ಷರಕ್ಕೆ ಹೋಗಿ.",
+            "en": "Write four letters on the board and ask, 'Show me where ಮ is.' If the child shows it three days in a row, move to the next letter.",
+            "evidence": [
+              "S11"
+            ]
+          },
+          {
+            "kn": "ಮಗು ಗುರುತು ಹಿಡಿದ ದಿನ ಎಲ್ಲಾ ಮಕ್ಕಳು ಚಪ್ಪಾಳೆ ಹೊಡೆಯಲಿ.",
+            "en": "On the day the child recognises the letter, let all the children clap.",
+            "evidence": [
+              "S8"
+            ]
+          },
+          {
+            "kn": "ಮಗು ಮರೆತುಬಿಟ್ಟರೆ ಬೈಯಬೇಡಿ. ಮರುದಿನ ಮತ್ತೆ ಅದೇ ಅಕ್ಷರ, ಮರಳಲ್ಲಿ. ಹಳೆಯದು ಗಟ್ಟಿ ಆದ ಮೇಲೆಯೇ ಹೊಸ ಅಕ್ಷರ.",
+            "en": "If the child forgets, do not scold. Do the same letter again the next day, in the sand. Give a new letter only once the old one is firm.",
+            "evidence": [
+              "S9"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಮರಳು",
+            "en": "sand"
+          },
+          {
+            "kn": "ತಟ್ಟೆ",
+            "en": "a plate or tray"
+          },
+          {
+            "kn": "ಮಾವಿನಕಾಯಿ (ಒಮ್ಮೆ ನಿಜವಾದದ್ದು)",
+            "en": "a raw mango (a real one, once)"
+          },
+          {
+            "kn": "ಬೋರ್ಡ್",
+            "en": "blackboard"
+          }
+        ],
+        "whyKn": "ಒಂದೊಂದೇ ಅಕ್ಷರ, ಹಳೆಯದು ಗಟ್ಟಿ ಆದ ಮೇಲೆ ಹೊಸದು. ಹೀಗೆ ಮಾಡಿದ್ದರಿಂದ ಡಿಸೆಂಬರ್ ಹೊತ್ತಿಗೆ ಆ ಮಗು ಇಪ್ಪತ್ತು ಅಕ್ಷರ ಗುರುತಿಸುತ್ತಿತ್ತು.",
+        "whyEn": "One letter at a time, and a new one only when the old one is firm. By December the child could recognise twenty letters.",
+        "quoteRef": "S3",
+        "flags": []
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

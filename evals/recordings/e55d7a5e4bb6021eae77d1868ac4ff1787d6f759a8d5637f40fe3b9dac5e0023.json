@@ -1,0 +1,23 @@
+{
+  "key": "e55d7a5e4bb6021eae77d1868ac4ff1787d6f759a8d5637f40fe3b9dac5e0023",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step2",
+  "recordedAt": "2026-10-24T18:39:24.494Z",
+  "usage": {
+    "inputTokens": 1676,
+    "outputTokens": 168,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000198,
+  "latencyMs": 1597,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಪ್ರತಿ ಗುಂಪಿಗೆ ಹೂವಿನ ಹೆಸರು ಕೊಡಿ, ಯಾವ ಗುಂಪೂ ಮೇಲು ಕೀಳು ಅನ್ನಿಸಬಾರದು.",
+    "reason": "The step matches step 2 of the card exactly: give each group a flower name so no group feels higher or lower."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "key": "c1133c2955c4334033753e060981001d18b944762e8a11799c1bfafd021de45c",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-28-no-breakfast-en:name_check:0",
+  "recordedAt": "2026-10-24T10:46:49.377Z",
+  "usage": {
+    "inputTokens": 758,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00002,
+  "latencyMs": 1379,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

@@ -1,0 +1,42 @@
+{
+  "key": "2b6f6d9249759d27d0425007b603d07dd4edc69b2992006352b27d55555ad87b",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v1",
+  "itemId": "digest-sample-week",
+  "recordedAt": "2026-10-24T09:27:41.870Z",
+  "usage": {
+    "inputTokens": 4480,
+    "outputTokens": 2458,
+    "cacheReadTokens": 1399,
+    "cacheWriteTokens": 1399
+  },
+  "costUsd": 0.031582,
+  "latencyMs": 16823,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಬಹು ಹಂತದ ತರಗತಿಯ 6 ಪ್ರಶ್ನೆಗಳು ಮಾಸ್ಟರ್ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುತ್ತಿವೆ.",
+    "headlineEn": "6 questions on multi level classes are waiting for a master teacher's answer.",
+    "actions": [
+      {
+        "kn": "ಬಹು ಹಂತದ ತರಗತಿಯ ಬಗ್ಗೆ ಒಬ್ಬ ಮಾಸ್ಟರ್ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ಈ ವಾರ ರೆಕಾರ್ಡ್ ಮಾಡಿ.",
+        "en": "Record a master teacher sharing how they handle multi level classes this week."
+      },
+      {
+        "kn": "ಶರಣಪ್ಪ ಅವರ ಓದೋ ಮಟ್ಟದ ಮೂರು ಹೂವಿನ ಗುಂಪು ವಿಧಾನವನ್ನು ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ, ಧನ್ಯವಾದಗಳು.",
+        "en": "Share Sharanappa's three flower groups by reading level at the next cluster meeting, with thanks."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ: ಆಯಿತು ಅಥವಾ ಆಗಲಿಲ್ಲ ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ, ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Remind all teachers that tapping It worked or Did not work is private and helps the next teacher."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಸಂಖ್ಯೆ ಜ್ಞಾನದ ಬಗ್ಗೆ ಕಾಯುತ್ತಿರುವ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿದವರು 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು.",
+        "en": "Questions waiting on number sense come from fewer than 5 teachers."
+      }
+    ]
+  },
+  "attempts": 2
+}

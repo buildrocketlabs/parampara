@@ -1,0 +1,24 @@
+{
+  "key": "a68503af46678af95db0500f4cef5362966521f98bf28b6113a1997fbbe21d4d",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v2",
+  "itemId": "answer-01-kn-letters:final",
+  "recordedAt": "2026-10-24T10:06:34.927Z",
+  "usage": {
+    "inputTokens": 1803,
+    "outputTokens": 79,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 906
+  },
+  "costUsd": 0.000242,
+  "latencyMs": 1565,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives gentle letter-learning steps with sand, forbids scolding, and contains no punishment, comparison, labels, diagnosis, or child names."
+  },
+  "attempts": 1
+}

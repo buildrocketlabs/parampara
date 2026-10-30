@@ -1,0 +1,47 @@
+<!-- {"title": "How we tested", "nav": "Field", "src": "pnpm test · docs/evals/latest.md · docs/SUBMISSION.md · docs/evals/network.md · the 24 Oct safety audit · git log · field rows read at build time"} -->
+<style>
+  #s10 { --h: 64px; --t-lead: 26px; }
+  #s10 .head { top: 64px; }
+  #s10 .h1 { margin-top: 24px; }
+  #s10 .lamp10 { position: absolute; right: 96px; top: 64px; }
+  #s10 .changes, #s10 .ladder { top: 278px; bottom: 120px; display: flex; flex-direction: column; gap: 16px; }
+  #s10 h3 { font: 700 var(--t-lead)/1.2 var(--display); }
+  #s10 .chs { flex: 1; display: grid; grid-template-rows: repeat(3, 1fr); gap: 16px; }
+  #s10 .ch { display: grid; grid-template-columns: 0.85fr 1.15fr; border-radius: 28px; overflow: hidden; box-shadow: var(--shadow); }
+  #s10 .ch div { padding: 24px 32px; font: 400 var(--t-body)/1.4 var(--body); display: flex; flex-direction: column; justify-content: center; }
+  #s10 .ch .saw { background: var(--paper); }
+  #s10 .ch .did { background: var(--sage); color: var(--ink); }
+  #s10 .ch .k { font: 700 16px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--moss); margin-bottom: 8px; }
+  #s10 .ch .did .k { color: var(--clay-cta); }
+  #s10 .rungs { flex: 1; display: grid; grid-template-rows: repeat(5, 1fr); padding: 8px 32px; }
+  #s10 .rung { display: grid; grid-template-columns: 160px 1fr; align-items: center; gap: 24px; border-top: 1.5px solid rgb(21 48 42 / 0.08); }
+  #s10 .rung:first-child { border-top: 0; }
+  #s10 .rung .num { font-size: 36px; line-height: 1; white-space: nowrap; }
+  #s10 .rung p { font: 400 var(--t-body)/1.35 var(--body); color: var(--ink-3); }
+  #s10 .rung p b { color: var(--ink); }
+  #s10 .limits { bottom: 64px; white-space: nowrap; font: 400 var(--t-label)/1.4 var(--body); color: var(--muted); }
+  #s10 .limits b { color: var(--ink-3); }
+</style>
+<div class="at head" style="--c: 1; --s: 9">
+  <div class="kicker">09 · Testing</div>
+  <h1 class="h1">How we tested,<span class="l2">and what we changed.</span></h1>
+</div>
+<div class="at changes" style="--c: 1; --s: 7">
+  <h3>What the field taught us this week</h3>
+  <div class="chs">
+    <div class="ch"><div class="saw"><span class="k">We saw</span>He talks in voice notes, not apps.</div><div class="did"><span class="k">We changed</span>Many voice notes now import as one interview, consent first.</div></div>
+    <div class="ch"><div class="saw"><span class="k">We saw</span>A demo nearly mixed real and Sample data.</div><div class="did"><span class="k">We changed</span>A clear Sample warning before any reviewer imports.</div></div>
+    <div class="ch"><div class="saw"><span class="k">We saw</span>His years and school name were wrong in our notes.</div><div class="did"><span class="k">We changed</span>Corrected from his own voice and the school board.</div></div>
+  </div>
+</div>
+<div class="at ladder" style="--c: 8; --s: 5">
+  <h3>What we run before every release</h3>
+  <div class="card rungs">
+    <div class="rung"><div class="num">{{n:eval_checks}}</div><p><b>Eval checks pass</b> on our own recorded eval set</p></div>
+    <div class="rung"><div class="num">{{n:judge_path}}</div><p><b>Judge path</b> on the live site, {{n:judge_day}}</p></div>
+    <div class="rung"><div class="num">{{n:net_pass}}</div><p><b>Network checks</b>: Slow 3G, Fast 3G, offline</p></div>
+    <div class="rung"><div class="num">{{n:audit_fixed}}</div><p><b>Safety fixes shipped</b> from a red team audit of the teacher path</p></div>
+    <div class="rung"><div class="num">{{n:unit_tests}}</div><p><b>Unit tests</b>, with design and jury reviews each milestone</p></div>
+  </div>
+</div>
+<p class="at limits" style="--c: 1; --s: 12"><b>Limits we state openly.</b> {{n:field_limit}}. The eval set is {{n:gate_grounding_cases}} recorded answers. A new answer takes {{n:live_fresh_p50}} typically, {{n:gate_latency_p95}} at p95 (eval).</p>

@@ -1,0 +1,23 @@
+{
+  "key": "63957faa67282aa6456226ae39fb03bc1855734eb541ff913e5f816746f6cff4",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-03-hi-number-sense:step2",
+  "recordedAt": "2026-10-24T10:46:11.758Z",
+  "usage": {
+    "inputTokens": 2206,
+    "outputTokens": 228,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000281,
+  "latencyMs": 3323,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಹತ್ತು ಕಡ್ಡಿ ಆದ ತಕ್ಷಣ ರಬ್ಬರ್ ಬ್ಯಾಂಡ್ ಹಾಕಿ ಒಂದು ಕಟ್ಟು ಮಾಡಿಸಿ, 'ಇದು ಒಂದು ಹತ್ತು' ಅಂತ ಹೇಳಿಸಿ.",
+    "reason": "The step matches step 2 of the card: at ten sticks, put a rubber band to make a bundle and have them say 'This is one ten.'"
+  },
+  "attempts": 1
+}

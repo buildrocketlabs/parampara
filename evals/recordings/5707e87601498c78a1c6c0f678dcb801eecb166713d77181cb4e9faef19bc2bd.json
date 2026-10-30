@@ -1,0 +1,31 @@
+{
+  "key": "5707e87601498c78a1c6c0f678dcb801eecb166713d77181cb4e9faef19bc2bd",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-19-fluency",
+  "recordedAt": "2026-10-24T09:30:34.002Z",
+  "usage": {
+    "inputTokens": 1177,
+    "outputTokens": 133,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000084,
+  "latencyMs": 2599,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C9",
+        "reason": "Pair reading lets Class 2 children practise reading aloud repeatedly with a partner, which builds fluency beyond word-by-word decoding."
+      },
+      {
+        "ref": "C6",
+        "reason": "Stretching and joining letter sounds into words targets decoding, a step toward smooth reading, though it is written for Class 1."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

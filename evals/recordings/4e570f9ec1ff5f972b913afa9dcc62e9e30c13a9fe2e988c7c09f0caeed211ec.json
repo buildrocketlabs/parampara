@@ -1,0 +1,21 @@
+{
+  "key": "4e570f9ec1ff5f972b913afa9dcc62e9e30c13a9fe2e988c7c09f0caeed211ec",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-20-burn-marks:name_check:0",
+  "recordedAt": "2026-10-24T10:04:40.283Z",
+  "usage": {
+    "inputTokens": 759,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00002,
+  "latencyMs": 1552,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

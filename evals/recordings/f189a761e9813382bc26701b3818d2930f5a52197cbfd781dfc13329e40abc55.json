@@ -1,0 +1,24 @@
+{
+  "key": "f189a761e9813382bc26701b3818d2930f5a52197cbfd781dfc13329e40abc55",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v1",
+  "itemId": "answer-04-two-cards:final",
+  "recordedAt": "2026-10-24T09:33:28.045Z",
+  "usage": {
+    "inputTokens": 1628,
+    "outputTokens": 79,
+    "cacheReadTokens": 756,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000134,
+  "latencyMs": 2957,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives level-based reading group strategies with no punishment, threats, shaming, comparison, labels, bias, withholding, diagnosis, or child names."
+  },
+  "attempts": 1
+}

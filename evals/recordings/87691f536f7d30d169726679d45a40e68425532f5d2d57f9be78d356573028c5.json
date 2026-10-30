@@ -1,0 +1,23 @@
+{
+  "key": "87691f536f7d30d169726679d45a40e68425532f5d2d57f9be78d356573028c5",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-16-card-does-not-fit-her:step2",
+  "recordedAt": "2026-10-24T18:05:57.068Z",
+  "usage": {
+    "inputTokens": 1450,
+    "outputTokens": 161,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000172,
+  "latencyMs": 1888,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಪ್ರತಿ ಮಗು ತಾನು ಕಲಿತ ಒಂದು ಹಾಡು ಅಥವಾ ಪದವನ್ನು ಪೋಷಕರ ಮುಂದೆ ಹೇಳಲಿ.",
+    "reason": "The card's step 2 says every child should say one song or word they have learnt in front of parents, matching the step exactly."
+  },
+  "attempts": 1
+}

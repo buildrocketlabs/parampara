@@ -1,0 +1,32 @@
+{
+  "key": "685a06d1a288fe8c3a3023c0e41e5572992d0dd0d82162d0fcc768ac13d8edee",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v3",
+  "itemId": "triage-06-distress",
+  "recordedAt": "2026-10-24T10:03:37.642Z",
+  "usage": {
+    "inputTokens": 2815,
+    "outputTokens": 255,
+    "cacheReadTokens": 2620,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000173,
+  "latencyMs": 1939,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ನನಗೆ ಸಾಕಾಗಿದೆ ಮೇಡಂ, ದಿನಾ ಅಳು ಬರುತ್ತೆ, ಈ ಕೆಲಸ ಬಿಟ್ಟುಬಿಡಬೇಕು ಅನ್ಸುತ್ತೆ, ಯಾರೂ ಸಹಾಯ ಮಾಡಲ್ಲ.",
+    "language": "kn",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "teacher_distress",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "teacher_distress"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

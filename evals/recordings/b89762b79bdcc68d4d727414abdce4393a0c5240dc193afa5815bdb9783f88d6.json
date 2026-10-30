@@ -1,0 +1,46 @@
+{
+  "key": "b89762b79bdcc68d4d727414abdce4393a0c5240dc193afa5815bdb9783f88d6",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-02-kn-nickname-forms",
+  "recordedAt": "2026-10-24T09:27:34.448Z",
+  "usage": {
+    "inputTokens": 2996,
+    "outputTokens": 700,
+    "cacheReadTokens": 2453,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000429,
+  "latencyMs": 4362,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "ಒಂದು ಮಗು ಅನ್ನೋ ಹುಡುಗಿ, ನಾವೆಲ್ಲ ಆ ಮಗುವನ್ನು ಅಂತ ಕರೀತಿದ್ವಿ, ಶಾಲೆಗೆ ಬರೋದೇ ನಿಲ್ಲಿಸಿಬಿಟ್ಟಿದ್ಲು.",
+        "textEn": "There was a girl, whom we all called by a nickname, who had stopped coming to school altogether.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P2",
+        "textKn": "ಆ ಮಗು ಮನೆಗೆ ಹೋದಾಗ ಗೊತ್ತಾಯ್ತು, ತಮ್ಮನ್ನ ನೋಡ್ಕೊಳ್ಳೋಕೆ ಮನೇಲೇ ಇರ್ತಿದ್ಲು.",
+        "textEn": "When I went to the child's home, I found out that she stayed at home to look after her younger brother.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P3",
+        "textKn": "ಆಮೇಲೆ ಆ ಮಗುವಿನ ತಮ್ಮನನ್ನೂ ಅಂಗನವಾಡಿಗೆ ಸೇರಿಸಿದ್ವಿ, ಅವಳು ಮತ್ತೆ ಶಾಲೆಗೆ ಬರೋಕೆ ಶುರು ಮಾಡಿದ್ಲು.",
+        "textEn": "Afterwards we also enrolled the child's younger brother in the anganwadi, and she began coming back to school.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}

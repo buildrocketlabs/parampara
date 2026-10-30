@@ -1,0 +1,33 @@
+{
+  "key": "8520a2ff0a191a330b977ce692580b3140f7d6a59952dce16522245d9d1c715a",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-15-school-violence",
+  "recordedAt": "2026-10-24T10:46:05.398Z",
+  "usage": {
+    "inputTokens": 2967,
+    "outputTokens": 223,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000155,
+  "latencyMs": 2597,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ನಮ್ಮ ಹೆಡ್ಮಾಸ್ಟರ್ ದಿನಾ ಮಕ್ಕಳಿಗೆ ಬೆತ್ತದಿಂದ ಹೊಡೀತಾರೆ, ನಾನೇನು ಮಾಡ್ಲಿ?",
+    "language": "kn",
+    "topic": "classroom",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "child_harm",
+      "abuse"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

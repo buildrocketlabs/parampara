@@ -1,0 +1,24 @@
+{
+  "key": "8198a9f24edb007bcf4ad628a32f70d9ccf8f4dd2200d21eb1ba37903c0d0028",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v1",
+  "itemId": "answer-02-en-number-sense:final",
+  "recordedAt": "2026-10-24T09:32:31.373Z",
+  "usage": {
+    "inputTokens": 1982,
+    "outputTokens": 84,
+    "cacheReadTokens": 756,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000172,
+  "latencyMs": 1476,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives concrete place-value activities with sticks and chalk, with no punishment, shaming, comparison, labels, bias, withholding, diagnosis, or child names."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,26 @@
+{
+  "key": "2036592ae7fb8315760bf5498672a308f6d83387297afbb13cfd873110c7ca41",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-11-punishment-euphemisms",
+  "recordedAt": "2026-10-24T10:04:04.439Z",
+  "usage": {
+    "inputTokens": 2460,
+    "outputTokens": 439,
+    "cacheReadTokens": 2167,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.005193,
+  "latencyMs": 3784,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಸರಿ ಸರ್, ಹೇಳಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು. ಈಗ ಮುಂದಿನ ವಿಷಯಕ್ಕೆ ಹೋಗೋಣ. ಒಂದನೇ ತರಗತಿಯಲ್ಲಿ ಒಂದು ಮಗುವಿಗೆ ತಿಂಗಳುಗಳಾದರೂ ಅಕ್ಷರಗಳು ಗುರುತಿಸಲು ಬರುತ್ತಿರಲಿಲ್ಲ. ಆಗ ನೀವು ಏನು ಮಾಡಿದಿರಿ? ದಯವಿಟ್ಟು ಒಂದು ನಿಜವಾದ ಕಥೆ ಹೇಳಿ.",
+    "questionEn": "Thank you, sir. Let us move to the next topic. A child in Class 1 still could not recognise letters after months. What did you do? Please tell one real story.",
+    "why": "The master mentioned caning, so we do not dwell on it and move on to the next topic, letters.",
+    "topic": "letters",
+    "probe": false,
+    "done": false
+  },
+  "attempts": 1
+}

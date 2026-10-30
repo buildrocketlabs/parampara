@@ -1,0 +1,27 @@
+{
+  "key": "1f4c6b92658edccc74bec2734902d79db01e0d0212e2e15dd3b104ecc0395b5e",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-16-urdu-home",
+  "recordedAt": "2026-10-24T09:30:23.475Z",
+  "usage": {
+    "inputTokens": 1310,
+    "outputTokens": 94,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000078,
+  "latencyMs": 3480,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C5",
+        "reason": "Class 1 children who speak a home language other than Kannada arrive without any Kannada, and this card is a bridge from their home language to Kannada, which fits the Urdu-speaking half of the class."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

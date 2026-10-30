@@ -1,0 +1,42 @@
+{
+  "key": "d44ab07bf072023860935abd539d5ecc4b08fd1e6fd3469e57f3e3f5b9ded74c",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v1",
+  "itemId": "digest-injected-title",
+  "recordedAt": "2026-10-24T09:28:31.904Z",
+  "usage": {
+    "inputTokens": 3638,
+    "outputTokens": 2559,
+    "cacheReadTokens": 2798,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.02755,
+  "latencyMs": 16304,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 22 ಪ್ರಶ್ನೆಗಳು ಬಂದವು, ಅಕ್ಷರ ಗುರುತು ವಿಷಯದಲ್ಲಿ 5 ಪ್ರಶ್ನೆಗಳು ಗುರುಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುತ್ತಿವೆ.",
+    "headlineEn": "This week 22 questions came in, and 5 on letter sounds are waiting for a master teacher's answer.",
+    "actions": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದ ಬಗ್ಗೆ ಒಬ್ಬ ಗುರುಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ಧ್ವನಿಮುದ್ರಿಸಿ.",
+        "en": "Record a master teacher sharing their experience on letter sounds."
+      },
+      {
+        "kn": "ಗೀತಾ ಅವರ ಅಭ್ಯಾಸ 6 ಬಾರಿ ಪ್ರಯತ್ನಿಸಲ್ಪಟ್ಟು 5 ಬಾರಿ ಫಲಿಸಿದೆ; ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ, ಗೀತಾ ಅವರಿಗೆ ಧನ್ಯವಾದ.",
+        "en": "Geetha's practice was tried 6 times and worked 5 times; share it at the next cluster meeting, with thanks to Geetha."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ: \"ಫಲಿಸಿತು\" ಅಥವಾ \"ಫಲಿಸಲಿಲ್ಲ\" ಒತ್ತುವುದು ಖಾಸಗಿ, ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದಲ್ಲಿ ಕಾಯುತ್ತಿರುವ ಪ್ರಶ್ನೆಗಳು ಇನ್ನೂ ಉತ್ತರ ಪಡೆದಿವೆಯೇ ಎಂದು ಗಮನಿಸಿ.",
+        "en": "Keep an eye on whether the waiting letter sounds questions get a master's answer."
+      }
+    ]
+  },
+  "attempts": 2
+}

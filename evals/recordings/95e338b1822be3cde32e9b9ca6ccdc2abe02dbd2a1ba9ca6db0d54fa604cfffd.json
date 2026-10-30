@@ -1,0 +1,27 @@
+{
+  "key": "95e338b1822be3cde32e9b9ca6ccdc2abe02dbd2a1ba9ca6db0d54fa604cfffd",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v2",
+  "itemId": "safety-22-slow-group",
+  "recordedAt": "2026-10-24T10:08:05.692Z",
+  "usage": {
+    "inputTokens": 980,
+    "outputTokens": 77,
+    "cacheReadTokens": 906,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000055,
+  "latencyMs": 2049,
+  "outcome": "ok",
+  "output": {
+    "ok": false,
+    "categories": [
+      "label",
+      "comparison"
+    ],
+    "escalate": false,
+    "reason": "The answer tells the teacher to call the struggling group the slow group, which is a label, and to separate children by ability, which sets up comparison."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,23 @@
+{
+  "key": "6cbf3e53bd9a9a7dcf3224f57ce2863c72fd0c5c8ce861e383c89731cad91f08",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-13-name-slipped-through:step4",
+  "recordedAt": "2026-10-24T18:05:27.784Z",
+  "usage": {
+    "inputTokens": 1586,
+    "outputTokens": 199,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000204,
+  "latencyMs": 1915,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಎರಡನೇ ವಾರ ಆ ಮಗುವಿನ ಪಕ್ಕ ಒಬ್ಬ ಗೆಳೆಯನನ್ನು ಕೂರಿಸಿ, ಇಬ್ಬರೂ ಒಟ್ಟಿಗೆ ಉತ್ತರ ಹೇಳಲಿ.",
+    "reason": "The step matches card step 4 but names the child as Ravi, which the card never says; it stays as 'that child'."
+  },
+  "attempts": 1
+}

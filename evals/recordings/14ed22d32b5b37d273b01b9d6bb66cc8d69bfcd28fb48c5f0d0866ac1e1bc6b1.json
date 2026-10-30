@@ -1,0 +1,24 @@
+{
+  "key": "14ed22d32b5b37d273b01b9d6bb66cc8d69bfcd28fb48c5f0d0866ac1e1bc6b1",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v2",
+  "itemId": "answer-03-hi-number-sense:final",
+  "recordedAt": "2026-10-24T10:06:56.773Z",
+  "usage": {
+    "inputTokens": 2441,
+    "outputTokens": 99,
+    "cacheReadTokens": 906,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000212,
+  "latencyMs": 1446,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives hands-on place-value activities with sticks, bundles, pairs and chalk diagrams, with no punishment, threat, shaming, comparison, labels, bias, withholding, diagnosis or child names."
+  },
+  "attempts": 1
+}

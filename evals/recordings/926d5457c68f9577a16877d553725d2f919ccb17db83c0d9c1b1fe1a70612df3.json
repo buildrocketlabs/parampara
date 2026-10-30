@@ -1,0 +1,30 @@
+{
+  "key": "926d5457c68f9577a16877d553725d2f919ccb17db83c0d9c1b1fe1a70612df3",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-10-vague-answerable",
+  "recordedAt": "2026-10-24T09:28:11.770Z",
+  "usage": {
+    "inputTokens": 2533,
+    "outputTokens": 137,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000101,
+  "latencyMs": 1855,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಮಕ್ಕಳು ನನ್ನ ಮಾತೇ ಕೇಳಲ್ಲ.",
+    "language": "kn",
+    "topic": "classroom",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

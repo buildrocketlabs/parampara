@@ -1,0 +1,26 @@
+{
+  "key": "1b81a6a71336ee4550558dcc63b8aaa5e6dc250899554eacae6610fb78013327",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v1",
+  "itemId": "interviewer-03-three-probes",
+  "recordedAt": "2026-10-24T09:27:40.071Z",
+  "usage": {
+    "inputTokens": 4903,
+    "outputTokens": 602,
+    "cacheReadTokens": 4260,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.007732,
+  "latencyMs": 6355,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಧನ್ಯವಾದ ಸರ್. ಈಗ ಇನ್ನೊಂದು ವಿಷಯ. ಒಂದು ಮಗುವಿಗೆ ಅಕ್ಷರಗಳು ಗೊತ್ತು, ಆದರೆ ಪದಗಳನ್ನು ಓದಲು ಬರುವುದಿಲ್ಲ. ಅಂಥ ಮಗುವಿಗೆ ನೀವು ಏನು ಮಾಡಿದಿರಿ?",
+    "questionEn": "Thank you, sir. Now another matter. A child knows the letters but cannot read words. What did you do for such a child?",
+    "why": "Letters topic has had enough follow-ups, so we open the reading topic.",
+    "topic": "reading",
+    "probe": false,
+    "done": false
+  },
+  "attempts": 2
+}

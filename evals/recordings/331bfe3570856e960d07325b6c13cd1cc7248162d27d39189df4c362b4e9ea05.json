@@ -1,0 +1,24 @@
+{
+  "key": "331bfe3570856e960d07325b6c13cd1cc7248162d27d39189df4c362b4e9ea05",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-16-card-does-not-fit-her:final",
+  "recordedAt": "2026-10-24T18:41:12.094Z",
+  "usage": {
+    "inputTokens": 1708,
+    "outputTokens": 92,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00013,
+  "latencyMs": 1991,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives positive, non-harmful advice on showing parents children's learning through a Saturday visit, child presentations, and drawings, with no punishment, shaming, comparison, labels, or child names."
+  },
+  "attempts": 1
+}

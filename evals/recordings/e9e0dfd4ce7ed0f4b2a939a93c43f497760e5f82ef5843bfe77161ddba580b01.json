@@ -1,0 +1,23 @@
+{
+  "key": "e9e0dfd4ce7ed0f4b2a939a93c43f497760e5f82ef5843bfe77161ddba580b01",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-11-card-without-why:step4",
+  "recordedAt": "2026-10-24T18:05:09.319Z",
+  "usage": {
+    "inputTokens": 1481,
+    "outputTokens": 124,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000156,
+  "latencyMs": 1533,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಮೊದಲ ವಾರ ಐದರವರೆಗೆ ಮಾತ್ರ; ಆಮೇಲೆ ಹತ್ತರವರೆಗೆ.",
+    "reason": "The step matches card step 4 exactly: up to five in the first week, then up to ten."
+  },
+  "attempts": 1
+}

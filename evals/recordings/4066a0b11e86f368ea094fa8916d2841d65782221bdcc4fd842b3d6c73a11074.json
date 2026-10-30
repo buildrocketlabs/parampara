@@ -1,0 +1,42 @@
+{
+  "key": "4066a0b11e86f368ea094fa8916d2841d65782221bdcc4fd842b3d6c73a11074",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v1",
+  "itemId": "digest-anonymous-master",
+  "recordedAt": "2026-10-24T09:29:08.522Z",
+  "usage": {
+    "inputTokens": 3902,
+    "outputTokens": 2509,
+    "cacheReadTokens": 2798,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.027578,
+  "latencyMs": 18821,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 18 ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 16ಕ್ಕೆ ಉತ್ತರ ಸಿಕ್ಕಿದೆ, ಪೋಷಕರ ಕಲಿಕಾ ಮೇಳ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡಿದೆ.",
+    "headlineEn": "This week 16 of 18 questions were answered, and the parents' learning fair idea worked well.",
+    "actions": [
+      {
+        "kn": "ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಕೊನೆಯ ಶನಿವಾರ ಪೋಷಕರ ಕಲಿಕಾ ಮೇಳ ಪದ್ಧತಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ; 7 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿ 6 ಬಾರಿ ಫಲಿಸಿದೆ.",
+        "en": "Share the last Saturday parents' learning fair at the next cluster meeting; it was tried 7 times and worked 6 times."
+      },
+      {
+        "kn": "ಪ್ರಯತ್ನಿಸಿದ ನಂತರ \"ಫಲಿಸಿತು\" ಅಥವಾ \"ಫಲಿಸಲಿಲ್ಲ\" ಒತ್ತುವುದು ಖಾಸಗಿ, ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಎಂದು ಎಲ್ಲರಿಗೂ ನೆನಪಿಸಿ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಓದು ವಿಷಯದಲ್ಲಿ ಕೇಳಿದವರು 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು; ಈ ವಿಷಯದ ಮೇಲೆ ಗಮನವಿಡಿ.",
+        "en": "Reading was asked about by fewer than 5 teachers; keep an eye on this topic."
+      }
+    ]
+  },
+  "attempts": 2
+}

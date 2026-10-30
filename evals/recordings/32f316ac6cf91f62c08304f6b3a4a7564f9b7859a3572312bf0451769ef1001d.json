@@ -1,0 +1,84 @@
+{
+  "key": "32f316ac6cf91f62c08304f6b3a4a7564f9b7859a3572312bf0451769ef1001d",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v1",
+  "itemId": "extractor-07-interviewer-led",
+  "recordedAt": "2026-10-24T09:28:43.219Z",
+  "usage": {
+    "inputTokens": 5218,
+    "outputTokens": 1417,
+    "cacheReadTokens": 4020,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.016968,
+  "latencyMs": 10977,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಎರಡಕ್ಷರದ ಪದದಿಂದ ಓದು ಶುರು",
+        "titleEn": "Start word reading with two letter words",
+        "problemKn": "ಮಕ್ಕಳಿಗೆ ಅಕ್ಷರ ಗೊತ್ತು, ಆದರೆ ಪದ ಓದಲು ಬರುವುದಿಲ್ಲ.",
+        "problemEn": "The children know their letters but cannot read words.",
+        "gradeBand": "any",
+        "subject": "kannada",
+        "topic": "reading",
+        "steps": [
+          {
+            "kn": "ಫ್ಲ್ಯಾಶ್ ಕಾರ್ಡ್ ಬೇಕಿಲ್ಲ. ಮರ, ಮನೆ, ಕಲ ಹೀಗೆ ಎರಡಕ್ಷರದ ಪದದಿಂದ ಶುರು ಮಾಡಿ.",
+            "en": "You do not need flash cards. Start with two letter words like ಮರ, ಮನೆ, ಕಲ.",
+            "evidence": [
+              "S2",
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಬೋರ್ಡ್ ಮೇಲೆ 'ಮ' ಬರೆದು ಪಕ್ಕ 'ರ' ಬರೆಯಿರಿ. ಬೆರಳನ್ನು ಜಾರಿಸುತ್ತಾ 'ಮ... ರ... ಮರ' ಅಂತ ಎಳೆದು ಹೇಳಿ.",
+            "en": "Write 'ಮ' on the board and 'ರ' next to it. Slide your finger along and stretch it out: 'ಮ... ರ... ಮರ'.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಮಕ್ಕಳು ಓದಿದ ಪದಕ್ಕೆ ಅವರೇ ಚಿತ್ರ ಬಿಡಿಸಲಿ. ಮರ ಓದಿದರೆ ಮರದ ಚಿತ್ರ. ಬಹುಮಾನ ಬೇಕಿಲ್ಲ.",
+            "en": "Let the children draw a picture for the word they read. If they read ಮರ, they draw a tree. No prizes are needed.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಒಂದು ವಾರ ಎರಡಕ್ಷರದ ಪದ, ಆಮೇಲೆ ಕಮಲ, ನಗರ ಹೀಗೆ ಮೂರಕ್ಷರದ ಪದ ಕೊಡಿ.",
+            "en": "Do two letter words for a week, then move to three letter words like ಕಮಲ and ನಗರ.",
+            "evidence": [
+              "S6"
+            ]
+          },
+          {
+            "kn": "ದಿನಾ ಐದು ಪದ ಸಾಕು, ಜಾಸ್ತಿ ಬೇಡ.",
+            "en": "Five words a day is enough, no more.",
+            "evidence": [
+              "S6"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಬೋರ್ಡ್",
+            "en": "a board"
+          },
+          {
+            "kn": "ಮಕ್ಕಳು ಚಿತ್ರ ಬಿಡಿಸಲು ಹಾಳೆ",
+            "en": "paper for the children to draw on"
+          }
+        ],
+        "whyKn": "ಮಕ್ಕಳು ಅಕ್ಷರಗಳನ್ನು ಜೋಡಿಸಿ ಎಳೆದು ಹೇಳಿದಾಗ ಪದ ಆಗುತ್ತದೆ. ಓದಿದ ಪದಕ್ಕೆ ಚಿತ್ರ ಬಿಡಿಸುವುದರಿಂದ ಅರ್ಥ ಗೊತ್ತಾಗುತ್ತದೆ.",
+        "whyEn": "Children hear the letters join into a word when you stretch it out. Drawing the word they read shows what it means.",
+        "quoteRef": "S3",
+        "flags": []
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

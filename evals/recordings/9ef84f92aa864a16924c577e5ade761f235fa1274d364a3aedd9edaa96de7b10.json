@@ -1,0 +1,26 @@
+{
+  "key": "9ef84f92aa864a16924c577e5ade761f235fa1274d364a3aedd9edaa96de7b10",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-05-punishment-story",
+  "recordedAt": "2026-10-24T10:03:36.050Z",
+  "usage": {
+    "inputTokens": 2460,
+    "outputTokens": 371,
+    "cacheReadTokens": 2167,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.004513,
+  "latencyMs": 3924,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಆಗಲಿ ಸರ್, ಹೇಳಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು. ಈಗ ಇವತ್ತಾಗಿದ್ದರೆ ನೀವು ಬೇರೆ ಏನು ಮಾಡುತ್ತಿದ್ದಿರಿ? ಅಥವಾ ಬರೋದನ್ನು ನಿಲ್ಲಿಸಿದ ಒಂದು ಮಗು ಮತ್ತೆ ಶಾಲೆಗೆ ಬಂದ ಒಂದು ಘಟನೆ ಹೇಳಿ.",
+    "questionEn": "Thank you for sharing, sir. What would you do differently today? Or tell me about one time a child who had stopped coming returned to school.",
+    "why": "The master mentioned caning; we do not dwell on it, and instead ask what they would do differently or for a positive engagement story.",
+    "topic": "engagement",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 1
+}

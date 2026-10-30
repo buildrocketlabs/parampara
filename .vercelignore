@@ -1,0 +1,2 @@
+# The video tool is its own package (D93): never uploaded to or installed by the app deployment.
+video/

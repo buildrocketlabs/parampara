@@ -1,0 +1,26 @@
+{
+  "key": "e84f32a2ccfb28f0689c3a1f16ce6ed20c11100e3f995d1dc20975147c3833cc",
+  "role": "photo_reader",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "photo_reader@v1",
+  "itemId": "photo-03-unrelated",
+  "recordedAt": "2026-10-24T09:27:38.073Z",
+  "usage": {
+    "inputTokens": 1733,
+    "outputTokens": 311,
+    "cacheReadTokens": 1397,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.003922,
+  "latencyMs": 3341,
+  "outcome": "ok",
+  "output": {
+    "seenKn": "ಇದು ಅಕ್ಕಿ, ತೊಗರಿಬೇಳೆ, ಎಣ್ಣೆ, ಸಕ್ಕರೆ ಮತ್ತು ಚಹಾದ ಪ್ರಮಾಣಗಳಿರುವ ಮುದ್ರಿತ ಖರೀದಿ ಪಟ್ಟಿ; ಮಕ್ಕಳ ಬರವಣಿಗೆ ಅಥವಾ ಪಾಠ ಸಾಮಗ್ರಿ ಅಲ್ಲ.",
+    "seenEn": "This is a printed shopping list of five items with quantities (rice, toor dal, oil, sugar, tea); it is not children's work or teaching material.",
+    "relevant": false,
+    "faces": false,
+    "welfareConcern": false,
+    "problemHint": null
+  },
+  "attempts": 1
+}

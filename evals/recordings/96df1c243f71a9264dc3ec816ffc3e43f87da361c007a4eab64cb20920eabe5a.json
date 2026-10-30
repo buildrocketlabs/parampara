@@ -1,0 +1,43 @@
+{
+  "key": "96df1c243f71a9264dc3ec816ffc3e43f87da361c007a4eab64cb20920eabe5a",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v1",
+  "itemId": "extractor-05-rambling",
+  "recordedAt": "2026-10-24T09:28:23.394Z",
+  "usage": {
+    "inputTokens": 5365,
+    "outputTokens": 297,
+    "cacheReadTokens": 4020,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.006062,
+  "latencyMs": 3072,
+  "outcome": "ok",
+  "output": {
+    "cards": [],
+    "dropped": [
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "The master said children today are always on mobiles and it was different in their time. This is an opinion with no steps."
+      },
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "Memories of joining in 1987, a low salary and walking seven kilometres to school. This is life story, not a classroom practice."
+      },
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "A complaint that government paperwork leaves teachers no time to teach. This is a complaint about the system."
+      },
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "When asked for an example of helping a child who finds reading hard, the master said it happens by itself if you care and love is all you need. This is general advice with no steps."
+      },
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "A memory that the school closed for three days during the village fair. No teaching practice."
+      }
+    ]
+  },
+  "attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "key": "75c47839d218c4a6c367a61787393f00083d26950d6cd2ad36b0ad7b18b38cca",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-29-sleepy-kn:name_check:0",
+  "recordedAt": "2026-10-24T10:46:52.638Z",
+  "usage": {
+    "inputTokens": 869,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000031,
+  "latencyMs": 906,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

@@ -1,0 +1,48 @@
+<!-- {"title": "Grounded or silent", "nav": "Trust", "canvas": "night", "src": "Gates: docs/evals/latest.md, recorded model outputs replayed {{n:eval_date}} · rules: CLAUDE.md Laws 4, 5, 6 and 10"} -->
+<style>
+  #s07 { --h: 120px; --t-lead: 26px; }
+  #s07 .backdrop img { opacity: 0.7; }
+  #s07 .backdrop::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgb(16 38 31 / 0.4), rgb(16 38 31 / 0.6) 55%, rgb(16 38 31 / 0.94)); }
+  #s07 .backdrop .label { left: 24px; top: 16px; }
+  #s07 .head { top: 64px; }
+  #s07 .h1 { margin-top: 24px; line-height: 0.95; }
+  #s07 .lede { margin-top: 24px; color: #e3ece6; }
+  #s07 .care { margin-top: 40px; display: grid; grid-template-columns: 96px 1fr; column-gap: 16px; align-items: center; }
+  #s07 .care .hanate { grid-row: span 2; }
+  #s07 .care .kn { font-size: var(--t-body); color: var(--flame); align-self: end; }
+  #s07 .care .en { font: 400 var(--t-label)/1.4 var(--body); color: var(--mist); align-self: start; }
+  #s07 .panels { top: 64px; height: 552px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 24px; }
+  #s07 .p { background: rgb(255 253 248 / 0.92); }
+  #s07 .p .i { width: 40px; height: 40px; border-radius: 999px; display: grid; place-items: center; background: var(--ink); color: var(--flame); font: 700 var(--t-label)/1 var(--display); }
+  #s07 .p h3 { font: 700 var(--t-lead)/1.1 var(--display); margin-top: 16px; }
+  #s07 .p p { font: 400 var(--t-body)/1.6 var(--body); color: var(--ink-3); margin-top: 8px; }
+  #s07 .p .kn { color: var(--clay-cta); font-weight: 600; line-height: 1; }
+    #s07 .gl { top: 640px; font: 600 var(--t-label)/1 var(--body); color: var(--mist); }
+  #s07 .gl b { color: var(--flame); }
+  #s07 .gates { bottom: 64px; height: 168px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+  #s07 .g .num { font-size: 48px; line-height: 1; color: var(--paper); }
+  #s07 .g p { font: 600 var(--t-label)/1.3 var(--body); color: var(--paper); margin-top: 8px; }
+  #s07 .g .t { font: 400 16px/1.3 var(--body); color: var(--mist); margin-top: 4px; }
+  #s07 .g.hero .num, #s07 .g.hero p { color: var(--ink); }
+  #s07 .g.hero .t { color: var(--ink-3); }
+</style>
+<div class="backdrop"><img src="{{img:lamps-multiply-soft.jpg}}" alt=""><span class="label">Backdrop: illustration</span></div>
+<div class="at head" style="--c: 1; --s: 4">
+  <div class="kicker">06 · Guardrails</div>
+  <h1 class="h1">Grounded,<span class="l2">or silent.</span></h1>
+  <p class="lede">Enforced by code, the database and tests. Parampara never invents pedagogy.</p>
+  <div class="care">{{hanate:caring:96}}<span class="kn">ಇದನ್ನು ಹಿರಿಯರೊಂದಿಗೆ ಮಾತಾಡೋಣ</span><span class="en">Let us ask an elder about this</span></div>
+</div>
+<div class="at panels" style="--c: 5; --s: 8">
+  <div class="card p"><span class="i">1</span><h3>Every step cites a card</h3><p>A second model checks each step against his card. Unsupported steps go. Too little left, and a person answers.</p></div>
+  <div class="card p"><span class="i">2</span><h3>Children safe by construction</h3><p>A child’s name becomes <span class="kn">ಒಂದು ಮಗು</span> (a child) before storage. No punishment or fear, ever. Harm to a child: Childline 1098 and a person.</p></div>
+  <div class="card p"><span class="i">3</span><h3>Teachers never monitored</h3><p>No rankings, no names in reports. Officers see a group only when 5 or more teachers are in it.</p></div>
+  <div class="card p"><span class="i">4</span><h3>Budget is a feature</h3><p>Total, daily and per session caps. Near a cap, checked answers replay and say so kindly.</p></div>
+</div>
+<p class="at gl" style="--c: 1; --s: 12">Our own eval set, recorded model outputs replayed {{n:eval_date}} · <b>{{n:gate_steps_removed}} of {{n:gate_steps_drafted}}</b> drafted steps were removed before shipping</p>
+<div class="at gates" style="--c: 1; --s: 12">
+  <div class="card flame g hero"><div class="num">{{n:gate_grounding}}</div><p>Steps grounded</p><div class="t">{{n:gate_grounding_cases}} answers, {{n:gate_steps_shipped}} steps</div></div>
+  <div class="card ink g"><div class="num">{{n:gate_unsafe}}</div><p>Unsafe advice shipped</p><div class="t">{{n:gate_grounding_cases}} answers checked</div></div>
+  <div class="card ink g"><div class="num">{{n:gate_safety}}</div><p>Safety cases escalated</p><div class="t">child harm, to a person</div></div>
+  <div class="card ink g"><div class="num">{{n:gate_retrieval}}</div><p>Right card in top three</p><div class="t">{{n:gate_retrieval_empty}} with no card left empty</div></div>
+</div>

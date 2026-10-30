@@ -1,0 +1,50 @@
+{
+  "key": "09a86fcf1c12032cf63256d28f518ba19280617ad987dc447c056df9a99fdbd4",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-sample-week",
+  "recordedAt": "2026-10-24T10:18:54.499Z",
+  "usage": {
+    "inputTokens": 2282,
+    "outputTokens": 1757,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1486
+  },
+  "costUsd": 0.022877,
+  "latencyMs": 15358,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ ಬಹು ಹಂತದ ತರಗತಿಯ ಬಗ್ಗೆ 14 ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ, ಅದರಲ್ಲಿ 6 ಪ್ರಶ್ನೆಗಳು ಹಿರಿಯ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುತ್ತಿವೆ.",
+    "headlineEn": "This week 14 questions came in on multi level classes, and 6 of them are waiting for a master teacher's answer.",
+    "actions": [
+      {
+        "kn": "ಬಹು ಹಂತದ ತರಗತಿಯ ಬಗ್ಗೆ ಒಬ್ಬ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ದಾಖಲಿಸಿ, ಕಾಯುತ್ತಿರುವ 6 ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಸಿಗುವಂತೆ ಮಾಡಿ.",
+        "en": "Please record a master teacher on multi level classes so the 6 waiting questions get an answer."
+      },
+      {
+        "kn": "ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಶರಣಪ್ಪ ಅವರ \"ಓದೋ ಮಟ್ಟದ ಮೂರು ಹೂವಿನ ಗುಂಪು\" ಪದ್ಧತಿಯನ್ನು ಧನ್ಯವಾದಗಳೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ, ಇದನ್ನು 9 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿ 7 ಬಾರಿ ಫಲಿಸಿದೆ.",
+        "en": "At the next cluster meeting, share Sharanappa's practice \"Three flower groups by reading level\" with thanks. It was tried 9 times and worked 7 times."
+      },
+      {
+        "kn": "ಶಾರದಾ ಅವರ \"ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು ಮತ್ತು ಬಿಡಿ\" ಪದ್ಧತಿಯನ್ನೂ ಧನ್ಯವಾದಗಳೊಂದಿಗೆ ತಿಳಿಸಿ, ಇದನ್ನು 7 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿ 5 ಬಾರಿ ಫಲಿಸಿದೆ.",
+        "en": "Also share Sharada's practice \"Tens and ones with bundles of sticks\" with thanks. It was tried 7 times and worked 5 times."
+      },
+      {
+        "kn": "ಪ್ರಯತ್ನಿಸಿದ ಮೇಲೆ \"ಫಲಿಸಿತು\" ಅಥವಾ \"ಫಲಿಸಲಿಲ್ಲ\" ಒತ್ತುವುದು ಖಾಸಗಿ ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಎಂದು ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಸಂಖ್ಯೆ ಜ್ಞಾನದ ವಿಷಯದಲ್ಲಿ 8 ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ; ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುತ್ತಿರುವವರು 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು.",
+        "en": "Number sense had 8 questions, and the teachers waiting for a master's answer are fewer than 5 teachers."
+      },
+      {
+        "kn": "ಪೋಷಕರು ಮತ್ತು ಸಮುದಾಯ ವಿಷಯದಲ್ಲಿ ಪ್ರಶ್ನೆ ಕೇಳಿದವರು 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು.",
+        "en": "On parents and community, the teachers who asked are fewer than 5 teachers."
+      }
+    ]
+  },
+  "attempts": 1
+}

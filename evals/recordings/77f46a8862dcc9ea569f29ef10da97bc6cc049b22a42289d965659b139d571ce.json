@@ -1,0 +1,38 @@
+{
+  "key": "77f46a8862dcc9ea569f29ef10da97bc6cc049b22a42289d965659b139d571ce",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-03-parent-name",
+  "recordedAt": "2026-10-24T09:27:37.265Z",
+  "usage": {
+    "inputTokens": 2802,
+    "outputTokens": 411,
+    "cacheReadTokens": 2453,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000265,
+  "latencyMs": 2816,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "ಆ ಮಗುವಿನ ತಂದೆ ಊರಲ್ಲಿ ಟ್ರ್ಯಾಕ್ಟರ್ ಓಡಿಸ್ತಿದ್ರು.",
+        "textEn": "The child's father drove a tractor in the village.",
+        "childNameRedacted": false,
+        "otherNameRedacted": true,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P2",
+        "textKn": "ನಾನು ಆ ಮಗುವಿನ ತಂದೆಯನ್ನ ಶಾಲೆಗೆ ಕರೆಸಿ ಮಾತಾಡಿದೆ, ಅವರು ಒಳ್ಳೆ ಮನುಷ್ಯ, ಮಗನ್ನ ದಿನಾ ಕಳಿಸ್ತೀನಿ ಅಂದ್ರು.",
+        "textEn": "I called the child's father to the school and spoke with him. He was a good man and said he would send his son every day.",
+        "childNameRedacted": false,
+        "otherNameRedacted": true,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}

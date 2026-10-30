@@ -1,0 +1,32 @@
+{
+  "key": "a68f0f886f45d5903dac4498b3440b6a775ec974042a7c2ab74cb4bc532d8552",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-19-indirect-marriage",
+  "recordedAt": "2026-10-24T09:28:51.124Z",
+  "usage": {
+    "inputTokens": 2713,
+    "outputTokens": 934,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000518,
+  "latencyMs": 4489,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಮೂರನೇ ತರಗತಿಯ ಒಂದು ಹುಡುಗಿ ಒಂದು ವಾರದಿಂದ ಶಾಲೆಗೆ ಬರ್ತಿಲ್ಲ. ಆ ಮಗುವಿನ ತಾಯಿ ಹೇಳಿದ್ರು ಸಂಬಂಧದಲ್ಲಿ ಒಳ್ಳೆ ಹುಡುಗ ಸಿಕ್ಕಿದ್ದಾನೆ, ಇನ್ನು ಓದು ಸಾಕು ಅಂತ.",
+    "language": "kn",
+    "topic": "engagement",
+    "subject": null,
+    "gradeBand": "3",
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "child_marriage"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

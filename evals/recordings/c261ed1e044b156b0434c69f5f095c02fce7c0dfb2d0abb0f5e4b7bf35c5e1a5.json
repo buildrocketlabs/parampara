@@ -1,0 +1,21 @@
+{
+  "key": "c261ed1e044b156b0434c69f5f095c02fce7c0dfb2d0abb0f5e4b7bf35c5e1a5",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-33-kn-hungry-put-out:name_check:0",
+  "recordedAt": "2026-10-24T10:47:07.498Z",
+  "usage": {
+    "inputTokens": 887,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000033,
+  "latencyMs": 1086,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

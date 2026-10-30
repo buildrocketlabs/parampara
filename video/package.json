@@ -1,0 +1,36 @@
+{
+  "name": "parampara-video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The three minute submission video, composed with Remotion. Its own pnpm root: the app never installs it (D93).",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.ts",
+    "studio": "node scripts/check.ts && remotion studio src/index.ts",
+    "still": "node scripts/still.ts",
+    "render:draft": "node scripts/check.ts && remotion render src/index.ts Story out/draft.mp4 --scale=0.5 --crf=30 --props='{\"mode\":\"draft\"}'",
+    "render:final": "node scripts/check.ts --final && remotion render src/index.ts Story out/parampara.mp4 --codec=h264 --crf=18 --props='{\"mode\":\"final\"}'",
+    "typecheck": "tsc --noEmit",
+    "cut:mahesh": "node scripts/cut-mahesh.ts",
+    "narrate": "node --env-file-if-exists=../.env.local scripts/narrate.ts",
+    "score": "node scripts/score.ts",
+    "thumbnail": "remotion still src/index.ts Thumbnail out/thumbnail.png",
+    "teaser": "node scripts/teaser.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.535",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@10.19.0",
+  "engines": {
+    "node": ">=23.6"
+  }
+}

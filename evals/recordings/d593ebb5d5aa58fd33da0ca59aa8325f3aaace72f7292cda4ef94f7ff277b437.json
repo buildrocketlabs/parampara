@@ -1,0 +1,110 @@
+{
+  "key": "d593ebb5d5aa58fd33da0ca59aa8325f3aaace72f7292cda4ef94f7ff277b437",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-02-sticks-and-bundles",
+  "recordedAt": "2026-10-24T10:03:42.036Z",
+  "usage": {
+    "inputTokens": 6571,
+    "outputTokens": 2504,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.03036,
+  "latencyMs": 13279,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಕಡ್ಡಿ ಕಟ್ಟು ಮತ್ತು ಹತ್ತರ ಮನೆ, ಬಿಡಿ ಮನೆ",
+        "titleEn": "Stick bundles and the tens house and ones house",
+        "problemKn": "ಮಕ್ಕಳು ಒಂದರಿಂದ ನೂರರವರೆಗೆ ಬಾಯಿಪಾಠ ಹೇಳುತ್ತಾರೆ, ಆದರೆ ಹದಿನಾಲ್ಕು ಅಂದರೆ ಎಷ್ಟು ಅಂತ ಅವರಿಗೆ ಗೊತ್ತಿರುವುದಿಲ್ಲ.",
+        "problemEn": "Children recite one to a hundred by heart, but do not know how much fourteen really is.",
+        "gradeBand": "1-2",
+        "subject": "maths",
+        "topic": "number_sense",
+        "steps": [
+          {
+            "kn": "ಊರಲ್ಲಿ ಸಿಗುವ ಬೆಂಕಿ ಕಡ್ಡಿ, ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿಗಳನ್ನು ಮಕ್ಕಳ ಕೈಯಲ್ಲೇ ಸಂಗ್ರಹ ಮಾಡಿಸಿ. ಪ್ರತಿ ಮಗುವಿಗೂ ಒಂದು ಡಬ್ಬಿ ಇರಲಿ.",
+            "en": "Have the children themselves collect matchsticks and ice cream sticks from around the village. Give every child a small box.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಹತ್ತು ಕಡ್ಡಿ ಆದ ತಕ್ಷಣ ರಬ್ಬರ್ ಬ್ಯಾಂಡ್ ಹಾಕಿ ಒಂದು ಕಟ್ಟು ಮಾಡಿಸಿ. 'ಇದು ಒಂದು ಹತ್ತು' ಅಂತ ಮಕ್ಕಳಿಂದ ಹೇಳಿಸಿ.",
+            "en": "As soon as there are ten sticks, put a rubber band round them to make a bundle. Have the children say, 'This is one ten.'",
+            "evidence": [
+              "S4"
+            ]
+          },
+          {
+            "kn": "ಹದಿನಾಲ್ಕು ಅಂದರೆ ಒಂದು ಕಟ್ಟು ಮತ್ತು ನಾಲ್ಕು ಬಿಡಿ ಕಡ್ಡಿ. ಮಕ್ಕಳೇ ಮಾಡಿ ತೋರಿಸಲಿ, ನೀವು ಮಾಡಿ ತೋರಿಸಬೇಡಿ.",
+            "en": "Fourteen means one bundle and four loose sticks. Let the children make it and show you. Do not make it for them.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಮೊದಲ ವಾರ ಕಟ್ಟು ಮಾಡುವುದು ಕಷ್ಟ. ಇಬ್ಬರನ್ನು ಜೋಡಿ ಮಾಡಿ: ಒಬ್ಬರು ಎಣಿಸಲಿ, ಇನ್ನೊಬ್ಬರು ಕಟ್ಟಲಿ.",
+            "en": "The first week, making bundles is hard. Put children in pairs: one counts, the other ties.",
+            "evidence": [
+              "S7"
+            ]
+          },
+          {
+            "kn": "ನೆಲದ ಮೇಲೆ ಸೀಮೆಸುಣ್ಣದಲ್ಲಿ ಎರಡು ಮನೆ ಬರೆಯಿರಿ: ಹತ್ತರ ಮನೆ ಮತ್ತು ಬಿಡಿ ಮನೆ. ಕಟ್ಟು ಹತ್ತರ ಮನೆಗೆ, ಬಿಡಿ ಕಡ್ಡಿ ಬಿಡಿ ಮನೆಗೆ.",
+            "en": "Draw two houses on the floor with chalk: a tens house and a ones house. Bundles go in the tens house, loose sticks in the ones house.",
+            "evidence": [
+              "S8"
+            ]
+          },
+          {
+            "kn": "ಎರಡು ಮೂರು ವಾರ ಆದ ಮೇಲೆ ಮಕ್ಕಳು ಕಡ್ಡಿ ಇಲ್ಲದೆ, ಮನೆ ಚಿತ್ರ ನೋಡಿ ಸಂಖ್ಯೆ ಬರೆಯುತ್ತಾರೆ.",
+            "en": "After two or three weeks, the children write the numbers just by looking at the houses, without sticks.",
+            "evidence": [
+              "S9"
+            ]
+          },
+          {
+            "kn": "ಯಾರಿಗಾದರೂ ಅರ್ಥ ಆಗದಿದ್ದರೆ ಮತ್ತೆ ಕಡ್ಡಿ ಕೊಡಿ. ಕಡ್ಡಿಯನ್ನು ಬೇಗ ಕಿತ್ತುಕೊಳ್ಳಬೇಡಿ. ಕೆಲವು ಮಕ್ಕಳಿಗೆ ಒಂದು ತಿಂಗಳು ಬೇಕಾಗುತ್ತದೆ.",
+            "en": "If a child does not understand, give the sticks again. Do not take the sticks away too early. Some children need a month.",
+            "evidence": [
+              "S11"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಬೆಂಕಿ ಕಡ್ಡಿ ಮತ್ತು ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿ",
+            "en": "matchsticks and ice cream sticks"
+          },
+          {
+            "kn": "ಪ್ರತಿ ಮಗುವಿಗೆ ಒಂದು ಡಬ್ಬಿ",
+            "en": "a small box for each child"
+          },
+          {
+            "kn": "ರಬ್ಬರ್ ಬ್ಯಾಂಡ್",
+            "en": "rubber bands"
+          },
+          {
+            "kn": "ನೆಲದ ಮೇಲೆ ಬರೆಯಲು ಸೀಮೆಸುಣ್ಣ",
+            "en": "chalk to draw on the floor"
+          }
+        ],
+        "whyKn": "ಬಾಯಿಪಾಠ ಹಾಡು ತರ ಆಗುತ್ತದೆ. ಸಂಖ್ಯೆ ಕೈಯಲ್ಲಿ ಹಿಡಿಯುವ ಹಾಗೆ ಆಗಬೇಕು.",
+        "whyEn": "Reciting becomes like a song. A number has to become something children can hold in their hands.",
+        "quoteRef": "S2",
+        "flags": []
+      }
+    ],
+    "dropped": [
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "The master mentioned that the same bundles were later used for adding and taking away, but gave no steps in this window."
+      }
+    ]
+  },
+  "attempts": 1
+}

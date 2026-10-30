@@ -1,0 +1,23 @@
+{
+  "key": "12efa43e473f8b8440b06a58640bc0e65e35ef3f9725727b219f0373a509b207",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-13-two-cards-merged",
+  "recordedAt": "2026-10-24T18:06:07.372Z",
+  "usage": {
+    "inputTokens": 1692,
+    "outputTokens": 66,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000148,
+  "latencyMs": 1237,
+  "outcome": "ok",
+  "output": {
+    "verdict": "unsupported",
+    "cardQuote": null,
+    "reason": "The card says to group by reading level and give each group a flower name, but says nothing about pairing a reader with a learner within a group."
+  },
+  "attempts": 1
+}

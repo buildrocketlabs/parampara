@@ -1,0 +1,30 @@
+{
+  "key": "7ec8d288f5af2fbb09e6ca9bd5f953cead11db6ebca7455e4cb8eef008a57389",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v3",
+  "itemId": "triage-07-off-topic",
+  "recordedAt": "2026-10-24T10:03:41.016Z",
+  "usage": {
+    "inputTokens": 2735,
+    "outputTokens": 166,
+    "cacheReadTokens": 2620,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000121,
+  "latencyMs": 1805,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಈ ವರ್ಷ ಡಿಎ ಎಷ್ಟು ಹೆಚ್ಚಾಗುತ್ತೆ ಅಂತ ಗೊತ್ತಾ?",
+    "language": "kn",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "off_topic",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

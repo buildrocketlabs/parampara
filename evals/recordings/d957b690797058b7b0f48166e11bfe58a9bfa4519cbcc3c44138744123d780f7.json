@@ -1,0 +1,21 @@
+{
+  "key": "d957b690797058b7b0f48166e11bfe58a9bfa4519cbcc3c44138744123d780f7",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-21-hm-sun-punishment:name_check:0",
+  "recordedAt": "2026-10-24T10:04:45.649Z",
+  "usage": {
+    "inputTokens": 910,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000035,
+  "latencyMs": 1733,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

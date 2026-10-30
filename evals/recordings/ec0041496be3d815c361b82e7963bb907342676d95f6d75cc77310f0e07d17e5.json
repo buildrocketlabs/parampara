@@ -1,0 +1,30 @@
+{
+  "key": "ec0041496be3d815c361b82e7963bb907342676d95f6d75cc77310f0e07d17e5",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-16-class7-equations",
+  "recordedAt": "2026-10-24T10:46:08.298Z",
+  "usage": {
+    "inputTokens": 2874,
+    "outputTokens": 120,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000095,
+  "latencyMs": 1562,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "How do I teach my Class 7 students to solve simple linear equations? They get lost after the first step.",
+    "language": "en",
+    "topic": "other",
+    "subject": "maths",
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

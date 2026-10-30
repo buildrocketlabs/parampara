@@ -1,0 +1,26 @@
+{
+  "key": "c5ade1c291d1cf3036c056de0f8dbfc06b33654e51771cff3131181835a49493",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v1",
+  "itemId": "interviewer-09-name-asks-natural-phrasing",
+  "recordedAt": "2026-10-24T09:28:14.157Z",
+  "usage": {
+    "inputTokens": 4893,
+    "outputTokens": 614,
+    "cacheReadTokens": 4260,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.007832,
+  "latencyMs": 7922,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಮರಳಲ್ಲಿ ಬರೆಸ್ತಿದ್ದಿರಿ ಅಂತ ಹೇಳಿದಿರಿ. ಆಮೇಲೆ ನೀವು ಏನು ಮಾಡಿದಿರಿ? ಆ ಮಗುವಿಗೆ ಹೇಗೆ ಹೇಳಿಕೊಡ್ತಿದ್ದಿರಿ ಅನ್ನೋದನ್ನ ಒಂದು ಸಲ ಕತೆಯ ಹಾಗೆ ಹೇಳಿ.",
+    "questionEn": "You said you had the child write in sand. What did you do next? Tell it like a story, how you taught that child.",
+    "why": "To draw out the specific steps and words the master used after the sand-writing, as a follow-up on the same story.",
+    "topic": "letters",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 2
+}

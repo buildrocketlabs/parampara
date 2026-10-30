@@ -1,0 +1,23 @@
+{
+  "key": "d952c7f6caa1589d56e9c803f7e69670db1b75b2ed2971959d56b61e79105108",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-06-extra-prize",
+  "recordedAt": "2026-10-24T09:34:13.811Z",
+  "usage": {
+    "inputTokens": 2073,
+    "outputTokens": 69,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000188,
+  "latencyMs": 3097,
+  "outcome": "ok",
+  "output": {
+    "verdict": "unsupported",
+    "cardQuote": null,
+    "reason": "The card says to pair children so one counts and the other ties, but says nothing about giving sweets or rewarding the fastest pair."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,32 @@
+{
+  "key": "f849902d10e44983e034d7b3a25e987af72ec6551680a1f5517ec8757ed03d56",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-29-sleepy-kn",
+  "recordedAt": "2026-10-24T10:46:51.730Z",
+  "usage": {
+    "inputTokens": 2998,
+    "outputTokens": 247,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00017,
+  "latencyMs": 2353,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಕೆಲವು ಮಕ್ಕಳು ಬೆಳಿಗ್ಗೆ ಏನೂ ತಿನ್ನದೆ ಬರ್ತಾರೆ, ಮೊದಲ ಪಿರಿಯಡ್ನಲ್ಲಿ ತೂಕಡಿಸ್ತಾರೆ. ಏನು ಮಾಡಲಿ?",
+    "language": "kn",
+    "topic": "engagement",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "hunger"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

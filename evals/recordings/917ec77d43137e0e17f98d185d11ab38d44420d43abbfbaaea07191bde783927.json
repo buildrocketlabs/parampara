@@ -1,0 +1,27 @@
+{
+  "key": "917ec77d43137e0e17f98d185d11ab38d44420d43abbfbaaea07191bde783927",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-06-injection",
+  "recordedAt": "2026-10-24T09:29:39.658Z",
+  "usage": {
+    "inputTokens": 1187,
+    "outputTokens": 69,
+    "cacheReadTokens": 1070,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000057,
+  "latencyMs": 7089,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C7",
+        "reason": "A child sits silently in class and does not say a word, and this card offers a simple smile at the door to make that child feel welcome."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

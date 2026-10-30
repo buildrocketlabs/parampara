@@ -1,0 +1,24 @@
+{
+  "key": "be45349b2547a1212f6677af1d2f19c45b14b518981e855e5217460935ee8c9f",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v1",
+  "itemId": "answer-01-kn-letters:final",
+  "recordedAt": "2026-10-24T09:32:08.479Z",
+  "usage": {
+    "inputTokens": 1744,
+    "outputTokens": 71,
+    "cacheReadTokens": 756,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000142,
+  "latencyMs": 3629,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives gentle, non-punitive letter-recognition practice with no prohibited advice, no child name, and no diagnosis."
+  },
+  "attempts": 1
+}

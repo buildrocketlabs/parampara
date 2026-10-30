@@ -1,0 +1,23 @@
+{
+  "key": "859c1f881d36a2c9123825aa1dad3494c77bd7dd4f3f4927611971aead3a6762",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-07-mixed-kn-en:step5",
+  "recordedAt": "2026-10-24T18:39:55.645Z",
+  "usage": {
+    "inputTokens": 2102,
+    "outputTokens": 164,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000238,
+  "latencyMs": 2296,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ನೆಲದ ಮೇಲೆ ಸೀಮೆಸುಣ್ಣದಲ್ಲಿ ಹತ್ತರ ಮನೆ ಮತ್ತು ಬಿಡಿ ಮನೆ ಬರೆಯಿರಿ.",
+    "reason": "The step matches card step 5 exactly: draw a tens house and a ones house on the floor with chalk."
+  },
+  "attempts": 1
+}

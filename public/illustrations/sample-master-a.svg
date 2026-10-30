@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Illustration of a made up master teacher (Sample). Flat storybook style, DESIGN §7 palette. -->
+  <rect width="200" height="200" fill="#F3E3D3"/>
+  <circle cx="100" cy="92" r="70" fill="#FFC94D" opacity="0.28"/>
+  <!-- saree and pallu -->
+  <path d="M30 200 C34 150 62 132 100 132 C138 132 166 150 170 200 Z" fill="#3F6B57"/>
+  <path d="M52 200 C58 168 74 146 100 140 L122 200 Z" fill="#C8553D"/>
+  <path d="M100 140 C112 150 120 172 122 200" stroke="#FFC94D" stroke-width="5" fill="none"/>
+  <!-- neck -->
+  <path d="M86 116 L86 136 C92 142 108 142 114 136 L114 116 Z" fill="#8A5638"/>
+  <!-- bun and hair -->
+  <circle cx="100" cy="44" r="17" fill="#B9B4AA"/>
+  <ellipse cx="100" cy="84" rx="35" ry="40" fill="#B9B4AA"/>
+  <!-- face -->
+  <ellipse cx="100" cy="90" rx="29" ry="34" fill="#9A6444"/>
+  <path d="M71 80 C76 60 124 60 129 80 C120 68 80 68 71 80 Z" fill="#B9B4AA"/>
+  <!-- spectacles -->
+  <g fill="none" stroke="#15302A" stroke-width="2.6">
+    <circle cx="88" cy="92" r="8.5"/>
+    <circle cx="112" cy="92" r="8.5"/>
+    <path d="M96.5 92 L103.5 92"/>
+  </g>
+  <circle cx="88" cy="92" r="2.6" fill="#15302A"/>
+  <circle cx="112" cy="92" r="2.6" fill="#15302A"/>
+  <!-- bindi, cheeks, smile -->
+  <circle cx="100" cy="76" r="2.6" fill="#B5472F"/>
+  <ellipse cx="80" cy="106" rx="5" ry="3" fill="#F2A93B" opacity="0.5"/>
+  <ellipse cx="120" cy="106" rx="5" ry="3" fill="#F2A93B" opacity="0.5"/>
+  <path d="M92 110 Q100 116 108 110" stroke="#15302A" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+</svg>

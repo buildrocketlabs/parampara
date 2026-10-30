@@ -1,0 +1,24 @@
+{
+  "key": "8418d254af380bf033fa39bf4a73aa24c1894cebfede196e5cd2ce413d170864",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-01-kn-letters:final",
+  "recordedAt": "2026-10-24T18:39:09.236Z",
+  "usage": {
+    "inputTokens": 1871,
+    "outputTokens": 85,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 967
+  },
+  "costUsd": 0.000254,
+  "latencyMs": 1788,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives gentle letter-recognition teaching steps and explicitly forbids scolding, with no harmful, labeling, comparing, or diagnostic advice or child names."
+  },
+  "attempts": 1
+}

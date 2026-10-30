@@ -1,0 +1,24 @@
+{
+  "key": "7f6dfe5cc1150d76b3e62e15b99db9509f828f7f0e756c40e9ad5bec3d17267d",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-16-card-does-not-fit-her:final",
+  "recordedAt": "2026-10-24T18:06:00.339Z",
+  "usage": {
+    "inputTokens": 1709,
+    "outputTokens": 71,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000119,
+  "latencyMs": 1443,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer suggests parent engagement events and showing children's work without punishment, threats, comparison, labels, diagnosis, or child names."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,23 @@
+{
+  "key": "42c46186c611ad28f33a60766da5dfe78d44ae3da7d220ccd67e9ee4ba21d69a",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step5",
+  "recordedAt": "2026-10-24T10:07:09.175Z",
+  "usage": {
+    "inputTokens": 3062,
+    "outputTokens": 344,
+    "cacheReadTokens": 1196,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000371,
+  "latencyMs": 4693,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಬೆರಳು ಜಾರಿಸುತ್ತಾ 'ಮ... ರ... ಮರ' ಅಂತ ಎಳೆದು ಹೇಳಿಸಿ.",
+    "reason": "The step matches card step 2 exactly: sliding a finger while stretching 'ಮ... ರ... ಮರ' aloud, with no added materials or actions."
+  },
+  "attempts": 2
+}

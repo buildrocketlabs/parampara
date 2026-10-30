@@ -1,0 +1,154 @@
+{
+  "base": "https://parampara-eta.vercel.app",
+  "at": "2026-10-27T23:13:42.341Z",
+  "spent": 0.344,
+  "rows": [
+    {
+      "id": "p01",
+      "theme": "reluctant reader, tears",
+      "lang": "en",
+      "text": "A child in class 2 cannot read. The child cries when I ask him to read. What do I do?",
+      "outcome": "answered",
+      "seconds": 14.9,
+      "understood": "reading · 2 · pedagogy",
+      "retrieval": "1 of 11 considered (68 approved)",
+      "cards": [
+        "70151b67-ca57-4dca-8f89-427f7cf3c1fd"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p02",
+      "theme": "reluctant reader, tears",
+      "lang": "kn",
+      "text": "ಎರಡನೇ ತರಗತಿಯ ಒಂದು ಮಗು ಓದು ಅಂದರೆ ಅಳುತ್ತದೆ, ಪುಸ್ತಕ ಮುಟ್ಟುವುದೇ ಇಲ್ಲ. ಏನು ಮಾಡಲಿ?",
+      "outcome": "answered",
+      "seconds": 13,
+      "understood": "engagement · 2 · pedagogy",
+      "retrieval": "1 of 28 considered (68 approved)",
+      "cards": [
+        "681f74ce-df8b-449f-b3f4-832f73e5c3cb"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p03",
+      "theme": "older weak reader, shame",
+      "lang": "en",
+      "text": "One child in my class 3 still reads like a class 1 child and feels ashamed in front of the others. How can I help without embarrassing him?",
+      "outcome": "answered",
+      "seconds": 23,
+      "understood": "reading · 3 · pedagogy",
+      "retrieval": "1 of 11 considered (68 approved)",
+      "cards": [
+        "cbc0b6cc-be88-449d-abaa-1ac29b1d422f"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p05",
+      "theme": "long absence, forgot letters",
+      "lang": "en",
+      "text": "A child was away three weeks for the harvest and has forgotten the letters she knew. How do I help her catch up?",
+      "outcome": "needs-human",
+      "seconds": 14.1,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p06",
+      "theme": "multigrade, alone",
+      "lang": "en",
+      "text": "I teach class 1, 2 and 3 together and I am alone. Class 1 needs me all the time. How do I keep the others learning?",
+      "outcome": "needs-human",
+      "seconds": 20.6,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p07",
+      "theme": "multigrade maths",
+      "lang": "kn",
+      "text": "ಒಂದೇ ಕೋಣೆಯಲ್ಲಿ ಮೂರು ತರಗತಿ, ನಾನೊಬ್ಬಳೇ ಶಿಕ್ಷಕಿ. ಮೂರಕ್ಕೂ ಒಟ್ಟಿಗೆ ಗಣಿತ ಹೇಗೆ ಮಾಡಿಸಲಿ?",
+      "outcome": "answered",
+      "seconds": 20.8,
+      "understood": "multi_level · 1-3 · pedagogy",
+      "retrieval": "2 of 25 considered (68 approved)",
+      "cards": [
+        "de3439a4-dd6b-4220-a51f-ee37445e0d01"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p10",
+      "theme": "spelling in own writing",
+      "lang": "en",
+      "text": "My class 2 children copy well from the board, but when they write on their own the spelling is full of mistakes.",
+      "outcome": "answered",
+      "seconds": 14.2,
+      "understood": "writing · 2 · pedagogy",
+      "retrieval": "2 of 7 considered (68 approved)",
+      "cards": [
+        "1c94f618-0187-4388-bd39-97d78af9f393",
+        "037871f1-21e1-4af1-a3b0-899694bd7785"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p11",
+      "theme": "reluctant writers",
+      "lang": "kn",
+      "text": "ಮಕ್ಕಳು ಬರೆಯೋಕೆ ಇಷ್ಟಪಡಲ್ಲ. ಬರೆಯಿರಿ ಅಂದರೆ ಪೆನ್ಸಿಲ್ ಹಿಡಿದು ಸುಮ್ಮನೆ ಕೂರುತ್ತಾರೆ. ಏನು ಮಾಡಲಿ?",
+      "outcome": "answered",
+      "seconds": 12.9,
+      "understood": "writing · any · pedagogy",
+      "retrieval": "1 of 31 considered (68 approved)",
+      "cards": [
+        "94c2ac1e-966c-43f2-bf6f-8b3b5689afbb"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p13",
+      "theme": "fear of maths",
+      "lang": "kn",
+      "text": "A child is very scared of maths and starts crying when I give sums. ಏನು ಮಾಡಲಿ?",
+      "outcome": "answered",
+      "seconds": 13.9,
+      "understood": "engagement · any · pedagogy",
+      "retrieval": "1 of 27 considered (68 approved)",
+      "cards": [
+        "d8197b0e-df4a-43ef-bad3-1644e61d11d5"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p15",
+      "theme": "fights in class",
+      "lang": "en",
+      "text": "Two children in my class 2 quarrel every day and disturb everyone. How can I calm the class?",
+      "outcome": "answered",
+      "seconds": 13.5,
+      "understood": "classroom · 2 · pedagogy",
+      "retrieval": "1 of 8 considered (68 approved)",
+      "cards": [
+        "15a821b0-f29c-40d2-8a6e-cdec971c5fe7"
+      ],
+      "queueTopic": null,
+      "usd": null
+    }
+  ]
+}

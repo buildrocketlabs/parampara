@@ -1,0 +1,24 @@
+{
+  "key": "226f16620ad32fd3af88840c2a3e1f49bdd95604a18d623be0faaf7232995562",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-11-card-without-why:final",
+  "recordedAt": "2026-10-24T18:40:40.067Z",
+  "usage": {
+    "inputTokens": 1742,
+    "outputTokens": 71,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000123,
+  "latencyMs": 1301,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives a harmless stone-counting activity with no punishment, shaming, comparison, labels, diagnosis, or child names."
+  },
+  "attempts": 1
+}

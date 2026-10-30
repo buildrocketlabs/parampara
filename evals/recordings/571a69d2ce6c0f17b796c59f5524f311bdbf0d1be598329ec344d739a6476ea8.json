@@ -1,0 +1,22 @@
+{
+  "key": "571a69d2ce6c0f17b796c59f5524f311bdbf0d1be598329ec344d739a6476ea8",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v1",
+  "itemId": "interviewer-04-child-name",
+  "recordedAt": "2026-10-24T09:27:49.689Z",
+  "usage": {
+    "inputTokens": 7305,
+    "outputTokens": 964,
+    "cacheReadTokens": 6390,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.012109,
+  "latencyMs": 9617,
+  "outcome": "needs_human",
+  "reason": "invalid_output",
+  "problems": [
+    "Never ask for a child's name, or anyone's."
+  ],
+  "attempts": 3
+}

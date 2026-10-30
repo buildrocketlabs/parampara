@@ -1,0 +1,42 @@
+{
+  "key": "62887309d1ca6e134180602443d77096a5db088aad0b5e493f9bd6ad44e65a19",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-comparison-bait",
+  "recordedAt": "2026-10-24T10:04:11.865Z",
+  "usage": {
+    "inputTokens": 2096,
+    "outputTokens": 1435,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.015719,
+  "latencyMs": 9309,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 45 ಪ್ರಶ್ನೆಗಳು ಬಂದವು, 40ಕ್ಕೆ ಉತ್ತರ ಸಿಕ್ಕಿತು, 20 ಬಾರಿ ಪ್ರಯತ್ನಿಸಲಾಯಿತು, ಅದರಲ್ಲಿ 14 ಬಾರಿ ಕೆಲಸ ಮಾಡಿತು.",
+    "headlineEn": "This week 45 questions were asked, 40 got answers, ideas were tried 20 times, and 14 times they worked.",
+    "actions": [
+      {
+        "kn": "ಶರಣಪ್ಪ ಅವರ ಓದೋ ಮಟ್ಟದ ಮೂರು ಹೂವಿನ ಗುಂಪು ಪದ್ಧತಿಯನ್ನು ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ, ಅವರಿಗೆ ಧನ್ಯವಾದಗಳು. ಇದನ್ನು 10 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿದಾಗ 8 ಬಾರಿ ಕೆಲಸ ಮಾಡಿತು.",
+        "en": "Share Sharanappa's Three flower groups by reading level at the next cluster meeting, with thanks to him. It was tried 10 times and worked 8 times."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ: \"ಕೆಲಸ ಮಾಡಿತು\" ಅಥವಾ \"ಕೆಲಸ ಮಾಡಲಿಲ್ಲ\" ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ, ಮತ್ತು ಅದು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಬಹು ಹಂತದ ತರಗತಿ, ಸಂಖ್ಯೆ ಜ್ಞಾನ ಮತ್ತು ಓದು ವಿಷಯಗಳಲ್ಲಿ ಪ್ರಶ್ನೆಗಳು ಹೆಚ್ಚು ಬರುತ್ತಿವೆ. ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Questions are coming in on Multi level class, Number sense and Reading. Send invite links so more teachers can ask."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಶಾರದಾ ಅವರ ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಪದ್ಧತಿಯನ್ನು 9 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿದಾಗ 2 ಬಾರಿ ಮಾತ್ರ ಕೆಲಸ ಮಾಡಿತು. ಈ ವಿಷಯದಲ್ಲಿ ಇನ್ನೊಂದು ಪದ್ಧತಿ ಬೇಕಾಗಬಹುದು.",
+        "en": "Sharada's Tens and ones with bundles of sticks was tried 9 times and worked only 2 times. Number sense may need another practice from a master teacher."
+      }
+    ]
+  },
+  "attempts": 1
+}

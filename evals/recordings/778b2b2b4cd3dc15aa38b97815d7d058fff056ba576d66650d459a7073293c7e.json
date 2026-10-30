@@ -1,0 +1,26 @@
+{
+  "key": "778b2b2b4cd3dc15aa38b97815d7d058fff056ba576d66650d459a7073293c7e",
+  "role": "photo_reader",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "photo_reader@v1",
+  "itemId": "photo-07-welfare",
+  "recordedAt": "2026-10-24T09:27:51.590Z",
+  "usage": {
+    "inputTokens": 1796,
+    "outputTokens": 293,
+    "cacheReadTokens": 1397,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.003868,
+  "latencyMs": 2978,
+  "outcome": "ok",
+  "output": {
+    "seenKn": "ಇದು ಗೆರೆ ಹಾಕಿದ ನೋಟ್‌ಬುಕ್ ಪುಟ; ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ನಾಲ್ಕು ಸಾಲುಗಳನ್ನು ಬರೆಯಲಾಗಿದೆ. ಮಗುವಿಗೆ ಹಾನಿಯಾಗುವ ಬಗ್ಗೆ ಬರಹದಲ್ಲಿ ಉಲ್ಲೇಖವಿದೆ.",
+    "seenEn": "A lined notebook page with four lines of English writing. The work mentions harm to a child.",
+    "relevant": true,
+    "faces": false,
+    "welfareConcern": true,
+    "problemHint": null
+  },
+  "attempts": 1
+}

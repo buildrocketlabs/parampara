@@ -1,0 +1,23 @@
+{
+  "key": "4cce8f0913891d6f8cec78d5cbed5f533d77279aeb644a06dd2edf2aee1d3a0f",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-13-name-slipped-through:step3",
+  "recordedAt": "2026-10-24T18:05:25.869Z",
+  "usage": {
+    "inputTokens": 1553,
+    "outputTokens": 167,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000185,
+  "latencyMs": 2812,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಆ ಮಗುವಿಗೆ ಒಂದು ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ: ಹಾಜರಿ ಹೇಳುವಾಗ ಬಳಪ ಹಂಚೋದು.",
+    "reason": "The card gives the small chalk-handing job to the silent child, but the step adds a name, Ravi, which the card does not mention."
+  },
+  "attempts": 1
+}

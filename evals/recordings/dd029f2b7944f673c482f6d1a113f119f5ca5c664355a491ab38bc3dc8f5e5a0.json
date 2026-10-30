@@ -1,0 +1,26 @@
+{
+  "key": "dd029f2b7944f673c482f6d1a113f119f5ca5c664355a491ab38bc3dc8f5e5a0",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-12-caste-religion-community",
+  "recordedAt": "2026-10-24T10:04:07.112Z",
+  "usage": {
+    "inputTokens": 2421,
+    "outputTokens": 241,
+    "cacheReadTokens": 2167,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.003135,
+  "latencyMs": 2672,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಹೌದು ಸರ್. ಅಂಥ ಒಂದು ಮಗುವಿನ ಕಥೆ ಹೇಳಿ. ಆ ಮಗುವಿಗೆ ಕನ್ನಡ ಕಲಿಸಲು ನೀವು ಮೊದಲು ಏನು ಮಾಡಿದಿರಿ?",
+    "questionEn": "Yes sir. Tell me the story of one such child. What did you do first to teach that child Kannada?",
+    "why": "The master just mentioned children with another home language, so we follow their lead and ask for a real story with specifics.",
+    "topic": "home_language",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 1
+}

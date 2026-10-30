@@ -1,0 +1,22 @@
+{
+  "key": "e20d591002c10907f97312446202c7cca72539ea082a01ce690aca0521e94e62",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-08-class6-fractions",
+  "recordedAt": "2026-10-24T09:29:50.459Z",
+  "usage": {
+    "inputTokens": 1260,
+    "outputTokens": 17,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1109
+  },
+  "costUsd": 0.000162,
+  "latencyMs": 6653,
+  "outcome": "ok",
+  "output": {
+    "picks": [],
+    "noneFit": true
+  },
+  "attempts": 1
+}

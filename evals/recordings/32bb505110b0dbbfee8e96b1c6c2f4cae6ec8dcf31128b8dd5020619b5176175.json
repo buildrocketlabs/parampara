@@ -1,0 +1,26 @@
+{
+  "key": "32bb505110b0dbbfee8e96b1c6c2f4cae6ec8dcf31128b8dd5020619b5176175",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v1",
+  "itemId": "interviewer-13-leading-questions",
+  "recordedAt": "2026-10-24T09:28:29.364Z",
+  "usage": {
+    "inputTokens": 4835,
+    "outputTokens": 541,
+    "cacheReadTokens": 4260,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.006986,
+  "latencyMs": 5713,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಆ ವಿಧಾನದ ಬಗ್ಗೆ ಸ್ವಲ್ಪ ಹೇಳಿ. ಒಂದು ಮಗುವಿಗೆ ಅದನ್ನು ಹೇಗೆ ಮಾಡಿದಿರಿ ಅನ್ನುವ ಒಂದು ನಿಜವಾದ ಕಥೆ ಹೇಳಿ.",
+    "questionEn": "Please tell me a little about that method. Tell me one real story of how you did it with one child.",
+    "why": "The master mentioned a method but gave no details, so we ask for one real story to draw out specifics.",
+    "topic": "letters",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 2
+}

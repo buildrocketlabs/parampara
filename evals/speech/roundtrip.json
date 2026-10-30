@@ -1,0 +1,12 @@
+{
+  "sample": true,
+  "recordedOn": "2026-10-24",
+  "characters": 115,
+  "audioSeconds": 9,
+  "speakUsd": 0.003634,
+  "transcribeUsd": 0.000774,
+  "overlap": {
+    "found": 12,
+    "total": 12
+  }
+}

@@ -1,0 +1,5 @@
+# video/ is its own pnpm root with its own lockfile (D93). pnpm stops at the first
+# pnpm-workspace.yaml it finds going up, so `pnpm --dir video install` never touches the app's
+# lockfile, and the app's root install (what Vercel runs) never installs Remotion or a browser.
+packages:
+  - "."

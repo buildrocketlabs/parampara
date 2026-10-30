@@ -1,0 +1,23 @@
+{
+  "key": "5dc32a5d6bc1455f4a106cd026f4df17d2c414045cfd95d0a6a1195681be8520",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-03-hi-number-sense:step1",
+  "recordedAt": "2026-10-24T09:32:43.437Z",
+  "usage": {
+    "inputTokens": 2255,
+    "outputTokens": 250,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000297,
+  "latencyMs": 2414,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಬೆಂಕಿ ಕಡ್ಡಿ, ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿಯನ್ನು ಮಕ್ಕಳೇ ಸಂಗ್ರಹ ಮಾಡಲಿ. ಪ್ರತಿ ಮಗುವಿಗೂ ಒಂದು ಡಬ್ಬಿ.",
+    "reason": "The card says children collect matchsticks and ice cream sticks themselves, with one box per child; the step's wording 'ಇರಲಿ' and 'small box' adds only minor phrasing, with the same materials and count."
+  },
+  "attempts": 1
+}

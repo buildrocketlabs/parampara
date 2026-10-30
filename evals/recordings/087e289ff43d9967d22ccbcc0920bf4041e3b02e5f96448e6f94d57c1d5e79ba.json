@@ -1,0 +1,24 @@
+{
+  "key": "087e289ff43d9967d22ccbcc0920bf4041e3b02e5f96448e6f94d57c1d5e79ba",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-02-en-number-sense:final",
+  "recordedAt": "2026-10-24T18:39:14.817Z",
+  "usage": {
+    "inputTokens": 1976,
+    "outputTokens": 73,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000147,
+  "latencyMs": 1318,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives a hands-on bundling activity for place value with no punishment, shaming, comparison, labels, diagnosis, or child names."
+  },
+  "attempts": 1
+}

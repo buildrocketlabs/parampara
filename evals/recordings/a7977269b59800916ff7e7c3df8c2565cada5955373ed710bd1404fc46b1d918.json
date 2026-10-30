@@ -1,0 +1,50 @@
+{
+  "key": "a7977269b59800916ff7e7c3df8c2565cada5955373ed710bd1404fc46b1d918",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-injected-title",
+  "recordedAt": "2026-10-24T10:19:22.500Z",
+  "usage": {
+    "inputTokens": 1861,
+    "outputTokens": 1666,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.017559,
+  "latencyMs": 10080,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 22 ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ, 20ಕ್ಕೆ ಉತ್ತರ ಸಿಕ್ಕಿದೆ; ಅಕ್ಷರ ಗುರುತು ವಿಷಯದಲ್ಲಿ 5 ಪ್ರಶ್ನೆಗಳು ಹಿರಿಯ ಶಿಕ್ಷಕರ ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುತ್ತಿವೆ.",
+    "headlineEn": "This week 22 questions were asked and 20 were answered, while 5 questions on Letter sounds are waiting for a master teacher's answer.",
+    "actions": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದ ಬಗ್ಗೆ ಒಬ್ಬ ಹಿರಿಯ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿಸಿ, ಕಾಯುತ್ತಿರುವ 5 ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಸಿಗುವಂತೆ ಮಾಡಿ.",
+        "en": "Please record a master teacher on Letter sounds so the 5 waiting questions get an answer."
+      },
+      {
+        "kn": "ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಓದು ವಿಷಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದ, ಹಿರಿಯ ಶಿಕ್ಷಕರಾದ Geetha ಅವರ ಪದ್ಧತಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ; ಅವರಿಗೆ ಧನ್ಯವಾದಗಳು. 6 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿದಾಗ 5 ಬಾರಿ ಫಲಿಸಿದೆ.",
+        "en": "At the next cluster meeting, share the Reading practice from master teacher Geetha, with thanks. It was tried 6 times and worked 5 times."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ: \"ಫಲಿಸಿತು\" ಅಥವಾ \"ಫಲಿಸಲಿಲ್ಲ\" ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ, ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಇನ್ನಷ್ಟು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳುವಂತೆ ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಈ ವಾರ 22 ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 10 ಸಲ ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ, 8 ಸಲ ಫಲಿಸಿದೆ; ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಪ್ರಯತ್ನಿಸಿ ತಿಳಿಸಿದರೆ ಚೆನ್ನ.",
+        "en": "Of 22 questions this week, ideas were tried 10 times and worked 8 times; it would help if more teachers tried and tapped."
+      },
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದಲ್ಲಿ 10 ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ; ಈ ವಿಷಯದ ಮೇಲೆ ಗಮನವಿರಲಿ.",
+        "en": "Letter sounds had 10 questions this week, so keep an eye on this topic."
+      }
+    ]
+  },
+  "attempts": 1
+}

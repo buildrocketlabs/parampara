@@ -1,0 +1,24 @@
+{
+  "key": "835cce78a8791f9276c458f8aaefbd57bbc23793b00af682b60199e8bd242638",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-04-two-cards:final",
+  "recordedAt": "2026-10-24T10:46:46.205Z",
+  "usage": {
+    "inputTokens": 1985,
+    "outputTokens": 187,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000205,
+  "latencyMs": 2402,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives reading-level grouping and classroom activities with no punishment, shaming, labels, comparison, diagnosis, or child names."
+  },
+  "attempts": 1
+}

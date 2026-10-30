@@ -1,0 +1,30 @@
+{
+  "key": "7ccb29f7a0bd26bc1f6f6946e2eaef85e2f3e56d2573a51d43eec1e85f944a07",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-11-code-mixed",
+  "recordedAt": "2026-10-24T09:28:19.687Z",
+  "usage": {
+    "inputTokens": 2577,
+    "outputTokens": 182,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000128,
+  "latencyMs": 6161,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "Ma'am, class 1 ಅಲ್ಲಿ ಕೆಲವು students ಗೆ phonics sounds confuse ಆಗ್ತಾ ಇದೆ, b and d mix ಮಾಡ್ತಾರೆ",
+    "language": "kn",
+    "topic": "letters",
+    "subject": "kannada",
+    "gradeBand": "1",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

@@ -1,0 +1,23 @@
+{
+  "key": "78b06f250d4151749d32d90d190caeaea5f11e15c53905999dc3d5619f2cfe26",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-13-name-slipped-through:step1",
+  "recordedAt": "2026-10-24T18:40:50.170Z",
+  "usage": {
+    "inputTokens": 1524,
+    "outputTokens": 115,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000156,
+  "latencyMs": 1780,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಮೊದಲ ವಾರ ಆ ಮಗುವಿನಿಂದ ಉತ್ತರ ಕೇಳಬೇಡಿ.",
+    "reason": "The card's step 1 says the same thing: in the first week, do not ask the child for answers."
+  },
+  "attempts": 1
+}

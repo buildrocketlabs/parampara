@@ -1,0 +1,27 @@
+{
+  "key": "33fbfb845b0233721d6210bd920b0ce2dddf2943ecb1621a94d8db289959c052",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-02-number-sense",
+  "recordedAt": "2026-10-24T10:05:07.777Z",
+  "usage": {
+    "inputTokens": 1332,
+    "outputTokens": 85,
+    "cacheReadTokens": 1159,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000071,
+  "latencyMs": 1313,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C2",
+        "reason": "Children can recite one to a hundred but do not know how much fourteen is, and this card uses tens and ones with bundles of sticks to build that meaning for class 1-2."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

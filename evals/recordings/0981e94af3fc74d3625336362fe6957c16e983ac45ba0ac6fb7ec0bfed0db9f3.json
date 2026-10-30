@@ -1,0 +1,74 @@
+{
+  "key": "0981e94af3fc74d3625336362fe6957c16e983ac45ba0ac6fb7ec0bfed0db9f3",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-11-child-name-twice",
+  "recordedAt": "2026-10-24T18:03:46.964Z",
+  "usage": {
+    "inputTokens": 5326,
+    "outputTokens": 1276,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.01559,
+  "latencyMs": 7764,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಓಡಾಡುವ ಮಗುವಿಗೆ ಕೆಲಸ ಕೊಡಿ",
+        "titleEn": "Give a restless child a job",
+        "problemKn": "ಒಂದು ಮಗು ಐದು ನಿಮಿಷ ಕೂಡ ಕೂರುವುದಿಲ್ಲ, ತರಗತಿಯಲ್ಲಿ ಓಡಾಡುತ್ತಲೇ ಇರುತ್ತದೆ.",
+        "problemEn": "A child cannot sit even for five minutes and keeps moving around the class.",
+        "gradeBand": "1-2",
+        "subject": "general",
+        "topic": "classroom",
+        "steps": [
+          {
+            "kn": "ಕೂರು ಅಂತ ಹೇಳುವ ಬದಲು, ಓಡಾಡುವ ಮಗುವಿಗೆ ಓಡಾಡಲು ಒಂದು ಕಾರಣ ಕೊಡಿ.",
+            "en": "Instead of telling the child to sit, give the child a reason to move.",
+            "evidence": [
+              "S6"
+            ]
+          },
+          {
+            "kn": "ಪ್ರತಿ ಪಾಠದ ಮೊದಲು ಎಲ್ಲರಿಗೂ ಸ್ಲೇಟು ಹಂಚುವ ಕೆಲಸವನ್ನು ಆ ಮಗುವಿಗೆ ಕೊಡಿ.",
+            "en": "Before every lesson, give the child the job of handing out slates to everyone.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಪಾಠ ಮುಗಿದ ಮೇಲೆ ಸ್ಲೇಟುಗಳನ್ನು ಸಂಗ್ರಹಿಸುವ ಕೆಲಸವೂ ಅದೇ ಮಗುವಿಗೆ ಇರಲಿ.",
+            "en": "After the lesson, let the same child collect the slates.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಹತ್ತು ನಿಮಿಷಕ್ಕೊಮ್ಮೆ ಎಲ್ಲಾ ಮಕ್ಕಳನ್ನೂ ಎದ್ದು ನಿಲ್ಲಿಸಿ ಒಂದು ಅಭಿನಯ ಗೀತೆ ಹಾಡಿಸಿ. ಒಂದು ಮಗುವಿಗೆ ಅಲ್ಲ, ಎಲ್ಲರಿಗೂ.",
+            "en": "Every ten minutes, have all the children stand and sing an action song. Not for one child, for everyone.",
+            "evidence": [
+              "S4"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಸ್ಲೇಟುಗಳು",
+            "en": "slates"
+          }
+        ],
+        "whyKn": "ಓಡಾಡುವ ಮಗುವಿಗೆ ಕೂರು ಅಂತ ಹೇಳುವುದಕ್ಕಿಂತ ಓಡಾಡಲು ಕಾರಣ ಕೊಟ್ಟರೆ ಬದಲಾವಣೆ ಬರುತ್ತದೆ. ಹೀಗೆ ಮಾಡಿದಾಗ ಆ ಮಗು ಎರಡು ತಿಂಗಳಲ್ಲಿ ಬದಲಾಯಿತು.",
+        "whyEn": "Giving a reason to move works better than telling the child to sit. With this, the child changed within two months.",
+        "quoteRef": "S6",
+        "flags": [
+          "child_name_redacted"
+        ]
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

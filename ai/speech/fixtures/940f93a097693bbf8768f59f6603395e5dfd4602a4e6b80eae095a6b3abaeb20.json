@@ -1,0 +1,14 @@
+{
+  "sample": true,
+  "note": "Synthetic. Audio is testToneWav(2000) from ai/speech/test-tone.ts; the transcript is made up, in the shape Sarvam returns.",
+  "response": {
+    "request_id": "sample-fixture-tone-2s",
+    "transcript": "ನಮಸ್ಕಾರ. ಇದು ಪರಂಪರೆಯ ಪರೀಕ್ಷಾ ಧ್ವನಿ.",
+    "language_code": "kn-IN",
+    "timestamps": {
+      "words": ["ನಮಸ್ಕಾರ.", "ಇದು ಪರಂಪರೆಯ ಪರೀಕ್ಷಾ ಧ್ವನಿ."],
+      "start_time_seconds": [0.0, 0.8],
+      "end_time_seconds": [0.7, 2.4]
+    }
+  }
+}

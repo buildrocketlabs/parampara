@@ -1,0 +1,24 @@
+{
+  "key": "c8cd554a71086f0349f163ce62dbe6115126c13b9175a1dbce07f6b1cc4a3a81",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-10-two-cards-overlap:final",
+  "recordedAt": "2026-10-24T18:05:02.065Z",
+  "usage": {
+    "inputTokens": 1957,
+    "outputTokens": 78,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000148,
+  "latencyMs": 1874,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives gentle sand-tracing and phonics guidance, forbids scolding, and contains no punishment, labels, diagnosis, or child names."
+  },
+  "attempts": 1
+}

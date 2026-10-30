@@ -1,0 +1,23 @@
+{
+  "key": "81fef0c783ab2f199f9945c5562171438bede13a4d5e1b1f5a0ec0c426bef773",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-01-kn-letters:step3",
+  "recordedAt": "2026-10-24T10:45:39.096Z",
+  "usage": {
+    "inputTokens": 1790,
+    "outputTokens": 166,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000208,
+  "latencyMs": 1965,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಮೊದಲ ಹದಿನೈದು ದಿನ, ಪ್ರಾರ್ಥನೆ ಆದ ಮೇಲೆ ದಿನಕ್ಕೆ ಹತ್ತು ನಿಮಿಷ ಮಾಡಿ.",
+    "reason": "The card states the same duration (fifteen days), timing (after prayer) and length (ten minutes per day)."
+  },
+  "attempts": 1
+}

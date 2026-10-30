@@ -1,0 +1,27 @@
+{
+  "key": "67bc9ef5c6274c363e971e484310e920b604101b654be103aeac79a6b33cf6cf",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-01-letters",
+  "recordedAt": "2026-10-24T10:05:06.461Z",
+  "usage": {
+    "inputTokens": 1286,
+    "outputTokens": 195,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1159
+  },
+  "costUsd": 0.000255,
+  "latencyMs": 2224,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C1",
+        "reason": "This card's problem is the same: Class 1 children who still cannot recognise a single letter after months, and it offers a simple daily letter practice in sand."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

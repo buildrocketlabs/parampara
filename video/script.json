@@ -1,0 +1,699 @@
+{
+  "title": "Parampara · ಪರಂಪರೆ · Team Namma Shaale",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "music": {
+    "src": "audio/music.mp3",
+    "volume": 1
+  },
+  "scenes": [
+    {
+      "id": "open-voice",
+      "start": 0.0,
+      "end": 9.25,
+      "note": "Black, one clay lamp flame. 1.8 s of stillness, then his real voice (6.mp3, two phrases of one sentence; the ellipsis shows the join; craft/ASSETS.md).",
+      "picture": {
+        "kind": "title",
+        "tone": "black",
+        "hanate": "idle"
+      },
+      "kannada": "ಯುವ ಶಿಕ್ಷಕರಲ್ಲಿ ಒಂದು ವಿನಂತಿ… ಎಲ್ಲಾ ಮಕ್ಕಳನ್ನು ಒಂದೇ ದೃಷ್ಟಿಕೋನದಿಂದ ನೋಡಿ.",
+      "english": "A request to young teachers… look at every child the same way.",
+      "voiceover": "",
+      "audio": [
+        {
+          "src": "audio/mahesh-open.mp3",
+          "kind": "headmaster",
+          "at": 1.6
+        },
+        {
+          "src": "audio/sfx/match-strike.mp3",
+          "kind": "sound",
+          "at": 1.6,
+          "volume": 0.8,
+          "duration": 1.3
+        }
+      ]
+    },
+    {
+      "id": "open-name",
+      "start": 9.25,
+      "end": 21.08,
+      "note": "His portrait, slow push in, name card. 32 years: his own words in intro.mp3 (ಕಳೆದ 32 ವರ್ಷಗಳಿಂದ), set by the founder 29 Oct.",
+      "picture": {
+        "kind": "photo",
+        "src": "photos/mahesh.jpg",
+        "faces": "adults-consented",
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "caption": "Mahesh Bedavatti · ಮಹೇಶ ಬೆದವಟ್ಟಿ · Headmaster, Government Higher Primary School, Ambedkar Nagar, Talakal, Koppal · 32 years in government schools",
+        "focus": "50% 18%"
+      },
+      "english": "Mahesh Bedavatti has taught in government schools for thirty two years. One day, like every teacher, he will retire. And everything he knows will leave the classroom with him.",
+      "voiceover": "Mahesh Bedavatti has taught in government schools for thirty two years. One day, like every teacher, he will retire. And everything he knows will leave the classroom with him.",
+      "audio": [
+        {
+          "src": "audio/vo-open-name.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ],
+      "tag": "Narration: AI voice (ElevenLabs)"
+    },
+    {
+      "id": "problem-board",
+      "start": 21.08,
+      "end": 27.54,
+      "note": "His school's board behind the number, as 'eight thousand' is spoken.",
+      "picture": {
+        "kind": "numbers",
+        "backdrop": "photos/talkal-board.jpg",
+        "items": [
+          {
+            "value": "8,042",
+            "label": "Karnataka schools with just one teacher",
+            "labelKn": "ಒಬ್ಬರೇ ಶಿಕ್ಷಕರಿರುವ ಶಾಲೆಗಳು",
+            "source": "UDISE+ 2025-26 via Deccan Herald"
+          }
+        ]
+      },
+      "english": "In Karnataka, eight thousand schools have just one teacher. No colleague to ask.",
+      "voiceover": "In Karnataka, eight thousand schools have just one teacher. No colleague to ask.",
+      "audio": [
+        {
+          "src": "audio/vo-problem-board.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "problem-numbers",
+      "start": 27.54,
+      "end": 39.12,
+      "note": "Numbers rise one by one over his blackboard, each with its source (STORY.md §1).",
+      "picture": {
+        "kind": "numbers",
+        "backdrop": "photos/talkal-blackboard.jpg",
+        "items": [
+          {
+            "value": "15 in 100",
+            "label": "Class 3 children in Karnataka government schools who can read a Class 2 text",
+            "source": "ASER 2024 (15.4%)"
+          }
+        ]
+      },
+      "english": "Only fifteen in a hundred children in Class 3 can read a Class 2 text. The help a young teacher needs already exists. It lives in teachers like him.",
+      "voiceover": "Only fifteen in a hundred children in Class 3 can read a Class 2 text. The help a young teacher needs already exists. It lives in teachers like him.",
+      "audio": [
+        {
+          "src": "audio/vo-problem-numbers.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "promise-lamp",
+      "start": 39.12,
+      "end": 45.42,
+      "note": "One lamp lights another (Higgsfield, labelled).",
+      "picture": {
+        "kind": "photo",
+        "src": "illustrations/diya-lights-diya.jpg",
+        "faces": "none",
+        "illustration": true,
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          0,
+          0
+        ]
+      },
+      "kannada": "ಒಂದು ದೀಪ ಇನ್ನೊಂದು ದೀಪ ಹಚ್ಚುತ್ತದೆ",
+      "english": "Parampara means passing it on. One lamp lights another, and loses nothing.",
+      "voiceover": "Parampara means passing it on. One lamp lights another, and loses nothing.",
+      "audio": [
+        {
+          "src": "audio/vo-promise-lamp.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        },
+        {
+          "src": "audio/sfx/lamp-crackle.mp3",
+          "kind": "sound",
+          "at": 0.0,
+          "volume": 0.7
+        }
+      ]
+    },
+    {
+      "id": "promise-title",
+      "start": 45.42,
+      "end": 48.02,
+      "note": "Hanate passes its flame along a row of lamps (the app's own artwork), then the title.",
+      "picture": {
+        "kind": "hanate",
+        "state": "celebrating",
+        "lamps": 7
+      },
+      "voiceover": "",
+      "audio": []
+    },
+    {
+      "id": "capture-notes",
+      "start": 48.02,
+      "end": 52.03,
+      "note": "His voice becomes a card (Higgsfield, labelled).",
+      "picture": {
+        "kind": "photo",
+        "src": "illustrations/voice-to-card.jpg",
+        "faces": "none",
+        "illustration": true,
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          0,
+          0
+        ]
+      },
+      "english": "He didn't install anything.",
+      "voiceover": "He didn't install anything.",
+      "audio": [
+        {
+          "src": "audio/vo-capture-notes.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        },
+        {
+          "src": "audio/sfx/paper-rustle.mp3",
+          "kind": "sound",
+          "at": 0.8,
+          "volume": 0.7
+        }
+      ]
+    },
+    {
+      "id": "capture-import",
+      "start": 52.03,
+      "end": 62.17,
+      "note": "His real approved card on the field reviewer's screen: his words, the time chips, a moment playing (story clip 12, the founder's reviewer session). His import finished on 28 Oct and its 'cards ready' view cannot be reopened without importing again.",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/12-master-cards-1280.webm",
+        "frame": "laptop",
+        "from": 1.8,
+        "sideEn": "Claude writes each card; every step cites the second he said it",
+        "chip": "Koppal field data · his real card"
+      },
+      "english": "He sent seven WhatsApp voice notes, under six minutes of his voice, and they became six practice cards. Every step is tied to the second he said it.",
+      "voiceover": "He sent seven WhatsApp voice notes, under six minutes of his voice, and they became six practice cards. Every step is tied to the second he said it.",
+      "audio": [
+        {
+          "src": "audio/vo-capture-import.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "check",
+      "start": 62.17,
+      "end": 67.83,
+      "note": "The same field reviewer session: his approved card, every step with its moment (story clip 12, second half).",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/12-master-cards-1280.webm",
+        "frame": "laptop",
+        "from": 14,
+        "sideEn": "Nothing reaches a teacher unchecked",
+        "chip": "Koppal field data · his real card"
+      },
+      "english": "A headmaster checks every card. Nothing reaches a teacher unchecked.",
+      "voiceover": "A headmaster checks every card. Nothing reaches a teacher unchecked.",
+      "audio": [
+        {
+          "src": "audio/vo-check.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "deliver-window",
+      "start": 67.83,
+      "end": 70.03,
+      "note": "Dusk to 9 pm: one lit window (Higgsfield, labelled).",
+      "picture": {
+        "kind": "photo",
+        "src": "illustrations/window-9pm.jpg",
+        "faces": "none",
+        "illustration": true,
+        "zoom": [
+          1.0,
+          1.08
+        ],
+        "pan": [
+          0,
+          0
+        ]
+      },
+      "english": "Nine at night.",
+      "voiceover": "Nine at night.",
+      "audio": [
+        {
+          "src": "audio/vo-deliver-window.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "deliver-phone",
+      "start": 70.03,
+      "end": 75.93,
+      "note": "A phone on a wooden table, blank screen (Higgsfield, labelled; never a fake app screen).",
+      "picture": {
+        "kind": "photo",
+        "src": "illustrations/phone-table.jpg",
+        "faces": "none",
+        "illustration": true,
+        "zoom": [
+          1.02,
+          1.12
+        ],
+        "pan": [
+          0,
+          0
+        ]
+      },
+      "english": "A young teacher, alone, worried about a child who still cannot write letters.",
+      "voiceover": "A young teacher, alone, worried about a child who still cannot write letters.",
+      "audio": [
+        {
+          "src": "audio/vo-deliver-phone.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "deliver-ask",
+      "start": 75.93,
+      "end": 84.24,
+      "note": "The Sample demo teacher asks the question that reaches Mahesh Bedavatti's approved field card; the answer credits him by name (story clip 1).",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/1-teacher-asks.webm",
+        "frame": "phone",
+        "sideKn": "ರಾತ್ರಿ 9 ಗಂಟೆ",
+        "sideEn": "She asks in Kannada",
+        "from": 2,
+        "chip": "Sample teacher · his real card"
+      },
+      "english": "She asks, in Kannada. In seconds, she hears what to try tomorrow morning, from a real master, by name.",
+      "voiceover": "She asks, in Kannada. In seconds, she hears what to try tomorrow morning, from a real master, by name.",
+      "audio": [
+        {
+          "src": "audio/vo-deliver-ask.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "talakal-cut",
+      "start": 84.24,
+      "end": 86.24,
+      "note": "2 s of a real Talakal colleague with the app, to break the run of phone screens; captioned as the field visit, so it is never read as the 9 pm teacher.",
+      "picture": {
+        "kind": "photo",
+        "src": "photos/talkal-teacher-reads-app.jpg",
+        "faces": "adults-consented",
+        "zoom": [
+          1.06,
+          1.12
+        ],
+        "pan": [
+          0.02,
+          0
+        ],
+        "focus": "50% 8%",
+        "caption": "Talakal, 29 October: a colleague opens Parampara",
+        "captionAt": "right"
+      },
+      "voiceover": "",
+      "audio": []
+    },
+    {
+      "id": "hear-master",
+      "start": 86.24,
+      "end": 99.15,
+      "note": "She taps Hear it from the master: the app plays his own clip (his voice is public). Music strips back; 1.8 s of stillness; then his cut line.",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/1-teacher-asks.webm",
+        "frame": "phone",
+        "from": 14.1,
+        "sideEn": "Hear it from the master",
+        "chip": "Sample teacher · his real card",
+        "cropTop": 60,
+        "playbackRate": 0.3
+      },
+      "english": "First, let the child practise drawing lines, circles, the upper half moon, the lower half moon…",
+      "voiceover": "And she can hear him say it himself.",
+      "audio": [
+        {
+          "src": "audio/vo-hear-master.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        },
+        {
+          "src": "audio/mahesh-hear.mp3",
+          "kind": "headmaster",
+          "at": 4.2
+        }
+      ],
+      "kannada": "ಮಗುವಿಗೆ ಮೊದಲು ರೇಖೆಗಳನ್ನು ಎಳೆಯುವುದು, ವೃತ್ತ ಹಾಕುವುದು, ಮೇಲಿನ ಅರ್ಧಚಂದ್ರ, ಕೆಳಗಿನ ಅರ್ಧಚಂದ್ರ…"
+    },
+    {
+      "id": "learn-worked",
+      "start": 99.15,
+      "end": 103.96,
+      "note": "It worked, on his answer (story clip 2).",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/2-it-worked.webm",
+        "frame": "phone",
+        "from": 3,
+        "chip": "Sample teacher · his real card",
+        "sideEn": "One tap. Nobody watching."
+      },
+      "english": "When it works, she says so.",
+      "voiceover": "When it works, she says so.",
+      "audio": [
+        {
+          "src": "audio/vo-learn-worked.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        },
+        {
+          "src": "audio/sfx/chime.mp3",
+          "kind": "sound",
+          "at": 1.6,
+          "volume": 0.8
+        }
+      ]
+    },
+    {
+      "id": "learn-master",
+      "start": 103.96,
+      "end": 108.26,
+      "note": "The thanks screen names him: Mahesh, 32 years, Koppal. He has no room of his own to sign into, so the thank you is shown where the teacher gives it (nothing is sent).",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/2-it-worked.webm",
+        "frame": "phone",
+        "from": 9.5,
+        "chip": "Sample teacher · his real card",
+        "sideEn": "A thank you, one tap away"
+      },
+      "english": "And she can send thirty two years of experience a thank you.",
+      "voiceover": "And she can send thirty two years of experience a thank you.",
+      "audio": [
+        {
+          "src": "audio/vo-learn-master.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "spread-hindi",
+      "start": 108.26,
+      "end": 117.92,
+      "note": "The Sample demo teacher with Hindi answers chosen asks the same thing: his card, in Hindi, his name (story clip 13; the language is set back to Kannada after).",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/13-hindi-answer.webm",
+        "frame": "phone",
+        "sideEn": "In Hindi",
+        "from": 9,
+        "chip": "Sample teacher · his real card",
+        "playbackRate": 0.25,
+        "cropTop": 44
+      },
+      "english": "Wisdom no longer stays inside one language. A method from Koppal can help a teacher in Uttar Pradesh, in Hindi, still in his name.",
+      "voiceover": "Wisdom no longer stays inside one language. A method from Koppal can help a teacher in Uttar Pradesh, in Hindi, still in his name.",
+      "audio": [
+        {
+          "src": "audio/vo-spread-hindi.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "spread-pulse",
+      "start": 117.92,
+      "end": 124.43,
+      "note": "The officer Pulse and the Lamps of Karnataka (Sample badge visible in the clip).",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/5-officer-pulse-lamps-1280.webm",
+        "frame": "laptop",
+        "from": 2.5,
+        "chip": "Sample data"
+      },
+      "english": "District officers see what teachers struggle with this week, without ever watching a teacher.",
+      "voiceover": "District officers see what teachers struggle with this week, without ever watching a teacher.",
+      "audio": [
+        {
+          "src": "audio/vo-spread-pulse.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "trust-trace",
+      "start": 124.43,
+      "end": 131.45,
+      "note": "A fresh answer's trace (clip 11, 30 Oct): 3 of 4 steps grounded, one removed, the models named. Checked in the database: the kept 3 steps are all 'supported'.",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/11-trace-drawer-1280.webm",
+        "frame": "laptop",
+        "from": 9.5,
+        "chip": "Sample teacher · his real card"
+      },
+      "english": "A second Claude model checks every step against the cards. If it is not grounded, it stays silent.",
+      "voiceover": "A second Claude model checks every step against the cards. If it is not grounded, it stays silent.",
+      "audio": [
+        {
+          "src": "audio/vo-trust-trace.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ],
+      "tag": "This answer: 3 of 4 steps grounded · 1 removed, not grounded"
+    },
+    {
+      "id": "trust-safety",
+      "start": 131.45,
+      "end": 136.45,
+      "note": "A typed child's name (made up) becomes ಒಂದು ಮಗು, as triage does; then the Childline 1098 card.",
+      "picture": {
+        "kind": "safety"
+      },
+      "english": "Children's names are removed before anything is stored.",
+      "voiceover": "Children's names are removed before anything is stored.",
+      "audio": [
+        {
+          "src": "audio/vo-trust-safety.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ],
+      "tag": "Recorded tests, 24 Oct: {eval_grounded} answers grounded · {eval_safety} safety cases caught"
+    },
+    {
+      "id": "trust-offline",
+      "start": 136.45,
+      "end": 139.87,
+      "note": "Slow network and offline.",
+      "picture": {
+        "kind": "clip",
+        "src": "clips/7-offline.webm",
+        "frame": "phone",
+        "from": 8.5,
+        "chip": "Sample teacher · his real card",
+        "sideEn": "No network. Questions wait.",
+        "playbackRate": 0.7
+      },
+      "english": "It works on slow networks and offline,",
+      "voiceover": "It works on slow networks and offline,",
+      "audio": [
+        {
+          "src": "audio/vo-trust-offline.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "trust-cost",
+      "start": 139.87,
+      "end": 145.53,
+      "note": "Cost from numbers.json (computed by the app, /how 'What it costs'); open source. The spoken 'thirty three rupees' must equal the filled number.",
+      "picture": {
+        "kind": "numbers",
+        "items": [
+          {
+            "key": "cost_per_teacher_month",
+            "label": "per teacher a month, computed",
+            "source": "Computed by the app ('What it costs' on /how), 29 Oct"
+          },
+          {
+            "value": "Open source",
+            "label": "MIT licence, on GitHub",
+            "source": "LICENSE (MIT) in the public repository"
+          }
+        ]
+      },
+      "english": "for about {cost_per_teacher_month} a teacher a month. And it is open source.",
+      "voiceover": "for about thirty three rupees a teacher a month. And it is open source.",
+      "audio": [
+        {
+          "src": "audio/vo-trust-cost.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "proof",
+      "start": 145.53,
+      "end": 153.75,
+      "note": "A slow warm montage of four Talakal photos. His colleagues opened it for the first time; never 'tested' or 'said'.",
+      "picture": {
+        "kind": "montage",
+        "caption": "Talakal, 29 October · Koppal field visit · {teachers} colleagues joined in the app",
+        "photos": [
+          {
+            "src": "photos/talkal-headmaster-shows-app.jpg",
+            "faces": "adults-consented"
+          },
+          {
+            "src": "photos/talkal-teacher-reads-app.jpg",
+            "faces": "adults-consented",
+            "focus": "50% 5%"
+          },
+          {
+            "src": "photos/talkal-two-teachers-phone.jpg",
+            "faces": "adults-consented"
+          },
+          {
+            "src": "photos/talkal-board.jpg",
+            "faces": "none"
+          }
+        ],
+        "captionAt": "right"
+      },
+      "english": "This week, at Government Higher Primary School, Ambedkar Nagar, Talakal, his colleagues opened Parampara for the first time.",
+      "voiceover": "This week, at Government Higher Primary School, Ambedkar Nagar, Talakal, his colleagues opened Parampara for the first time.",
+      "audio": [
+        {
+          "src": "audio/vo-proof.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "vision-lamps",
+      "start": 153.75,
+      "end": 161.89,
+      "note": "One lamp becomes many (Higgsfield, labelled). Namma Shaale, the next apps.",
+      "picture": {
+        "kind": "photo",
+        "src": "illustrations/lamps-multiply.jpg",
+        "faces": "none",
+        "illustration": true,
+        "zoom": [
+          1.0,
+          1.14
+        ],
+        "pan": [
+          0,
+          0
+        ],
+        "caption": "Namma Shaale: Parampara today, Kannadi next"
+      },
+      "english": "Parampara is our first lamp. Next, Kannadi helps a teacher see every child's learning from a notebook photo.",
+      "voiceover": "Parampara is our first lamp. Next, Kannadi helps a teacher see every child's learning from a notebook photo.",
+      "audio": [
+        {
+          "src": "audio/vo-vision-lamps.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "vision-map",
+      "start": 161.89,
+      "end": 169.07,
+      "note": "India drawn in code from real boundaries: Koppal's lamp, Karnataka, then state by state (labelled Illustration).",
+      "picture": {
+        "kind": "map",
+        "caption": "Roadmap, not built yet: cluster meetings, DIET, state systems, an open card standard"
+      },
+      "english": "One foundation, open to every state, for every classroom in India, starting from Karnataka.",
+      "voiceover": "One foundation, open to every state, for every classroom in India, starting from Karnataka.",
+      "audio": [
+        {
+          "src": "audio/vo-vision-map.mp3",
+          "kind": "voiceover",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "start": 169.07,
+      "end": 178.0,
+      "note": "Black, his flame, 1.2 s of stillness, his real voice (6.mp3). Then the team card and credits.",
+      "picture": {
+        "kind": "title",
+        "tone": "black",
+        "kn": "ಪರಂಪರೆ",
+        "en": "Parampara",
+        "hanate": "idle",
+        "lower": "Try it: parampara-eta.vercel.app · one tap demo for every role",
+        "credits": "Team Namma Shaale\nNarration voice: AI (ElevenLabs) · Sound effects: AI (ElevenLabs) · Illustrations: AI (Higgsfield) · Music: composed in code for this film\nMap: DataMeet India community, CC BY 4.0 · His voice: his own WhatsApp notes, with his consent"
+      },
+      "kannada": "ತಾವು ಹೆಚ್ಚಿನ ಪ್ರಯತ್ನವನ್ನು ಮಾಡಬೇಕೆಂಬುದು ನನ್ನ ಒಂದು ವಿನಂತಿ.",
+      "english": "My one request: that you make a greater effort.",
+      "voiceover": "",
+      "audio": [
+        {
+          "src": "audio/mahesh-close.mp3",
+          "kind": "headmaster",
+          "at": 1.6
+        }
+      ]
+    }
+  ]
+}

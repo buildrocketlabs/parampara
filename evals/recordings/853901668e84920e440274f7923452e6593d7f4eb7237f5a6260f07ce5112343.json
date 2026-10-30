@@ -1,0 +1,72 @@
+{
+  "key": "853901668e84920e440274f7923452e6593d7f4eb7237f5a6260f07ce5112343",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-10-shaming-told-as-regret",
+  "recordedAt": "2026-10-24T18:03:39.185Z",
+  "usage": {
+    "inputTokens": 5631,
+    "outputTokens": 1111,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.01455,
+  "latencyMs": 6959,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಓದಬಲ್ಲ ಪದ ಕೊಟ್ಟು ಚಪ್ಪಾಳೆ",
+        "titleEn": "A word they can read, then applause",
+        "problemKn": "ಓದಲು ಕಷ್ಟಪಡುವ ಮಗು ಎಲ್ಲರ ಮುಂದೆ ಓದಲು ಹಿಂಜರಿಯುತ್ತದೆ, ತನ್ನಿಂದ ಆಗಲ್ಲ ಅಂದುಕೊಳ್ಳುತ್ತದೆ.",
+        "problemEn": "A child who finds reading hard holds back from reading in front of the class and feels they cannot do it.",
+        "gradeBand": "any",
+        "subject": "kannada",
+        "topic": "reading",
+        "steps": [
+          {
+            "kn": "ಓದಲು ಕಷ್ಟಪಡುವ ಮಗುವನ್ನು ಮುಂದಿನ ಸಾಲಿನಲ್ಲಿ, ನಿಮ್ಮ ಪಕ್ಕ ಕೂರಿಸಿ.",
+            "en": "Seat the child who finds reading hard in the front row, next to you.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಎಲ್ಲರ ಮುಂದೆ ಓದಿಸುವ ಮೊದಲು, ಆ ಮಗು ಖಂಡಿತ ಓದಬಲ್ಲ ಒಂದು ಪದವನ್ನು ಕೊಡಿ.",
+            "en": "Before you ask the child to read in front of everyone, give a word the child can surely read.",
+            "evidence": [
+              "S6"
+            ]
+          },
+          {
+            "kn": "ಮಗು ಓದಿದ ತಕ್ಷಣ ಎಲ್ಲರೂ ಚಪ್ಪಾಳೆ ತಟ್ಟುವಂತೆ ಮಾಡಿ.",
+            "en": "As soon as the child reads it, have everyone clap.",
+            "evidence": [
+              "S6"
+            ]
+          },
+          {
+            "kn": "ದಿನಾ ಊಟದ ಮೊದಲು ಐದು ನಿಮಿಷ ಆ ಮಗುವಿನ ಜೊತೆ ನೀವೊಬ್ಬರೇ ಕೂತು ಓದಿ.",
+            "en": "Every day before lunch, sit and read with the child for five minutes, just the two of you.",
+            "evidence": [
+              "S7"
+            ]
+          }
+        ],
+        "materials": [],
+        "whyKn": "ಮಗುವಿಗೆ ತಾನೂ ಓದಬಲ್ಲೆ ಅನ್ನೋ ನಂಬಿಕೆ ಬಂದರೆ ಅರ್ಧ ಕೆಲಸ ಆದ ಹಾಗೆ.",
+        "whyEn": "Once a child believes they too can read, half the work is done.",
+        "quoteRef": "S8",
+        "flags": []
+      }
+    ],
+    "dropped": [
+      {
+        "reason": "shaming",
+        "summaryEn": "In early years the teacher called a child who could not read dull in front of everyone and sent the child to the back bench; the child later stopped coming. The teacher called it the biggest mistake of life."
+      }
+    ]
+  },
+  "attempts": 1
+}

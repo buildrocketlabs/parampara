@@ -1,0 +1,212 @@
+{
+  "base": "https://parampara-eta.vercel.app",
+  "at": "2026-10-27T22:16:22.447Z",
+  "spent": 0.29200000000000004,
+  "rows": [
+    {
+      "id": "p01",
+      "theme": "reluctant reader, tears",
+      "lang": "en",
+      "text": "A child in class 2 cannot read. The child cries when I ask him to read. What do I do?",
+      "outcome": "no-card",
+      "seconds": 8.4,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Reading · Class 2",
+      "usd": null
+    },
+    {
+      "id": "p02",
+      "theme": "reluctant reader, tears",
+      "lang": "kn",
+      "text": "ಎರಡನೇ ತರಗತಿಯ ಒಂದು ಮಗು ಓದು ಅಂದರೆ ಅಳುತ್ತದೆ, ಪುಸ್ತಕ ಮುಟ್ಟುವುದೇ ಇಲ್ಲ. ಏನು ಮಾಡಲಿ?",
+      "outcome": "no-card",
+      "seconds": 5.4,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Attendance and interest · Class 2",
+      "usd": null
+    },
+    {
+      "id": "p03",
+      "theme": "older weak reader, shame",
+      "lang": "en",
+      "text": "One child in my class 3 still reads like a class 1 child and feels ashamed in front of the others. How can I help without embarrassing him?",
+      "outcome": "no-card",
+      "seconds": 6.4,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Reading · Class 3",
+      "usd": null
+    },
+    {
+      "id": "p04",
+      "theme": "irregular attendance",
+      "lang": "kn",
+      "text": "ನನ್ನ class ನಲ್ಲಿ ಒಂದು ಮಗು ವಾರಕ್ಕೆ ಎರಡು ದಿನ ಮಾತ್ರ ಬರುತ್ತದೆ. ಉಳಿದವರಿಗಿಂತ ಹಿಂದೆ ಬೀಳದಂತೆ ಹೇಗೆ ನೋಡಿಕೊಳ್ಳಲಿ?",
+      "outcome": "answered",
+      "seconds": 14,
+      "understood": "engagement · any · pedagogyclaude",
+      "retrieval": "2 of 16 considered (60 approved)",
+      "cards": [
+        "e6703f4c-700e-4e20-9c95-192144917270",
+        "dd57eaa0-2414-4da7-b3cc-bf18974969ba"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p05",
+      "theme": "long absence, forgot letters",
+      "lang": "en",
+      "text": "A child was away three weeks for the harvest and has forgotten the letters she knew. How do I help her catch up?",
+      "outcome": "needs-human",
+      "seconds": 11.4,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p06",
+      "theme": "multigrade, alone",
+      "lang": "en",
+      "text": "I teach class 1, 2 and 3 together and I am alone. Class 1 needs me all the time. How do I keep the others learning?",
+      "outcome": "needs-human",
+      "seconds": 18.6,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p07",
+      "theme": "multigrade maths",
+      "lang": "kn",
+      "text": "ಒಂದೇ ಕೋಣೆಯಲ್ಲಿ ಮೂರು ತರಗತಿ, ನಾನೊಬ್ಬಳೇ ಶಿಕ್ಷಕಿ. ಮೂರಕ್ಕೂ ಒಟ್ಟಿಗೆ ಗಣಿತ ಹೇಗೆ ಮಾಡಿಸಲಿ?",
+      "outcome": "no-card",
+      "seconds": 8.4,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Multi level class · Class 1-3",
+      "usd": null
+    },
+    {
+      "id": "p08",
+      "theme": "counting objects",
+      "lang": "en",
+      "text": "My class 1 children say numbers up to 20, but when I ask for 7 stones they bring any handful. What should I do?",
+      "outcome": "answered",
+      "seconds": 13.9,
+      "understood": "number_sense · 1 · pedagogyclaude",
+      "retrieval": "1 of 16 considered (60 approved)",
+      "cards": [
+        "7b8bdf37-3fa9-4a2f-90c9-d71c84c7f556"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p09",
+      "theme": "place value",
+      "lang": "kn",
+      "text": "ಮಕ್ಕಳಿಗೆ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಅರ್ಥ ಆಗುತ್ತಿಲ್ಲ. 23 ಅಂದರೆ ಎರಡು ಹತ್ತು ಮೂರು ಬಿಡಿ ಅಂತ ಗೊತ್ತಿಲ್ಲ. ಹೇಗೆ ಕಲಿಸಲಿ?",
+      "outcome": "answered",
+      "seconds": 15.5,
+      "understood": "number_sense · any · pedagogyclaude",
+      "retrieval": "2 of 18 considered (60 approved)",
+      "cards": [
+        "8107747b-17c1-4a84-82be-cbb020b39721",
+        "326c318e-c7d2-48e6-ac99-9ec2c08913ae"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p10",
+      "theme": "spelling in own writing",
+      "lang": "en",
+      "text": "My class 2 children copy well from the board, but when they write on their own the spelling is full of mistakes.",
+      "outcome": "no-card",
+      "seconds": 5,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Writing · Class 2",
+      "usd": null
+    },
+    {
+      "id": "p11",
+      "theme": "reluctant writers",
+      "lang": "kn",
+      "text": "ಮಕ್ಕಳು ಬರೆಯೋಕೆ ಇಷ್ಟಪಡಲ್ಲ. ಬರೆಯಿರಿ ಅಂದರೆ ಪೆನ್ಸಿಲ್ ಹಿಡಿದು ಸುಮ್ಮನೆ ಕೂರುತ್ತಾರೆ. ಏನು ಮಾಡಲಿ?",
+      "outcome": "no-card",
+      "seconds": 5.4,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Writing · Class any",
+      "usd": null
+    },
+    {
+      "id": "p12",
+      "theme": "parents and attendance",
+      "lang": "en",
+      "text": "Parents do not send their children to school regularly. How do I talk to them?",
+      "outcome": "no-card",
+      "seconds": 3.9,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Parents and community",
+      "usd": null
+    },
+    {
+      "id": "p13",
+      "theme": "fear of maths",
+      "lang": "kn",
+      "text": "A child is very scared of maths and starts crying when I give sums. ಏನು ಮಾಡಲಿ?",
+      "outcome": "no-card",
+      "seconds": 4.9,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Attendance and interest · Class any",
+      "usd": null
+    },
+    {
+      "id": "p14",
+      "theme": "crying at the gate",
+      "lang": "en",
+      "text": "A child in class 1 does not want to come to school and cries every morning at the gate. How do I make school feel safe for her?",
+      "outcome": "answered",
+      "seconds": 10.1,
+      "understood": "engagement · 1 · pedagogyclaude",
+      "retrieval": "1 of 16 considered (60 approved)",
+      "cards": [
+        "4d9e2bdc-b727-420a-949b-19f268a64577"
+      ],
+      "queueTopic": null,
+      "usd": null
+    },
+    {
+      "id": "p15",
+      "theme": "fights in class",
+      "lang": "en",
+      "text": "Two children in my class 2 quarrel every day and disturb everyone. How can I calm the class?",
+      "outcome": "no-card",
+      "seconds": 4.5,
+      "understood": null,
+      "retrieval": null,
+      "cards": [],
+      "queueTopic": "Running the classroom · Class 2",
+      "usd": null
+    }
+  ]
+}

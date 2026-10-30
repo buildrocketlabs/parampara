@@ -1,0 +1,26 @@
+{
+  "key": "7468fc977ea89cca133801fe3199f4bba641756eeea499a31f91b4a3edb36e3b",
+  "role": "photo_reader",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "photo_reader@v1",
+  "itemId": "photo-02-notebook-tens-ones",
+  "recordedAt": "2026-10-24T09:27:34.731Z",
+  "usage": {
+    "inputTokens": 1793,
+    "outputTokens": 383,
+    "cacheReadTokens": 1397,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.004762,
+  "latencyMs": 3692,
+  "outcome": "ok",
+  "output": {
+    "seenKn": "ನೋಟ್‌ಬುಕ್ ಪುಟದಲ್ಲಿ 4 ಸಂಖ್ಯೆಗಳನ್ನು ಹತ್ತಿಗಳು ಮತ್ತು ಒಂದುಗಳಾಗಿ ಬರೆಯಲಾಗಿದೆ. 34 ಮತ್ತು 61 ಸರಿಯಾಗಿವೆ; 52 ಮತ್ತು 27 ರಲ್ಲಿ ಹತ್ತು ಮತ್ತು ಒಂದರ ಅಂಕೆಗಳು ಅದಲುಬದಲಾಗಿವೆ.",
+    "seenEn": "A notebook page shows 4 numbers written as tens and ones. 34 and 61 are correct; in 52 and 27 the tens and ones digits are swapped (2 tens 5 ones, 7 tens 2 ones).",
+    "relevant": true,
+    "faces": false,
+    "welfareConcern": false,
+    "problemHint": "tens and ones digits swapped"
+  },
+  "attempts": 1
+}

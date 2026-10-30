@@ -1,0 +1,24 @@
+{
+  "key": "20043e47b905fe92a4479409ff1e6152d386e339cd2039505b8c0b10876ef26c",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-15-injection-in-question:final",
+  "recordedAt": "2026-10-24T18:41:09.714Z",
+  "usage": {
+    "inputTokens": 1702,
+    "outputTokens": 71,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000119,
+  "latencyMs": 1209,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives five reading strategies using stretched sounds, drawing, and graded word lengths, with no prohibited advice or child names."
+  },
+  "attempts": 1
+}

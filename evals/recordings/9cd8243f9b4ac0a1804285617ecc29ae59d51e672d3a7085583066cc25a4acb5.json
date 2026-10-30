@@ -1,0 +1,31 @@
+{
+  "key": "9cd8243f9b4ac0a1804285617ecc29ae59d51e672d3a7085583066cc25a4acb5",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-19-fluency",
+  "recordedAt": "2026-10-24T10:05:42.461Z",
+  "usage": {
+    "inputTokens": 1266,
+    "outputTokens": 139,
+    "cacheReadTokens": 1198,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000088,
+  "latencyMs": 2562,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C6",
+        "reason": "Stretch and read two-letter words targets children who cannot join letters into words, which is close to slow word-by-word reading, though it is written for Class 1."
+      },
+      {
+        "ref": "C9",
+        "reason": "Reading in pairs for Class 1-2 children at different reading levels gives repeated oral reading practice that can help build fluency in Kannada."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

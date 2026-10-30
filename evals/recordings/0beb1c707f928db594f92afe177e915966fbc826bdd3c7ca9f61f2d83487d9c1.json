@@ -1,0 +1,27 @@
+{
+  "key": "0beb1c707f928db594f92afe177e915966fbc826bdd3c7ca9f61f2d83487d9c1",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-07-parents",
+  "recordedAt": "2026-10-24T09:29:43.635Z",
+  "usage": {
+    "inputTokens": 1259,
+    "outputTokens": 67,
+    "cacheReadTokens": 1070,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000063,
+  "latencyMs": 3411,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C8",
+        "reason": "A learning fair for parents on the last Saturday directly addresses involving parents who cannot read in their child's learning."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

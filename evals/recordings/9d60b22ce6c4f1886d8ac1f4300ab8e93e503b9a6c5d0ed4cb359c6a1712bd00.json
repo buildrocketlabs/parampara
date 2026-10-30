@@ -1,0 +1,23 @@
+{
+  "key": "9d60b22ce6c4f1886d8ac1f4300ab8e93e503b9a6c5d0ed4cb359c6a1712bd00",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-11-card-without-why:step2",
+  "recordedAt": "2026-10-24T18:05:06.427Z",
+  "usage": {
+    "inputTokens": 1524,
+    "outputTokens": 186,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000192,
+  "latencyMs": 2885,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ನೀವು ಒಂದು ಸಂಖ್ಯೆ ಹೇಳಿ; ಮಕ್ಕಳು ಅಷ್ಟು ಕಲ್ಲನ್ನು ನೆಲದ ಮೇಲೆ ಸಾಲಾಗಿ ಇಡಲಿ.",
+    "reason": "The card's step 2 says the teacher says a number and children lay that many stones in a line on the floor, matching the step exactly."
+  },
+  "attempts": 1
+}

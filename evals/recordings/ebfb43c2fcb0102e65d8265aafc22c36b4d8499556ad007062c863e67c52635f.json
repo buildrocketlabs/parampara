@@ -1,0 +1,23 @@
+{
+  "key": "ebfb43c2fcb0102e65d8265aafc22c36b4d8499556ad007062c863e67c52635f",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-10-two-cards-overlap:step2",
+  "recordedAt": "2026-10-24T18:40:22.199Z",
+  "usage": {
+    "inputTokens": 1805,
+    "outputTokens": 172,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000213,
+  "latencyMs": 1866,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಮಗು ಬೆರಳಿಂದ ಮರಳಲ್ಲಿ ಅಕ್ಷರ ಬರೆಯಲಿ, ಬರೆಯುತ್ತಾ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+    "reason": "The step matches card step 2: the child writes the letter in sand with a finger while saying it aloud, with the plate of sand as the material."
+  },
+  "attempts": 1
+}

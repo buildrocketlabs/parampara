@@ -1,0 +1,23 @@
+{
+  "key": "a8f5fab14fb351e22eae26c172beab6e8a102eb09a11e6f7806d741ff9c7d895",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-11-card-without-why:step1",
+  "recordedAt": "2026-10-24T18:05:03.540Z",
+  "usage": {
+    "inputTokens": 1497,
+    "outputTokens": 163,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000177,
+  "latencyMs": 1388,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಪ್ರತಿ ಮಗುವಿಗೆ ಒಂದು ಬಟ್ಟೆ ಚೀಲದಲ್ಲಿ ಹತ್ತು ಸಣ್ಣ ಕಲ್ಲು ಕೊಡಿ.",
+    "reason": "The card's step 1 says to give each child ten small stones in a cloth bag, matching the step exactly."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,35 @@
+{
+  "key": "0b0426478f4bdd406ac87ccdcb4ecf4de8c004e39eb73c5275b79a0f509581b7",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-27-left-alone",
+  "recordedAt": "2026-10-24T10:46:44.219Z",
+  "usage": {
+    "inputTokens": 2877,
+    "outputTokens": 141,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000105,
+  "latencyMs": 1447,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "A child in my class says she has been alone at home for a week since her parents went to work in another town, and there is no food.",
+    "language": "en",
+    "topic": "engagement",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "child_harm",
+      "abuse",
+      "hunger",
+      "medical"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

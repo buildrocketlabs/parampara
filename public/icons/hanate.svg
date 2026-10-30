@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140">
+  <!-- Hanate, the clay lamp (DESIGN §5), still pose, for the app icon. -->
+  <defs>
+    <radialGradient id="g"><stop offset="0%" stop-color="#FFC94D" stop-opacity="0.9"/><stop offset="55%" stop-color="#FFC94D" stop-opacity="0.28"/><stop offset="100%" stop-color="#FFC94D" stop-opacity="0"/></radialGradient>
+    <linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFC94D"/><stop offset="100%" stop-color="#F2A93B"/></linearGradient>
+  </defs>
+  <circle cx="60" cy="48" r="34" fill="url(#g)" opacity="0.7"/>
+  <ellipse cx="60" cy="122" rx="17" ry="5" fill="#B5472F"/>
+  <path d="M16 79 C16 106 36 121 60 121 C84 121 104 106 104 79 Z" fill="#C8553D"/>
+  <path d="M27 91 C29 101 35 108 43 112" stroke="#E8866C" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <ellipse cx="60" cy="79" rx="44" ry="9" fill="#B5472F"/>
+  <ellipse cx="60" cy="78.5" rx="36" ry="5.5" fill="#8E3624"/>
+  <path d="M60 78 L60 70" stroke="#21453C" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="#F2A93B" opacity="0.6"><ellipse cx="36" cy="101" rx="6.5" ry="3.6"/><ellipse cx="84" cy="101" rx="6.5" ry="3.6"/></g>
+  <ellipse cx="46" cy="93" rx="4.2" ry="5.4" fill="#15302A"/>
+  <ellipse cx="74" cy="93" rx="4.2" ry="5.4" fill="#15302A"/>
+  <circle cx="47.6" cy="91" r="1.4" fill="#FFFDF8"/>
+  <circle cx="75.6" cy="91" r="1.4" fill="#FFFDF8"/>
+  <path d="M54 103 Q60 108.5 66 103" stroke="#15302A" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  <path d="M60 16 C66 29 76 40 76 53 C76 64 69 72 60 72 C51 72 44 64 44 53 C44 40 54 29 60 16 Z" fill="url(#f)"/>
+  <path d="M60 38 C63 45 68 51 68 58 C68 64 64.5 68.5 60 68.5 C55.5 68.5 52 64 52 58 C52 51 57 45 60 38 Z" fill="#FFFDF8" opacity="0.92"/>
+</svg>

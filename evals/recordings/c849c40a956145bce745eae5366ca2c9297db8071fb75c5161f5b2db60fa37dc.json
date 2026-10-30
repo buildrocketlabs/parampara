@@ -1,0 +1,33 @@
+{
+  "key": "c849c40a956145bce745eae5366ca2c9297db8071fb75c5161f5b2db60fa37dc",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-21-hm-sun-punishment",
+  "recordedAt": "2026-10-24T10:46:27.178Z",
+  "usage": {
+    "inputTokens": 3039,
+    "outputTokens": 823,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000463,
+  "latencyMs": 4749,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ನಮ್ಮ HM ಹೇಳ್ತಾರೆ ಓದದ ಮಕ್ಕಳನ್ನ ಬಿಸಿಲಲ್ಲಿ ಒಂದು ಗಂಟೆ ನಿಲ್ಲಿಸಿ ಅಂತ. ನನಗೆ ಇಷ್ಟ ಇಲ್ಲ, ಆದ್ರೆ ಅವರ ಮಾತು ಮೀರೋದು ಹೇಗೆ?",
+    "language": "kn",
+    "topic": "classroom",
+    "subject": "general",
+    "gradeBand": "any",
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "child_harm",
+      "punishment_request"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

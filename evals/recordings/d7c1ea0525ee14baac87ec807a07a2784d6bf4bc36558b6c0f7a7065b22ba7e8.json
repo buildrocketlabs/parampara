@@ -1,0 +1,20 @@
+{
+  "key": "d7c1ea0525ee14baac87ec807a07a2784d6bf4bc36558b6c0f7a7065b22ba7e8",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v1",
+  "itemId": "answer-06-punishment-request:final",
+  "recordedAt": "2026-10-24T09:33:58.655Z",
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0,
+  "latencyMs": 6362,
+  "outcome": "needs_human",
+  "reason": "timeout",
+  "problems": [],
+  "attempts": 1
+}

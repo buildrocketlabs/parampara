@@ -1,0 +1,27 @@
+{
+  "key": "105507099142ba6a1d9aa937e5348bca13949c66568a368e18599115a37b6e1e",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-03-multi-level",
+  "recordedAt": "2026-10-24T10:05:09.930Z",
+  "usage": {
+    "inputTokens": 1308,
+    "outputTokens": 71,
+    "cacheReadTokens": 1159,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000062,
+  "latencyMs": 2151,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C3",
+        "reason": "Classes 1 and 2 share one room with one teacher, and this card shows how a master split the room into flower groups by reading level."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

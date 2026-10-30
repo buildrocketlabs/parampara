@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "about": "You said, we changed (shown on /how). One entry per change made because of something said in the Koppal field test. Real words only, never invented. who is a role word (teacher, master, headmaster, reviewer, officer, mentor), never a name. said and changed carry kn and en. before and after are screenshots in public/field/changes/ (no faces, no names on screen), or null. Newest entries may go anywhere; the page sorts by date. Checked by lib/field/changes.test.ts.",
+  "entries": []
+}

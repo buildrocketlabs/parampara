@@ -1,0 +1,31 @@
+{
+  "key": "955d4c7ede513fd7b337da9330facb4d44b6bfa6e382e058cd15883a52c82819",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-01-letters",
+  "recordedAt": "2026-10-24T09:29:24.817Z",
+  "usage": {
+    "inputTokens": 1197,
+    "outputTokens": 117,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1070
+  },
+  "costUsd": 0.000205,
+  "latencyMs": 3318,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C1",
+        "reason": "Directly targets Class 1 children who cannot yet recognise letters, using a simple daily one-letter practice in sand."
+      },
+      {
+        "ref": "C6",
+        "reason": "Helps Class 1 children who know letters move toward reading, a natural next step once letter recognition begins."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

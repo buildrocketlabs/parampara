@@ -1,0 +1,27 @@
+{
+  "key": "567796840a1cca4051d471fe27c899efb463d7363d444f522683b3eb2274d8fc",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-13-two-letter-words-en",
+  "recordedAt": "2026-10-24T10:05:28.325Z",
+  "usage": {
+    "inputTokens": 1265,
+    "outputTokens": 79,
+    "cacheReadTokens": 1198,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000058,
+  "latencyMs": 1745,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C6",
+        "reason": "Its problem is children who know their letters but cannot join them to read words, exactly the teacher's Class 1 Kannada difficulty with two letter words."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

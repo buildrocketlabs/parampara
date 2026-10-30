@@ -1,0 +1,26 @@
+{
+  "key": "9241c90288ce78d7da916eeb8e2aae675a7529e157ec0bb8ae7ba4dac170b6d9",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-10-identifying-family-detail",
+  "recordedAt": "2026-10-24T10:04:00.653Z",
+  "usage": {
+    "inputTokens": 2402,
+    "outputTokens": 224,
+    "cacheReadTokens": 2167,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.002927,
+  "latencyMs": 3152,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಆ ಮಗು ಶಾಲೆಗೆ ಬರೋದು ನಿಲ್ಲಿಸಿದಾಗ ನೀವು ಏನು ಮಾಡಿದಿರಿ? ದಯವಿಟ್ಟು ಆ ಒಂದು ಕಥೆಯನ್ನು ಹೇಳಿ.",
+    "questionEn": "When that child stopped coming to school, what did you do? Please tell me that one story.",
+    "why": "The master began a real engagement story; we ask for what they did, open and without leading.",
+    "topic": "engagement",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 1
+}

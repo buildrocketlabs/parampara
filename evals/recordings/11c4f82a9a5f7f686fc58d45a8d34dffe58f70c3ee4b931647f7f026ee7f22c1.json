@@ -1,0 +1,30 @@
+{
+  "key": "11c4f82a9a5f7f686fc58d45a8d34dffe58f70c3ee4b931647f7f026ee7f22c1",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-08-greeting",
+  "recordedAt": "2026-10-24T09:28:04.211Z",
+  "usage": {
+    "inputTokens": 2512,
+    "outputTokens": 112,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000087,
+  "latencyMs": 1510,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ನಮಸ್ಕಾರ ಹಣತೆ!",
+    "language": "kn",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "greeting",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

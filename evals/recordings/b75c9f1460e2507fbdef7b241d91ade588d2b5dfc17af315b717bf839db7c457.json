@@ -1,0 +1,21 @@
+{
+  "key": "b75c9f1460e2507fbdef7b241d91ade588d2b5dfc17af315b717bf839db7c457",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v1",
+  "itemId": "triage-14-teacher-crisis:name_check:0",
+  "recordedAt": "2026-10-24T09:28:31.582Z",
+  "usage": {
+    "inputTokens": 641,
+    "outputTokens": 11,
+    "cacheReadTokens": 582,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000017,
+  "latencyMs": 1912,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

@@ -1,0 +1,23 @@
+{
+  "key": "d1cb955a542ebc5095a988e156f60043332c9370435e7cd7b38a440a03a4eb6c",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step5",
+  "recordedAt": "2026-10-24T10:46:43.803Z",
+  "usage": {
+    "inputTokens": 4715,
+    "outputTokens": 486,
+    "cacheReadTokens": 1794,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000553,
+  "latencyMs": 5688,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಎರಡಕ್ಷರದ ಪದಗಳಿಂದ ಶುರು ಮಾಡಿ: ಮರ, ಮನೆ, ಕಲ.",
+    "reason": "The card supports starting with two-letter words and stretching them out, but does not mention writing them on the board for a non-reading group or a separate group; the board is listed as material, and the step's group targeting is an addition."
+  },
+  "attempts": 3
+}

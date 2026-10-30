@@ -1,0 +1,23 @@
+{
+  "key": "f3baa223219b6bc4ee9a13922ab85ba649683c114dfb07bbd075f2bef64d3132",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-16-card-does-not-fit-her:step3",
+  "recordedAt": "2026-10-24T18:05:58.895Z",
+  "usage": {
+    "inputTokens": 1438,
+    "outputTokens": 145,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000162,
+  "latencyMs": 1826,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಓದೋಕೆ ಬರದ ಪೋಷಕರಿಗೆ ಮಗುವಿನ ಕೆಲಸದ ಚಿತ್ರಗಳನ್ನು ತೋರಿಸಿ.",
+    "reason": "Step 3 of the card says exactly this: show parents who cannot read pictures of their child's work."
+  },
+  "attempts": 1
+}

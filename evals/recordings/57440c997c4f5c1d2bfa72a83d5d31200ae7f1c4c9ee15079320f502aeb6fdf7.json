@@ -1,0 +1,25 @@
+{
+  "key": "57440c997c4f5c1d2bfa72a83d5d31200ae7f1c4c9ee15079320f502aeb6fdf7",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "redactor-01-kn-name-intro:leaky",
+  "recordedAt": "2026-10-24T10:03:20.487Z",
+  "usage": {
+    "inputTokens": 1244,
+    "outputTokens": 20,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000073,
+  "latencyMs": 1677,
+  "outcome": "ok",
+  "output": {
+    "flagged": [
+      "P1",
+      "P2",
+      "P3"
+    ]
+  },
+  "attempts": 1
+}

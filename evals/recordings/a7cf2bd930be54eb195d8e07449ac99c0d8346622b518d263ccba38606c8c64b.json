@@ -1,0 +1,26 @@
+{
+  "key": "a7cf2bd930be54eb195d8e07449ac99c0d8346622b518d263ccba38606c8c64b",
+  "role": "photo_reader",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "photo_reader@v1",
+  "itemId": "photo-01-slate-ba-da",
+  "recordedAt": "2026-10-24T09:27:31.038Z",
+  "usage": {
+    "inputTokens": 1796,
+    "outputTokens": 385,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1397
+  },
+  "costUsd": 0.008141,
+  "latencyMs": 6036,
+  "outcome": "ok",
+  "output": {
+    "seenKn": "ಕಪ್ಪುಹಲಗೆಯ ಮೇಲೆ 1 ರಿಂದ 6 ರವರೆಗೆ ಸಂಖ್ಯೆ ಹಾಕಿದ ಆರು ಕನ್ನಡ ಪದಗಳಿವೆ: ದಲ, ಬನ, ದಡವ, ಬಡ, ಕಮಲ, ನಗರ. ಇವುಗಳಲ್ಲಿ ದ ಮತ್ತು ಬ ಅಕ್ಷರಗಳು ಇರುವ ನಾಲ್ಕು ಪದಗಳಿವೆ.",
+    "seenEn": "A blackboard shows six numbered Kannada words: ದಲ, ಬನ, ದಡವ, ಬಡ, ಕಮಲ, ನಗರ. Four of them contain the look-alike letters ದ or ಬ.",
+    "relevant": true,
+    "faces": false,
+    "welfareConcern": false,
+    "problemHint": "look-alike letters ದ/ಬ"
+  },
+  "attempts": 1
+}

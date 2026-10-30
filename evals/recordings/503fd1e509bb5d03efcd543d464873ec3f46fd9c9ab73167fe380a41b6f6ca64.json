@@ -1,0 +1,69 @@
+{
+  "key": "503fd1e509bb5d03efcd543d464873ec3f46fd9c9ab73167fe380a41b6f6ca64",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-01-kn-letters",
+  "recordedAt": "2026-10-24T10:05:50.408Z",
+  "usage": {
+    "inputTokens": 2890,
+    "outputTokens": 969,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1701
+  },
+  "costUsd": 0.016321,
+  "latencyMs": 5840,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಮರಳಲ್ಲಿ ದಿನಕ್ಕೊಂದು ಅಕ್ಷರ",
+      "en": "One letter in sand",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಎಲ್ಲಾ ಅಕ್ಷರ ಒಟ್ಟಿಗೆ ಬೇಡ, ದಿನಕ್ಕೆ ಒಂದೇ ಅಕ್ಷರ ಕಲಿಸಿ.",
+        "en": "Do not teach all letters together. Teach just one letter a day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ತಟ್ಟೆಯಲ್ಲಿ ಮರಳು ಹಾಕಿ, ಮಗು ಬೆರಳಿಂದ ಬರೆಯುತ್ತಾ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+        "en": "Put sand in a plate; the child writes with a finger, saying the letter aloud.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮೊದಲ ಹದಿನೈದು ದಿನ, ಪ್ರಾರ್ಥನೆ ಆದ ಮೇಲೆ ಹತ್ತು ನಿಮಿಷ ಮಾಡಿ.",
+        "en": "For the first fifteen days, do it ten minutes after the morning prayer.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮರೆತರೆ ಬೈಯಬೇಡಿ, ಮರುದಿನ ಅದೇ ಅಕ್ಷರ ಮತ್ತೆ ಮರಳಲ್ಲಿ ಬರೆಸಿ.",
+        "en": "If the child forgets, do not scold; repeat the same letter in sand next day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮೂರು ದಿನ ಸತತ ಗುರುತಿಸಿದರೆ ಮುಂದಿನ ಅಕ್ಷರಕ್ಕೆ ಹೋಗಿ.",
+        "en": "When the child knows it three days in a row, move to the next letter.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಮರಳು ಹಾಕಿದ ತಟ್ಟೆ",
+        "en": "A plate of sand",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಒಂದೇ ಅಕ್ಷರ ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಮುಂದೆ ಹೋಗುವುದು.",
+      "en": "One letter at a time, moving on only when it is firm.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

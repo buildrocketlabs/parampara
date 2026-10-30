@@ -1,0 +1,27 @@
+{
+  "key": "b1fed2f8df0e8577fe7783120d0a1bc39f1c98fad673a40b721b36bcaae3ee83",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-03-multi-level",
+  "recordedAt": "2026-10-24T09:29:28.904Z",
+  "usage": {
+    "inputTokens": 1219,
+    "outputTokens": 70,
+    "cacheReadTokens": 1070,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000061,
+  "latencyMs": 1695,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C3",
+        "reason": "Classes 1 and 2 share one room with one teacher, and this card shows how to split children into reading-level groups that work together."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

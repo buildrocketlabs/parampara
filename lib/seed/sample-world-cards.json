@@ -1,0 +1,2976 @@
+{
+ "sample": true,
+ "note": "Synthetic Sample practice cards for the demo library (D88). Every card is credited to a Sample master in lib/seed/sample-world.ts and seeded by pnpm seed:library. Not real people, not field data.",
+ "cards": [
+  {
+   "id": "sample-world-01",
+   "master": "sharanappa",
+   "title": {
+    "kn": "ಒಂದೇ ತರಹ ಕಾಣುವ ಅಕ್ಷರ, ಒಂದೊಂದಾಗಿ",
+    "en": "Letters that look alike, one at a time"
+   },
+   "problem": {
+    "kn": "ಓದುವಾಗ ಮಕ್ಕಳು ಒಂದೇ ತರಹ ಕಾಣುವ ಅಕ್ಷರಗಳನ್ನು ಗೊಂದಲ ಮಾಡಿಕೊಳ್ಳುತ್ತಾರೆ, ದ ಮತ್ತು ಧ, ಬ ಮತ್ತು ಭ ಹಾಗೆ.",
+    "en": "When reading, children mix up letters that look almost the same, like ದ and ಧ, or ಬ and ಭ."
+   },
+   "steps": [
+    {
+     "kn": "ಜೋಡಿಯ ಎರಡೂ ಅಕ್ಷರ ಒಟ್ಟಿಗೆ ಕಲಿಸಬೇಡಿ. ಮೊದಲು ದ ಒಂದನ್ನೇ ಗಟ್ಟಿ ಮಾಡಿ.",
+     "en": "Do not teach both letters of a pair together. First make ದ firm on its own."
+    },
+    {
+     "kn": "ಒಂದು ವಾರದ ನಂತರ ಧ ತೋರಿಸಿ. ಹೆಚ್ಚಿನ ಸಣ್ಣ ಗುರುತಿಗೆ ಒಂದು ಪುಟ್ಟ ಕಥೆ ಅಥವಾ ಕೈ ಸನ್ನೆ ಕೊಡಿ: 'ದ ಗೆ ಒಂದು ಗುರುತು ಸೇರಿದರೆ ಧ.'",
+     "en": "After a week, show ಧ. Give the extra small mark a little story or a hand gesture: 'add one mark to ದ and it becomes ಧ.'"
+    },
+    {
+     "kn": "ಧ ಹೇಳುವಾಗ ಮಕ್ಕಳು ಬಾಯಿ ಮುಂದೆ ಕೈ ಹಿಡಿದು ಜೋರಾಗಿ ಬರುವ ಗಾಳಿಯನ್ನು ಅನುಭವಿಸಲಿ.",
+     "en": "When saying ಧ, let the children hold a hand in front of the mouth and feel the strong breath."
+    },
+    {
+     "kn": "ಎರಡೂ ಅಕ್ಷರದ ಕಾರ್ಡು ಬೆರೆಸಿ ಕೊಡಿ. ಮಕ್ಕಳು ಜೋರಾಗಿ ಹೇಳುತ್ತಾ ಎರಡು ರಾಶಿ ಮಾಡಲಿ.",
+     "en": "Mix cards of both letters. Let the children sort them into two heaps, saying each one aloud."
+    },
+    {
+     "kn": "ಬ ಮತ್ತು ಭ ಜೋಡಿಗೂ ಇದೇ ರೀತಿ ಮಾಡಿ.",
+     "en": "Do the same for ಬ and ಭ."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಅಕ್ಷರ ಕಾರ್ಡುಗಳು",
+     "en": "letter cards"
+    }
+   ],
+   "why": {
+    "kn": "ಒಂದು ಅಕ್ಷರ ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಮಾತ್ರ ಅದರ ಜೋಡಿ ಅಕ್ಷರದ ವ್ಯತ್ಯಾಸ ಕಣ್ಣಿಗೆ ಕಾಣುತ್ತದೆ.",
+    "en": "Only when one letter is firm can the child see how its partner is different."
+   },
+   "index": {
+    "topic": "letters",
+    "gradeBand": "1",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-02",
+   "master": "sharanappa",
+   "title": {
+    "kn": "ಪ್ರತಿ ಗುಂಪಿಗೂ ಒಂದು ಕೆಲಸದ ಚೀಲ",
+    "en": "A work bag for every group"
+   },
+   "problem": {
+    "kn": "ನಾನು ಒಂದು ಗುಂಪಿನ ಜೊತೆ ಕೂತಾಗ ಉಳಿದ ಮಕ್ಕಳು ಅಲ್ಲಿ ಇಲ್ಲಿ ಓಡಾಡಿ ಗಲಾಟೆ ಮಾಡುತ್ತಾರೆ.",
+    "en": "While I sit with one group, the other children wander about and make noise."
+   },
+   "steps": [
+    {
+     "kn": "ಪ್ರತಿ ಗುಂಪಿಗೆ ಹಳೆ ಬಟ್ಟೆಯಿಂದ ಒಂದು ಚೀಲ ಮಾಡಿ. ಅದರಲ್ಲಿ ಆ ಗುಂಪಿನ ಮಟ್ಟದ ಕೆಲಸದ ಕಾರ್ಡುಗಳನ್ನು ಇಡಿ.",
+     "en": "Make a bag from old cloth for each group. Keep task cards for that group's level in it."
+    },
+    {
+     "kn": "ಕೆಲಸ ಸರಳವಾಗಿರಲಿ: ಹತ್ತು ಕಲ್ಲು ಎಣಿಸಿ ಸ್ಲೇಟಿನಲ್ಲಿ ಸಂಖ್ಯೆ ಬರೆಯೋದು, ಕಾರ್ಡಿನ ಪದ ಸ್ಲೇಟಿನಲ್ಲಿ ಬರೆಯೋದು.",
+     "en": "Keep the tasks simple: count ten pebbles and write the number on the slate, copy the word on the card onto the slate."
+    },
+    {
+     "kn": "ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ ಒಂದು ಮಗು ಕಾರ್ಡು ಹಂಚಲಿ. ಆ ಕೆಲಸ ಪ್ರತಿ ದಿನ ಬೇರೆ ಮಗುವಿಗೆ.",
+     "en": "Let one child in each group hand out the cards. A different child does this each day."
+    },
+    {
+     "kn": "ಒಂದು ಕಾರ್ಡು ಮುಗಿದರೆ ಮುಂದಿನ ಕಾರ್ಡು ತೆಗೆಯಲಿ. ಸಹಾಯ ಬೇಕಾದರೆ ಮಾತಾಡದೆ ಕೈ ಎತ್ತಲಿ ಎಂದು ಮೊದಲ ದಿನವೇ ಕಲಿಸಿ.",
+     "en": "When one card is done, they take the next. Teach on the first day that a child who needs help raises a hand quietly."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಹಳೆ ಬಟ್ಟೆಯ ಚೀಲಗಳು",
+     "en": "bags of old cloth"
+    },
+    {
+     "kn": "ಕೆಲಸದ ಕಾರ್ಡುಗಳು",
+     "en": "task cards"
+    },
+    {
+     "kn": "ಸಣ್ಣ ಕಲ್ಲುಗಳು",
+     "en": "pebbles"
+    }
+   ],
+   "why": {
+    "kn": "ಮಾಡೋಕೆ ಕೆಲಸ ಕೈಯಲ್ಲಿದ್ದರೆ ಮಕ್ಕಳು ಓಡಾಡುವುದಿಲ್ಲ.",
+    "en": "When children have work in their hands, they do not wander."
+   },
+   "index": {
+    "topic": "multi_level",
+    "gradeBand": "1-2",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-03",
+   "master": "sharanappa",
+   "title": {
+    "kn": "ಅಕ್ಕ ಅಣ್ಣ ಸಹಾಯಕರು",
+    "en": "Older children as helpers"
+   },
+   "problem": {
+    "kn": "ಮೂರನೇ ತರಗತಿ ಮಕ್ಕಳು ಬೇಗ ಕೆಲಸ ಮುಗಿಸಿ ಸುಮ್ಮನೆ ಕೂರುತ್ತಾರೆ. ಒಂದನೇ ತರಗತಿ ಮಕ್ಕಳಿಗೆ ಇನ್ನೂ ಹೆಚ್ಚು ಸಹಾಯ ಬೇಕು.",
+    "en": "Class 3 children finish quickly and sit idle, while Class 1 children need more help."
+   },
+   "steps": [
+    {
+     "kn": "ದಿನಕ್ಕೆ ಇಪ್ಪತ್ತು ನಿಮಿಷ ಮೂರನೇ ತರಗತಿ ಮಕ್ಕಳು 'ಅಕ್ಕ ಅಣ್ಣ' ಆಗಲಿ. ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಒಂದನೇ ತರಗತಿಯ ಒಂದು ಮಗು.",
+     "en": "For twenty minutes a day, let the Class 3 children become 'ಅಕ್ಕ ಅಣ್ಣ' helpers, each with one Class 1 child."
+    },
+    {
+     "kn": "ಸಹಾಯಕರು ಏನು ಮಾಡಬೇಕು ಅಂತ ನೀವೇ ಮೊದಲು ಮಾಡಿ ತೋರಿಸಿ: ಮಗು ಓದುವಾಗ ಕೇಳೋದು, ಅಕ್ಷರದ ಮೇಲೆ ಬೆರಳು ಇಡೋದು.",
+     "en": "First show the helpers yourself exactly what to do: listen while the child reads, point to the letters."
+    },
+    {
+     "kn": "ಮಗು ಒಂದು ಅಕ್ಷರ ತಪ್ಪು ಓದಿದರೆ ಸಹಾಯಕರು ಸರಿಯಾದ ಅಕ್ಷರ ಹೇಳಲಿ, ಮಗು ಮತ್ತೆ ಓದಲಿ. ಇದನ್ನೂ ಮೊದಲೇ ಅಭ್ಯಾಸ ಮಾಡಿಸಿ.",
+     "en": "If the child reads a letter wrongly, the helper says the right one and the child reads it again. Practise this with the helpers first too."
+    },
+    {
+     "kn": "ಪ್ರತಿ ವಾರ ಜೋಡಿ ಬದಲಾಯಿಸಿ.",
+     "en": "Change the pairs every week."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಕಲಿಸುವಾಗ ದೊಡ್ಡ ಮಕ್ಕಳ ಕಲಿಕೆಯೂ ಗಟ್ಟಿಯಾಗುತ್ತದೆ, ಸಣ್ಣ ಮಕ್ಕಳಿಗೆ ಸಹಾಯವೂ ಸಿಗುತ್ತದೆ.",
+    "en": "Teaching makes the older children's own learning firm, and the younger ones get help."
+   },
+   "index": {
+    "topic": "multi_level",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-04",
+   "master": "sharada",
+   "title": {
+    "kn": "ಹದಿಮೂರು ಅಂದರೆ ಒಂದು ಕಟ್ಟು, ಮೂರು ಬಿಡಿ",
+    "en": "Thirteen is one bundle and three"
+   },
+   "problem": {
+    "kn": "ಹದಿಮೂರು ಬರೆಯೋಕೆ ಹೇಳಿದರೆ ಮಕ್ಕಳು 31 ಅಂತ ಬರೆಯುತ್ತಾರೆ, ಅಂಕೆಗಳನ್ನು ಅದಲು ಬದಲು ಮಾಡುತ್ತಾರೆ.",
+    "en": "When asked to write thirteen, children write 31: they swap the digits."
+   },
+   "steps": [
+    {
+     "kn": "ಮೊದಲು ಕಡ್ಡಿಗಳಿಂದ ಮಾಡಲಿ: ಒಂದು ಹತ್ತರ ಕಟ್ಟು, ಮೂರು ಬಿಡಿ ಕಡ್ಡಿ.",
+     "en": "First let them make it with sticks: one bundle of ten and three loose sticks."
+    },
+    {
+     "kn": "ಮಾಡುತ್ತಾ 'ಹತ್ತು ಮತ್ತು ಮೂರು, ಹದಿಮೂರು' ಅಂತ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+     "en": "While making it, let them say aloud, 'ten and three, thirteen'."
+    },
+    {
+     "kn": "ಸ್ಲೇಟಿನಲ್ಲಿ ಹತ್ತರ ಮನೆ, ಬಿಡಿ ಮನೆ ಎಳೆಯಿರಿ. ಕಟ್ಟು ಎಷ್ಟು ಅಂತ ಹತ್ತರ ಮನೆಯಲ್ಲಿ ಮೊದಲು ಬರೆಯಲಿ, ಆಮೇಲೆ ಬಿಡಿ.",
+     "en": "Draw a tens house and a ones house on the slate. Let them write the number of bundles in the tens house first, then the loose ones."
+    },
+    {
+     "kn": "ಬರೆದ ಮೇಲೆ ಆ ಸಂಖ್ಯೆಯನ್ನು ಮತ್ತೆ ಕಡ್ಡಿಯಿಂದ ಮಾಡಿ ನೋಡಲಿ. ಸರಿ ಇದೆಯಾ ಅಂತ ಮಗುವೇ ಹೇಳಲಿ.",
+     "en": "After writing, let them make the number again with sticks. Let the child say whether it matches."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಡ್ಡಿಗಳು",
+     "en": "sticks"
+    },
+    {
+     "kn": "ರಬ್ಬರ್ ಬ್ಯಾಂಡು",
+     "en": "rubber bands"
+    },
+    {
+     "kn": "ಸ್ಲೇಟು",
+     "en": "slates"
+    }
+   ],
+   "why": {
+    "kn": "ಕಟ್ಟು ಕೈಯಲ್ಲಿದ್ದರೆ ಹತ್ತು ಯಾವ ಮನೆಗೆ ಹೋಗುತ್ತದೆ ಅಂತ ಮಗುವಿಗೆ ಕಾಣುತ್ತದೆ.",
+    "en": "With the bundle in hand, the child sees which house the ten goes to."
+   },
+   "index": {
+    "topic": "number_sense",
+    "gradeBand": "2",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-05",
+   "master": "sharada",
+   "title": {
+    "kn": "ಮೊದಲು ಕಟ್ಟುಗಳನ್ನು ನೋಡಿ",
+    "en": "Look at the bundles first"
+   },
+   "problem": {
+    "kn": "ಎರಡು ಸಂಖ್ಯೆಗಳಲ್ಲಿ ಯಾವುದು ದೊಡ್ಡದು ಅಂತ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಾಗಲ್ಲ, 29 ಮತ್ತು 41 ಹಾಗೆ.",
+    "en": "Children cannot tell which of two numbers is bigger, like 29 and 41."
+   },
+   "steps": [
+    {
+     "kn": "ಎರಡೂ ಸಂಖ್ಯೆಯನ್ನು ಕಡ್ಡಿ ಕಟ್ಟುಗಳಿಂದ ಮಾಡಲಿ: 29 ಅಂದರೆ ಎರಡು ಕಟ್ಟು, ಒಂಬತ್ತು ಬಿಡಿ. 41 ಅಂದರೆ ನಾಲ್ಕು ಕಟ್ಟು, ಒಂದು ಬಿಡಿ.",
+     "en": "Let them make both numbers with bundles of sticks: 29 is two bundles and nine loose, 41 is four bundles and one loose."
+    },
+    {
+     "kn": "ಮೊದಲು ಕಟ್ಟುಗಳನ್ನು ಮಾತ್ರ ನೋಡಲಿ: ಯಾವ ಕಡೆ ಹೆಚ್ಚು ಕಟ್ಟು ಇದೆ?",
+     "en": "Let them look at the bundles only first: which side has more bundles?"
+    },
+    {
+     "kn": "ಕಟ್ಟು ಸಮ ಇದ್ದಾಗ ಮಾತ್ರ ಬಿಡಿ ಕಡ್ಡಿ ನೋಡಲಿ, 34 ಮತ್ತು 37 ಹಾಗೆ.",
+     "en": "Only when the bundles are equal, let them look at the loose sticks, as with 34 and 37."
+    },
+    {
+     "kn": "ಕೊನೆಗೆ ಮಕ್ಕಳು ತಮ್ಮದೇ ಮಾತಿನಲ್ಲಿ ನಿಯಮ ಹೇಳಲಿ: 'ಹೆಚ್ಚು ಕಟ್ಟು ಇದ್ದದ್ದು ದೊಡ್ಡದು.'",
+     "en": "At the end, let the children say the rule in their own words: 'more bundles is bigger'."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಡ್ಡಿಗಳು",
+     "en": "sticks"
+    },
+    {
+     "kn": "ರಬ್ಬರ್ ಬ್ಯಾಂಡು",
+     "en": "rubber bands"
+    }
+   ],
+   "why": {
+    "kn": "ಸಂಖ್ಯೆ ಎಷ್ಟು ದೊಡ್ಡದು ಅಂತ ಹತ್ತುಗಳು ಹೇಳುತ್ತವೆ, ಕಟ್ಟು ನೋಡಿದರೆ ಅದು ಕಣ್ಣಿಗೆ ಕಾಣುತ್ತದೆ.",
+    "en": "The tens decide how big a number is, and the bundles let children see it."
+   },
+   "index": {
+    "topic": "number_sense",
+    "gradeBand": "2",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-06",
+   "master": "sharada",
+   "title": {
+    "kn": "ಹತ್ತು ಕಟ್ಟು ಸೇರಿ ಒಂದು ನೂರು",
+    "en": "Ten bundles make a hundred"
+   },
+   "problem": {
+    "kn": "ಮೂರನೇ ತರಗತಿ ಮಕ್ಕಳಿಗೆ ಮೂರು ಅಂಕೆಯ ಸಂಖ್ಯೆಗಳಲ್ಲಿ ಗೊಂದಲ ಆಗುತ್ತದೆ.",
+    "en": "Class 3 children get confused by three digit numbers."
+   },
+   "steps": [
+    {
+     "kn": "ಹತ್ತು ಕಡ್ಡಿಯ ಹತ್ತು ಕಟ್ಟುಗಳನ್ನು ಸೇರಿಸಿ ಒಂದು ದೊಡ್ಡ ಕಟ್ಟು ಮಾಡಿ. 'ಇದು ಒಂದು ನೂರು' ಅಂತ ಹೇಳಿ.",
+     "en": "Tie ten bundles of ten sticks together into one big bundle. Say, 'This is one hundred.'"
+    },
+    {
+     "kn": "ನೆಲದ ಮೇಲೆ ಬಳಪದಿಂದ ಮೂರು ಮನೆ ಎಳೆಯಿರಿ: ನೂರು, ಹತ್ತು, ಬಿಡಿ.",
+     "en": "Draw three houses on the floor with chalk: hundreds, tens, ones."
+    },
+    {
+     "kn": "ನೀವು ಒಂದು ಸಂಖ್ಯೆ ಹೇಳಿ, 132 ಹಾಗೆ. ಮಕ್ಕಳು ಗುಂಪಿನಲ್ಲಿ ಕಟ್ಟುಗಳನ್ನು ಸರಿಯಾದ ಮನೆಯಲ್ಲಿ ಇಡಲಿ.",
+     "en": "Call out a number, like 132. Let the children, in groups, put the bundles in the right houses."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಪ್ರತಿ ಮನೆಯಲ್ಲಿ ಎಷ್ಟು ಇದೆ ಅಂತ ಎಣಿಸಿ ಸಂಖ್ಯೆ ಬರೆಯಲಿ.",
+     "en": "Then let them count what is in each house and write the number."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಡ್ಡಿಗಳು",
+     "en": "sticks"
+    },
+    {
+     "kn": "ರಬ್ಬರ್ ಬ್ಯಾಂಡು",
+     "en": "rubber bands"
+    },
+    {
+     "kn": "ಬಳಪ",
+     "en": "chalk"
+    }
+   ],
+   "why": {
+    "kn": "ಹತ್ತು ಹತ್ತುಗಳನ್ನು ತಮ್ಮ ಕೈಯಿಂದಲೇ ಕಟ್ಟಿ ನೂರು ಮಾಡಿದರೆ ಮಕ್ಕಳು ಮರೆಯಲ್ಲ.",
+    "en": "When children tie ten tens into a hundred with their own hands, they do not forget it."
+   },
+   "index": {
+    "topic": "number_sense",
+    "gradeBand": "3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-07",
+   "master": "sharada",
+   "title": {
+    "kn": "ಖಾಲಿ ತಟ್ಟೆ ಅಂದರೆ ಸೊನ್ನೆ",
+    "en": "An empty plate is zero"
+   },
+   "problem": {
+    "kn": "ಸೊನ್ನೆ ಅಂದರೆ ಏನು ಅಂತ ಮಕ್ಕಳಿಗೆ ಅರ್ಥ ಆಗಲ್ಲ.",
+    "en": "Children do not understand zero."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ತಟ್ಟೆಯಲ್ಲಿ ಐದು ಕಲ್ಲು ಇಡಿ. ಮಕ್ಕಳು ಒಂದೊಂದಾಗಿ ತೆಗೆಯುತ್ತಾ 'ನಾಲ್ಕು, ಮೂರು, ಎರಡು, ಒಂದು' ಅಂತ ಹೇಳಲಿ.",
+     "en": "Put five stones in a plate. Let the children take them out one by one, saying 'four, three, two, one'."
+    },
+    {
+     "kn": "ಕೊನೆಯ ಕಲ್ಲು ತೆಗೆದಾಗ ಕೇಳಿ: 'ಈಗ ಎಷ್ಟು ಇದೆ?' ಖಾಲಿ ತಟ್ಟೆ ತೋರಿಸಿ ಎಲ್ಲರೂ 'ಸೊನ್ನೆ' ಅಂತ ಹೇಳಲಿ.",
+     "en": "When the last stone is out, ask, 'How many now?' Show the empty plate and let everyone say 'zero'."
+    },
+    {
+     "kn": "ಒಂದು ಕಾರ್ಡಿನ ಮೇಲೆ 0 ಬರೆದು ಖಾಲಿ ತಟ್ಟೆಯ ಪಕ್ಕ ಇಡಿ.",
+     "en": "Write 0 on a card and put it beside the empty plate."
+    },
+    {
+     "kn": "'ಎಷ್ಟು ಉಳಿಯಿತು?' ಆಟ ಆಡಿ: ಮುಷ್ಟಿ ತೆರೆದು ಕೆಲವು ಕಲ್ಲು ಅಥವಾ ಖಾಲಿ ಕೈ ತೋರಿಸಿ. ಖಾಲಿ ಕೈ ಕಂಡಾಗ ಮಕ್ಕಳು 'ಸೊನ್ನೆ' ಅನ್ನಲಿ.",
+     "en": "Play 'how many are left?': open your fist to show a few stones, or an empty hand. When they see an empty hand, the children say 'zero'."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದು ತಟ್ಟೆ",
+     "en": "a plate"
+    },
+    {
+     "kn": "ಐದು ಕಲ್ಲು",
+     "en": "five stones"
+    }
+   ],
+   "why": {
+    "kn": "ಏನೂ ಇಲ್ಲ ಅನ್ನೋದಕ್ಕೂ ಒಂದು ಸಂಖ್ಯೆ ಇದೆ ಅಂತ ಮಗು ಕಣ್ಣಾರೆ ನೋಡುತ್ತದೆ.",
+    "en": "The child sees with their own eyes that nothing has a number too."
+   },
+   "index": {
+    "topic": "number_sense",
+    "gradeBand": "1",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-08",
+   "master": "geetha",
+   "title": {
+    "kn": "ಒಂದು ಅಕ್ಷರ ಬದಲಿಸಿ, ಹೊಸ ಪದ",
+    "en": "Change one letter, read a new word"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಒಂದು ಪದ ಓದುತ್ತಾರೆ, ಆದರೆ ಅದರಂತೆಯೇ ಇರುವ ಇನ್ನೊಂದು ಪದ ಓದಲ್ಲ. ಪದವನ್ನು ಬಾಯಿಪಾಠ ಮಾಡಿರುತ್ತಾರೆ.",
+    "en": "Children read one word but cannot read a similar word. They have learnt the word by heart."
+   },
+   "steps": [
+    {
+     "kn": "ಕಪ್ಪು ಹಲಗೆಯ ಮೇಲೆ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಿರುವ ಒಂದು ಪದ ಬರೆಯಿರಿ: ಮರ.",
+     "en": "Write a word the children know on the blackboard: ಮರ."
+    },
+    {
+     "kn": "ಕೆಳಗೆ ಒಂದೇ ಅಕ್ಷರ ಬದಲಿಸಿ ಬರೆಯಿರಿ: ಕರ, ಆಮೇಲೆ ಸರ. ಏಣಿಯ ಮೆಟ್ಟಿಲಿನ ಹಾಗೆ.",
+     "en": "Below it, write it again changing just one letter: ಕರ, then ಸರ. Like the steps of a ladder."
+    },
+    {
+     "kn": "ಪ್ರತಿ ಹೊಸ ಪದ ಬಂದಾಗ ಮಕ್ಕಳು ಬದಲಾದ ಅಕ್ಷರದ ಮೇಲೆ ಬೆರಳಿಟ್ಟು ಓದಲಿ.",
+     "en": "Each time a new word comes, let the children put a finger on the changed letter and read."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಮಕ್ಕಳು ಜೋಡಿಯಲ್ಲಿ ಅಕ್ಷರ ಕಾರ್ಡುಗಳಿಂದ ತಮ್ಮದೇ ಏಣಿ ಮಾಡಿ ಓದಲಿ.",
+     "en": "Then let the children, in pairs, make their own ladder with letter cards and read it."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಪ್ಪು ಹಲಗೆ",
+     "en": "the blackboard"
+    },
+    {
+     "kn": "ಅಕ್ಷರ ಕಾರ್ಡುಗಳು",
+     "en": "letter cards"
+    }
+   ],
+   "why": {
+    "kn": "ಒಂದು ಅಕ್ಷರ ಬದಲಾದರೆ ಪದ ಬದಲಾಗುತ್ತದೆ ಅಂತ ನೋಡಿದಾಗ ಮಗು ನಿಜವಾಗಿ ಓದೋಕೆ ಶುರು ಮಾಡುತ್ತದೆ.",
+    "en": "When the child sees that one changed letter changes the word, real reading begins."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "1-2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-09",
+   "master": "geetha",
+   "title": {
+    "kn": "ಒಂದೊಂದೇ ಅಕ್ಷರ ತೆರೆದು ಓದು",
+    "en": "Uncover one letter at a time"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಪದದ ಮೊದಲ ಅಕ್ಷರ ನೋಡಿ ಪದ ಊಹಿಸುತ್ತಾರೆ, ಪೂರ್ತಿ ಪದ ಓದಲ್ಲ.",
+    "en": "Children guess a word from its first letter instead of reading the whole word."
+   },
+   "steps": [
+    {
+     "kn": "ಪದವನ್ನು ಒಂದು ಕಾಗದದ ಪಟ್ಟಿಯಿಂದ ಮುಚ್ಚಿ.",
+     "en": "Cover the word with a strip of paper."
+    },
+    {
+     "kn": "ಪಟ್ಟಿಯನ್ನು ನಿಧಾನವಾಗಿ ಸರಿಸಿ ಒಂದೊಂದೇ ಅಕ್ಷರ ತೆರೆಯಿರಿ. ಪ್ರತಿ ಅಕ್ಷರ ಕಂಡಾಗ ಮಗು ಅದರ ಧ್ವನಿ ಹೇಳಲಿ.",
+     "en": "Slide the strip slowly and uncover one letter at a time. Each time a letter appears, let the child say its sound."
+    },
+    {
+     "kn": "ಎಲ್ಲಾ ಅಕ್ಷರ ತೆರೆದ ಮೇಲೆ ಮಗು ಪೂರ್ತಿ ಪದ ಒಟ್ಟಿಗೆ ಓದಲಿ.",
+     "en": "When all the letters are uncovered, let the child read the whole word together."
+    },
+    {
+     "kn": "ಬೇಗ ಓದಿದ್ದಕ್ಕಿಂತ ಗಮನವಿಟ್ಟು ಓದಿದ್ದನ್ನು ಮೆಚ್ಚಿ: 'ಎಲ್ಲಾ ಅಕ್ಷರ ನೋಡಿ ಓದಿದೆ, ಚೆನ್ನಾಗಿದೆ.'",
+     "en": "Praise careful reading more than fast reading: 'You looked at every letter. Well done.'"
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಾಗದದ ಪಟ್ಟಿ",
+     "en": "a strip of paper"
+    }
+   ],
+   "why": {
+    "kn": "ಅಕ್ಷರಗಳು ಒಂದೊಂದಾಗಿ ಬಂದರೆ ಮಗು ಊಹಿಸೋದು ಬಿಟ್ಟು ಪದದ ಪ್ರತಿ ಅಕ್ಷರ ನೋಡುತ್ತದೆ.",
+    "en": "When letters come one at a time, the child stops guessing and looks at every letter."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-10",
+   "master": "geetha",
+   "title": {
+    "kn": "ಬಹಳ ದಿನದ ನಂತರ ಬಂದ ಮಗುವಿಗೆ ಸ್ವಾಗತ",
+    "en": "A welcome back after many days away"
+   },
+   "problem": {
+    "kn": "ಬಹಳ ದಿನ ಶಾಲೆಗೆ ಬಾರದ ಮಗು ವಾಪಸ್ ಬಂದಾಗ ತರಗತಿಯಲ್ಲಿ ದಾರಿ ತಪ್ಪಿದ ಹಾಗೆ ಕೂರುತ್ತದೆ.",
+    "en": "A child who comes back after many days away sits in class feeling lost."
+   },
+   "steps": [
+    {
+     "kn": "ಮಗು ಬಂದಾಗ ನಗುತ್ತಾ 'ಬಾ, ನಿನ್ನನ್ನು ನೋಡಿ ಖುಷಿ ಆಯ್ತು' ಅಂತ ಸ್ವಾಗತಿಸಿ. ಬೇರೆ ಪ್ರಶ್ನೆ ಏನೂ ಬೇಡ.",
+     "en": "Welcome the child with a smile: 'Come, I am happy to see you.' No other questions."
+    },
+    {
+     "kn": "ಸ್ನೇಹದಿಂದ ಇರುವ ಒಬ್ಬ ಸಹಪಾಠಿಯ ಪಕ್ಕ ಕೂರಿಸಿ.",
+     "en": "Seat the child next to a friendly classmate."
+    },
+    {
+     "kn": "ಮೊದಲ ದಿನ ಮಗು ಖಂಡಿತ ಮಾಡಬಲ್ಲ ಒಂದು ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ. ಮುಗಿಸಿದಾಗ ಮೆಚ್ಚಿ.",
+     "en": "On the first day, give one small task the child can surely do. Praise it when it is done."
+    },
+    {
+     "kn": "ಒಂದು ವಾರ ಪ್ರತಿ ದಿನ ಐದು ನಿಮಿಷ ಮಗುವಿನ ಜೊತೆ ಕೂತು ಬಿಟ್ಟುಹೋದ ಪಾಠ ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಮಾಡಿ.",
+     "en": "For a week, sit with the child for five minutes each day and catch up on the missed lessons, a little at a time."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ವಾಪಸ್ ಬಂದ ಮೊದಲ ದಿನ ಖುಷಿಯಾದರೆ ಮಗು ಮರುದಿನವೂ ಬರುತ್ತದೆ.",
+    "en": "When the first day back feels good, the child comes again the next day."
+   },
+   "index": {
+    "topic": "engagement",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-11",
+   "master": "geetha",
+   "title": {
+    "kn": "ನಾಳೆ ಮುಂದುವರಿಯುವ ಕಥೆ",
+    "en": "A story that continues tomorrow"
+   },
+   "problem": {
+    "kn": "ಕೆಲವು ಮಕ್ಕಳು ಕೆಲವು ದಿನ ಮಾತ್ರ ಶಾಲೆಗೆ ಬರುತ್ತಾರೆ.",
+    "en": "Some children come to school only on some days."
+   },
+   "steps": [
+    {
+     "kn": "ಪ್ರತಿ ದಿನ ಬೆಳಿಗ್ಗೆ ಹತ್ತು ನಿಮಿಷ ಒಂದು ಉದ್ದ ಕಥೆಯ ಒಂದು ಭಾಗ ಹೇಳಿ.",
+     "en": "Every morning, tell one part of a long story for ten minutes."
+    },
+    {
+     "kn": "ಕಥೆಯನ್ನು ಕುತೂಹಲದ ಜಾಗದಲ್ಲಿ ನಿಲ್ಲಿಸಿ: 'ಆಮೇಲೆ ಏನಾಯ್ತು? ನಾಳೆ ನೋಡೋಣ!'",
+     "en": "Stop the story at an exciting moment: 'And then what happened? We will find out tomorrow!'"
+    },
+    {
+     "kn": "ಮರುದಿನ ಶುರು ಮಾಡುವ ಮೊದಲು, ನಿನ್ನೆ ಬಂದ ಮಕ್ಕಳು ಬಾರದವರಿಗೆ ಇಲ್ಲಿಯವರೆಗಿನ ಕಥೆ ಹೇಳಲಿ.",
+     "en": "The next day, before you start, let the children who came yesterday tell the story so far to those who missed it."
+    },
+    {
+     "kn": "ಕಥೆ ಮುಗಿದಾಗ ಮುಂದಿನ ಕಥೆಯನ್ನು ಮಕ್ಕಳೇ ಆರಿಸಲಿ.",
+     "en": "When the story ends, let the children choose the next one."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ನಾಳೆ ಏನಾಗುತ್ತದೆ ಅಂತ ತಿಳಿಯುವ ಆಸೆ ಮಗುವನ್ನು ಶಾಲೆಗೆ ಕರೆದುಕೊಂಡು ಬರುತ್ತದೆ.",
+    "en": "Wanting to know what happens next brings the child back to school."
+   },
+   "index": {
+    "topic": "engagement",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-12",
+   "master": "mallikarjun",
+   "title": {
+    "kn": "ಚಪ್ಪಾಳೆಯ ಸನ್ನೆ",
+    "en": "A clapping signal for quiet"
+   },
+   "problem": {
+    "kn": "ತರಗತಿಯಲ್ಲಿ ಗಲಾಟೆ ಹೆಚ್ಚಾದಾಗ ಶಿಕ್ಷಕಿ ಜೋರಾಗಿ ಮಾತಾಡಬೇಕಾಗುತ್ತದೆ.",
+    "en": "When the class gets loud, the teacher has to speak louder and louder."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ಚಪ್ಪಾಳೆಯ ತಾಳ ಆರಿಸಿ: ಎರಡು ನಿಧಾನ, ಮೂರು ಬೇಗ.",
+     "en": "Choose a clapping rhythm: two slow claps, three quick ones."
+    },
+    {
+     "kn": "ನೀವು ಆ ತಾಳ ತಟ್ಟಿದಾಗ ಮಕ್ಕಳು ಅದೇ ತಾಳ ತಟ್ಟಿ, ಸುಮ್ಮನಾಗಿ ನಿಮ್ಮ ಕಡೆ ನೋಡಲಿ.",
+     "en": "When you clap it, the children clap it back, go quiet and look at you."
+    },
+    {
+     "kn": "ಮೊದಲ ವಾರ ಇದನ್ನು ಆಟದ ಹಾಗೆ ದಿನಕ್ಕೆ ಹಲವು ಸಲ ಅಭ್ಯಾಸ ಮಾಡಿಸಿ.",
+     "en": "In the first week, practise it many times a day as a game."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಗಲಾಟೆ ಆದಾಗ ಪ್ರತಿ ಸಲವೂ ಇದೇ ಸನ್ನೆ ಬಳಸಿ, ಮಾತಾಡದೆ ಕಾಯಿರಿ.",
+     "en": "After that, use the same signal every time the class gets loud, and wait without speaking."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಆಟದಿಂದ ಕಲಿತ ಸನ್ನೆಗೆ ಮಕ್ಕಳು ಬೇಗ ಸ್ಪಂದಿಸುತ್ತಾರೆ, ಶಿಕ್ಷಕಿಯ ಧ್ವನಿಯೂ ಉಳಿಯುತ್ತದೆ.",
+    "en": "Children answer a signal they learnt as a game, and the teacher saves her voice."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "any",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-13",
+   "master": "mallikarjun",
+   "title": {
+    "kn": "ಎಲ್ಲರಿಗೂ ಸರದಿಯ ಕೆಲಸ",
+    "en": "A class job for every child, by turns"
+   },
+   "problem": {
+    "kn": "ತರಗತಿಯ ಕೆಲಸಗಳನ್ನು ಯಾವಾಗಲೂ ಅದೇ ಕೆಲವು ಮಕ್ಕಳು ಮಾಡುತ್ತಾರೆ.",
+    "en": "The same few children always do the class jobs."
+   },
+   "steps": [
+    {
+     "kn": "ತರಗತಿಯ ಕೆಲಸಗಳ ಪಟ್ಟಿ ಮಾಡಿ: ಬಳಪ ಹಂಚೋದು, ಗಿಡಕ್ಕೆ ನೀರು ಹಾಕೋದು, ಬಾಗಿಲು ತೆರೆಯೋದು, ಪುಸ್ತಕ ಜೋಡಿಸೋದು.",
+     "en": "Make a list of class jobs: handing out chalk, watering the plants, opening the door, arranging the books."
+    },
+    {
+     "kn": "ರಟ್ಟಿನ ಮೇಲೆ ಒಂದು ಚಕ್ರ ಅಥವಾ ಚಾರ್ಟ್ ಮಾಡಿ. ಪ್ರತಿ ಕೆಲಸಕ್ಕೆ ಒಂದು ಚಿತ್ರ ಬರೆಯಿರಿ, ಮಕ್ಕಳ ಹೆಸರಿನ ಚೀಟಿಗಳನ್ನು ಪಕ್ಕ ಇಡಿ.",
+     "en": "Make a wheel or chart on cardboard. Draw a picture for each job, and put slips with the children's names beside them."
+    },
+    {
+     "kn": "ಪ್ರತಿ ಸೋಮವಾರ ಚಕ್ರ ತಿರುಗಿಸಿ. ಹೊಸ ವಾರ, ಹೊಸ ಕೆಲಸ.",
+     "en": "Turn the wheel every Monday. A new week, a new job."
+    },
+    {
+     "kn": "ತರಗತಿಯ ಪ್ರತಿ ಮಗುವಿಗೂ ಸರದಿ ಬರುವವರೆಗೆ ಹೀಗೆಯೇ ಮುಂದುವರಿಸಿ.",
+     "en": "Keep going until every child in the class has had a turn."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ರಟ್ಟು",
+     "en": "cardboard"
+    },
+    {
+     "kn": "ಕಾಗದದ ಚೀಟಿಗಳು",
+     "en": "paper slips"
+    }
+   ],
+   "why": {
+    "kn": "ಕೆಲಸ ಸಿಕ್ಕ ಮಗು ತರಗತಿ ತನ್ನದೂ ಅಂತ ಭಾವಿಸುತ್ತದೆ.",
+    "en": "A child with a job feels the class is theirs too."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-14",
+   "master": "mallikarjun",
+   "title": {
+    "kn": "ಊಟದ ನಂತರ ಐದು ನಿಮಿಷ ಶಾಂತಿ",
+    "en": "Five calm minutes after lunch"
+   },
+   "problem": {
+    "kn": "ಮಧ್ಯಾಹ್ನದ ಊಟದ ನಂತರ ಮಕ್ಕಳು ಚಡಪಡಿಸುತ್ತಾರೆ, ಸಮಾಧಾನವಾಗಿ ಕೂರೋಕೆ ಆಗಲ್ಲ.",
+    "en": "After the mid day meal, the children are restless and cannot settle."
+   },
+   "steps": [
+    {
+     "kn": "ಊಟದ ನಂತರ ಮೊದಲು ಒಂದು ಅಭಿನಯ ಗೀತೆ ಹಾಡಿ. ಎಲ್ಲರೂ ಎದ್ದು ನಿಂತು ಕೈ ಕಾಲು ಆಡಿಸಲಿ.",
+     "en": "After lunch, first sing an action song, with everyone standing and moving their hands and feet."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಕೂತು ನಿಧಾನ ಉಸಿರಾಟ: ಹೂವಿನ ವಾಸನೆ ತಗೊಳ್ಳೋ ಹಾಗೆ ಉಸಿರು ಒಳಗೆ, ಹಣತೆ ಆರಿಸೋ ಹಾಗೆ ನಿಧಾನವಾಗಿ ಹೊರಗೆ. ಮೂರು ಸಲ.",
+     "en": "Then sit and breathe slowly: in, as if smelling a flower; out gently, as if blowing out a lamp. Three times."
+    },
+    {
+     "kn": "ಪಾಠವನ್ನು ಕೈಯಿಂದ ಮಾಡುವ ಕೆಲಸದಿಂದ ಶುರು ಮಾಡಿ: ಕಲ್ಲು ಎಣಿಸೋದು, ಕಾರ್ಡು ಜೋಡಿಸೋದು.",
+     "en": "Begin the lesson with something hands on: counting stones, arranging cards."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ದೇಹ ಆಡಿ, ಉಸಿರು ನಿಧಾನವಾದರೆ ಮನಸ್ಸೂ ಪಾಠಕ್ಕೆ ಬರುತ್ತದೆ.",
+    "en": "When the body has moved and the breath is slow, the mind comes to the lesson."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "any",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-15",
+   "master": "mallikarjun",
+   "title": {
+    "kn": "ಚಾಪೆಯ ಮೇಲೆ ಅರ್ಧ ವೃತ್ತ",
+    "en": "A half circle on mats"
+   },
+   "problem": {
+    "kn": "ಸಾಲುಗಳಲ್ಲಿ ಕೊನೆಯಲ್ಲಿ ಕೂರುವ ಮಕ್ಕಳು ಪಾಠದಲ್ಲಿ ಭಾಗವಹಿಸಲ್ಲ.",
+    "en": "Children at the back of the rows do not take part."
+   },
+   "steps": [
+    {
+     "kn": "ಸಾಲು ಬಿಟ್ಟು, ಚಾಪೆಗಳನ್ನು ಕಪ್ಪು ಹಲಗೆಯ ಕಡೆ ಮುಖ ಮಾಡಿ ಅರ್ಧ ವೃತ್ತದಲ್ಲಿ ಹಾಸಿ.",
+     "en": "Instead of rows, spread the mats in a half circle facing the blackboard."
+    },
+    {
+     "kn": "ಪ್ರತಿ ಮಗುವಿಗೂ ನೀವು ಕಾಣುವ ಹಾಗೆ ಅರ್ಧ ವೃತ್ತದ ಮಧ್ಯದಲ್ಲಿ ನಿಲ್ಲಿ ಅಥವಾ ಕೂರಿ.",
+     "en": "Stand or sit at the middle of the half circle, where every child can see you."
+    },
+    {
+     "kn": "ಪ್ರತಿ ವಾರ ಮಕ್ಕಳ ಜಾಗ ಬದಲಾಯಿಸಿ, ಎಲ್ಲರಿಗೂ ಹಲಗೆಯ ಹತ್ತಿರ ಕೂರುವ ಸರದಿ ಬರಲಿ.",
+     "en": "Change the children's places every week, so everyone gets a turn near the board."
+    },
+    {
+     "kn": "ಪ್ರಶ್ನೆ ಕೇಳುವಾಗ ವೃತ್ತದ ಎರಡೂ ತುದಿಯ ಮಕ್ಕಳ ಕಡೆಗೂ ನೋಡಿ ಕೇಳಿ.",
+     "en": "When you ask a question, look towards the children at both ends of the circle too."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಚಾಪೆಗಳು",
+     "en": "mats"
+    }
+   ],
+   "why": {
+    "kn": "ಹಿಂದೆ ಯಾರೂ ಇಲ್ಲದಿದ್ದರೆ ಎಲ್ಲರೂ ಪಾಠದ ಒಳಗೆ ಇರುತ್ತಾರೆ.",
+    "en": "When nobody sits at the back, everyone is inside the lesson."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "1-2",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-16",
+   "master": "hanumanthappa",
+   "title": {
+    "kn": "ದೊಡ್ಡ ಸಂಖ್ಯೆ ತಲೆಯಲ್ಲಿ, ಮುಂದೆ ಎಣಿಸಿ",
+    "en": "Keep the big number in your head, count on"
+   },
+   "problem": {
+    "kn": "ಕೂಡುವಾಗ ಮಕ್ಕಳು ಎಲ್ಲವನ್ನೂ ಒಂದರಿಂದ ಬೆರಳಿನಲ್ಲಿ ಎಣಿಸುತ್ತಾರೆ.",
+    "en": "When adding, children count everything from one on their fingers."
+   },
+   "steps": [
+    {
+     "kn": "6 + 3 ಕೊಟ್ಟಾಗ ಮಗು ದೊಡ್ಡ ಸಂಖ್ಯೆಯನ್ನು ಜೋರಾಗಿ ಹೇಳಲಿ: 'ಆರು.' ತಲೆ ಮೇಲೆ ಕೈ ಇಟ್ಟು 'ತಲೆಯಲ್ಲಿ ಇಟ್ಟುಕೊ' ಅನ್ನಲಿ.",
+     "en": "Given 6 + 3, let the child say the bigger number aloud: 'six'. Hand on head: 'keep it in your head.'"
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಸಣ್ಣ ಸಂಖ್ಯೆಯನ್ನು ಬೆರಳು ಅಥವಾ ಕಲ್ಲಿನಿಂದ ಮುಂದೆ ಎಣಿಸಲಿ: 'ಏಳು, ಎಂಟು, ಒಂಬತ್ತು.'",
+     "en": "Then let the child count on the smaller number with fingers or stones: 'seven, eight, nine.'"
+    },
+    {
+     "kn": "3 + 7 ಬಂದರೂ ದೊಡ್ಡದಾದ ಏಳರಿಂದಲೇ ಶುರು ಮಾಡಲಿ.",
+     "en": "Even for 3 + 7, start from the bigger number, seven."
+    },
+    {
+     "kn": "ದಾಳ ಅಥವಾ ಸಂಖ್ಯೆ ಕಾರ್ಡುಗಳಿಂದ ಮಕ್ಕಳು ಜೋಡಿಯಲ್ಲಿ ದಿನಾ ಐದು ನಿಮಿಷ ಆಡಲಿ.",
+     "en": "Let the children play in pairs for five minutes a day with a dice or number cards."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ದಾಳ ಅಥವಾ ಸಂಖ್ಯೆ ಕಾರ್ಡುಗಳು",
+     "en": "a dice or number cards"
+    },
+    {
+     "kn": "ಸಣ್ಣ ಕಲ್ಲುಗಳು",
+     "en": "small stones"
+    }
+   ],
+   "why": {
+    "kn": "ಮುಂದೆ ಎಣಿಸಿದರೆ ಕಡಿಮೆ ಹೆಜ್ಜೆ, ಕಡಿಮೆ ತಪ್ಪು.",
+    "en": "Counting on means fewer steps and fewer mistakes."
+   },
+   "index": {
+    "topic": "operations",
+    "gradeBand": "1-2",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-17",
+   "master": "hanumanthappa",
+   "title": {
+    "kn": "ಮರದ ಮೇಲಿನ ಹಕ್ಕಿಗಳ ಕಥೆ",
+    "en": "Birds on a tree: a story for taking away"
+   },
+   "problem": {
+    "kn": "ಕಳೆಯುವ ಲೆಕ್ಕ ಬಂದಾಗ ಮಕ್ಕಳು ಗೊಂದಲ ಮಾಡಿಕೊಳ್ಳುತ್ತಾರೆ.",
+    "en": "Children get confused by taking away."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ಸಣ್ಣ ಕಥೆ ಹೇಳಿ: 'ಮರದ ಮೇಲೆ ಐದು ಹಕ್ಕಿ ಕೂತಿದ್ದವು. ಎರಡು ಹಾರಿ ಹೋದವು.'",
+     "en": "Tell a short story: 'Five birds sat on a tree. Two flew away.'"
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ಐದು ಕಲ್ಲು ಇಟ್ಟು, ಕಥೆ ಕೇಳುತ್ತಾ ಎರಡು ಕಲ್ಲು ದೂರ ಸರಿಸಲಿ. ಉಳಿದದ್ದನ್ನು ಎಣಿಸಲಿ.",
+     "en": "Let the children put down five stones, move two away as they hear the story, and count what is left."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಮಾತಿನಲ್ಲಿ ಹೇಳಲಿ: 'ಐದರಲ್ಲಿ ಎರಡು ಹೋದರೆ ಮೂರು ಉಳಿಯಿತು.'",
+     "en": "Then let them say it in words: 'Five, two went away, three are left.'"
+    },
+    {
+     "kn": "ಕೊನೆಗೆ ಅದನ್ನೇ ಲೆಕ್ಕವಾಗಿ ಬರೆಯಲಿ: 5 − 2 = 3. ಆಮೇಲೆ ಮಕ್ಕಳು ತಮ್ಮದೇ ಕಥೆ ಕಟ್ಟಲಿ.",
+     "en": "Finally, let them write it as a sum: 5 − 2 = 3. Then let the children make up their own stories."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಸಣ್ಣ ಕಲ್ಲುಗಳು",
+     "en": "small stones"
+    }
+   ],
+   "why": {
+    "kn": "ಕಥೆ, ಕೈ, ಮಾತು, ಆಮೇಲೆ ಅಂಕಿ: ಈ ಕ್ರಮದಲ್ಲಿ ಹೋದರೆ ಕಳೆಯೋದು ಅರ್ಥ ಆಗುತ್ತದೆ.",
+    "en": "Story, hands, words, then numbers: in this order, taking away makes sense."
+   },
+   "index": {
+    "topic": "operations",
+    "gradeBand": "1-2",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-18",
+   "master": "hanumanthappa",
+   "title": {
+    "kn": "ತರಗತಿಯ ಅಂಗಡಿ",
+    "en": "A shop in the classroom"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಲೆಕ್ಕ ಮಾಡುತ್ತಾರೆ, ಆದರೆ ಕಥೆಯ ರೂಪದಲ್ಲಿರುವ ಲೆಕ್ಕ ಬಿಡಿಸೋಕೆ ಆಗಲ್ಲ.",
+    "en": "Children can do sums but cannot solve word problems."
+   },
+   "steps": [
+    {
+     "kn": "ಖಾಲಿ ಪೊಟ್ಟಣ, ಡಬ್ಬಿಗಳಿಂದ ತರಗತಿಯಲ್ಲಿ ಒಂದು ಅಂಗಡಿ ಮಾಡಿ. ಪ್ರತಿಯೊಂದಕ್ಕೂ ಬೆಲೆಯ ಚೀಟಿ ಹಚ್ಚಿ.",
+     "en": "Set up a shop in the classroom with empty packets and tins. Stick a price slip on each."
+    },
+    {
+     "kn": "ಕಾಗದದ ನೋಟು, ನಾಣ್ಯ ಮಾಡಿ. ಮಕ್ಕಳು ಸರದಿಯಲ್ಲಿ ಅಂಗಡಿಯವರು, ಗಿರಾಕಿ ಆಗಿ ಕೊಳ್ಳಲಿ, ಮಾರಲಿ.",
+     "en": "Make paper notes and coins. Let the children take turns as shopkeeper and customer, buying and selling."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಅಂಗಡಿಯಿಂದಲೇ ಒಂದು ಸಣ್ಣ ಕಥೆ ಹೇಳಿ: 'ಐದು ರೂಪಾಯಿಯ ಬಿಸ್ಕತ್ತು, ಮೂರು ರೂಪಾಯಿಯ ಪೆನ್ಸಿಲ್ ಕೊಂಡರೆ ಒಟ್ಟು ಎಷ್ಟು?'",
+     "en": "Then tell a short story from the shop: 'A biscuit for five rupees and a pencil for three rupees. How much in all?'"
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ಮೊದಲು ಅಂಗಡಿಯಲ್ಲಿ ಮಾಡಿ ನೋಡಲಿ, ಆಮೇಲೆ ಲೆಕ್ಕ ಬರೆಯಲಿ.",
+     "en": "Let the children act it out at the shop first, then write the sum."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಖಾಲಿ ಪೊಟ್ಟಣ ಮತ್ತು ಡಬ್ಬಿಗಳು",
+     "en": "empty packets and tins"
+    },
+    {
+     "kn": "ಕಾಗದದ ನೋಟು ಮತ್ತು ನಾಣ್ಯ",
+     "en": "paper notes and coins"
+    }
+   ],
+   "why": {
+    "kn": "ಕಥೆ ತಮ್ಮ ಕಣ್ಣ ಮುಂದೆ ನಡೆದರೆ ಯಾವ ಲೆಕ್ಕ ಮಾಡಬೇಕು ಅಂತ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಾಗುತ್ತದೆ.",
+    "en": "When the story happens in front of them, children know which sum to do."
+   },
+   "index": {
+    "topic": "operations",
+    "gradeBand": "1-3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-19",
+   "master": "hanumanthappa",
+   "title": {
+    "kn": "ಹತ್ತು ಕಡ್ಡಿ ಆದರೆ ಒಂದು ಕಟ್ಟು",
+    "en": "Ten loose sticks make one bundle"
+   },
+   "problem": {
+    "kn": "ಮೂರನೇ ತರಗತಿಯ ಮಕ್ಕಳು ಕೂಡುವ ಲೆಕ್ಕದಲ್ಲಿ ಬಿಡಿ ಹತ್ತು ದಾಟಿದಾಗ ತಪ್ಪು ಮಾಡುತ್ತಾರೆ.",
+    "en": "Class 3 children make mistakes when the ones in a sum go past ten and need carrying."
+   },
+   "steps": [
+    {
+     "kn": "ನೆಲದ ಮೇಲೆ ಬಳಪದಿಂದ ಹತ್ತರ ಮನೆ, ಬಿಡಿ ಮನೆ ಎಳೆಯಿರಿ.",
+     "en": "Draw a tens house and a ones house on the floor with chalk."
+    },
+    {
+     "kn": "ಎರಡೂ ಸಂಖ್ಯೆಗಳನ್ನು ಕಟ್ಟು ಮತ್ತು ಬಿಡಿ ಕಡ್ಡಿಗಳಿಂದ ಮಾಡಲಿ. ಮೊದಲು ಬಿಡಿ ಕಡ್ಡಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಸೇರಿಸಲಿ.",
+     "en": "Let the children make both numbers with bundles and loose sticks. First they put the loose sticks together."
+    },
+    {
+     "kn": "ಬಿಡಿ ಮನೆಯಲ್ಲಿ ಹತ್ತು ಕಡ್ಡಿ ಆದ ತಕ್ಷಣ ರಬ್ಬರ್ ಹಾಕಿ ಕಟ್ಟು ಮಾಡಲಿ, ಆ ಕಟ್ಟನ್ನು ಹತ್ತರ ಮನೆಗೆ ಇಡಲಿ.",
+     "en": "As soon as the ones house has ten sticks, let them put a rubber band round to make a bundle and move it to the tens house."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಕಟ್ಟು ಮತ್ತು ಬಿಡಿ ಎಣಿಸಲಿ. ಕಡ್ಡಿಯಲ್ಲಿ ಮಾಡಿದ ಮೇಲೆ ಮಾತ್ರ ಸ್ಲೇಟಿನಲ್ಲಿ ಬರೆಯಲಿ.",
+     "en": "Then let them count the bundles and the loose sticks. Only after doing it with sticks do they write it on the slate."
+    },
+    {
+     "kn": "ಮೇಲೆ ಬರೆಯುವ ಸಣ್ಣ ಒಂದು ಅಂದರೆ ಆ ಕಟ್ಟು ಅಂತ ಮಕ್ಕಳು ತಮ್ಮ ಮಾತಿನಲ್ಲಿ ಹೇಳಲಿ.",
+     "en": "Let the children say in their own words that the small one written on top is that bundle."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಬೆಂಕಿಕಡ್ಡಿ ಅಥವಾ ಐಸ್ ಕ್ರೀಮ್ ಕಡ್ಡಿ",
+     "en": "matchsticks or ice cream sticks"
+    },
+    {
+     "kn": "ರಬ್ಬರ್ ಬ್ಯಾಂಡ್",
+     "en": "rubber bands"
+    },
+    {
+     "kn": "ಬಳಪ",
+     "en": "chalk"
+    }
+   ],
+   "why": {
+    "kn": "ತನ್ನ ಕೈಯಿಂದ ಕಟ್ಟು ಕಟ್ಟಿದ ಮಗುವಿಗೆ ಹತ್ತು ಯಾಕೆ ಮುಂದಿನ ಮನೆಗೆ ಹೋಗುತ್ತದೆ ಅಂತ ಅರ್ಥ ಆಗುತ್ತದೆ.",
+    "en": "A child who ties the bundle with their own hands understands why the ten moves to the next house."
+   },
+   "index": {
+    "topic": "operations",
+    "gradeBand": "3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-20",
+   "master": "hanumanthappa",
+   "title": {
+    "kn": "ದೊನ್ನೆಯಲ್ಲಿ ಬೀಜ: ಗುಣಾಕಾರ ಅಂದರೆ ಸಮ ಗುಂಪು",
+    "en": "Seeds in leaf cups: multiplying is equal groups"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಮಗ್ಗಿ ಬಾಯಿಪಾಠ ಹೇಳುತ್ತಾರೆ, ಆದರೆ ಗುಣಿಸುವುದು ಅಂದರೆ ಏನು ಅಂತ ಗೊತ್ತಿಲ್ಲ.",
+    "en": "Children say their tables by heart but do not know what multiplying means."
+   },
+   "steps": [
+    {
+     "kn": "ಮೂರು ಎಲೆ ದೊನ್ನೆ ಇಡಿ. ಪ್ರತಿ ದೊನ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಬೀಜ ಹಾಕಲು ಮಕ್ಕಳಿಗೆ ಹೇಳಿ.",
+     "en": "Put out three leaf cups. Ask the children to put four seeds in each cup."
+    },
+    {
+     "kn": "ಎಲ್ಲಾ ಬೀಜ ಎಣಿಸಲಿ. ಆಮೇಲೆ ಹೇಳಲಿ: ಮೂರು ಗುಂಪು, ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ ನಾಲ್ಕು, ಒಟ್ಟು ಹನ್ನೆರಡು.",
+     "en": "Let them count all the seeds, then say: three groups, four in each group, twelve in all."
+    },
+    {
+     "kn": "ಇದೇ ಮಗ್ಗಿಯಲ್ಲಿ ಬರುವ 'ನಾಲ್ಕು ಮೂರ್ಲಿ ಹನ್ನೆರಡು' ಅಂತ ತೋರಿಸಿ.",
+     "en": "Show that this is the 'four threes are twelve' they say in their tables."
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ಜೋಡಿಯಲ್ಲಿ ತಮ್ಮದೇ ಗುಂಪು ಮಾಡಲಿ, ಸ್ಲೇಟಿನಲ್ಲಿ ವೃತ್ತ ಮತ್ತು ಚುಕ್ಕೆ ಹಾಕಿ ಚಿತ್ರ ಬಿಡಿಸಲಿ.",
+     "en": "Let the children make their own groups in pairs and draw them on the slate as circles with dots."
+    },
+    {
+     "kn": "ಒಂದು ಸಲ ಗುಂಪುಗಳನ್ನು ಸಮ ಇಲ್ಲದ ಹಾಗೆ ಮಾಡಿ ತೋರಿಸಿ, ಅದು ಗುಣಾಕಾರ ಆಗುವುದಿಲ್ಲ ಅಂತ ಮಕ್ಕಳು ಹೇಳಲಿ.",
+     "en": "Once, make groups that are not equal and let the children say why that is not multiplying."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಎಲೆ ದೊನ್ನೆಗಳು",
+     "en": "leaf cups"
+    },
+    {
+     "kn": "ಹುಣಸೆ ಬೀಜ ಅಥವಾ ಕಾಳು",
+     "en": "tamarind seeds or grains"
+    }
+   ],
+   "why": {
+    "kn": "ಸಮ ಗುಂಪುಗಳನ್ನು ಕಣ್ಣಾರೆ ನೋಡಿದಾಗ ಮಗ್ಗಿ ಬರೀ ಬಾಯಿಪಾಠ ಆಗದೆ ಅರ್ಥ ಆಗುತ್ತದೆ.",
+    "en": "When children see equal groups with their own eyes, the tables stop being just words and start to make sense."
+   },
+   "index": {
+    "topic": "operations",
+    "gradeBand": "3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-21",
+   "master": "lakshmi",
+   "title": {
+    "kn": "ಒಂದು ಚಿತ್ರ, ತುಂಬಾ ಮಾತು",
+    "en": "One picture, many words"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಏನು ಕೇಳಿದರೂ ಒಂದೇ ಪದದಲ್ಲಿ ಉತ್ತರ ಕೊಡುತ್ತಾರೆ.",
+    "en": "Whatever you ask, the children answer in just one word."
+   },
+   "steps": [
+    {
+     "kn": "ಸಂತೆ, ಹೊಲ ಅಥವಾ ಬಸ್ ನಿಲ್ದಾಣದ ಒಂದು ದೊಡ್ಡ ಚಿತ್ರವನ್ನು ಕಪ್ಪು ಹಲಗೆಯ ಮೇಲೆ ನೇತು ಹಾಕಿ.",
+     "en": "Hang one big picture of a market, a field or a bus stand on the blackboard."
+    },
+    {
+     "kn": "'ಇಲ್ಲಿ ಏನು ನಡೀತಿದೆ? ಮುಂದೆ ಏನಾಗಬಹುದು?' ಅಂತ ಕೇಳಿ. ಹೌದು ಇಲ್ಲ ಎಂಬ ಉತ್ತರದ ಪ್ರಶ್ನೆ ಬಿಟ್ಟು ಬಿಡಿ.",
+     "en": "Ask 'What is happening here? What might happen next?' Leave out questions with a yes or no answer."
+    },
+    {
+     "kn": "ಪ್ರಶ್ನೆ ಕೇಳಿದ ಮೇಲೆ ಸ್ವಲ್ಪ ಕಾಯಿರಿ. ಮಗುವಿಗೆ ಯೋಚಿಸಲು ಸಮಯ ಕೊಡಿ.",
+     "en": "After asking, wait a little. Give the child time to think."
+    },
+    {
+     "kn": "ಮಗು 'ಹಸು' ಅಂದರೆ, 'ಹೌದು, ಹಸು ಹುಲ್ಲು ತಿನ್ನುತ್ತಿದೆ' ಅಂತ ಪೂರ್ತಿ ವಾಕ್ಯ ಹೇಳಿ. ಮಗು ಅದನ್ನೇ ಮತ್ತೆ ಹೇಳಲಿ.",
+     "en": "If the child says 'cow', say the full sentence: 'Yes, the cow is eating grass.' Let the child say it again."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಹಳೆಯ ಕ್ಯಾಲೆಂಡರ್ ಅಥವಾ ಪೋಸ್ಟರಿನ ದೊಡ್ಡ ಚಿತ್ರ",
+     "en": "a big picture from an old calendar or poster"
+    }
+   ],
+   "why": {
+    "kn": "ಪೂರ್ತಿ ವಾಕ್ಯ ಕೇಳಿ ಮತ್ತೆ ಹೇಳಿದಾಗ ಮಗು ಸ್ವಲ್ಪ ಸ್ವಲ್ಪವಾಗಿ ತಾನೇ ವಾಕ್ಯ ಕಟ್ಟುತ್ತದೆ.",
+    "en": "Hearing and repeating full sentences, the child little by little starts making sentences on their own."
+   },
+   "index": {
+    "topic": "oral_language",
+    "gradeBand": "1-2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-22",
+   "master": "lakshmi",
+   "title": {
+    "kn": "ಬೆಳಗಿನ ಸುದ್ದಿ ವೃತ್ತ",
+    "en": "The morning news circle"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಇಡೀ ತರಗತಿಯ ಮುಂದೆ ಮಾತಾಡಲು ಹಿಂಜರಿಯುತ್ತಾರೆ.",
+    "en": "Children hold back from speaking in front of the whole class."
+   },
+   "steps": [
+    {
+     "kn": "ಪ್ರಾರ್ಥನೆ ಆದ ಮೇಲೆ ಎಲ್ಲರೂ ವೃತ್ತದಲ್ಲಿ ಕೂರಲಿ. ಮೊದಲು ನೀವೇ ನಿಮ್ಮ ಒಂದು ಸಣ್ಣ ಸುದ್ದಿ ಹೇಳಿ.",
+     "en": "After the prayer, let everyone sit in a circle. First tell one small piece of news of your own."
+    },
+    {
+     "kn": "ದಿನಾ ಎರಡು ಮೂರು ಮಕ್ಕಳು ತಮ್ಮ ಸುದ್ದಿ ಹೇಳಲಿ: ಹಸು ಕರು ಹಾಕಿತು, ಮನೆಗೆ ನೆಂಟರು ಬಂದರು, ಯಾವುದಾದರೂ ಸರಿ.",
+     "en": "Each day let two or three children tell their news: the cow had a calf, guests came home, anything at all."
+    },
+    {
+     "kn": "ಉಳಿದ ಮಕ್ಕಳು ಒಂದು ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು. ಸುದ್ದಿ ಹೇಳಿದ ಮಗುವಿಗೆ ಎಲ್ಲರೂ ಚಪ್ಪಾಳೆ ತಟ್ಟಲಿ.",
+     "en": "The others may ask one question. Let everyone clap for the child who told the news."
+    },
+    {
+     "kn": "ವಾರದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಒಂದು ಸರದಿ ಬರುವಂತೆ ಹಾಜರಿ ಪುಸ್ತಕ ನೋಡಿ ಸರದಿ ಮಾಡಿ.",
+     "en": "Use the attendance register to take turns, so every child gets one turn in the week."
+    },
+    {
+     "kn": "ಇನ್ನೂ ಮಾತಾಡಲು ಮನಸ್ಸಿಲ್ಲದ ಮಗು ಮೊದಲು ಗೆಳೆಯನ ಜೊತೆ ಸೇರಿ ಹೇಳಲಿ.",
+     "en": "A child who does not feel like speaking yet can first tell it together with a friend."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ವೃತ್ತದಲ್ಲಿ ಕೂತು ತನ್ನದೇ ಸುದ್ದಿ ಹೇಳುವುದು ಸುಲಭ, ಅದರಿಂದ ಧೈರ್ಯ ಬರುತ್ತದೆ.",
+    "en": "Sitting in a circle and telling your own news is easy, and it builds courage."
+   },
+   "index": {
+    "topic": "oral_language",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-23",
+   "master": "lakshmi",
+   "title": {
+    "kn": "ದಿನಕ್ಕೊಂದು ಅಭಿನಯ ಗೀತೆ",
+    "en": "An action song every day"
+   },
+   "problem": {
+    "kn": "ಒಂದನೇ ತರಗತಿಯ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಿರುವ ಪದಗಳು ಕಡಿಮೆ, ಮಾತಾಡಲು ಖುಷಿ ಪಡುವುದಿಲ್ಲ.",
+    "en": "Class 1 children know few words and do not enjoy speaking."
+   },
+   "steps": [
+    {
+     "kn": "ದಿನಾ ಮೊದಲ ಹತ್ತು ನಿಮಿಷ ಒಂದು ಶಿಶುಗೀತೆ ಅಥವಾ ಅಭಿನಯ ಗೀತೆ ಹಾಡಿ, ಕೈ ಕಾಲು ಆಡಿಸುತ್ತಾ.",
+     "en": "For the first ten minutes every day, sing a rhyme or action song, moving hands and feet."
+    },
+    {
+     "kn": "ಒಂದು ವಾರ ಒಂದೇ ಹಾಡು. ವಾರದ ಕೊನೆಗೆ ಮಕ್ಕಳು ತಾವೇ ಹಾಡಲಿ.",
+     "en": "One song for a whole week. By the end of the week, let the children sing it on their own."
+    },
+    {
+     "kn": "ಹಾಡಿನಲ್ಲಿ ಒಂದು ಪದ ಬದಲಿಸಿ ಹೊಸ ಸಾಲು ಮಾಡಲು ಮಕ್ಕಳಿಗೆ ಹೇಳಿ: 'ಬೆಕ್ಕು' ಬದಲು 'ನಾಯಿ'.",
+     "en": "Ask the children to change one word to make a new line: 'ನಾಯಿ' (dog) in place of 'ಬೆಕ್ಕು' (cat)."
+    },
+    {
+     "kn": "ವಾರದ ಹಾಡನ್ನು ಮನೆಯಲ್ಲೂ ಹಾಡಲು ಹೇಳಿ.",
+     "en": "Ask them to sing the song of the week at home too."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಹಾಡಿನಲ್ಲಿ ಬಂದ ಪದಗಳು ಮಕ್ಕಳ ಬಾಯಲ್ಲಿ ಬೇಗ ಕೂರುತ್ತವೆ, ಮಾತಾಡಲು ಧೈರ್ಯ ಕೊಡುತ್ತವೆ.",
+    "en": "Words that come in a song settle quickly on children's tongues and give them courage to speak."
+   },
+   "index": {
+    "topic": "oral_language",
+    "gradeBand": "1",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-24",
+   "master": "lakshmi",
+   "title": {
+    "kn": "ನಾಲ್ಕು ಚಿತ್ರ, ಒಂದು ಕಥೆ",
+    "en": "Four pictures, one story"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಕೇಳಿದ ಕಥೆಯನ್ನು ಮತ್ತೆ ಹೇಳಲು ಆಗುವುದಿಲ್ಲ.",
+    "en": "Children cannot tell a story again after hearing it."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ಸಣ್ಣ ಕಥೆಯನ್ನು ನಾಲ್ಕು ಭಾಗ ಮಾಡಿ, ಪ್ರತಿ ಭಾಗಕ್ಕೆ ಒಂದು ಚಿತ್ರ ಕಾರ್ಡು ಬಿಡಿಸಿ.",
+     "en": "Split a short story into four parts and draw one picture card for each part."
+    },
+    {
+     "kn": "ಚಿತ್ರ ತೋರಿಸುತ್ತಾ ಕಥೆ ಹೇಳಿ. ಎರಡನೇ ಸಲ ಮಕ್ಕಳೂ ನಿಮ್ಮ ಜೊತೆ ಹೇಳಲಿ.",
+     "en": "Tell the story showing the pictures. The second time, let the children tell it with you."
+    },
+    {
+     "kn": "ಚಿತ್ರಗಳನ್ನು ಕಲಸಿ ಜೋಡಿಗೆ ಕೊಡಿ. ಮಕ್ಕಳು ಸರಿಯಾದ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ, ಒಬ್ಬರಿಗೊಬ್ಬರು ಕಥೆ ಹೇಳಲಿ.",
+     "en": "Mix up the pictures and give them to pairs. Let the children put them in order and tell the story to each other."
+    },
+    {
+     "kn": "ಕೊನೆಗೆ ಒಂದು ಜೋಡಿ ಇಡೀ ತರಗತಿಗೆ ಕಥೆ ಹೇಳಲಿ. ದಿನಾ ಬೇರೆ ಜೋಡಿ.",
+     "en": "At the end, let one pair tell the story to the whole class. A different pair each day."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಹಳೆಯ ರಟ್ಟಿನ ತುಂಡುಗಳು",
+     "en": "pieces of old cardboard"
+    },
+    {
+     "kn": "ಬಣ್ಣದ ಪೆನ್ಸಿಲ್",
+     "en": "colour pencils"
+    }
+   ],
+   "why": {
+    "kn": "ಚಿತ್ರ ಕೈಯಲ್ಲಿದ್ದಾಗ ಕಥೆಯ ಕ್ರಮ ನೆನಪಿರುತ್ತದೆ, ಮಗು ತನ್ನ ಮಾತಿನಲ್ಲಿ ಹೇಳುತ್ತದೆ.",
+    "en": "With the pictures in hand, the child remembers the order of the story and tells it in their own words."
+   },
+   "index": {
+    "topic": "oral_language",
+    "gradeBand": "1-2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-25",
+   "master": "lakshmi",
+   "title": {
+    "kn": "'ಗುರುಗಳು ಹೇಳಿದರು': ಕೇಳುವ ಆಟ",
+    "en": "'ಗುರುಗಳು ಹೇಳಿದರು': a listening game"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಕೊಟ್ಟ ಸೂಚನೆಯನ್ನು ಗಮನವಿಟ್ಟು ಕೇಳುವುದಿಲ್ಲ.",
+    "en": "Children do not listen carefully to instructions."
+   },
+   "steps": [
+    {
+     "kn": "ಆಟದ ನಿಯಮ ಹೇಳಿ: 'ಗುರುಗಳು ಹೇಳಿದರು, ಕೈ ಮೇಲೆ ಎತ್ತಿ' ಅಂತ ಮೊದಲು ಆ ಮಾತು ಬಂದಾಗ ಮಾತ್ರ ಮಾಡಬೇಕು.",
+     "en": "Explain the rule: do the action only when the words 'ಗುರುಗಳು ಹೇಳಿದರು' (the teacher said) come first, as in 'ಗುರುಗಳು ಹೇಳಿದರು, hands up'."
+    },
+    {
+     "kn": "ತಪ್ಪಾದರೂ ಎಲ್ಲರೂ ಆಟದಲ್ಲೇ ಇರುತ್ತಾರೆ. ಎಲ್ಲರೂ ನಗುತ್ತಾ ಆಟ ಮುಂದುವರಿಸಲಿ.",
+     "en": "Everyone stays in the game, mistakes and all. Let everyone keep playing and laughing."
+    },
+    {
+     "kn": "ದಿನಾ ಐದು ನಿಮಿಷ ಆಡಿ. ಮೊದಲು ಒಂದು ಸೂಚನೆ, ಆಮೇಲೆ ಎರಡು: 'ಎದ್ದು ನಿಲ್ಲಿ, ಮತ್ತೆ ಕೂತುಕೊಳ್ಳಿ'.",
+     "en": "Play for five minutes a day. First one instruction, later two: 'stand up, then sit down'."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಮಕ್ಕಳೂ ಸರದಿಯಲ್ಲಿ ಗುರುಗಳಾಗಿ ಸೂಚನೆ ಕೊಡಲಿ.",
+     "en": "Later, let the children take turns as the teacher and give the instructions."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಆಟದಲ್ಲಿ ಕೇಳುವ ಅಭ್ಯಾಸ ಆದರೆ ಪಾಠದಲ್ಲೂ ಮಕ್ಕಳು ಗಮನವಿಟ್ಟು ಕೇಳುತ್ತಾರೆ.",
+    "en": "Once listening becomes a habit in play, children listen carefully in lessons too."
+   },
+   "index": {
+    "topic": "oral_language",
+    "gradeBand": "1-2",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-26",
+   "master": "nagamma",
+   "title": {
+    "kn": "ಮೊದಲು ಗಾಳಿಯಲ್ಲಿ, ಆಮೇಲೆ ಪೆನ್ಸಿಲ್",
+    "en": "First in the air, then the pencil"
+   },
+   "problem": {
+    "kn": "ಒಂದನೇ ತರಗತಿಯ ಮಕ್ಕಳು ಪೆನ್ಸಿಲ್ಲನ್ನು ಮುಷ್ಟಿಯಲ್ಲಿ ಬಿಗಿಯಾಗಿ ಹಿಡಿಯುತ್ತಾರೆ, ಬೇಗ ಕೈ ದಣಿಯುತ್ತದೆ.",
+    "en": "Class 1 children grip the pencil tight in their fist, and their hand soon gets tired."
+   },
+   "steps": [
+    {
+     "kn": "ಮೊದಲ ವಾರ ಪೆನ್ಸಿಲ್ ಬೇಡ. ಗಾಳಿಯಲ್ಲಿ ದೊಡ್ಡದಾಗಿ ಅಕ್ಷರ ಬರೆಯಲಿ, ಮರಳಿನಲ್ಲಿ ಬೆರಳಿಂದ ಬರೆಯಲಿ.",
+     "en": "No pencil in the first week. Let the children write big letters in the air and with a finger in sand."
+    },
+    {
+     "kn": "ಅಂಗಳದಲ್ಲಿ ಬಳಪದಿಂದ ದೊಡ್ಡ ಗೆರೆ, ವೃತ್ತ, ಅಲೆ ಎಳೆಯಲಿ.",
+     "en": "Let them draw big lines, circles and waves with chalk on the ground outside."
+    },
+    {
+     "kn": "ಆಮೇಲೆ 'ಹಕ್ಕಿ ಕೊಕ್ಕು' ಆಟ: ಹೆಬ್ಬೆರಳು ಮತ್ತು ತೋರುಬೆರಳಿನಿಂದ ಕಡ್ಡಿ, ಬೀಜ ಎತ್ತಲಿ.",
+     "en": "Then the 'bird's beak' game: let them pick up sticks and seeds with the thumb and first finger."
+    },
+    {
+     "kn": "ಚಿಕ್ಕ ಪೆನ್ಸಿಲ್ ಅಥವಾ ಮುರಿದ ಬಳಪ ಕೊಡಿ. ಚಿಕ್ಕ ತುಂಡನ್ನು ಮುಷ್ಟಿಯಲ್ಲಿ ಹಿಡಿಯಲು ಆಗುವುದಿಲ್ಲ, ಬೆರಳಲ್ಲೇ ಹಿಡಿಯುತ್ತಾರೆ.",
+     "en": "Give short pencils or broken chalk. A short piece cannot be held in a fist, so they hold it with their fingers."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಮರಳು ಹಾಕಿದ ತಟ್ಟೆ",
+     "en": "a plate of sand"
+    },
+    {
+     "kn": "ಮುರಿದ ಬಳಪ ಅಥವಾ ಚಿಕ್ಕ ಪೆನ್ಸಿಲ್",
+     "en": "broken chalk or short pencils"
+    },
+    {
+     "kn": "ಹುಣಸೆ ಬೀಜ",
+     "en": "tamarind seeds"
+    }
+   ],
+   "why": {
+    "kn": "ದೊಡ್ಡ ಚಲನೆಗಳಿಂದ ಕೈ ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಬೆರಳುಗಳು ಪೆನ್ಸಿಲ್ಲನ್ನು ಹಗುರವಾಗಿ ಹಿಡಿಯುತ್ತವೆ.",
+    "en": "Once big movements make the hand strong, the fingers hold the pencil lightly."
+   },
+   "index": {
+    "topic": "writing",
+    "gradeBand": "1",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-27",
+   "master": "nagamma",
+   "title": {
+    "kn": "ಮೂರು ಬಣ್ಣದ ಪಟ್ಟಿ: ಅಕ್ಷರಕ್ಕೊಂದು ಮನೆ",
+    "en": "Three coloured bands: a house for each letter"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳ ಅಕ್ಷರಗಳು ಒಂದು ದೊಡ್ಡದು, ಒಂದು ಸಣ್ಣದು; ಗೆರೆಯ ಮೇಲೆ ಕೂರುವುದಿಲ್ಲ.",
+    "en": "Children's letters are big and small all over, and they do not sit on the line."
+   },
+   "steps": [
+    {
+     "kn": "ನಾಲ್ಕು ಗೆರೆ ಎಳೆದು ಮಧ್ಯದ ಮೂರು ಪಟ್ಟಿಗೆ ಬಣ್ಣ ಹಚ್ಚಿ: ಮೇಲೆ ನೀಲಿ ಆಕಾಶ, ಮಧ್ಯೆ ಹಸಿರು ಹುಲ್ಲು, ಕೆಳಗೆ ಕಂದು ನೆಲ.",
+     "en": "Draw four lines and colour the three bands between them: blue sky on top, green grass in the middle, brown ground below."
+    },
+    {
+     "kn": "ಅಕ್ಷರದ ಮುಖ್ಯ ಭಾಗ ಹಸಿರು ಹುಲ್ಲಿನ ಮನೆಯಲ್ಲಿ ಕೂರುತ್ತದೆ ಅಂತ ಹೇಳಿ. ಕೊಂಬು ಮೇಲೆ ಹೋಗುತ್ತದೆ, ಒತ್ತು ಕೆಳಗೆ ಹೋಗುತ್ತದೆ.",
+     "en": "Tell them the body of the letter sits in the green grass house. The ಕೊಂಬು goes up into the sky, and the ottu goes down to the ground."
+    },
+    {
+     "kn": "ಮೊದಲು ಸ್ಲೇಟಿನಲ್ಲಿ ಐದು ಅಕ್ಷರ ಮಾತ್ರ ಬರೆಯಲಿ. ಪ್ರತಿ ಅಕ್ಷರ ತನ್ನ ಮನೆಯಲ್ಲಿ ಕೂತಿದೆಯಾ ಅಂತ ಮಗುವೇ ನೋಡಲಿ.",
+     "en": "First let them write only five letters on the slate. Let the child check whether each letter sits in its house."
+    },
+    {
+     "kn": "ಒಂದು ವಾರ ಆದ ಮೇಲೆ ನೋಟ್ ಪುಸ್ತಕದ ಸಾದಾ ಗೆರೆಗಳಲ್ಲಿ ಬರೆಯಲಿ.",
+     "en": "After a week, let them write on the plain lines of the notebook."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಬಣ್ಣದ ಬಳಪ ಅಥವಾ ಸ್ಕೆಚ್ ಪೆನ್",
+     "en": "coloured chalk or sketch pens"
+    },
+    {
+     "kn": "ಸ್ಲೇಟ್",
+     "en": "slates"
+    }
+   ],
+   "why": {
+    "kn": "ಅಕ್ಷರಕ್ಕೆ ಮನೆ ಕಾಣಿಸಿದಾಗ ಮಗು ತಾನೇ ಗಾತ್ರ ಸರಿ ಮಾಡಿಕೊಳ್ಳುತ್ತದೆ.",
+    "en": "When the letter has a house to sit in, the child sets the size right on their own."
+   },
+   "index": {
+    "topic": "writing",
+    "gradeBand": "1-2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-28",
+   "master": "nagamma",
+   "title": {
+    "kn": "ಚುಕ್ಕೆಯಿಂದ ಶುರು, ಬಾಣದ ದಾರಿ",
+    "en": "Start at the dot, follow the arrow"
+   },
+   "problem": {
+    "kn": "ಎರಡನೇ ತರಗತಿಯ ಮಕ್ಕಳು ಕೆಲವು ಅಕ್ಷರಗಳನ್ನು ಉಲ್ಟಾ ಬರೆಯುತ್ತಾರೆ.",
+    "en": "Class 2 children write some letters back to front."
+   },
+   "steps": [
+    {
+     "kn": "ಕಪ್ಪು ಹಲಗೆಯ ಮೇಲೆ ಅಕ್ಷರವನ್ನು ದೊಡ್ಡದಾಗಿ ಬರೆದು, ಶುರುವಾಗುವ ಜಾಗದಲ್ಲಿ ಚುಕ್ಕೆ, ದಾರಿಗೆ ಬಾಣ ಹಾಕಿ.",
+     "en": "Write the letter big on the blackboard, with a dot where it starts and an arrow for the way it goes."
+    },
+    {
+     "kn": "ಬರೆಯುವಾಗ ದಾರಿಯನ್ನು ಜೋರಾಗಿ ಹೇಳಿ: 'ಇಲ್ಲಿ ಶುರು, ಕೆಳಗೆ ಬಾ, ಸುತ್ತು ಹಾಕು'. ಮಕ್ಕಳೂ ಹೇಳುತ್ತಾ ಬರೆಯಲಿ.",
+     "en": "Say the way aloud while writing: 'start here, come down, go round'. Let the children say it as they write."
+    },
+    {
+     "kn": "ಮರಳಿನ ತಟ್ಟೆಯಲ್ಲಿ ಕಣ್ಣು ಮುಚ್ಚಿಕೊಂಡು ಬೆರಳಿಂದ ಅದೇ ದಾರಿಯಲ್ಲಿ ಬರೆಯಲಿ.",
+     "en": "Let them write it in the plate of sand with eyes closed, following the same way with a finger."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಸ್ಲೇಟಿನಲ್ಲಿ ಚುಕ್ಕೆ ಇಟ್ಟು ಕೊಡಿ, ಮಗು ಅಲ್ಲಿಂದ ಶುರು ಮಾಡಲಿ. ದಿನಕ್ಕೆ ಎರಡು ಅಕ್ಷರ ಸಾಕು.",
+     "en": "Then put a dot on the slate for the child to start from. Two letters a day is enough."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಮರಳು ಹಾಕಿದ ತಟ್ಟೆ",
+     "en": "a plate of sand"
+    },
+    {
+     "kn": "ಸ್ಲೇಟ್ ಮತ್ತು ಬಳಪ",
+     "en": "slate and chalk"
+    }
+   ],
+   "why": {
+    "kn": "ಎಲ್ಲಿಂದ ಶುರು, ಯಾವ ದಾರಿ ಅಂತ ಕೈಗೆ ನೆನಪಾದರೆ ಅಕ್ಷರ ಸರಿಯಾದ ಕಡೆ ತಿರುಗುತ್ತದೆ.",
+    "en": "When the hand remembers where to start and which way to go, the letter faces the right way."
+   },
+   "index": {
+    "topic": "writing",
+    "gradeBand": "2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-29",
+   "master": "nagamma",
+   "title": {
+    "kn": "ಪದ ಹತ್ತಿರ ತನ್ನಿ: ಓದು, ಹೇಳು, ಮುಚ್ಚು, ಬರೆ",
+    "en": "Bring the words close: read, say, cover, write"
+   },
+   "problem": {
+    "kn": "ಕಪ್ಪು ಹಲಗೆಯಿಂದ ನಕಲು ಮಾಡುವುದಕ್ಕೇ ಇಡೀ ಪಿರಿಯಡ್ ಹೋಗುತ್ತದೆ, ತಪ್ಪುಗಳೂ ತುಂಬಾ.",
+    "en": "Copying from the board takes the whole period, and there are many mistakes."
+   },
+   "steps": [
+    {
+     "kn": "ಹಲಗೆಯ ಮೇಲಿನ ಪದಗಳನ್ನು ಕಾರ್ಡುಗಳಲ್ಲಿ ಬರೆದು ಪ್ರತಿ ಬೆಂಚಿಗೆ ಒಂದು ಕಾರ್ಡು ಕೊಡಿ.",
+     "en": "Write the board words on cards and give one card to each bench."
+    },
+    {
+     "kn": "ಮಗು ಪದವನ್ನು ಓದಲಿ, ಜೋರಾಗಿ ಹೇಳಲಿ, ಆಮೇಲೆ ಕೈಯಿಂದ ಕಾರ್ಡು ಮುಚ್ಚಲಿ.",
+     "en": "Let the child read the word, say it aloud, then cover the card with a hand."
+    },
+    {
+     "kn": "ನೆನಪಿನಿಂದ ಸ್ಲೇಟಿನಲ್ಲಿ ಬರೆಯಲಿ. ಆಮೇಲೆ ಕಾರ್ಡು ತೆರೆದು ತಾನೇ ಸರಿ ನೋಡಿಕೊಳ್ಳಲಿ.",
+     "en": "Let them write it on the slate from memory, then open the card and check it themselves."
+    },
+    {
+     "kn": "ದಿನಕ್ಕೆ ಐದು ಪದ ಸಾಕು. ಸರಿ ಬಂದ ಪದದ ಪಕ್ಕ ಮಗುವೇ ಗುರುತು ಹಾಕಲಿ.",
+     "en": "Five words a day is enough. Let the child put a tick next to each word that came out right."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಹಳೆಯ ರಟ್ಟಿನ ತುಂಡುಗಳು",
+     "en": "pieces of old cardboard"
+    },
+    {
+     "kn": "ಸ್ಲೇಟ್",
+     "en": "slates"
+    }
+   ],
+   "why": {
+    "kn": "ಪದ ಕಣ್ಣ ಮುಂದೆ ಇದ್ದು, ಮನಸ್ಸಿನಲ್ಲಿ ಹಿಡಿದು ಬರೆದಾಗ ಮಗು ಅಕ್ಷರ ಅಕ್ಷರ ನಕಲು ಮಾಡದೆ ಇಡೀ ಪದ ಕಲಿಯುತ್ತದೆ.",
+    "en": "When the word is close and held in the mind, the child learns the whole word instead of copying letter by letter."
+   },
+   "index": {
+    "topic": "writing",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-30",
+   "master": "nagamma",
+   "title": {
+    "kn": "ಮೊದಲು ಮಾತು, ಆಮೇಲೆ ಚಿತ್ರ, ಆಮೇಲೆ ವಾಕ್ಯ",
+    "en": "Talk first, then a drawing, then a sentence"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ನಕಲು ಮಾಡುತ್ತಾರೆ, ಆದರೆ ತಮ್ಮದೇ ಒಂದು ವಾಕ್ಯ ಬರೆಯಲು ಆಗುವುದಿಲ್ಲ.",
+    "en": "Children can copy, but cannot write a sentence of their own."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ವಿಷಯದ ಬಗ್ಗೆ ಐದು ನಿಮಿಷ ಮಾತಾಡಿ: ನಿನ್ನೆ ಏನು ಮಾಡಿದೆ, ನಿನಗೆ ಇಷ್ಟದ ಪ್ರಾಣಿ ಯಾವುದು.",
+     "en": "Talk for five minutes about one thing: what did you do yesterday, which animal do you like."
+    },
+    {
+     "kn": "ಮಗು ಅದರ ಬಗ್ಗೆ ಒಂದು ಚಿತ್ರ ಬಿಡಿಸಲಿ.",
+     "en": "Let the child draw a picture about it."
+    },
+    {
+     "kn": "ಚಿತ್ರದ ಬಗ್ಗೆ ಮಗು ಒಂದು ವಾಕ್ಯ ಹೇಳಲಿ. ಅದನ್ನು ನೀವು ಚಿತ್ರದ ಕೆಳಗೆ ಪೆನ್ಸಿಲ್ಲಿನಿಂದ ಹಗುರವಾಗಿ ಬರೆಯಿರಿ.",
+     "en": "Let the child say one sentence about the drawing. Write it lightly in pencil under the drawing."
+    },
+    {
+     "kn": "ಮಗು ಅದರ ಕೆಳಗೆ ಅದೇ ವಾಕ್ಯ ಬರೆಯಲಿ. ಕೆಲವು ವಾರ ಆದ ಮೇಲೆ ನೀವು ಬರೆಯುವುದು ನಿಲ್ಲಿಸಿ, ಮಗು ತಾನೇ ಬರೆಯಲಿ.",
+     "en": "Let the child write the same sentence below it. After a few weeks, stop writing it for them and let the child write alone."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಾಗದ",
+     "en": "paper"
+    },
+    {
+     "kn": "ಬಣ್ಣದ ಪೆನ್ಸಿಲ್",
+     "en": "colour pencils"
+    }
+   ],
+   "why": {
+    "kn": "ತಾನು ಹೇಳಿದ ಮಾತೇ ಬರಹವಾದಾಗ ಬರೆಯುವುದು ತನ್ನದು ಅಂತ ಮಗುವಿಗೆ ಅನ್ನಿಸುತ್ತದೆ.",
+    "en": "When their own spoken words become writing, the child feels that writing belongs to them."
+   },
+   "index": {
+    "topic": "writing",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-31",
+   "master": "ameena",
+   "title": {
+    "kn": "ಮೂರು ಬೆರಳು: ಯಾರು, ಎಲ್ಲಿ, ಏನು",
+    "en": "Three fingers: who, where, what"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಚೆನ್ನಾಗಿ ಜೋರಾಗಿ ಓದುತ್ತಾರೆ, ಆದರೆ ಓದಿದ್ದು ಏನು ಅಂತ ಹೇಳಲು ಆಗುವುದಿಲ್ಲ.",
+    "en": "Children read aloud well, but cannot say what the passage was about."
+   },
+   "steps": [
+    {
+     "kn": "ಎರಡು ಮೂರು ಸಾಲು ಓದಿದ ಮೇಲೆ ನಿಲ್ಲಿಸಿ, 'ಏನಾಯಿತು?' ಅಂತ ಕೇಳಿ.",
+     "en": "After every two or three lines, stop and ask, 'What happened?'"
+    },
+    {
+     "kn": "ಮೂರು ಬೆರಳು ತೋರಿಸಿ: ಒಂದು ಯಾರು, ಎರಡು ಎಲ್ಲಿ, ಮೂರು ಏನು ಮಾಡಿದರು. ಮಕ್ಕಳು ಬೆರಳು ಎಣಿಸುತ್ತಾ ಹೇಳಲಿ.",
+     "en": "Hold up three fingers: one for who, two for where, three for what they did. Let the children answer counting on their fingers."
+    },
+    {
+     "kn": "ಉತ್ತರ ಬರದಿದ್ದರೆ ಅದೇ ಸಾಲುಗಳನ್ನು ಎಲ್ಲರೂ ಒಟ್ಟಿಗೆ ಮತ್ತೆ ಓದಿ.",
+     "en": "If the answer does not come, read the same lines again together."
+    },
+    {
+     "kn": "ಪಾಠ ಮುಗಿದ ಮೇಲೆ ಮಕ್ಕಳು ಜೋಡಿಯಲ್ಲಿ ಕಥೆಯನ್ನು ತಮ್ಮ ಮಾತಿನಲ್ಲಿ ಹೇಳಲಿ.",
+     "en": "When the lesson is done, let the children tell the story in their own words in pairs."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಓದುವಾಗಲೇ ನಿಂತು ಯೋಚಿಸಿದರೆ ಮಗು ಪದಗಳ ಜೊತೆ ಅರ್ಥವನ್ನೂ ಹಿಡಿಯುತ್ತದೆ.",
+    "en": "Stopping to think while reading helps the child hold on to the meaning, not just the words."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-32",
+   "master": "ameena",
+   "title": {
+    "kn": "ಓದುವ ಮೊದಲು ಚಿತ್ರಗಳ ಸುತ್ತು",
+    "en": "A picture walk before reading"
+   },
+   "problem": {
+    "kn": "ಹೊಸ ಪಾಠ ಶುರು ಮಾಡುವಾಗ ಮಕ್ಕಳಿಗೆ ಯಾವ ಆಸಕ್ತಿಯೂ ಇರುವುದಿಲ್ಲ.",
+    "en": "Children start a new lesson without any interest."
+   },
+   "steps": [
+    {
+     "kn": "ಓದುವ ಮೊದಲು ಪಾಠದ ಚಿತ್ರಗಳನ್ನು ಮಾತ್ರ ಎಲ್ಲರೂ ಒಟ್ಟಿಗೆ ನೋಡಿ.",
+     "en": "Before reading, look at only the pictures of the lesson together."
+    },
+    {
+     "kn": "'ಇವರು ಯಾರು? ಮುಂದೆ ಏನಾಗಬಹುದು?' ಅಂತ ಕೇಳಿ. ಮಕ್ಕಳ ಊಹೆಗಳನ್ನು ಹಲಗೆಯ ಮೂಲೆಯಲ್ಲಿ ಬರೆಯಿರಿ.",
+     "en": "Ask 'Who are they? What might happen next?' Write the children's guesses in a corner of the board."
+    },
+    {
+     "kn": "ಈಗ 'ನಮ್ಮ ಊಹೆ ಸರಿಯಾ ನೋಡೋಣ' ಅಂತ ಹೇಳಿ ಓದಲು ಶುರು ಮಾಡಿ.",
+     "en": "Now say 'Let us see if our guesses were right' and start reading."
+    },
+    {
+     "kn": "ಓದಿದ ಮೇಲೆ ಹಲಗೆಯ ಊಹೆಗಳನ್ನು ನೋಡಿ. ಬೇರೆ ಆದ ಊಹೆಗಳ ಬಗ್ಗೆಯೂ ಖುಷಿಯಿಂದ ಮಾತಾಡಿ.",
+     "en": "After reading, look at the guesses on the board. Talk happily about every guess, even the ones that turned out different."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ತಮ್ಮ ಊಹೆ ಸರಿಯಾ ಅಂತ ತಿಳಿಯಲು ಮಕ್ಕಳು ಕುತೂಹಲದಿಂದ ಓದುತ್ತಾರೆ.",
+    "en": "Children read eagerly to find out whether their own guess was right."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-33",
+   "master": "ameena",
+   "title": {
+    "kn": "'ಹುಡುಕು' ಆಟ: ಉತ್ತರ ಇರುವ ಸಾಲು",
+    "en": "The 'find it' game: the line with the answer"
+   },
+   "problem": {
+    "kn": "ಮೂರನೇ ತರಗತಿಯ ಮಕ್ಕಳು ಪ್ರಶ್ನೆಗೆ ಉತ್ತರವಾಗಿ ಪಾಠದ ಯಾವುದೋ ಒಂದು ಸಾಲು ನಕಲು ಮಾಡುತ್ತಾರೆ.",
+    "en": "Class 3 children answer a question by copying any line from the lesson."
+   },
+   "steps": [
+    {
+     "kn": "ಪ್ರಶ್ನೆ ಕೇಳಿ, ಬರೆಯುವುದು ಆಮೇಲೆ. 'ಉತ್ತರ ಇರುವ ಸಾಲಿನ ಮೇಲೆ ಬೆರಳಿಡು' ಅಂತ ಹೇಳಿ.",
+     "en": "Ask the question, and keep the writing for later. Say 'Put your finger on the line that has the answer.'"
+    },
+    {
+     "kn": "ಮಗು ಆ ಸಾಲನ್ನು ಜೋರಾಗಿ ಓದಲಿ. 'ಇದು ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ ಕೊಡುತ್ತದಾ?' ಅಂತ ಎಲ್ಲರೂ ಯೋಚಿಸಲಿ.",
+     "en": "Let the child read that line aloud. Let everyone think: 'Does this answer the question?'"
+    },
+    {
+     "kn": "ಈಗ ಮಗು ಉತ್ತರವನ್ನು ತನ್ನ ಮಾತಿನಲ್ಲಿ ಹೇಳಲಿ.",
+     "en": "Now let the child say the answer in their own words."
+    },
+    {
+     "kn": "ಹೇಳಿದ ಮೇಲೆ ಮಾತ್ರ ಬರೆಯಲಿ. ಮೊದಲು ಜೋಡಿಯಲ್ಲಿ, ಆಮೇಲೆ ಒಬ್ಬರೇ.",
+     "en": "Only after saying it, let them write it. First in pairs, later alone."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಉತ್ತರ ಎಲ್ಲಿದೆ ಅಂತ ಹುಡುಕಿ, ತನ್ನ ಮಾತಿನಲ್ಲಿ ಹೇಳಿದ ಮಗು ನಿಜವಾಗಿ ಅರ್ಥ ಮಾಡಿಕೊಂಡಿರುತ್ತದೆ.",
+    "en": "A child who finds where the answer is and says it in their own words has truly understood."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-34",
+   "master": "ameena",
+   "title": {
+    "kn": "ಪ್ರತಿಧ್ವನಿ ಓದು",
+    "en": "Echo reading"
+   },
+   "problem": {
+    "kn": "ಎರಡನೇ ತರಗತಿಯ ಮಕ್ಕಳು ಪದ ಪದವಾಗಿ ನಿಂತು ನಿಂತು ಓದುತ್ತಾರೆ.",
+    "en": "Class 2 children read word by word, stopping after each one."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ಚಿಕ್ಕ ಕಥೆ ಆರಿಸಿ. ಒಂದು ಸಾಲನ್ನು ನೀವು ಭಾವದಿಂದ, ಸಹಜವಾಗಿ ಓದಿ.",
+     "en": "Choose a short story. Read one line yourself with feeling, at a natural pace."
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ಅದೇ ಸಾಲನ್ನು ನಿಮ್ಮ ಹಾಗೇ ಮತ್ತೆ ಓದಲಿ, ಪದಗಳ ಕೆಳಗೆ ಬೆರಳು ಓಡಿಸುತ್ತಾ.",
+     "en": "Let the children read the same line back just as you did, running a finger under the words."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಇಡೀ ತರಗತಿ ಒಟ್ಟಿಗೆ ಓದಲಿ, ನಂತರ ಜೋಡಿಯಲ್ಲಿ ಒಬ್ಬರಿಗೊಬ್ಬರು ಓದಲಿ.",
+     "en": "Then let the whole class read it together, and then in pairs to each other."
+    },
+    {
+     "kn": "ಅದೇ ಕಥೆಯನ್ನು ಮೂರು ದಿನ ಓದಿ. ಮೂರನೇ ದಿನ ತಮ್ಮ ಓದು ಹರಿಯುವುದನ್ನು ಮಕ್ಕಳೇ ಕೇಳುತ್ತಾರೆ.",
+     "en": "Read the same story for three days. By the third day the children hear their own reading flow."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದು ಚಿಕ್ಕ ಕಥೆ",
+     "en": "a short story"
+    }
+   ],
+   "why": {
+    "kn": "ಸರಿಯಾದ ಓದು ಕಿವಿಗೆ ಬಿದ್ದು, ಮತ್ತೆ ಮತ್ತೆ ಓದಿದಾಗ ಮಕ್ಕಳ ಓದು ಹರಿಯುತ್ತದೆ.",
+    "en": "Hearing good reading and reading it again and again makes children's reading flow."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-35",
+   "master": "siddappa",
+   "title": {
+    "kn": "ಶಾಲೆಯಲ್ಲಿ ಆಕಾರಗಳ ಹುಡುಕಾಟ",
+    "en": "A shape hunt around the school"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳಿಗೆ ಆಕಾರಗಳ ಹೆಸರು ಪುಸ್ತಕದ ಚಿತ್ರದಲ್ಲಿ ಮಾತ್ರ ಗೊತ್ತು.",
+    "en": "Children know the names of shapes only from the pictures in the book."
+   },
+   "steps": [
+    {
+     "kn": "ಮಕ್ಕಳನ್ನು ಶಾಲೆಯ ಸುತ್ತ ಕರೆದುಕೊಂಡು ಹೋಗಿ ಆಕಾರ ಹುಡುಕಲಿ: ರೊಟ್ಟಿ ವೃತ್ತ, ಬಾಗಿಲು ಆಯತ, ಮನೆಯ ಮಾಡು ತ್ರಿಕೋನ.",
+     "en": "Take the children around the school to hunt for shapes: the roti is a circle, the door is a rectangle, the roof is a triangle."
+    },
+    {
+     "kn": "ಮನೆಗೆ ಹೋಗುವ ದಾರಿಯಲ್ಲಿ ಒಂದು ಆಕಾರ ಹುಡುಕಿ ಮರುದಿನ ತರಗತಿಗೆ ಹೇಳಲು ಹೇಳಿ.",
+     "en": "Ask them to find one shape on the way home and tell the class the next day."
+    },
+    {
+     "kn": "ಕಡ್ಡಿ ಮತ್ತು ದಾರದಿಂದ ಮಕ್ಕಳು ಆಕಾರ ಮಾಡಲಿ. ತ್ರಿಕೋನಕ್ಕೆ ಎಷ್ಟು ಕಡ್ಡಿ ಬೇಕು ಅಂತ ಎಣಿಸಲಿ.",
+     "en": "Let the children make shapes with sticks and string, and count how many sticks a triangle needs."
+    },
+    {
+     "kn": "ಬಳೆ, ಡಬ್ಬಿ, ಬೆಂಕಿಪೆಟ್ಟಿಗೆ, ಕಲ್ಲು ಇಂಥ ವಸ್ತುಗಳನ್ನು ಆಕಾರದ ಪ್ರಕಾರ ಗುಂಪು ಮಾಡಲಿ.",
+     "en": "Let them sort things like bangles, tins, matchboxes and stones into groups by shape."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಡ್ಡಿಗಳು",
+     "en": "sticks"
+    },
+    {
+     "kn": "ದಾರ",
+     "en": "string"
+    },
+    {
+     "kn": "ಮನೆಯ ಸಣ್ಣ ವಸ್ತುಗಳು",
+     "en": "small things from home"
+    }
+   ],
+   "why": {
+    "kn": "ತಮ್ಮ ಸುತ್ತಲೂ ಕಂಡ ಆಕಾರಗಳು ಮಕ್ಕಳಿಗೆ ಮರೆಯುವುದಿಲ್ಲ.",
+    "en": "Children do not forget the shapes they find around them."
+   },
+   "index": {
+    "topic": "other",
+    "gradeBand": "1-2",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-36",
+   "master": "siddappa",
+   "title": {
+    "kn": "ಗೇಣು, ಹೆಜ್ಜೆ, ಆಮೇಲೆ ಅಳತೆ ಕೋಲು",
+    "en": "Hand spans, footsteps, then the measuring stick"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳಿಗೆ ಉದ್ದ ಅಳೆಯುವುದು ಅಂದರೆ ಏನು ಅಂತ ಅರ್ಥ ಆಗುವುದಿಲ್ಲ.",
+    "en": "Children do not understand what measuring length means."
+   },
+   "steps": [
+    {
+     "kn": "ಮೇಜಿನ ಉದ್ದವನ್ನು ಗೇಣಿನಲ್ಲಿ ಅಳೆಯಲು ಮೂರು ನಾಲ್ಕು ಮಕ್ಕಳಿಗೆ ಹೇಳಿ. ಕೋಣೆಯ ಉದ್ದವನ್ನು ಹೆಜ್ಜೆಯಲ್ಲಿ ಅಳೆಯಲಿ.",
+     "en": "Ask three or four children to measure the table in hand spans, and the room in footsteps."
+    },
+    {
+     "kn": "ಎಲ್ಲರ ಉತ್ತರವನ್ನು ಹಲಗೆಯ ಮೇಲೆ ಬರೆಯಿರಿ. ಉತ್ತರ ಯಾಕೆ ಬೇರೆ ಬೇರೆ ಬಂತು ಅಂತ ಮಕ್ಕಳು ಯೋಚಿಸಲಿ.",
+     "en": "Write everyone's answer on the board. Let the children think about why the answers came out different."
+    },
+    {
+     "kn": "ಎಲ್ಲರಿಗೂ ಒಂದೇ ಉದ್ದದ ಕೋಲು ಕೊಟ್ಟು ಮತ್ತೆ ಅಳೆಯಲಿ. ಈಗ ಎಲ್ಲರ ಉತ್ತರ ಒಂದೇ ಬರುತ್ತದೆ.",
+     "en": "Give everyone a stick of the same length and measure again. Now everyone's answer is the same."
+    },
+    {
+     "kn": "ಆಮೇಲೆ ಅಳತೆ ಪಟ್ಟಿ ತೋರಿಸಿ, ಇದು ಎಲ್ಲರೂ ಒಪ್ಪಿಕೊಂಡ ಒಂದೇ ಕೋಲು ಅಂತ ಹೇಳಿ.",
+     "en": "Then show the ruler, and say it is one stick that everyone has agreed on."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದೇ ಉದ್ದದ ಕೋಲುಗಳು",
+     "en": "sticks of the same length"
+    },
+    {
+     "kn": "ಅಳತೆ ಪಟ್ಟಿ",
+     "en": "a ruler"
+    }
+   ],
+   "why": {
+    "kn": "ಎಲ್ಲರಿಗೂ ಒಂದೇ ಅಳತೆ ಯಾಕೆ ಬೇಕು ಅಂತ ಮಕ್ಕಳು ತಾವೇ ಕಂಡುಕೊಂಡಾಗ ಅಳತೆ ಪಟ್ಟಿಗೆ ಅರ್ಥ ಬರುತ್ತದೆ.",
+    "en": "When children discover for themselves why everyone needs one common measure, the ruler makes sense."
+   },
+   "index": {
+    "topic": "other",
+    "gradeBand": "1-3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-37",
+   "master": "siddappa",
+   "title": {
+    "kn": "ಹ್ಯಾಂಗರ್ ತಕ್ಕಡಿ",
+    "en": "A hanger balance"
+   },
+   "problem": {
+    "kn": "ಯಾವುದು ಭಾರ, ಯಾವುದು ಹಗುರ, ತೂಕ ಯಾಕೆ ಮಾಡುತ್ತಾರೆ ಅಂತ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಿಲ್ಲ.",
+    "en": "Children cannot tell what is heavier and what is lighter, or why we weigh things."
+   },
+   "steps": [
+    {
+     "kn": "ಬಟ್ಟೆಯ ಹ್ಯಾಂಗರಿನ ಎರಡು ತುದಿಗೆ ಎರಡು ಬಟ್ಟೆ ಚೀಲ ಕಟ್ಟಿ, ಹ್ಯಾಂಗರನ್ನು ಮೊಳೆಗೆ ನೇತು ಹಾಕಿ.",
+     "en": "Tie a cloth bag to each end of a clothes hanger and hang the hanger on a nail."
+    },
+    {
+     "kn": "ಎರಡು ವಸ್ತು ತೋರಿಸಿ. ಯಾವುದು ಭಾರ ಅಂತ ಮಕ್ಕಳು ಮೊದಲು ಕೈಯಲ್ಲಿ ಹಿಡಿದು ಊಹಿಸಲಿ.",
+     "en": "Show two things, and let the children first guess which is heavier by holding them."
+    },
+    {
+     "kn": "ಎರಡನ್ನೂ ಚೀಲಗಳಲ್ಲಿ ಹಾಕಿ ನೋಡಲಿ. ಭಾರದ ಕಡೆ ಕೆಳಗೆ ಹೋಗುತ್ತದೆ. ಊಹೆ ಸರಿಯಾ ಅಂತ ಮಾತಾಡಿ.",
+     "en": "Put both in the bags and watch. The heavier side goes down. Talk about whether the guess was right."
+    },
+    {
+     "kn": "ಮೂರು ವಸ್ತುಗಳನ್ನು ಹಗುರದಿಂದ ಭಾರದವರೆಗೆ ಕ್ರಮವಾಗಿ ಜೋಡಿಸಲಿ. ಅಂಗಡಿಯಲ್ಲಿ ತಕ್ಕಡಿ ಯಾಕೆ ಬೇಕು ಅಂತ ಮಾತಾಡಿ.",
+     "en": "Let them put three things in order from lightest to heaviest. Talk about why a shop needs a weighing scale."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಬಟ್ಟೆ ಹ್ಯಾಂಗರ್",
+     "en": "a clothes hanger"
+    },
+    {
+     "kn": "ಎರಡು ಬಟ್ಟೆ ಚೀಲ",
+     "en": "two cloth bags"
+    },
+    {
+     "kn": "ದಾರ",
+     "en": "string"
+    }
+   ],
+   "why": {
+    "kn": "ಕೈಯಿಂದ ಊಹಿಸಿ, ಕಣ್ಣಿಂದ ನೋಡಿದಾಗ ಭಾರ ಹಗುರದ ಅರ್ಥ ಗಟ್ಟಿಯಾಗುತ್ತದೆ.",
+    "en": "Guessing with the hands and checking with the eyes makes heavy and light clear."
+   },
+   "index": {
+    "topic": "other",
+    "gradeBand": "1-3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-38",
+   "master": "siddappa",
+   "title": {
+    "kn": "ಮೊಟ್ಟೆ ಟ್ರೇಯಲ್ಲಿ ಹತ್ತರ ಮನೆ",
+    "en": "A house of ten from an egg tray"
+   },
+   "problem": {
+    "kn": "ಯಾವ ಎರಡು ಸಂಖ್ಯೆ ಸೇರಿದರೆ ಹತ್ತು ಆಗುತ್ತೆ ಅಂತ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಾಗಲ್ಲ.",
+    "en": "Children do not know which two numbers make ten."
+   },
+   "steps": [
+    {
+     "kn": "ಮೊಟ್ಟೆ ಟ್ರೇಯನ್ನು ಹತ್ತು ಗುಳಿ ಉಳಿಯುವಂತೆ ಕತ್ತರಿಸಿ. ಇದು ಹತ್ತರ ಮನೆ ಅಂತ ಮಕ್ಕಳಿಗೆ ಹೇಳಿ.",
+     "en": "Cut an egg tray so that ten holes are left. Tell the children this is the house of ten."
+    },
+    {
+     "kn": "ಎರಡು ಬಣ್ಣದ ಹುಣಸೆ ಬೀಜ ಕೊಡಿ. ಅರ್ಧ ಬೀಜಕ್ಕೆ ಮೊದಲೇ ಬಣ್ಣ ಹಚ್ಚಿಡಿ.",
+     "en": "Give tamarind seeds of two colours. Paint half of the seeds beforehand."
+    },
+    {
+     "kn": "ಮಗು ಕೆಲವು ಗುಳಿಗೆ ಒಂದು ಬಣ್ಣದ ಬೀಜ, ಉಳಿದ ಗುಳಿಗೆ ಇನ್ನೊಂದು ಬಣ್ಣದ ಬೀಜ ಹಾಕಲಿ. ನಂತರ 'ಆರು ಮತ್ತು ನಾಲ್ಕು ಸೇರಿ ಹತ್ತು' ಅಂತ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+     "en": "Let the child fill some holes with seeds of one colour and the rest with the other colour. Then let the child say aloud, 'six and four make ten'."
+    },
+    {
+     "kn": "ಜೋಡಿ ಆಟ ಆಡಿಸಿ: ನೀವು ಒಂದು ಸಂಖ್ಯೆ ಹೇಳಿ, ಹತ್ತು ಆಗಲು ಬೇಕಾದ ಇನ್ನೊಂದು ಸಂಖ್ಯೆಯನ್ನು ಮಕ್ಕಳು ಹೇಳಲಿ.",
+     "en": "Play the pairs game: you say a number, and the children say the other number needed to make ten."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಖಾಲಿ ಮೊಟ್ಟೆ ಟ್ರೇ",
+     "en": "an empty egg tray"
+    },
+    {
+     "kn": "ಹುಣಸೆ ಬೀಜ",
+     "en": "tamarind seeds"
+    }
+   ],
+   "why": {
+    "kn": "ಹತ್ತರ ಜೋಡಿ ಕಣ್ಣಿಗೆ ಕಾಣಿಸಿದರೆ, ಕೂಡಿಸೋದು ಕಳೆಯೋದು ಸುಲಭ ಆಗುತ್ತೆ.",
+    "en": "When children can see the pairs that make ten, adding and taking away become easy."
+   },
+   "index": {
+    "topic": "operations",
+    "gradeBand": "1-2",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-39",
+   "master": "kavitha",
+   "title": {
+    "kn": "ಒಂದು ಅಕ್ಷರದ ಕಾಗುಣಿತ ಕುಟುಂಬ",
+    "en": "One letter's ಕಾಗುಣಿತ family"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಕಾಗುಣಿತದ ಚಿಹ್ನೆಗಳನ್ನು ಒಂದಕ್ಕೊಂದು ಬೆರೆಸಿಬಿಡ್ತಾರೆ, ಕಿ ಮತ್ತು ಕೀ ಒಂದೇ ಅನ್ನಿಸುತ್ತೆ.",
+    "en": "Children mix up the vowel signs of ಕಾಗುಣಿತ; ಕಿ and ಕೀ seem the same to them."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ಸಲ ಒಂದೇ ವ್ಯಂಜನದ ಕುಟುಂಬ ಕಲಿಸಿ: ಕ ಕಾ ಕಿ ಕೀ ಕು ಕೂ... ಒಂದು ವಾರ ಅದೇ ಕುಟುಂಬ.",
+     "en": "Teach one consonant family at a time: ಕ ಕಾ ಕಿ ಕೀ ಕು ಕೂ... The same family for a week."
+    },
+    {
+     "kn": "ದಪ್ಪ ಕಾಗದದಲ್ಲಿ ದೊಡ್ಡ 'ಕ' ಕಾರ್ಡು ಮಾಡಿ. ಚಿಹ್ನೆಗಳನ್ನು ಬೇರೆ ಸಣ್ಣ ಕಾರ್ಡುಗಳಲ್ಲಿ ಬರೆದು, 'ಕ' ಮೇಲೆ ಜಾರಿಸಿ ತೋರಿಸಿ.",
+     "en": "Make a big 'ಕ' card from thick paper. Write the signs on small separate cards and slide them onto the 'ಕ' to show."
+    },
+    {
+     "kn": "ಪ್ರತಿ ಚಿಹ್ನೆ ಸೇರಿದಾಗ ಸದ್ದು ಹೇಗೆ ಬದಲಾಗುತ್ತೆ ಅಂತ ಮಕ್ಕಳು ಜೋರಾಗಿ ಹೇಳಲಿ. ಕಾಗುಣಿತದ ಹಾಡು ಒಟ್ಟಿಗೆ ಹಾಡಿ.",
+     "en": "Let the children say aloud how the sound changes as each sign joins. Sing the ಕಾಗುಣಿತ song together."
+    },
+    {
+     "kn": "ಕೊನೆಗೆ ಅದೇ ಕುಟುಂಬದ ಕಾರ್ಡುಗಳನ್ನು ಕಲಸಿ, ಮಕ್ಕಳು ಕ್ರಮ ಬಿಟ್ಟು ಓದಲಿ.",
+     "en": "Finally mix up the cards of the same family and let the children read them out of order."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ದಪ್ಪ ಕಾಗದ ಅಥವಾ ರಟ್ಟು",
+     "en": "thick paper or cardboard"
+    },
+    {
+     "kn": "ಸ್ಕೆಚ್ ಪೆನ್",
+     "en": "a sketch pen"
+    }
+   ],
+   "why": {
+    "kn": "ಒಂದು ಕುಟುಂಬ ಗಟ್ಟಿಯಾದರೆ, ಉಳಿದ ವ್ಯಂಜನಗಳಿಗೂ ಅದೇ ಚಿಹ್ನೆಗಳು ಮಕ್ಕಳಿಗೆ ಸುಲಭ ಆಗುತ್ತವೆ.",
+    "en": "Once one family is firm, the same signs come easily on every other consonant."
+   },
+   "index": {
+    "topic": "letters",
+    "gradeBand": "1-2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-40",
+   "master": "kavitha",
+   "title": {
+    "kn": "ಇವತ್ತಿನ ಅಕ್ಷರ ಹುಡುಕೋಣ",
+    "en": "Let's hunt for today's letter"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ವರ್ಣಮಾಲೆಯ ಚಾರ್ಟ್ ಕ್ರಮವಾಗಿ ಹೇಳ್ತಾರೆ, ಆದರೆ ಒಂದು ಅಕ್ಷರವನ್ನು ಬೇರೆಯಾಗಿ ತೋರಿಸಿದರೆ ಅದರ ಹೆಸರು ಹೇಳೋಕೆ ಆಗಲ್ಲ.",
+    "en": "Children recite the letter chart in order, but cannot name a letter when it is shown alone."
+   },
+   "steps": [
+    {
+     "kn": "ಅಕ್ಷರ ಕಾರ್ಡುಗಳನ್ನು ಕ್ರಮ ಬಿಟ್ಟು ಕಲಸಿ ತೋರಿಸಿ. ಚಾರ್ಟ್ ಸ್ವಲ್ಪ ದಿನ ಮುಚ್ಚಿಡಿ.",
+     "en": "Show the letter cards mixed up, out of order. Keep the chart covered for a few days."
+    },
+    {
+     "kn": "ದಿನಕ್ಕೊಂದು 'ಇವತ್ತಿನ ಅಕ್ಷರ' ಆರಿಸಿ, ಕಪ್ಪು ಹಲಗೆಯ ಮೂಲೆಯಲ್ಲಿ ದೊಡ್ಡದಾಗಿ ಬರೆಯಿರಿ.",
+     "en": "Choose one 'letter of the day' and write it large in a corner of the blackboard."
+    },
+    {
+     "kn": "ಹಳೆಯ ಪತ್ರಿಕೆ ಅಥವಾ ಹಳೆ ಪುಸ್ತಕದ ಒಂದು ಪುಟ ಕೊಡಿ. ಆ ಅಕ್ಷರ ಸಿಕ್ಕಲ್ಲೆಲ್ಲಾ ಮಕ್ಕಳು ಅದರ ಸುತ್ತ ವೃತ್ತ ಹಾಕಲಿ.",
+     "en": "Give out a page from an old newspaper or an old book. Each time the children find the letter, let them draw a circle round it."
+    },
+    {
+     "kn": "ಎಷ್ಟು ಸಲ ಸಿಕ್ಕಿತು ಅಂತ ಒಟ್ಟಿಗೆ ಎಣಿಸಿ, ಅಕ್ಷರದ ಹೆಸರನ್ನು ಜೋರಾಗಿ ಹೇಳಿ.",
+     "en": "Count together how many times it was found, and say the letter's name aloud."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಹಳೆಯ ಪತ್ರಿಕೆ",
+     "en": "old newspapers"
+    },
+    {
+     "kn": "ಅಕ್ಷರ ಕಾರ್ಡುಗಳು",
+     "en": "letter cards"
+    }
+   ],
+   "why": {
+    "kn": "ಕ್ರಮ ಬಿಟ್ಟು ನೋಡಿದಾಗಲೇ ಮಗು ಅಕ್ಷರದ ಆಕಾರ ಗುರುತಿಸುತ್ತೆ, ಬಾಯಿಪಾಠದ ಸಾಲು ಮಾತ್ರ ಅಲ್ಲ.",
+    "en": "Seen out of order, the child learns the shape of the letter, not just a line learnt by heart."
+   },
+   "index": {
+    "topic": "letters",
+    "gradeBand": "1",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-41",
+   "master": "kavitha",
+   "title": {
+    "kn": "ವಾರದ ಸದ್ದಿನ ಡಬ್ಬ",
+    "en": "A box for the sound of the week"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಅಕ್ಷರ ನೋಡ್ತಾರೆ, ಆದರೆ ಅದರ ಸದ್ದನ್ನು ಪದಗಳ ಜೊತೆ ಜೋಡಿಸೋಕೆ ಆಗಲ್ಲ.",
+    "en": "Children see a letter but cannot link its sound to words."
+   },
+   "steps": [
+    {
+     "kn": "ತರಗತಿಯ ಒಂದು ಮೂಲೆಯಲ್ಲಿ ಒಂದು ಡಬ್ಬ ಇಡಿ. ಅದರ ಮೇಲೆ ಈ ವಾರದ ಅಕ್ಷರವನ್ನು ದೊಡ್ಡದಾಗಿ ಬರೆಯಿರಿ, ಉದಾಹರಣೆಗೆ 'ಕ'.",
+     "en": "Keep a box in one corner of the class. Write this week's letter large on it, for example 'ಕ'."
+    },
+    {
+     "kn": "ಆ ಸದ್ದಿನಿಂದ ಶುರುವಾಗುವ ಸಣ್ಣ ವಸ್ತುಗಳನ್ನು ಮನೆಯಿಂದ ತರಲು ಹೇಳಿ: ಕಲ್ಲು, ಕಡ್ಡಿ.",
+     "en": "Ask the children to bring small things from home that start with that sound: ಕಲ್ಲು, ಕಡ್ಡಿ."
+    },
+    {
+     "kn": "ವಸ್ತುವನ್ನು ಡಬ್ಬಕ್ಕೆ ಹಾಕುವಾಗ ಮಗು ಮೊದಲು ಸದ್ದು, ನಂತರ ಪದ ಹೇಳಲಿ: 'ಕ... ಕಲ್ಲು'.",
+     "en": "As the child puts a thing in the box, let the child say the sound first, then the word: 'ಕ... ಕಲ್ಲು'."
+    },
+    {
+     "kn": "ಶುಕ್ರವಾರ ಡಬ್ಬ ತೆರೆದು ಎಲ್ಲಾ ವಸ್ತುಗಳ ಹೆಸರನ್ನು ಒಟ್ಟಿಗೆ ಹೇಳಿ. ಮುಂದಿನ ವಾರ ಹೊಸ ಅಕ್ಷರ.",
+     "en": "On Friday open the box and say the names of all the things together. A new letter next week."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದು ಖಾಲಿ ಡಬ್ಬ",
+     "en": "an empty box"
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ತರುವ ಸಣ್ಣ ವಸ್ತುಗಳು",
+     "en": "small things the children bring"
+    }
+   ],
+   "why": {
+    "kn": "ಕೈಯಲ್ಲಿ ಹಿಡಿದ ವಸ್ತುವಿನ ಹೆಸರಿನಲ್ಲಿ ಸದ್ದು ಕೇಳಿದರೆ, ಅಕ್ಷರ ಮಗುವಿನ ಮನಸ್ಸಿನಲ್ಲಿ ಉಳಿಯುತ್ತೆ.",
+    "en": "When the child hears the sound in the name of something in their hand, the letter stays in their mind."
+   },
+   "index": {
+    "topic": "letters",
+    "gradeBand": "1",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-42",
+   "master": "kavitha",
+   "title": {
+    "kn": "ಅಮ್ಮ, ಅಕ್ಕ, ಅಪ್ಪದಿಂದ ಒತ್ತಕ್ಷರ",
+    "en": "Joined letters, starting with ಅಮ್ಮ, ಅಕ್ಕ, ಅಪ್ಪ"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳಿಗೆ ಒತ್ತಕ್ಷರಗಳು ಗುರುತು ಸಿಗಲ್ಲ, ಒತ್ತು ಬಂದ ಪದದಲ್ಲಿ ನಿಂತುಬಿಡ್ತಾರೆ.",
+    "en": "Children cannot recognise ottakshara, the joined letters; they stop at any word with an ottu."
+   },
+   "steps": [
+    {
+     "kn": "ಮೊದಲು ಒಂದೇ ಅಕ್ಷರ ಎರಡು ಸಲ ಬರುವ ಪರಿಚಿತ ಪದಗಳಿಂದ ಶುರು ಮಾಡಿ: ಅಮ್ಮ, ಅಕ್ಕ, ಅಪ್ಪ.",
+     "en": "Start with familiar words where the same letter comes twice: ಅಮ್ಮ, ಅಕ್ಕ, ಅಪ್ಪ."
+    },
+    {
+     "kn": "ಕೆಳಗಿನ ಸಣ್ಣ ಒತ್ತು ಚಿಹ್ನೆಯನ್ನು ಬಣ್ಣದ ಬಳಪದಿಂದ ಬರೆದು ತೋರಿಸಿ. 'ಇದು ಮ ಅಕ್ಷರದ ಒತ್ತು' ಅಂತ ಹೇಳಿ.",
+     "en": "Write the small ottu sign below in coloured chalk. Say, 'This is the ottu of ಮ'."
+    },
+    {
+     "kn": "ಎರಡು ಕಾರ್ಡು ಕೊಡಿ, ಒಂದರಲ್ಲಿ 'ಅ', ಇನ್ನೊಂದರಲ್ಲಿ 'ಮ್ಮ'. ಮಕ್ಕಳು ಎರಡನ್ನೂ ಜೋಡಿಸಿ ಪದ ಮಾಡಿ ಓದಲಿ.",
+     "en": "Give two cards, one with 'ಅ' and one with 'ಮ್ಮ'. Let the children put them together to make the word and read it."
+    },
+    {
+     "kn": "ಒಂದೇ ಅಕ್ಷರದ ಒತ್ತು ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಬೇರೆ ಒತ್ತಕ್ಷರಗಳಿಗೆ ಹೋಗಿ: ಪುಸ್ತಕ, ಸೂರ್ಯ.",
+     "en": "When the doubled letters are firm, move on to other joined letters: ಪುಸ್ತಕ, ಸೂರ್ಯ."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಅಕ್ಷರ ಕಾರ್ಡುಗಳು",
+     "en": "letter cards"
+    },
+    {
+     "kn": "ಬಣ್ಣದ ಬಳಪ",
+     "en": "coloured chalk"
+    }
+   ],
+   "why": {
+    "kn": "ಮಗುವಿಗೆ ಗೊತ್ತಿರುವ ಪದದಿಂದ ಶುರು ಮಾಡಿದರೆ, ಹೊಸ ಆಕಾರ ಸುಲಭ ಅನ್ನಿಸುತ್ತೆ.",
+    "en": "Starting from words the child already knows makes the new shape feel easy."
+   },
+   "index": {
+    "topic": "letters",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-43",
+   "master": "suma",
+   "title": {
+    "kn": "ಗೋಡೆಯ ಮೇಲೆ ಓದಿನ ಹಗ್ಗ",
+    "en": "A reading rope on the wall"
+   },
+   "problem": {
+    "kn": "ಶಾಲೆಯಲ್ಲಿ ಕಥೆ ಪುಸ್ತಕ ಇಲ್ಲ, ಖುಷಿಗಾಗಿ ಓದೋಕೆ ಸಮಯವೂ ಇಲ್ಲ.",
+    "en": "The school has no story books, and there is no time for reading for joy."
+   },
+   "steps": [
+    {
+     "kn": "ಮಕ್ಕಳ ಕೈಗೆ ಸಿಗುವ ಎತ್ತರದಲ್ಲಿ ಗೋಡೆಗೆ ಒಂದು ಹಗ್ಗ ಕಟ್ಟಿ.",
+     "en": "Tie a rope along the wall at a height the children can reach."
+    },
+    {
+     "kn": "ಹಳೆ ಪತ್ರಿಕೆಯ ಕಥೆಗಳು, ಹಳೆ ಪುಸ್ತಕದ ಪುಟಗಳು, ಚಿತ್ರಗಳನ್ನು ಬಟ್ಟೆ ಕ್ಲಿಪ್ ಹಾಕಿ ಹಗ್ಗಕ್ಕೆ ನೇತುಹಾಕಿ.",
+     "en": "Hang stories from old newspapers, pages from old books and pictures on the rope with clothes pegs."
+    },
+    {
+     "kn": "ದಿನಾ ಹತ್ತು ನಿಮಿಷ ಎಲ್ಲರೂ ಓದುವ ಸಮಯ. ಪ್ರತಿ ಮಗು ತನಗೆ ಇಷ್ಟವಾದ ಪುಟ ತೆಗೆದುಕೊಂಡು ಓದಲಿ, ಚಿತ್ರ ನೋಡಲಿ.",
+     "en": "Every day, ten minutes of reading time for everyone. Let each child take a page they like and read it or look at the pictures."
+    },
+    {
+     "kn": "ಆ ಹತ್ತು ನಿಮಿಷ ನೀವೂ ಕೂತು ಓದಿ. ವಾರಕ್ಕೊಮ್ಮೆ ಹೊಸ ಪುಟಗಳನ್ನು ಸೇರಿಸಿ; ಮಕ್ಕಳೂ ತರಬಹುದು.",
+     "en": "Sit and read during those ten minutes yourself too. Add new pages once a week; the children can bring some too."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದು ಹಗ್ಗ",
+     "en": "a rope"
+    },
+    {
+     "kn": "ಬಟ್ಟೆ ಕ್ಲಿಪ್‌ಗಳು",
+     "en": "clothes pegs"
+    },
+    {
+     "kn": "ಹಳೆ ಪತ್ರಿಕೆ ಮತ್ತು ಪುಸ್ತಕದ ಪುಟಗಳು",
+     "en": "old newspapers and book pages"
+    }
+   ],
+   "why": {
+    "kn": "ಓದು ಮಗುವಿನ ಆಯ್ಕೆ ಆದಾಗ ಖುಷಿಯಿಂದ ಓದುತ್ತೆ, ಶಿಕ್ಷಕರು ಓದೋದನ್ನು ನೋಡಿ ಕಲಿಯುತ್ತೆ.",
+    "en": "When reading is the child's own choice, the child reads happily, and learns from seeing the teacher read."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-44",
+   "master": "suma",
+   "title": {
+    "kn": "ಕಥೆಯನ್ನು ಪುಟ್ಟ ನಾಟಕ ಮಾಡಿ",
+    "en": "Turn the story into a small play"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಭಾವ ಇಲ್ಲದೆ ಓದ್ತಾರೆ, ಎಲ್ಲಾ ಸಾಲೂ ಒಂದೇ ತರ ಕೇಳಿಸುತ್ತೆ.",
+    "en": "Children read without feeling; every line sounds the same."
+   },
+   "steps": [
+    {
+     "kn": "ಪಾಠದಿಂದ ಒಂದು ಸಣ್ಣ ಕಥೆ ಆರಿಸಿ, ಪ್ರತಿ ಪಾತ್ರದ ಮಾತಿನ ಸಾಲುಗಳನ್ನು ಬೇರೆ ಬೇರೆಯಾಗಿ ಬರೆಯಿರಿ.",
+     "en": "Pick a short story from the lesson and write out the spoken lines of each character separately."
+    },
+    {
+     "kn": "ಮಕ್ಕಳನ್ನು ಸಣ್ಣ ಗುಂಪು ಮಾಡಿ, ಗುಂಪಿನ ಪ್ರತಿ ಮಗುವಿಗೂ ಒಂದು ಪಾತ್ರ ಕೊಡಿ. ಕಥೆ ಹೇಳುವವರ ಭಾಗವನ್ನು ಇಬ್ಬರು ಸೇರಿ ಓದಲಿ.",
+     "en": "Make small groups and give each child in a group a part. Let two children read the storyteller's part together."
+    },
+    {
+     "kn": "ಮೊದಲು ನೀವು ಒಂದು ಸಾಲನ್ನು ಖುಷಿ, ಆಶ್ಚರ್ಯ, ದುಃಖದ ದನಿಯಲ್ಲಿ ಓದಿ ತೋರಿಸಿ. ಮೂರು ದಿನ ಗುಂಪಿನಲ್ಲಿ ಅಭ್ಯಾಸ ಮಾಡಲಿ.",
+     "en": "First read one line yourself in a happy, a surprised and a sad voice. Let the groups practise for three days."
+    },
+    {
+     "kn": "ಶನಿವಾರ ಪಕ್ಕದ ತರಗತಿಯ ಮಕ್ಕಳ ಮುಂದೆ ನಾಟಕ ಓದಲಿ. ಎಲ್ಲಾ ಗುಂಪಿಗೂ ಚಪ್ಪಾಳೆ.",
+     "en": "On Saturday let them read the play to the class next door. A round of applause for every group."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಪಠ್ಯಪುಸ್ತಕದ ಒಂದು ಕಥೆ",
+     "en": "a story from the textbook"
+    }
+   ],
+   "why": {
+    "kn": "ಪಾತ್ರದ ಮಾತು ಓದುವಾಗ ಮಗುವಿಗೆ ದನಿ ಬದಲಿಸೋ ಕಾರಣ ಸಿಗುತ್ತೆ, ಕಥೆಯ ಅರ್ಥವೂ ಆಗುತ್ತೆ.",
+    "en": "Reading a character's words gives the child a reason to change their voice, and they understand the story too."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-45",
+   "master": "suma",
+   "title": {
+    "kn": "ಹಳೆ ಕ್ಯಾಲೆಂಡರಿನಿಂದ ಕಾರ್ಡುಗಳು",
+    "en": "Cards from old calendars"
+   },
+   "problem": {
+    "kn": "ಶಾಲೆಯಲ್ಲಿ ಕಲಿಸೋಕೆ ಬೇಕಾದ ಸಾಮಗ್ರಿ ಏನೂ ಇಲ್ಲ.",
+    "en": "The school has no teaching materials."
+   },
+   "steps": [
+    {
+     "kn": "ಹಳೆ ಕ್ಯಾಲೆಂಡರ್ ಮತ್ತು ರಟ್ಟಿನ ಡಬ್ಬಗಳನ್ನು ಊರಿನಲ್ಲಿ ಕೇಳಿ ಸಂಗ್ರಹಿಸಿ.",
+     "en": "Collect old calendars and cardboard boxes by asking around the village."
+    },
+    {
+     "kn": "ಕ್ಯಾಲೆಂಡರ್ ಹಾಳೆಯ ಹಿಂಭಾಗದಲ್ಲಿ ಅಕ್ಷರ, ಸಂಖ್ಯೆ, ಪದ ಬರೆದು ಕಾರ್ಡು ಮಾಡಿ. ದಪ್ಪ ಕಾರ್ಡಿಗೆ ರಟ್ಟು ಬಳಸಿ.",
+     "en": "Write letters, numbers and words on the back of the calendar pages to make cards. Use the cardboard for thick cards."
+    },
+    {
+     "kn": "ಕತ್ತರಿಸಲು, ಬಣ್ಣ ಹಚ್ಚಲು ಮಕ್ಕಳೂ ಸಹಾಯ ಮಾಡಲಿ. ತಾವೇ ಮಾಡಿದ ಕಾರ್ಡನ್ನು ಮಕ್ಕಳು ಜೋಪಾನ ಮಾಡ್ತಾರೆ.",
+     "en": "Let the children help cut and colour. Children take care of cards they made themselves."
+    },
+    {
+     "kn": "ಅಕ್ಷರ, ಸಂಖ್ಯೆ, ಪದದ ಕಾರ್ಡುಗಳನ್ನು ಬೇರೆ ಬೇರೆ ಡಬ್ಬದಲ್ಲಿ ಇಡಿ, ಪ್ರತಿ ಡಬ್ಬದ ಮೇಲೆ ಹೆಸರು ಬರೆಯಿರಿ.",
+     "en": "Keep the letter, number and word cards in separate boxes, with a label on each box."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಹಳೆ ಕ್ಯಾಲೆಂಡರ್",
+     "en": "old calendars"
+    },
+    {
+     "kn": "ರಟ್ಟಿನ ಡಬ್ಬ",
+     "en": "cardboard boxes"
+    },
+    {
+     "kn": "ಬಣ್ಣದ ಪೆನ್ಸಿಲ್",
+     "en": "colour pencils"
+    }
+   ],
+   "why": {
+    "kn": "ಹಣ ಇಲ್ಲದೆಯೂ ಸಾಮಗ್ರಿ ಮಾಡಬಹುದು, ಮಕ್ಕಳೇ ಮಾಡಿದರೆ ಅದು ಅವರದ್ದೇ ಆಗುತ್ತೆ.",
+    "en": "Materials can be made without money, and when the children make them, the materials become their own."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "any",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-46",
+   "master": "suma",
+   "title": {
+    "kn": "ಎಣಿಕೆಯ ಬುಟ್ಟಿ",
+    "en": "A counting basket"
+   },
+   "problem": {
+    "kn": "ಗಣಿತದಲ್ಲಿ ಎಣಿಸೋಕೆ ಮಕ್ಕಳ ಕೈಗೆ ಕೊಡುವ ವಸ್ತುಗಳೇ ಇಲ್ಲ.",
+    "en": "There are no counters to put in the children's hands for maths."
+   },
+   "steps": [
+    {
+     "kn": "ಒಂದು ವಾರ ಮಕ್ಕಳು ಬಾಟಲಿ ಮುಚ್ಚಳ, ಹುಣಸೆ ಬೀಜ, ಸಣ್ಣ ಕಲ್ಲುಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ತರಲಿ.",
+     "en": "For one week, let the children collect bottle caps, tamarind seeds and small stones."
+    },
+    {
+     "kn": "ಮುಚ್ಚಳಗಳನ್ನು ಒಟ್ಟಿಗೆ ತೊಳೆದು ಒಣಗಿಸಿ. ಮಕ್ಕಳು ಎಲ್ಲವನ್ನೂ ಬಗೆ ಬಗೆಯಾಗಿ ವಿಂಗಡಿಸಲಿ.",
+     "en": "Wash and dry the caps together. Let the children sort everything by kind."
+    },
+    {
+     "kn": "ಹತ್ತು ಹತ್ತು ಎಣಿಸಿ ಸಣ್ಣ ಬಟ್ಟೆ ಚೀಲಗಳಲ್ಲಿ ಹಾಕಿ ಕಟ್ಟಿ. ಒಂದು ಚೀಲ ಅಂದರೆ ಒಂದು ಹತ್ತು.",
+     "en": "Count them out in tens and tie each ten in a small cloth bag. One bag is one ten."
+    },
+    {
+     "kn": "ಎಲ್ಲವನ್ನೂ ಒಂದು ಬುಟ್ಟಿಯಲ್ಲಿ ಇಡಿ. ಗಣಿತದ ಪಿರಿಯಡಿನಲ್ಲಿ ಪ್ರತಿ ಜೋಡಿಗೆ ಒಂದು ಹಿಡಿ ಕೊಡಿ.",
+     "en": "Keep it all in one basket. In the maths period, give each pair a handful."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಬಾಟಲಿ ಮುಚ್ಚಳ, ಹುಣಸೆ ಬೀಜ, ಸಣ್ಣ ಕಲ್ಲು",
+     "en": "bottle caps, tamarind seeds, small stones"
+    },
+    {
+     "kn": "ಸಣ್ಣ ಬಟ್ಟೆ ಚೀಲಗಳು",
+     "en": "small cloth bags"
+    },
+    {
+     "kn": "ಒಂದು ಬುಟ್ಟಿ",
+     "en": "a basket"
+    }
+   ],
+   "why": {
+    "kn": "ಮಕ್ಕಳು ಕೈಯಿಂದ ಮುಟ್ಟಿ ಎಣಿಸಿದಾಗಲೇ ಸಂಖ್ಯೆ ಅರ್ಥ ಆಗೋದು.",
+    "en": "Children understand numbers when they touch and count with their hands."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "1-3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-47",
+   "master": "rajashekhar",
+   "title": {
+    "kn": "ಎದುರುಬದುರು ಕಲ್ಲುಗಳ ಸಾಲು",
+    "en": "Stones face to face in two lines"
+   },
+   "problem": {
+    "kn": "ಎರಡು ರಾಶಿಯಲ್ಲಿ ಯಾವುದರಲ್ಲಿ ಹೆಚ್ಚು ಇದೆ ಅಂತ ಮಕ್ಕಳಿಗೆ ಹೇಳೋಕೆ ಆಗಲ್ಲ.",
+    "en": "Children cannot tell which of two heaps has more."
+   },
+   "steps": [
+    {
+     "kn": "ಎರಡು ಸಣ್ಣ ಕಲ್ಲಿನ ರಾಶಿ ಮಾಡಿ. ಮೊದಲು 'ಯಾವುದರಲ್ಲಿ ಹೆಚ್ಚು?' ಅಂತ ಮಕ್ಕಳು ಊಹೆ ಮಾಡಲಿ.",
+     "en": "Make two small heaps of stones. First let the children guess, 'Which has more?'"
+    },
+    {
+     "kn": "ಪ್ರತಿ ರಾಶಿಯ ಕಲ್ಲುಗಳನ್ನು ಒಂದು ಸಾಲಾಗಿ ಇಡಲಿ, ಎರಡು ಸಾಲು ಪಕ್ಕ ಪಕ್ಕ.",
+     "en": "Let them lay the stones of each heap in a line, the two lines side by side."
+    },
+    {
+     "kn": "ಒಂದು ಕಲ್ಲಿನ ಎದುರು ಒಂದು ಕಲ್ಲು ಬರುವಂತೆ ಜೋಡಿಸಲಿ. ಯಾವ ಸಾಲಿನಲ್ಲಿ ಕಲ್ಲು ಉಳಿಯುತ್ತೋ, ಅದರಲ್ಲಿ ಹೆಚ್ಚು.",
+     "en": "Let them place one stone opposite one stone. The line with stones left over has more."
+    },
+    {
+     "kn": "ಕೊನೆಗೆ ಎರಡೂ ಸಾಲು ಎಣಿಸಿ, ಉತ್ತರ ಸರಿ ಇದೆಯಾ ಅಂತ ನೋಡಲಿ.",
+     "en": "Finally let them count both lines to check the answer."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಸಣ್ಣ ಕಲ್ಲುಗಳು",
+     "en": "small stones"
+    }
+   ],
+   "why": {
+    "kn": "ಒಂದಕ್ಕೆ ಒಂದು ಜೋಡಿಸಿದಾಗ, ಎಣಿಸೋ ಮುಂಚೆಯೇ 'ಹೆಚ್ಚು' ಅಂದರೆ ಏನು ಅಂತ ಕಣ್ಣಿಗೆ ಕಾಣುತ್ತೆ.",
+    "en": "Matching one to one lets children see what 'more' means even before they count."
+   },
+   "index": {
+    "topic": "number_sense",
+    "gradeBand": "1",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-48",
+   "master": "rajashekhar",
+   "title": {
+    "kn": "ನೆಲದ ಮೇಲೆ ಸಂಖ್ಯಾ ರೇಖೆ",
+    "en": "A number line on the floor"
+   },
+   "problem": {
+    "kn": "ಯಾವ ಸಂಖ್ಯೆ ಮುಂಚೆ ಬರುತ್ತೆ, ಯಾವುದು ಆಮೇಲೆ ಬರುತ್ತೆ ಅಂತ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಾಗಲ್ಲ.",
+    "en": "Children do not know which number comes before and which comes after."
+   },
+   "steps": [
+    {
+     "kn": "ಬಳಪದಿಂದ ನೆಲದ ಮೇಲೆ ಉದ್ದ ಗೆರೆ ಎಳೆದು, ಒಂದರಿಂದ ಇಪ್ಪತ್ತು ಸಂಖ್ಯೆ ಬರೆಯಿರಿ, ಒಂದು ಹೆಜ್ಜೆಗೆ ಒಂದು ಸಂಖ್ಯೆ.",
+     "en": "Draw a long line on the floor with chalk and write the numbers one to twenty, one number for each step."
+    },
+    {
+     "kn": "ಒಂದು ಮಗು ಏಳರ ಮೇಲೆ ನಿಲ್ಲಲಿ. 'ಏಳಕ್ಕಿಂತ ಒಂದು ಮುಂಚೆ' ಅಂದಾಗ ಹಿಂದೆ ಹಾರಲಿ, 'ಏಳಕ್ಕಿಂತ ಒಂದು ಆಮೇಲೆ' ಅಂದಾಗ ಮುಂದೆ ಹಾರಲಿ.",
+     "en": "Let a child stand on seven. At 'one before seven' the child hops back; at 'one after seven' the child hops forward."
+    },
+    {
+     "kn": "ಉಳಿದ ಮಕ್ಕಳು ಜೋರಾಗಿ ಸಂಖ್ಯೆ ಹೇಳಲಿ. ಎಲ್ಲರಿಗೂ ಹಾರುವ ಸರದಿ ಬರಲಿ.",
+     "en": "Let the other children call out the number. Everyone gets a turn to hop."
+    },
+    {
+     "kn": "ಒಂದು ವಾರದ ನಂತರ ಅದೇ ಆಟವನ್ನು ಕಾಗದದ ಪಟ್ಟಿಯ ಮೇಲೆ ಬೆರಳಿಂದ ಆಡಲಿ.",
+     "en": "After a week, let them play the same game with a finger on a paper strip."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಬಳಪ",
+     "en": "chalk"
+    },
+    {
+     "kn": "ಕಾಗದದ ಪಟ್ಟಿ",
+     "en": "a paper strip"
+    }
+   ],
+   "why": {
+    "kn": "ದೇಹದಿಂದ ಮುಂದೆ ಹಿಂದೆ ಹಾರಿದಾಗ 'ಮುಂಚೆ', 'ಆಮೇಲೆ' ಮಕ್ಕಳಿಗೆ ಮರೆಯಲ್ಲ.",
+    "en": "When children hop forward and back with their whole body, they remember 'before' and 'after'."
+   },
+   "index": {
+    "topic": "number_sense",
+    "gradeBand": "1-2",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-49",
+   "master": "rajashekhar",
+   "title": {
+    "kn": "ಎರಡು ಕ್ಷಣದ ಚುಕ್ಕೆ ಕಾರ್ಡು",
+    "en": "Dot cards for two seconds"
+   },
+   "problem": {
+    "kn": "ಎರಡು ಮೂರು ವಸ್ತು ಇದ್ದರೂ ಮಕ್ಕಳು ಒಂದೊಂದಾಗಿ ಎಣಿಸ್ತಾರೆ.",
+    "en": "Children count one by one even when there are only two or three things."
+   },
+   "steps": [
+    {
+     "kn": "ದಾಳದ ಮುಖದ ಹಾಗೆ ಒಂದರಿಂದ ಆರು ಚುಕ್ಕೆ ಇರುವ ಕಾರ್ಡುಗಳನ್ನು ಮಾಡಿ.",
+     "en": "Make cards with one to six dots, like the faces of a dice."
+    },
+    {
+     "kn": "ಒಂದು ಕಾರ್ಡನ್ನು ಎರಡು ಕ್ಷಣ ಮಾತ್ರ ತೋರಿಸಿ ಮುಚ್ಚಿ. 'ಎಷ್ಟು ಚುಕ್ಕೆ?' ಅಂತ ಕೇಳಿ.",
+     "en": "Show a card for just two seconds and hide it. Ask, 'How many dots?'"
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ಸಂಖ್ಯೆ ಹೇಳಿ, ಅಷ್ಟೇ ಬೆರಳು ತೋರಿಸಲಿ. ನಂತರ ಕಾರ್ಡು ತೆರೆದು ಒಟ್ಟಿಗೆ ನೋಡಿ.",
+     "en": "Let the children say the number and show that many fingers. Then turn the card over and look together."
+    },
+    {
+     "kn": "ದಿನಾ ಐದು ನಿಮಿಷ ಸಾಕು. ಮಕ್ಕಳು ಸುಲಭವಾಗಿ ಹೇಳಿದ ಮೇಲೆ ಚುಕ್ಕೆಗಳ ಜಾಗ ಬದಲಿಸಿ.",
+     "en": "Five minutes a day is enough. Once the children say them easily, change where the dots sit."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ರಟ್ಟಿನ ಚುಕ್ಕೆ ಕಾರ್ಡುಗಳು",
+     "en": "dot cards made of cardboard"
+    }
+   ],
+   "why": {
+    "kn": "ಸಣ್ಣ ಗುಂಪನ್ನು ನೋಡಿದ ತಕ್ಷಣ ಗುರುತಿಸಿದರೆ, ಮುಂದೆ ಕೂಡಿಸೋದು ಬೇಗ ಆಗುತ್ತೆ.",
+    "en": "Seeing small groups at a glance makes adding quicker later on."
+   },
+   "index": {
+    "topic": "number_sense",
+    "gradeBand": "1",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-50",
+   "master": "rajashekhar",
+   "title": {
+    "kn": "ಒಂದು ಕಥೆ, ಮೂರು ಕೆಲಸ",
+    "en": "One story, three tasks"
+   },
+   "problem": {
+    "kn": "ಬೇರೆ ಬೇರೆ ಮಟ್ಟದ ಮಕ್ಕಳಿಗೆ ಒಂದೇ ಪಾಠ ತಲುಪಲ್ಲ.",
+    "en": "One lesson does not reach children who are at different levels."
+   },
+   "steps": [
+    {
+     "kn": "ಎಲ್ಲಾ ಮಕ್ಕಳಿಗೂ ಒಟ್ಟಿಗೆ ಒಂದು ಸಣ್ಣ ಕಥೆ ಹೇಳಿ ಅಥವಾ ಓದಿ.",
+     "en": "Tell or read one short story to all the children together."
+    },
+    {
+     "kn": "ಕಪ್ಪು ಹಲಗೆಯ ಮೇಲೆ ಮೂರು ಕೆಲಸ ಬರೆಯಿರಿ: ಕಥೆಯ ಚಿತ್ರ ಬಿಡಿಸಿ; ಕಥೆಯಿಂದ ಮೂರು ಪದ ಬರೆಯಿರಿ; ಕಥೆಯ ಬಗ್ಗೆ ಎರಡು ವಾಕ್ಯ ಬರೆಯಿರಿ.",
+     "en": "Write three tasks on the blackboard: draw the story; write three words from the story; write two sentences about the story."
+    },
+    {
+     "kn": "ನಿಮ್ಮ ಸಹಾಯದಿಂದ ಪ್ರತಿ ಮಗು ತನಗೆ ಸರಿಯಾದ ಕೆಲಸ ಆರಿಸಲಿ. ಮುಗಿಸಿದರೆ ಮುಂದಿನ ಕೆಲಸವನ್ನೂ ಮಾಡಬಹುದು.",
+     "en": "With your help, let each child choose the task that suits them. Whoever finishes may go on to the next task."
+    },
+    {
+     "kn": "ಕೊನೆಯ ಹತ್ತು ನಿಮಿಷ ಎಲ್ಲರೂ ತಾವು ಮಾಡಿದ್ದನ್ನು ತೋರಿಸಲಿ ಅಥವಾ ಓದಲಿ.",
+     "en": "In the last ten minutes, let everyone show or read what they made."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಸ್ಲೇಟ್ ಅಥವಾ ನೋಟ್ ಪುಸ್ತಕ",
+     "en": "slates or notebooks"
+    }
+   ],
+   "why": {
+    "kn": "ಕಥೆ ಎಲ್ಲರಿಗೂ ಒಂದೇ, ಕೆಲಸ ಮಾತ್ರ ಮಗುವಿನ ಮಟ್ಟಕ್ಕೆ; ಹಾಗಾಗಿ ಎಲ್ಲರೂ ಜೊತೆಯಾಗಿ ಕಲಿಯುತ್ತಾರೆ.",
+    "en": "The story is the same for everyone and only the task fits each child's level, so everyone learns together."
+   },
+   "index": {
+    "topic": "multi_level",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-51",
+   "master": "rajashekhar",
+   "title": {
+    "kn": "ಊಟದ ನಂತರ ಎಲ್ಲರ ಇಷ್ಟದ ಹೊತ್ತು",
+    "en": "The favourite hour comes after lunch"
+   },
+   "problem": {
+    "kn": "ಬಿಸಿಯೂಟ ಆದ ಮೇಲೆ ಕೆಲವು ಮಕ್ಕಳು ಮನೆಗೆ ಹೋಗಿಬಿಡ್ತಾರೆ, ಮತ್ತೆ ಶಾಲೆಗೆ ಬರಲ್ಲ.",
+    "en": "Some children go home after the mid day meal and do not come back to school."
+   },
+   "steps": [
+    {
+     "kn": "ಮಕ್ಕಳಿಗೆ ತುಂಬಾ ಇಷ್ಟವಾದ ಚಟುವಟಿಕೆ ಯಾವುದು ಅಂತ ಕೇಳಿ: ಆಟ, ಕಥೆ, ಚಿತ್ರ ಬಿಡಿಸೋದು.",
+     "en": "Ask the children which activity they love most: a game, a story, drawing."
+    },
+    {
+     "kn": "ಆ ಚಟುವಟಿಕೆಯನ್ನು ಊಟ ಆದ ತಕ್ಷಣದ ಪಿರಿಯಡಿನಲ್ಲಿ ಇಡಿ.",
+     "en": "Put that activity in the period straight after lunch."
+    },
+    {
+     "kn": "ಬೆಳಿಗ್ಗೆ ಹಾಜರಿ ಆದ ಮೇಲೆ 'ಇವತ್ತು ಊಟದ ನಂತರ ಹೊಸ ಕಥೆ ಇದೆ' ಅಂತ ಹೇಳಿ, ಮಕ್ಕಳು ಕಾತರದಿಂದ ಕಾಯಲಿ.",
+     "en": "After the morning attendance, say, 'Today there is a new story after lunch', so the children look forward to it."
+    },
+    {
+     "kn": "ಊಟದ ನಂತರ ಮಕ್ಕಳ ಜೊತೆ ಖುಷಿಯಿಂದ ಶುರು ಮಾಡಿ. ಮರುದಿನ ಬೇರೆ ಚಟುವಟಿಕೆ.",
+     "en": "Begin happily with the children after lunch. A different activity the next day."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದು ಕಥೆ ಪುಸ್ತಕ",
+     "en": "a story book"
+    }
+   ],
+   "why": {
+    "kn": "ಮಧ್ಯಾಹ್ನ ಕಾಯಲು ಒಂದು ಖುಷಿ ಇದ್ದರೆ, ಮಕ್ಕಳು ಊಟದ ನಂತರವೂ ಶಾಲೆಯಲ್ಲೇ ಉಳಿಯುತ್ತಾರೆ.",
+    "en": "When there is something to look forward to in the afternoon, children stay at school after lunch."
+   },
+   "index": {
+    "topic": "engagement",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-52",
+   "master": "ameena",
+   "title": {
+    "kn": "ಪದಕ್ಕೆ ಚಿತ್ರ, ಪದಕ್ಕೆ ಅಭಿನಯ",
+    "en": "A picture or an action for every word"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳು ಪದ ಓದ್ತಾರೆ, ಆದರೆ ಅದರ ಅರ್ಥ ಅವರಿಗೆ ಗೊತ್ತಿರಲ್ಲ.",
+    "en": "Children read words but do not know what they mean."
+   },
+   "steps": [
+    {
+     "kn": "ಹೊಸ ಪದ ಕಲಿಸುವಾಗ ಅದರ ಚಿತ್ರ ತೋರಿಸಿ ಅಥವಾ ಅಭಿನಯ ಮಾಡಿ ತೋರಿಸಿ: 'ಓಡು', 'ಮರ', 'ಮಳೆ'.",
+     "en": "When you teach a new word, show a picture of it or act it out: 'ಓಡು', 'ಮರ', 'ಮಳೆ'."
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ಪದ ಓದಿ, ಅದನ್ನು ಅಭಿನಯಿಸಲಿ ಅಥವಾ ಸ್ಲೇಟಿನಲ್ಲಿ ಚಿತ್ರ ಬಿಡಿಸಲಿ.",
+     "en": "Let the children read the word, then act it or draw it on the slate."
+    },
+    {
+     "kn": "ಪದ ಕಾರ್ಡು ಮತ್ತು ಚಿತ್ರ ಕಾರ್ಡು ಮಾಡಿ. ಜೋಡಿಯಾಗಿ ಮಕ್ಕಳು ಪ್ರತಿ ಪದಕ್ಕೆ ಸರಿಯಾದ ಚಿತ್ರ ಹೊಂದಿಸಲಿ.",
+     "en": "Make word cards and picture cards. In pairs, let the children match each word to its picture."
+    },
+    {
+     "kn": "ಪ್ರತಿ ಪದವನ್ನು ಒಂದು ಸಣ್ಣ ವಾಕ್ಯದಲ್ಲಿ ಹೇಳಲಿ: 'ಮಳೆ ಬಂತು'.",
+     "en": "Let them say each word in a small sentence: 'ಮಳೆ ಬಂತು'."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಪದ ಕಾರ್ಡು ಮತ್ತು ಚಿತ್ರ ಕಾರ್ಡು",
+     "en": "word cards and picture cards"
+    },
+    {
+     "kn": "ಸ್ಲೇಟ್",
+     "en": "a slate"
+    }
+   ],
+   "why": {
+    "kn": "ಪದವನ್ನು ಕಣ್ಣಿಂದ ನೋಡಿ, ಮಾಡಿ ನೋಡಿದಾಗ ಅದರ ಅರ್ಥ ಮಗುವಿಗೆ ಹತ್ತಿರ ಆಗುತ್ತೆ.",
+    "en": "When a child sees a word and acts it out, its meaning comes close."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "1-2",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-53",
+   "master": "rajashekhar",
+   "title": {
+    "kn": "ಎಲ್ಲರಿಗೂ ಒಂದು ಹಾಡು, ಪ್ರತಿ ತರಗತಿಗೆ ಒಂದು ಡಬ್ಬ",
+    "en": "One song for all, one box for each class"
+   },
+   "problem": {
+    "kn": "ಇನ್ನೊಬ್ಬ ಶಿಕ್ಷಕರು ರಜೆಯಲ್ಲಿದ್ದಾಗ, ಅವರ ತರಗತಿಯನ್ನೂ ನನ್ನ ಕೋಣೆಯಲ್ಲೇ ನೋಡಿಕೊಳ್ಳಬೇಕು.",
+    "en": "When another teacher is away, I have to look after their class in my room too."
+   },
+   "steps": [
+    {
+     "kn": "ಎಲ್ಲಾ ಮಕ್ಕಳನ್ನು ಒಟ್ಟಿಗೆ ಕೂರಿಸಿ, ಒಂದು ಹಾಡು ಮತ್ತು ಒಂದು ಸಣ್ಣ ಕಥೆಯಿಂದ ದಿನ ಶುರು ಮಾಡಿ.",
+     "en": "Seat all the children together and start the day with a song and a short story."
+    },
+    {
+     "kn": "ಪ್ರತಿ ತರಗತಿಗೆ ಮೊದಲೇ ಒಂದು 'ತರಗತಿ ಡಬ್ಬ' ಮಾಡಿಡಿ, ಅದರಲ್ಲಿ ಆ ತರಗತಿಯ ಚಟುವಟಿಕೆ ಕಾರ್ಡುಗಳು.",
+     "en": "Keep a 'class box' ready beforehand for each class, with activity cards for that class."
+    },
+    {
+     "kn": "ಪ್ರತಿ ತರಗತಿಯ ಒಂದು ಮಗು ಡಬ್ಬ ತೆಗೆದು ಕಾರ್ಡು ಹಂಚಲಿ. ನೀವು ಒಂದೊಂದು ತರಗತಿಯ ಬಳಿ ಸರದಿಯಂತೆ ಸ್ವಲ್ಪ ಹೊತ್ತು ಕೂರಿ.",
+     "en": "Let one child from each class open the box and hand out the cards. Sit with each class in turn for a while."
+    },
+    {
+     "kn": "ಕೊನೆಯ ಹದಿನೈದು ನಿಮಿಷ ದೊಡ್ಡ ಮಕ್ಕಳು ಚಿಕ್ಕ ಮಕ್ಕಳಿಗೆ ಕಥೆ ಓದಿ ಹೇಳಲಿ.",
+     "en": "In the last fifteen minutes, let the older children read stories to the younger ones."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ರಟ್ಟಿನ ಡಬ್ಬಗಳು",
+     "en": "cardboard boxes"
+    },
+    {
+     "kn": "ಚಟುವಟಿಕೆ ಕಾರ್ಡುಗಳು",
+     "en": "activity cards"
+    }
+   ],
+   "why": {
+    "kn": "ಎಲ್ಲರೂ ಒಟ್ಟಿಗೆ ಶುರು ಮಾಡಿದರೆ ಕೋಣೆ ಶಾಂತವಾಗಿರುತ್ತೆ, ಡಬ್ಬ ಇದ್ದರೆ ಯಾರೂ ಸುಮ್ಮನೆ ಕಾಯಲ್ಲ.",
+    "en": "Starting together keeps the room calm, and with the boxes nobody sits waiting."
+   },
+   "index": {
+    "topic": "multi_level",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-54",
+   "master": "suma",
+   "title": {
+    "kn": "ಹೊಸ ಮಗುವಿಗೆ ಒಬ್ಬ ಗೆಳೆಯ",
+    "en": "A buddy for the new child"
+   },
+   "problem": {
+    "kn": "ವರ್ಷದ ಮಧ್ಯದಲ್ಲಿ ಹೊಸ ಮಗು ಸೇರಿದೆ, ಇನ್ನೂ ತರಗತಿಗೆ ಹೊಂದಿಕೊಂಡಿಲ್ಲ.",
+    "en": "A new child joined in the middle of the year and has not settled into the class yet."
+   },
+   "steps": [
+    {
+     "kn": "ಮೊದಲ ದಿನ ಬೆಳಿಗ್ಗೆ ಎಲ್ಲರೂ ಸೇರಿ ಹೊಸ ಮಗುವಿನ ಹೆಸರು ಸೇರಿಸಿ ಒಂದು ಸ್ವಾಗತ ಹಾಡು ಹಾಡಿ.",
+     "en": "On the first morning, sing a welcome song all together with the new child's name in it."
+    },
+    {
+     "kn": "ಸ್ನೇಹದಿಂದ ಇರುವ ಒಂದು ಮಗುವನ್ನು ಎರಡು ವಾರ ಗೆಳೆಯನಾಗಿ ಹೊಸ ಮಗುವಿನ ಪಕ್ಕ ಕೂರಿಸಿ.",
+     "en": "Seat a friendly child beside the new child as a buddy for two weeks."
+    },
+    {
+     "kn": "ಗೆಳೆಯ ಶಾಲೆಯನ್ನು ತೋರಿಸಲಿ: ಕುಡಿಯುವ ನೀರು, ಶೌಚಾಲಯ, ಆಟದ ಮೈದಾನ.",
+     "en": "Let the buddy show the school: the drinking water, the toilet, the playground."
+    },
+    {
+     "kn": "ಮೊದಲ ವಾರದಲ್ಲೇ ಹೊಸ ಮಗುವಿಗೆ ತರಗತಿಯ ಒಂದು ಸಣ್ಣ ಜವಾಬ್ದಾರಿ ಕೊಡಿ, ಉದಾಹರಣೆಗೆ ಗಿಡಕ್ಕೆ ನೀರು ಹಾಕೋದು.",
+     "en": "In the very first week, give the new child one small class job, such as watering the plants."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಒಬ್ಬ ಗೆಳೆಯ ಮತ್ತು ಒಂದು ಜವಾಬ್ದಾರಿ ಸಿಕ್ಕರೆ, ಹೊಸ ಮಗುವಿಗೆ 'ಇದು ನನ್ನ ತರಗತಿ' ಅನ್ನಿಸುತ್ತೆ.",
+    "en": "With a friend and a small job, the new child feels, 'This is my class'."
+   },
+   "index": {
+    "topic": "engagement",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-55",
+   "master": "mallikarjun",
+   "title": {
+    "kn": "ಹಾಜರಿಗೆ ಇವತ್ತಿನ ಪದ",
+    "en": "A word of the day for attendance"
+   },
+   "problem": {
+    "kn": "ಪ್ರತಿದಿನ ಮೊದಲ ಇಪ್ಪತ್ತು ನಿಮಿಷ ಹಾಜರಿ ಮತ್ತು ಮಕ್ಕಳನ್ನು ಕೂರಿಸೋದರಲ್ಲೇ ಹೋಗುತ್ತೆ.",
+    "en": "Every day the first twenty minutes go in attendance and getting the children settled."
+   },
+   "steps": [
+    {
+     "kn": "ಹಾಜರಿ ಕರೆಯುವ ಮುಂಚೆ ಇವತ್ತಿನ ವಿಷಯ ಹೇಳಿ: ಒಂದು ಹಣ್ಣು, ಒಂದು ಸಂಖ್ಯೆ ಅಥವಾ ಒಂದು ಪ್ರಾಣಿ.",
+     "en": "Before calling the attendance, say today's theme: a fruit, a number or an animal."
+    },
+    {
+     "kn": "ಹೆಸರು ಕರೆದಾಗ ಮಗು 'ಹಾಜರ್' ಬದಲು ಆ ವಿಷಯದ ಒಂದು ಪದ ಹೇಳಲಿ: 'ಮಾವಿನ ಹಣ್ಣು'.",
+     "en": "When a name is called, let the child say one word on the theme instead of 'present': 'ಮಾವಿನ ಹಣ್ಣು'."
+    },
+    {
+     "kn": "ಹಾಜರಿ ಮುಗಿದ ತಕ್ಷಣ ಎಲ್ಲರೂ ಎದ್ದು ನಿಂತು ಐದು ನಿಮಿಷ ಒಂದು ಹಾಡು ಹಾಡಲಿ.",
+     "en": "As soon as attendance is over, let everyone stand up and sing one song for five minutes."
+    },
+    {
+     "kn": "ಹಾಡು ಮುಗಿದ ಮೇಲೆ ಕೂತು ನೇರವಾಗಿ ಪಾಠ ಶುರು ಮಾಡಿ. ಪ್ರತಿದಿನ ಇದೇ ಕ್ರಮ.",
+     "en": "After the song, sit down and begin the lesson straight away. The same order every day."
+    }
+   ],
+   "materials": [],
+   "why": {
+    "kn": "ಹಾಜರಿಯೇ ಮಾತಿನ ಆಟ ಆದಾಗ ಆ ಸಮಯವೂ ಕಲಿಕೆ ಆಗುತ್ತೆ, ದಿನದ ಕ್ರಮ ಮಕ್ಕಳಿಗೆ ಗೊತ್ತಿರುತ್ತೆ.",
+    "en": "When attendance becomes a word game, that time becomes learning too, and the children know the order of the day."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "any",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-56",
+   "master": "ameena",
+   "title": {
+    "kn": "ಮೊದಲು ಜೊತೆಯಾಗಿ ಓದು, ಆಮೇಲೆ ಒಬ್ಬರೇ",
+    "en": "Read together first, alone later"
+   },
+   "problem": {
+    "kn": "ಇನ್ನೂ ಓದಲು ಬಾರದ ಮಗು, ತರಗತಿಯ ಮುಂದೆ ಜೋರಾಗಿ ಓದು ಎಂದರೆ ಸುಮ್ಮನಾಗುತ್ತದೆ ಅಥವಾ ಅಳಲು ಶುರು ಮಾಡುತ್ತದೆ.",
+    "en": "A child who cannot read yet goes quiet or starts crying when asked to read aloud in front of the class."
+   },
+   "steps": [
+    {
+     "kn": "ಸದ್ಯಕ್ಕೆ ಈ ಮಗುವನ್ನು ಇಡೀ ತರಗತಿಯ ಮುಂದೆ ಜೋರಾಗಿ ಓದಲು ಕೇಳಬೇಡಿ. ಜೋರಾಗಿ ಓದುವುದು ನಿಮ್ಮ ಮೇಜಿನ ಬಳಿ, ನಿಮ್ಮ ಜೊತೆ ಮಾತ್ರ.",
+     "en": "For now, do not ask this child to read aloud in front of the whole class. Reading aloud happens with you, at your table."
+    },
+    {
+     "kn": "ಪ್ರತಿದಿನ ಐದು ನಿಮಿಷ ಮಗುವಿನ ಜೊತೆ ಕೂರಿ. ಪದಗಳ ಕೆಳಗೆ ಬೆರಳಿಟ್ಟು ನೀವು ಒಂದು ಸಾಲು ಓದಿ, ಆಮೇಲೆ ಇಬ್ಬರೂ ಒಟ್ಟಿಗೆ ಮತ್ತೆ ಓದಿ.",
+     "en": "Each day, sit with the child for five minutes. Read a line with your finger under the words, then read it again together."
+    },
+    {
+     "kn": "ಮಗುವಿಗೆ ಈಗಾಗಲೇ ಗೊತ್ತಿರುವ ಪದಗಳಿಂದ ಶುರು ಮಾಡಿ, ತರಗತಿಯಲ್ಲಿರುವ ವಸ್ತುಗಳ ಹೆಸರುಗಳಂತೆ, ಆಗ ಮೊದಲ ಓದೇ ಗೆಲುವಾಗುತ್ತದೆ.",
+     "en": "Start with words the child already knows, like the names of things in the room, so the first reading is a success."
+    },
+    {
+     "kn": "ಮಗು ಒಬ್ಬರೇ ಒಂದು ಸಾಲು ಓದಿದಾಗ, ಏನು ಚೆನ್ನಾಗಿ ಮಾಡಿತು ಎಂದು ಮಗುವಿಗೆ ಮಾತ್ರ ಮೆಲ್ಲಗೆ ಹೇಳಿ.",
+     "en": "When the child reads a line alone, tell the child what they did well, quietly, just to them."
+    },
+    {
+     "kn": "ಎರಡು ಮೂರು ವಾರಗಳ ನಂತರ, ಅದೇ ಸಾಲನ್ನು ಮಗು ಒಬ್ಬ ಗೆಳೆಯನಿಗೆ ಓದಲಿ. ತರಗತಿಯ ಮುಂದೆ ಓದುವುದು ಆಮೇಲೆ, ಮಗು ತಾನೇ ಕೇಳಿದಾಗ.",
+     "en": "After two or three weeks, let the child read the same line to one friend. Reading to the class comes later, when the child asks for it."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಸರಳ ಕಥೆ ಪುಸ್ತಕ ಅಥವಾ ಪಠ್ಯಪುಸ್ತಕ",
+     "en": "a simple storybook or the textbook"
+    }
+   ],
+   "why": {
+    "kn": "ಎಲ್ಲರ ಮುಂದೆ ಸೋಲುತ್ತೇನೆ ಎಂದು ಅಂದುಕೊಳ್ಳುವ ಮಗು ಪ್ರಯತ್ನವನ್ನೇ ಬಿಡುತ್ತದೆ. ನಂಬಿಕೆಯ ಒಬ್ಬರ ಜೊತೆ ಸಿಗುವ ಸಣ್ಣ ಗೆಲುವುಗಳು ಓದುವ ಧೈರ್ಯ ಕೊಡುತ್ತವೆ.",
+    "en": "A child who expects to fail in front of others stops trying. Small wins beside one trusted adult build the courage to read."
+   },
+   "index": {
+    "topic": "engagement",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-57",
+   "master": "suma",
+   "title": {
+    "kn": "ಚಿಕ್ಕವರಿಗೆ ಓದಿ ಹೇಳುವುದು",
+    "en": "Reading to the little ones"
+   },
+   "problem": {
+    "kn": "ಮೂರನೇ ತರಗತಿಯ ಮಗು ಇನ್ನೂ ಒಂದನೇ ತರಗತಿಯವರಂತೆ ಓದುತ್ತದೆ, ಸಹಪಾಠಿಗಳ ಜೊತೆ ಓದಲು ಇಷ್ಟಪಡುವುದಿಲ್ಲ.",
+    "en": "A Class 3 child still reads like a Class 1 child and does not want to read with classmates."
+   },
+   "steps": [
+    {
+     "kn": "ಮಗುವಿಗೆ ಒಂದು ಕೆಲಸ ಕೊಡಿ: ಪ್ರತಿ ವಾರ ಒಂದನೇ ತರಗತಿಯ ಇಬ್ಬರು ಮಕ್ಕಳಿಗೆ ಒಂದು ಚಿಕ್ಕ ಚಿತ್ರ ಪುಸ್ತಕ ಓದಿ ಹೇಳುವುದು.",
+     "en": "Give the child a job: every week, read a short picture book to two Class 1 children."
+    },
+    {
+     "kn": "ಅದಕ್ಕೂ ಮೊದಲು, ಪ್ರತಿದಿನ ಕೆಲವು ನಿಮಿಷ ಆ ಪುಸ್ತಕವನ್ನು ಮಗುವಿನ ಜೊತೆ ಅಭ್ಯಾಸ ಮಾಡಿ, ಎಲ್ಲ ಪದಗಳೂ ಗೊತ್ತಾಗುವವರೆಗೆ.",
+     "en": "Before that, practise the book with the child for a few minutes each day, until every word is known."
+    },
+    {
+     "kn": "ಮಗುವಿನ ಓದಿನ ಮಟ್ಟಕ್ಕೆ ತಕ್ಕ ಪುಸ್ತಕ ಆರಿಸಿ. ಚಿಕ್ಕವರಿಗೆ ಸುಲಭದ ಪುಸ್ತಕವೇ ಸರಿ.",
+     "en": "Choose books at the child's own reading level. For the little ones, an easy book is just right."
+    },
+    {
+     "kn": "ಕಥೆಯ ಬಗ್ಗೆ ಚಿಕ್ಕವರಿಗೆ ಒಂದು ಪ್ರಶ್ನೆ ಕೇಳಲು ಮಗುವಿಗೆ ಅವಕಾಶ ಕೊಡಿ, ಶಿಕ್ಷಕರಂತೆ.",
+     "en": "Let the child ask the little ones one question about the story, as a teacher would."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಸುಲಭದ ಚಿತ್ರ ಪುಸ್ತಕಗಳು",
+     "en": "easy picture books"
+    }
+   ],
+   "why": {
+    "kn": "ಚಿಕ್ಕವರಿಗೆ ಸುಲಭದ ಪುಸ್ತಕ ಓದಿ ಹೇಳುವುದರಿಂದ ದೊಡ್ಡ ಮಗುವಿಗೆ ತನ್ನ ಮಟ್ಟದ ಅಭ್ಯಾಸ ಸಿಗುತ್ತದೆ, ಹಿಂಜರಿಕೆಯ ಬದಲು ಹೆಮ್ಮೆ ಸಿಗುತ್ತದೆ.",
+    "en": "Reading an easy book to younger children gives an older child practice at the right level, and pride in place of hesitation."
+   },
+   "index": {
+    "topic": "reading",
+    "gradeBand": "3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-58",
+   "master": "sharada",
+   "title": {
+    "kn": "ಗೆಲುವಿನಿಂದ ಶುರುವಾಗುವ ಗಣಿತ",
+    "en": "Maths that starts with a win"
+   },
+   "problem": {
+    "kn": "ಮಗುವಿಗೆ ಗಣಿತ ಎಂದರೆ ಹೆದರಿಕೆ, ಲೆಕ್ಕ ಕೊಟ್ಟ ಕೂಡಲೇ ಬೇಸರಗೊಳ್ಳುತ್ತದೆ.",
+    "en": "A child is afraid of maths and gets upset as soon as sums are given."
+   },
+   "steps": [
+    {
+     "kn": "ಪ್ರತಿ ಗಣಿತದ ಸಮಯವನ್ನು ಮಗು ಖಂಡಿತ ಮಾಡಬಲ್ಲ ಒಂದು ಲೆಕ್ಕದಿಂದ ಶುರು ಮಾಡಿ, ಕಲ್ಲು ಅಥವಾ ಬೆರಳು ಬಳಸಿ, ಸರಿಯಾದಾಗ ನಗುಮುಖದಿಂದ ಮೆಚ್ಚಿ.",
+     "en": "Begin every maths time with a sum the child can surely do, with stones or fingers, and smile when it is right."
+    },
+    {
+     "kn": "ಬೋರ್ಡ್ ಮೇಲಿನ ಅಂಕಿಗಳಿಗಿಂತ ಮೊದಲು ಮಗುವಿನ ಕೈಯಲ್ಲಿರುವ ವಸ್ತುಗಳನ್ನು ಬಳಸಿ: ನಿಜವಾದ ಕಲ್ಲುಗಳನ್ನು ಎಣಿಸಿ, ಕೂಡಿಸಿ, ಕಳೆಯಿರಿ.",
+     "en": "Use things in the child's hands before numbers on the board: count, add and take away real stones first."
+    },
+    {
+     "kn": "ಒಂದು ಪುಟದಷ್ಟು ಲೆಕ್ಕ ಬೇಡ, ಒಂದು ಸಲಕ್ಕೆ ಒಂದೇ ಲೆಕ್ಕ ಕೊಡಿ. ಒಂದು ಮುಗಿದ ಮೇಲೆ ಇನ್ನೊಂದು.",
+     "en": "Give one sum at a time, not a page of sums. When one is done, the next one comes."
+    },
+    {
+     "kn": "ಮಗು ಒಬ್ಬ ಗೆಳೆಯನ ಜೊತೆ ಲೆಕ್ಕ ಮಾಡಲಿ, ಉತ್ತರವನ್ನು ಇಬ್ಬರೂ ಒಟ್ಟಿಗೆ ಹೇಳಲಿ, ಆಗ ಯಾರೂ ಒಬ್ಬಂಟಿ ಆಗುವುದಿಲ್ಲ.",
+     "en": "Let the child work with a friend and say the answer together, so no one stands alone."
+    },
+    {
+     "kn": "ಉತ್ತರ ತಪ್ಪಾದಾಗ ಕಲ್ಲುಗಳಿಂದ ಮತ್ತೆ ಒಟ್ಟಿಗೆ ಎಣಿಸಿ, ಸರಿ ಉತ್ತರವನ್ನು ಮಗುವೇ ಕಂಡುಹಿಡಿಯಲಿ.",
+     "en": "When an answer is wrong, count it again together with the stones, and let the child find the right answer."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಕಲ್ಲುಗಳು ಅಥವಾ ಬೀಜಗಳು",
+     "en": "stones or seeds"
+    }
+   ],
+   "why": {
+    "kn": "ಮತ್ತೆ ಮತ್ತೆ ತಪ್ಪಾಗುವುದರಿಂದಲೇ ಗಣಿತದ ಹೆದರಿಕೆ ಬೆಳೆಯುತ್ತದೆ. ಖಚಿತ ಗೆಲುವು ಮತ್ತು ನಿಜವಾದ ವಸ್ತುಗಳಿಂದ ಶುರು ಮಾಡಿದರೆ, ಲೆಕ್ಕ ಕಷ್ಟವಾಗುವ ಮೊದಲೇ ತಾನು ಮಾಡಬಲ್ಲೆ ಎಂದು ಮಗುವಿಗೆ ಅನಿಸುತ್ತದೆ.",
+    "en": "Fear of maths grows from getting it wrong again and again. Sure wins and real objects let the child feel able before the numbers get harder."
+   },
+   "index": {
+    "topic": "engagement",
+    "gradeBand": "1-3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-59",
+   "master": "rajashekhar",
+   "title": {
+    "kn": "ಒಂದು ರಾಶಿ ಕಲ್ಲು, ಮೂರು ತರಗತಿ",
+    "en": "One heap of stones, three classes"
+   },
+   "problem": {
+    "kn": "ಗಣಿತಕ್ಕೆ ಒಂದು, ಎರಡು, ಮೂರನೇ ತರಗತಿ ಒಂದೇ ಕೋಣೆಯಲ್ಲಿ ಕೂರುತ್ತವೆ, ಒಬ್ಬ ಶಿಕ್ಷಕರು ಒಂದೇ ಸಲ ಮೂರು ಪಾಠ ಮಾಡಲು ಆಗುವುದಿಲ್ಲ.",
+    "en": "Classes 1, 2 and 3 sit in one room for maths, and one teacher cannot teach three lessons at once."
+   },
+   "steps": [
+    {
+     "kn": "ಪ್ರತಿ ಗುಂಪಿಗೂ ಒಂದೇ ವಸ್ತು ಕೊಡಿ: ಒಂದು ರಾಶಿ ಕಲ್ಲುಗಳು ಮತ್ತು ಹತ್ತು ಕಡ್ಡಿಗಳ ಕೆಲವು ಕಟ್ಟುಗಳು.",
+     "en": "Give every group the same material: a heap of stones and some bundles of ten sticks."
+    },
+    {
+     "kn": "ಅದರಿಂದಲೇ ಪ್ರತಿ ತರಗತಿಗೆ ಬೇರೆ ಕೆಲಸ: ಒಂದನೇ ತರಗತಿ ನೀವು ಹೇಳಿದ ಸಂಖ್ಯೆಯಷ್ಟು ಎಣಿಸಲಿ, ಎರಡನೇ ತರಗತಿ ಎರಡು ರಾಶಿ ಕೂಡಿಸಲಿ, ಮೂರನೇ ತರಗತಿ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಮಾಡಲಿ.",
+     "en": "Give each class its own task with it: Class 1 counts out the number you say, Class 2 adds two heaps, Class 3 makes tens and ones."
+    },
+    {
+     "kn": "ಪ್ರತಿ ತರಗತಿಯ ಕೆಲಸವನ್ನು ಬೋರ್ಡ್ ಮೇಲೆ ಬರೆಯಿರಿ, ಆಗ ಯಾರೂ ನಿಮಗಾಗಿ ಕಾಯುವುದಿಲ್ಲ. ಉಳಿದವರು ಕೆಲಸ ಮಾಡುವಾಗ ಒಂದು ತರಗತಿಯ ಜೊತೆ ಹತ್ತು ನಿಮಿಷ ಕೂರಿ, ಆಮೇಲೆ ಮುಂದಿನದಕ್ಕೆ ಹೋಗಿ.",
+     "en": "Write each class's task on the board, so no one waits for you. Sit ten minutes with one class while the others work, then move on."
+    },
+    {
+     "kn": "ನೀವು ಎರಡನೇ ತರಗತಿಯ ಜೊತೆ ಇರುವಾಗ, ಒಂದನೇ ತರಗತಿಯ ಎಣಿಕೆಯನ್ನು ಮೂರನೇ ತರಗತಿಯ ಒಂದು ಮಗು ನೋಡಲಿ.",
+     "en": "While you are with Class 2, let one Class 3 child check the Class 1 counting."
+    },
+    {
+     "kn": "ಕೊನೆಗೆ ಎಲ್ಲರೂ ಒಟ್ಟಿಗೆ: ಪ್ರತಿ ತರಗತಿ ಕಲ್ಲುಗಳಿಂದ ಮಾಡಿದ ಒಂದು ವಿಷಯವನ್ನು ಉಳಿದವರಿಗೆ ತೋರಿಸಲಿ.",
+     "en": "End together: each class shows the others one thing it made with the stones."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದು ರಾಶಿ ಕಲ್ಲುಗಳು",
+     "en": "a heap of stones"
+    },
+    {
+     "kn": "ಹತ್ತು ಕಡ್ಡಿಗಳ ಕಟ್ಟುಗಳು",
+     "en": "bundles of ten sticks"
+    }
+   ],
+   "why": {
+    "kn": "ಎಲ್ಲರಿಗೂ ಒಂದೇ ವಸ್ತು ಇದ್ದರೆ ಕೋಣೆ ಒಟ್ಟಿಗೆ ಇರುತ್ತದೆ, ತಯಾರಿ ಕಡಿಮೆ, ಆದರೂ ಪ್ರತಿ ತರಗತಿ ತನ್ನ ಮಟ್ಟದಲ್ಲೇ ಕಲಿಯುತ್ತದೆ.",
+    "en": "One material for all keeps the room together and saves preparation, while each class still works at its own level."
+   },
+   "index": {
+    "topic": "multi_level",
+    "gradeBand": "1-3",
+    "subject": "maths"
+   }
+  },
+  {
+   "id": "sample-world-60",
+   "master": "nagamma",
+   "title": {
+    "kn": "ತರಗತಿಯೇ ಕಟ್ಟುವ ಪದಗಳ ಗೋಡೆ",
+    "en": "A word wall the class builds"
+   },
+   "problem": {
+    "kn": "ಬೋರ್ಡಿನಿಂದ ಮಕ್ಕಳು ಚೆನ್ನಾಗಿ ನಕಲು ಮಾಡುತ್ತಾರೆ, ಆದರೆ ತಾವೇ ಬರೆಯುವಾಗ ಕಾಗುಣಿತ ತಪ್ಪುಗಳು ತುಂಬಿರುತ್ತವೆ.",
+    "en": "Children copy well from the board, but when they write on their own, the spelling is full of mistakes."
+   },
+   "steps": [
+    {
+     "kn": "ಗೋಡೆಯ ಮೇಲೆ ಒಂದು ಚಾರ್ಟ್ ಇಡಿ. ಪ್ರತಿದಿನ ಮಕ್ಕಳು ಕೇಳಿದ ಅಥವಾ ಹೆಚ್ಚಾಗಿ ತಪ್ಪಾಗಿ ಬರೆದ ಪದಗಳನ್ನು ಅದಕ್ಕೆ ಸೇರಿಸಿ.",
+     "en": "Keep a chart on the wall. Each day, add the words the children asked for or often wrote wrongly."
+    },
+    {
+     "kn": "ದಿನಕ್ಕೆ ಐದು ಪದ: ಪ್ರತಿ ಪದವನ್ನು ಹೇಳಿ, ಅದರ ಭಾಗಗಳಿಗೆ ಚಪ್ಪಾಳೆ ತಟ್ಟಿ, ಗಾಳಿಯಲ್ಲಿ ಬರೆದು, ಆಮೇಲೆ ಸ್ಲೇಟಿನಲ್ಲಿ ಬರೆಯಿರಿ.",
+     "en": "Take five words a day: say each word, clap its parts, write it in the air, then on the slate."
+    },
+    {
+     "kn": "ಮಕ್ಕಳು ತಾವೇ ಬರೆದಾಗ, ತಮ್ಮ ಪದಗಳನ್ನು ಗೋಡೆಯ ಚಾರ್ಟ್ ಜೊತೆ ಹೋಲಿಸಿ ತಾವೇ ಸರಿಪಡಿಸಲಿ.",
+     "en": "When children write on their own, let them check their words against the wall and mend them themselves."
+    },
+    {
+     "kn": "ಮಗುವಿನ ಬರಹದಲ್ಲಿ ಒಂದು ಸಲಕ್ಕೆ ಒಂದೆರಡು ಪದಗಳನ್ನು ಮಾತ್ರ ತಿದ್ದಿ, ಸರಿಯಾಗಿ ಬರೆದ ಪದಗಳನ್ನು ಮೆಚ್ಚಿ.",
+     "en": "Mark only one or two words in a child's writing at a time, and praise the words that are right."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಚಾರ್ಟ್ ಕಾಗದ",
+     "en": "chart paper"
+    },
+    {
+     "kn": "ಸ್ಲೇಟುಗಳು",
+     "en": "slates"
+    }
+   ],
+   "why": {
+    "kn": "ನಕಲು ಮಾಡುವಾಗ ಕಣ್ಣು ಮಾತ್ರ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಬೇಕಾದ ಪದಗಳನ್ನು ಹೇಳಿ, ಚಪ್ಪಾಳೆ ತಟ್ಟಿ, ಹೋಲಿಸಿ ನೋಡುವುದರಿಂದ ಮುಂದೆ ಬೋರ್ಡ್ ಇಲ್ಲದಾಗಲೂ ಮಕ್ಕಳಿಗೆ ಕಾಗುಣಿತ ನೆನಪಿರುತ್ತದೆ.",
+    "en": "Copying uses the eyes only. Saying, clapping and checking the words they need helps children keep the spelling when no board is in front of them."
+   },
+   "index": {
+    "topic": "writing",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-61",
+   "master": "lakshmi",
+   "title": {
+    "kn": "ಒಂದು ಉದ್ದೇಶಕ್ಕಾಗಿ ಬರಹ",
+    "en": "Writing for a reason"
+   },
+   "problem": {
+    "kn": "ಮಕ್ಕಳಿಗೆ ಬರೆಯುವುದು ಇಷ್ಟವಿಲ್ಲ. ಬರೆಯಿರಿ ಎಂದರೆ ಪೆನ್ಸಿಲ್ ಹಿಡಿದು ಏನೂ ಬರೆಯದೆ ಕೂರುತ್ತಾರೆ.",
+    "en": "Children do not like writing. When asked to write, they sit holding the pencil and write nothing."
+   },
+   "steps": [
+    {
+     "kn": "ಬರಹಕ್ಕೆ ನಿಜವಾದ ಉಪಯೋಗ ಕೊಡಿ: ತರಗತಿಯ ಅಂಗಡಿಗೆ ಹೆಸರಿನ ಚೀಟಿ, ಬಿಸಿಯೂಟಕ್ಕೆ ಒಂದು ಪಟ್ಟಿ, ಗೆಳೆಯನಿಗೆ ಒಂದು ಪತ್ರ.",
+     "en": "Give writing a real use: a label for the class shop, a list for the mid day meal, a note to a friend."
+    },
+    {
+     "kn": "ಒಂದು ಪುಟ ಬೇಡ, ಒಂದು ಪದ ಅಥವಾ ಒಂದು ಸಾಲು ಸಾಕು. ಮೊದಲು ಮಗು ಅದನ್ನು ಜೋರಾಗಿ ಹೇಳಲಿ.",
+     "en": "Ask for one word or one line, not a page. Let the child say it aloud first."
+    },
+    {
+     "kn": "ಮಗು ನಿಂತುಹೋದರೆ, ಮೊದಲ ಅಕ್ಷರವನ್ನು ಒಟ್ಟಿಗೆ ಬರೆಯಿರಿ, ಆಮೇಲೆ ಮಗುವೇ ಮುಂದುವರಿಸಲಿ.",
+     "en": "If the child is stuck, write the first letter together, then let the child go on."
+    },
+    {
+     "kn": "ಬರೆದದ್ದನ್ನು ಬಳಸಿ: ಚೀಟಿಯನ್ನು ಅಂಗಡಿಗೆ ಅಂಟಿಸಿ, ಪತ್ರವನ್ನು ಗೆಳೆಯನಿಗೆ ಓದಿ ಹೇಳಿ. ತನ್ನ ಬರಹ ಕೆಲಸಕ್ಕೆ ಬಂತು ಎಂದು ಮಗು ನೋಡುತ್ತದೆ.",
+     "en": "Use what was written: put the label on the shop, read the note to the friend. The child sees the writing do something."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಸಣ್ಣ ಕಾಗದದ ಚೀಟಿಗಳು",
+     "en": "small slips of paper"
+    },
+    {
+     "kn": "ಪೆನ್ಸಿಲ್‌ಗಳು",
+     "en": "pencils"
+    }
+   ],
+   "why": {
+    "kn": "ಬರಹಕ್ಕೆ ಒಂದು ಉದ್ದೇಶ ಇದ್ದಾಗ ಮತ್ತು ಕೆಲಸ ಮುಗಿಸಬಹುದಷ್ಟು ಚಿಕ್ಕದಾಗಿ ಕಂಡಾಗ ಮಕ್ಕಳು ಬರೆಯುತ್ತಾರೆ.",
+    "en": "Children write when the writing has a purpose and the task looks small enough to finish."
+   },
+   "index": {
+    "topic": "writing",
+    "gradeBand": "1-3",
+    "subject": "kannada"
+   }
+  },
+  {
+   "id": "sample-world-62",
+   "master": "mallikarjun",
+   "title": {
+    "kn": "ಮಾತಾಡಲು ಒಂದು ಸರದಿ, ಆಮೇಲೆ ಜೊತೆಗೊಂದು ಕೆಲಸ",
+    "en": "A turn to speak, then a job together"
+   },
+   "problem": {
+    "kn": "ಇಬ್ಬರು ಮಕ್ಕಳು ಪ್ರತಿದಿನ ಜಗಳ ಮಾಡುತ್ತಾರೆ, ಇಡೀ ತರಗತಿಗೆ ತೊಂದರೆಯಾಗುತ್ತದೆ.",
+    "en": "Two children quarrel every day and the whole class is disturbed."
+   },
+   "steps": [
+    {
+     "kn": "ಆ ಕ್ಷಣದಲ್ಲಿ, ದೊಡ್ಡ ಮಾತಿಲ್ಲದೆ, ಶಾಂತವಾಗಿ ಇಬ್ಬರಿಗೂ ಕೋಣೆಯ ಬೇರೆ ಬೇರೆ ಮೂಲೆಯಲ್ಲಿ ಒಂದು ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ.",
+     "en": "In the moment, calmly give each child a small task in a different corner of the room, without a long talk."
+    },
+    {
+     "kn": "ಆಮೇಲೆ, ಇಬ್ಬರೂ ಶಾಂತವಾದಾಗ, ಅವರ ಜೊತೆ ಕೂರಿ. ಸಣ್ಣ ಕೋಲು ಹಿಡಿದವರು ಏನಾಯಿತು ಎಂದು ಹೇಳಲಿ; ಕೋಲು ಕೈಗೆ ಬರುವವರೆಗೆ ಇನ್ನೊಬ್ಬರು ಕೇಳಲಿ.",
+     "en": "Later, when both are calm, sit with them. The one holding a small stick says what happened; the other listens until the stick is passed."
+    },
+    {
+     "kn": "ನಾಳೆ ಬೇರೆ ರೀತಿಯಲ್ಲಿ ಮಾಡುವ ಒಂದು ವಿಷಯವನ್ನು ಇಬ್ಬರೂ ತಾವೇ ಆರಿಸಿಕೊಳ್ಳಲಿ.",
+     "en": "Ask each of them to choose one thing they will do differently tomorrow."
+    },
+    {
+     "kn": "ಒಂದು ವಾರ ಇಬ್ಬರಿಗೂ ಸೇರಿ ಮಾಡುವ ಒಂದು ಕೆಲಸ ಕೊಡಿ, ಗಿಡಗಳಿಗೆ ನೀರು ಹಾಕುವಂತೆ, ಜೊತೆಯಾಗಿ ಚೆನ್ನಾಗಿ ಮಾಡಿದಾಗ ಅದನ್ನು ಹೇಳಿ ಮೆಚ್ಚಿ.",
+     "en": "Give the two a shared job for a week, like watering the plants, and say so when they do it well together."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಒಂದು ಸಣ್ಣ ಕೋಲು",
+     "en": "a small stick"
+    }
+   ],
+   "why": {
+    "kn": "ಜಗಳ ಮಾಡುವ ಮಕ್ಕಳಿಗೆ ತಮ್ಮ ಮಾತು ಕೇಳಿಸಿಕೊಳ್ಳುವ ಶಾಂತ ದಾರಿ ಮತ್ತು ಜೊತೆಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಒಂದು ಕಾರಣ ಬೇಕು. ಸೇರಿ ಮಾಡುವ ಕೆಲಸ ಅದನ್ನು ಕೊಡುತ್ತದೆ.",
+    "en": "Children who quarrel need a calm way to be heard and a reason to work side by side. A shared job gives them that."
+   },
+   "index": {
+    "topic": "classroom",
+    "gradeBand": "1-3",
+    "subject": "general"
+   }
+  },
+  {
+   "id": "sample-world-63",
+   "master": "kavitha",
+   "title": {
+    "kn": "ಹಲವು ವಾರಗಳ ನಂತರ ಮರಳಿದಾಗ: ನೆನಪಿರುವ ಅಕ್ಷರಗಳಿಂದ ಶುರು",
+    "en": "Back after many weeks: start from the letters that stayed"
+   },
+   "problem": {
+    "kn": "ಹಲವು ವಾರ ಶಾಲೆಗೆ ಬಾರದ ಮಗು ಮರಳಿ ಬಂದಿದೆ, ಗೊತ್ತಿದ್ದ ಅಕ್ಷರಗಳನ್ನು ಮರೆತಿದೆ.",
+    "en": "A child came back to school after weeks away and has forgotten letters they knew."
+   },
+   "steps": [
+    {
+     "kn": "ಮೊದಲ ದಿನ, ಅಕ್ಷರ ಕಾರ್ಡುಗಳಿಂದ ಒಂದು ಆಟ ಆಡಿ, ಮಗುವಿಗೆ ಇನ್ನೂ ಯಾವ ಅಕ್ಷರಗಳು ಗೊತ್ತಿವೆ ಎಂದು ನೋಡಿ. ಅದು ಆಟವಾಗಿರಲಿ, ಪರೀಕ್ಷೆ ಅಲ್ಲ.",
+     "en": "On the first day, play a game with letter cards to see which letters the child still knows. Keep it a game, not a test."
+    },
+    {
+     "kn": "ಎರಡು ರಾಶಿ ಮಾಡಿ: ಮಗುವಿಗೆ ಗೊತ್ತಿರುವ ಅಕ್ಷರಗಳು ಮತ್ತು ಮತ್ತೆ ಕಲಿಯಬೇಕಾದವು. ಪ್ರತಿದಿನ ಗೊತ್ತಿರುವ ರಾಶಿಯಿಂದಲೇ ಶುರು ಮಾಡಿ.",
+     "en": "Make two heaps: the letters the child knows and the letters to learn again. Start every day from the known heap."
+    },
+    {
+     "kn": "ಪ್ರತಿದಿನ ಎರಡನೇ ರಾಶಿಯಿಂದ ಎರಡು ಮೂರು ಅಕ್ಷರ ತೆಗೆದುಕೊಳ್ಳಿ, ಒಬ್ಬ ಗೆಳೆಯ ಹತ್ತು ನಿಮಿಷ ಮಗುವಿನ ಜೊತೆ ಅವನ್ನು ಓದಲಿ.",
+     "en": "Each day, take two or three letters from the second heap and let a friend read them with the child for ten minutes."
+    },
+    {
+     "kn": "ವಾರದ ಕೊನೆಯಲ್ಲಿ ಗೊತ್ತಿರುವ ರಾಶಿಯನ್ನು ಮಗುವೇ ಎಣಿಸಿ, ಅದು ಬೆಳೆದಿರುವುದನ್ನು ನೋಡಲಿ.",
+     "en": "At the end of the week, let the child count the known heap and see it grow."
+    }
+   ],
+   "materials": [
+    {
+     "kn": "ಅಕ್ಷರ ಕಾರ್ಡುಗಳು",
+     "en": "letter cards"
+    }
+   ],
+   "why": {
+    "kn": "ಒಮ್ಮೆ ಕಲಿತ ಅಕ್ಷರಗಳು ಬೇಗ ನೆನಪಿಗೆ ಬರುತ್ತವೆ. ನೆನಪಿರುವುದರಿಂದ ಶುರು ಮಾಡಿದರೆ ಎಲ್ಲ ಮರೆತಿಲ್ಲ ಎಂದು ಮಗುವಿಗೆ ಗೊತ್ತಾಗುತ್ತದೆ, ಬೆಳೆಯುವ ರಾಶಿ ಮುಂದುವರಿಯಲು ಉತ್ಸಾಹ ಕೊಡುತ್ತದೆ.",
+    "en": "Letters learnt once come back quickly. Starting from what stayed shows the child that not everything is lost, and the growing heap keeps them going."
+   },
+   "index": {
+    "topic": "engagement",
+    "gradeBand": "1-2",
+    "subject": "kannada"
+   }
+  }
+ ]
+}

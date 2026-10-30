@@ -1,0 +1,21 @@
+{
+  "key": "5a5f50446cd48077ceca6ab6f6336d46bfa98a4e8b963c81c8242045de45307e",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-31-tired-night-work:name_check:0",
+  "recordedAt": "2026-10-24T10:47:00.599Z",
+  "usage": {
+    "inputTokens": 885,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000033,
+  "latencyMs": 1563,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

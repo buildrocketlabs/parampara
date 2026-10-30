@@ -1,0 +1,22 @@
+{
+  "key": "fb9aa72311e0d32c51ce8c24c9abf10fd30e229e266cff6e6db2726c665e262e",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-09-coding",
+  "recordedAt": "2026-10-24T09:29:57.824Z",
+  "usage": {
+    "inputTokens": 1173,
+    "outputTokens": 17,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000026,
+  "latencyMs": 7149,
+  "outcome": "ok",
+  "output": {
+    "picks": [],
+    "noneFit": true
+  },
+  "attempts": 1
+}

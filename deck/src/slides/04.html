@@ -1,0 +1,39 @@
+<!-- {"title": "Ask at 9 pm", "nav": "Parampara", "canvas": "night", "src": "Live app, 30 Oct, Sample demo teacher (ಮಾದರಿ ದತ್ತಾಂಶ = Sample), answered from his approved field card"} -->
+<style>
+  #s04 { --h: 72px; --t-lead: 26px; }
+  #s04 .backdrop { right: auto; width: 860px; }
+  #s04 .backdrop img { opacity: 0.5; object-position: 30% 50%; }
+  #s04 .backdrop::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgb(16 38 31 / 0.25), rgb(16 38 31 / 0.8) 55%, #10261f 100%); }
+  #s04 .backdrop .label { left: 24px; top: 16px; }
+  #s04 .head { top: 64px; }
+  #s04 .h1 { margin-top: 24px; }
+  #s04 .lede { margin-top: 24px; color: #cfe0d8; }
+  #s04 .chips { margin-top: 40px; display: flex; flex-wrap: wrap; gap: 16px; }
+  #s04 .demo { margin-top: 24px; font: 400 var(--t-body)/1.4 var(--body); color: var(--mist); }
+  #s04 .row { top: 64px; bottom: 64px; display: flex; justify-content: space-between; }
+  #s04 .col { width: 340px; display: flex; flex-direction: column; gap: 24px; }
+  #s04 .cap { display: flex; gap: 16px; align-items: center; height: 40px; font: 600 var(--t-body)/1.2 var(--body); color: var(--paper); }
+  #s04 .cap .no { flex: none; width: 40px; height: 40px; border-radius: 999px; background: var(--flame); color: var(--ink); display: grid; place-items: center; font: 700 var(--t-label)/1 var(--display); }
+  #s04 .phone { position: relative; width: 340px; flex: 1; display: flex; }
+  #s04 .phone .screen { flex: 1; height: auto; }
+  #s04 .phone .screen img { height: 100%; object-fit: cover; object-position: 50% 0; }
+  #s04 .arrow { align-self: center; margin-top: 64px; color: var(--flame); font: 700 32px/1 var(--display); }
+</style>
+<div class="backdrop"><img src="{{img:window-9pm.jpg}}" alt=""><span class="label">Backdrop: illustration</span></div>
+<div class="at head" style="--c: 1; --s: 4">
+  <div class="kicker">03 · Deliver</div>
+  <h1 class="h1">Ask at 9 pm.<span class="l2">Hear a real master by name.</span></h1>
+  <p class="lede">Built only from approved practice, and it says whose. His own voice is one tap away.</p>
+  <div class="chips">
+    <span class="chip flame">ಕನ್ನಡ · English · हिन्दी</span>
+    <span class="chip ghost">Voice or text</span>
+  </div>
+  <p class="demo">Sample teacher, his real approved card. One tap demo for every role.</p>
+</div>
+<div class="at row" style="--c: 5; --s: 8">
+  <div class="col"><div class="cap"><span class="no">1</span><span>She asks by voice</span></div><div class="phone"><div class="screen"><img src="{{img:shot-04-ask.jpg}}" alt="The ask screen: hold the orb and speak"></div></div></div>
+  <div class="arrow">→</div>
+  <div class="col"><div class="cap"><span class="no">2</span><span>Credited to him</span></div><div class="phone"><div class="screen"><img src="{{img:shot-04-answer.jpg}}" alt="The answer card, credited to Mahesh Bedavatti, 32 years, Koppal"></div></div></div>
+  <div class="arrow">→</div>
+  <div class="col"><div class="cap"><span class="no">3</span><span>His own voice</span></div><div class="phone"><div class="screen"><img style="height: calc(100% + 10px); margin-top: -10px" src="{{img:shot-04-hear.jpg}}" alt="Hear it from the master, and steps each credited to him"></div></div></div>
+</div>

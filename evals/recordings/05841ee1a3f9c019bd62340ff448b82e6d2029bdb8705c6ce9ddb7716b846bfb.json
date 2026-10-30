@@ -1,0 +1,74 @@
+{
+  "key": "05841ee1a3f9c019bd62340ff448b82e6d2029bdb8705c6ce9ddb7716b846bfb",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-10-two-cards-overlap",
+  "recordedAt": "2026-10-24T18:03:19.599Z",
+  "usage": {
+    "inputTokens": 3686,
+    "outputTokens": 1045,
+    "cacheReadTokens": 1701,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.01459,
+  "latencyMs": 6330,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಮರಳಲ್ಲಿ ಅಕ್ಷರ, ಎಳೆದು ಓದು",
+      "en": "Sand letters, stretched words",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಎಲ್ಲಾ ಅಕ್ಷರ ಒಟ್ಟಿಗೆ ಬೇಡ, ದಿನಕ್ಕೆ ಒಂದೇ ಅಕ್ಷರ ಕಲಿಸಿ.",
+        "en": "Do not teach all letters together. Teach just one letter a day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ತಟ್ಟೆಯ ಮರಳಲ್ಲಿ ಮಗು ಬೆರಳಿಂದ ಅಕ್ಷರ ಬರೆದು ಜೋರಾಗಿ ಹೇಳಲಿ.",
+        "en": "Let the child write the letter in a plate of sand, saying it aloud.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮರೆತರೆ ಬೈಯಬೇಡಿ, ಮರುದಿನ ಅದೇ ಅಕ್ಷರ ಮತ್ತೆ ಮರಳಲ್ಲಿ ಬರೆಸಿ.",
+        "en": "If the child forgets, do not scold. Write the same letter in sand again next day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಅಕ್ಷರ ಗೊತ್ತಾದ ಮೇಲೆ ಮರ, ಮನೆ, ಕಲ ಪದಗಳನ್ನು ಬೆರಳು ಜಾರಿಸಿ ಎಳೆದು ಹೇಳಿಸಿ.",
+        "en": "Once letters are known, slide a finger and have them stretch ಮರ, ಮನೆ, ಕಲ.",
+        "hi": null,
+        "cardRef": "K2"
+      },
+      {
+        "kn": "ಒಂದು ವಾರ ಎರಡಕ್ಷರದ ಪದ, ದಿನಕ್ಕೆ ಐದು ಸಾಕು. ಆಮೇಲೆ ಮೂರಕ್ಷರ.",
+        "en": "Two letter words for a week, five a day is enough. Then three letters.",
+        "hi": null,
+        "cardRef": "K2"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಮರಳು ಹಾಕಿದ ತಟ್ಟೆ",
+        "en": "a plate of sand",
+        "hi": null
+      },
+      {
+        "kn": "ಬೋರ್ಡ್",
+        "en": "the blackboard",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಒಂದೇ ಅಕ್ಷರ ಗಟ್ಟಿಯಾದ ಮೇಲೆ ಮುಂದೆ ಹೋಗೋದು.",
+      "en": "One letter at a time, moving on only when it is firm.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

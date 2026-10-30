@@ -1,0 +1,24 @@
+{
+  "key": "87b86d0a9d5875e2f1225f1cb627fc1deb90a4248f4e18b7f8fcf10529fd16a1",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-01-kn-letters:final",
+  "recordedAt": "2026-10-24T10:45:42.157Z",
+  "usage": {
+    "inputTokens": 1923,
+    "outputTokens": 82,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000146,
+  "latencyMs": 1388,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer offers gentle, one-letter-a-day sand-tracing practice and explicitly forbids scolding, with no harm, labels, comparisons, or child names."
+  },
+  "attempts": 1
+}

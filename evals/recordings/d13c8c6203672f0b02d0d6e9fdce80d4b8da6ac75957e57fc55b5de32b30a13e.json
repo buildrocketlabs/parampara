@@ -1,0 +1,38 @@
+{
+  "key": "d13c8c6203672f0b02d0d6e9fdce80d4b8da6ac75957e57fc55b5de32b30a13e",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-08-spelled-name",
+  "recordedAt": "2026-10-24T09:28:10.975Z",
+  "usage": {
+    "inputTokens": 2727,
+    "outputTokens": 1285,
+    "cacheReadTokens": 2453,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000694,
+  "latencyMs": 6074,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "ಒಬ್ಬ ಹುಡುಗಿ, ತನ್ನ ಹೆಸರನ್ನು ಹಾಗೆ ಬರೀತಿದ್ಲು.",
+        "textEn": "There was a girl, and she used to write her name that way.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P2",
+        "textKn": "ಆ ಮಗು ತನ್ನ ಹೆಸರು ಬರೆಯೋಕೆ ಕಲಿತ ದಿನ ತುಂಬಾ ಖುಷಿ ಪಟ್ಲು.",
+        "textEn": "The day the child learned to write her name, she was very happy.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}

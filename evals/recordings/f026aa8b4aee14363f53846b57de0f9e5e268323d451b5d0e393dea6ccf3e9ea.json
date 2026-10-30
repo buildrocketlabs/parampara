@@ -1,0 +1,26 @@
+{
+  "key": "f026aa8b4aee14363f53846b57de0f9e5e268323d451b5d0e393dea6ccf3e9ea",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-09-name-asks-natural-phrasing",
+  "recordedAt": "2026-10-24T10:03:57.500Z",
+  "usage": {
+    "inputTokens": 4967,
+    "outputTokens": 551,
+    "cacheReadTokens": 4334,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00721,
+  "latencyMs": 7913,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಮರಳಲ್ಲಿ ಬರೆಸ್ತಿದ್ದಿರಿ ಅಂದ್ರಿ. ಆ ಮಗುವಿಗೆ ಅದನ್ನು ಹೇಗೆ ಮಾಡಿಸಿದಿರಿ? ನೀವು ಮಗುವಿಗೆ ಹೇಳಿದ ಮಾತುಗಳನ್ನೇ ಹೇಳಿ.",
+    "questionEn": "You said you had the child write in sand. How did you get the child to do it? Please tell me the very words you said to the child.",
+    "why": "To draw out the specific method and the master's exact words, as a follow-up on the letters story.",
+    "topic": "letters",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 2
+}

@@ -1,0 +1,27 @@
+{
+  "key": "20cadc24fe9f428a3dc2819b9339f1e86b1a0c63d57d8799ca131d4d22f4a6b5",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-15-hindi-silent",
+  "recordedAt": "2026-10-24T09:30:19.829Z",
+  "usage": {
+    "inputTokens": 1212,
+    "outputTokens": 78,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00006,
+  "latencyMs": 2257,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C7",
+        "reason": "It is about a silent child who does not speak all day, and a simple smile at the door is a gentle way for a class 2 teacher to start talking with such children."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

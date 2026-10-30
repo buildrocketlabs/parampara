@@ -1,0 +1,27 @@
+{
+  "key": "1e6fec201cb2b9f09d1b74a3139e17bfba674d89fd1312b47f184f2fa7d66640",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-14-code-mixed-letters",
+  "recordedAt": "2026-10-24T10:05:30.266Z",
+  "usage": {
+    "inputTokens": 1341,
+    "outputTokens": 174,
+    "cacheReadTokens": 1198,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000113,
+  "latencyMs": 1939,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C1",
+        "reason": "Your problem is that some Class 1 children still cannot recognise any letter after months, and this card was made for exactly that situation."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

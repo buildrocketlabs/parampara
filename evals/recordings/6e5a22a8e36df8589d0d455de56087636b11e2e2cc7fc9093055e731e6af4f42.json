@@ -1,0 +1,30 @@
+{
+  "key": "6e5a22a8e36df8589d0d455de56087636b11e2e2cc7fc9093055e731e6af4f42",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-34-en-bare-name",
+  "recordedAt": "2026-10-24T18:37:01.333Z",
+  "usage": {
+    "inputTokens": 2867,
+    "outputTokens": 110,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 2809
+  },
+  "costUsd": 0.000412,
+  "latencyMs": 2438,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "A child in my class does not speak at all. What should I do with the child?",
+    "language": "en",
+    "topic": "engagement",
+    "subject": "general",
+    "gradeBand": null,
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": true
+  },
+  "attempts": 1
+}

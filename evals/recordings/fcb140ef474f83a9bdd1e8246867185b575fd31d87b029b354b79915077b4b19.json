@@ -1,0 +1,30 @@
+{
+  "key": "fcb140ef474f83a9bdd1e8246867185b575fd31d87b029b354b79915077b4b19",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-01-kn-name-intro",
+  "recordedAt": "2026-10-24T09:27:28.812Z",
+  "usage": {
+    "inputTokens": 2632,
+    "outputTokens": 201,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 2450
+  },
+  "costUsd": 0.000425,
+  "latencyMs": 3689,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಒಂದು ಮಗು ಎರಡನೇ ಕ್ಲಾಸು, ಇನ್ನೂ ಅಕ್ಷರ ಗುರುತು ಹಿಡಿಯಲ್ಲ. ಏನು ಮಾಡ್ಲಿ?",
+    "language": "kn",
+    "topic": "letters",
+    "subject": "kannada",
+    "gradeBand": "2",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": true
+  },
+  "attempts": 1
+}

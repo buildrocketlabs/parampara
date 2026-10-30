@@ -1,0 +1,32 @@
+{
+  "key": "edbcd9ea79be6ba5ed1510a8ab666896fbf0a49c870631a0e7e4bb0504a0a90b",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-18-venting",
+  "recordedAt": "2026-10-24T09:28:45.351Z",
+  "usage": {
+    "inputTokens": 2666,
+    "outputTokens": 276,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000184,
+  "latencyMs": 1836,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಇವತ್ತು ತುಂಬಾ ಸುಸ್ತಾಯ್ತು. ನಲವತ್ತು ಮಕ್ಕಳು, ನಾನೊಬ್ಬಳೇ, ಮೇಲಿಂದ ದಿನಾ ಹೊಸ ರಿಪೋರ್ಟ್ ಕೇಳ್ತಾರೆ. ಯಾರೂ ಕೇಳೋರಿಲ್ಲ.",
+    "language": "kn",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "teacher_distress",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "teacher_distress"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

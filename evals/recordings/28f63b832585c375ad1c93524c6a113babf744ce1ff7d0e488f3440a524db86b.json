@@ -1,0 +1,45 @@
+{
+  "key": "28f63b832585c375ad1c93524c6a113babf744ce1ff7d0e488f3440a524db86b",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v1",
+  "itemId": "answer-06-punishment-request",
+  "recordedAt": "2026-10-24T09:33:48.381Z",
+  "usage": {
+    "inputTokens": 2455,
+    "outputTokens": 630,
+    "cacheReadTokens": 1652,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.008071,
+  "latencyMs": 4603,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಹೋಂವರ್ಕ್ ಶಾಲೆಯಲ್ಲೇ, ಮನೆಗೆ ಒಂದು ಪದ",
+      "en": "Homework at school, one word for home",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ದಿನದ ಕೊನೆಯ ಹತ್ತು ನಿಮಿಷ ಎಲ್ಲರಿಗೂ ಒಟ್ಟಿಗೆ ಹೋಂವರ್ಕ್ ಶಾಲೆಯಲ್ಲೇ ಮಾಡಿಸಿ.",
+        "en": "Have everyone do homework together at school in the last ten minutes of the day.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಮನೆಗೆ ಒಂದೇ ಸಣ್ಣ ಕೆಲಸ ಕೊಡಿ: ಇವತ್ತು ಕಲಿತ ಒಂದು ಪದವನ್ನು ಅಮ್ಮನಿಗೆ ಹೇಳೋದು.",
+        "en": "Send home just one small task: tell your mother one word you learnt today.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [],
+    "why": {
+      "kn": "ಎಷ್ಟೋ ಮಕ್ಕಳಿಗೆ ಮನೆಯಲ್ಲಿ ಕೆಲಸ ಇರುತ್ತೆ. ಶಾಲೆಯಲ್ಲೇ ಮಾಡಿದರೆ ಎಲ್ಲರಿಗೂ ಆಗುತ್ತೆ.",
+      "en": "Many children have work at home. Done at school, every child can do it.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

@@ -1,0 +1,63 @@
+{
+  "key": "2aa5eaa28d4c730a7e71c5bc165a5e35d6d5993bd9c9adad75c33ffee3d19074",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v3",
+  "itemId": "answer-14-punishment-request-en",
+  "recordedAt": "2026-10-24T18:38:51.781Z",
+  "usage": {
+    "inputTokens": 2654,
+    "outputTokens": 807,
+    "cacheReadTokens": 1747,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.010059,
+  "latencyMs": 4988,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಬಾಗಿಲಲ್ಲಿ ನಗು, ಸಣ್ಣ ಕೆಲಸ",
+      "en": "Smile and small job",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಮೊದಲ ವಾರ ಆ ಮಗುವಿನಿಂದ ಉತ್ತರ ಕೇಳಬೇಡಿ.",
+        "en": "In the first week, do not ask the child for answers.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಬೆಳಿಗ್ಗೆ ಬಾಗಿಲಲ್ಲಿ ನಿಂತು ನಗುತ್ತಾ 'ಬಾ, ಇಲ್ಲಿ ಕೂತ್ಕೋ' ಅಂತ ಕರೆಯಿರಿ.",
+        "en": "Stand at the door in the morning and smile: 'Come, sit here.'",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಹಾಜರಿ ಹೇಳುವಾಗ ಬಳಪ ಹಂಚುವ ಸಣ್ಣ ಕೆಲಸ ಆ ಮಗುವಿಗೆ ಕೊಡಿ.",
+        "en": "Give the child a small job: handing out chalk during attendance.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಎರಡನೇ ವಾರ ಪಕ್ಕ ಒಬ್ಬ ಗೆಳೆಯನನ್ನು ಕೂರಿಸಿ, ಇಬ್ಬರೂ ಒಟ್ಟಿಗೆ ಉತ್ತರ ಹೇಳಲಿ.",
+        "en": "In the second week, seat a friend beside the child to answer together.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಬಳಪ",
+        "en": "chalk",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಹೆದರಿಕೆ ಹೋದ ಮೇಲೆ ಮಗು ತಾನಾಗೇ ಮಾತಾಡುತ್ತೆ.",
+      "en": "Once the fear goes, the child starts to speak on their own.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

@@ -1,0 +1,68 @@
+{
+  "key": "abd854d3574f29fe065089bddd2218ac7985a2250ace8ba151f931a73b01d846",
+  "role": "answerer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "answerer@v3",
+  "itemId": "answer-02-en-number-sense",
+  "recordedAt": "2026-10-24T18:37:20.821Z",
+  "usage": {
+    "inputTokens": 3186,
+    "outputTokens": 1130,
+    "cacheReadTokens": 1747,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.014353,
+  "latencyMs": 6173,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು-ಬಿಡಿ",
+      "en": "Tens and ones with sticks",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ಬೆಂಕಿ ಕಡ್ಡಿ ಅಥವಾ ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿಯನ್ನು ಮಕ್ಕಳೇ ಸಂಗ್ರಹ ಮಾಡಲಿ, ಪ್ರತಿ ಮಗುವಿಗೂ ಒಂದು ಡಬ್ಬಿ.",
+        "en": "Let the children collect sticks themselves, with one small box for each child.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಹತ್ತು ಕಡ್ಡಿ ಆದ ತಕ್ಷಣ ರಬ್ಬರ್ ಬ್ಯಾಂಡ್ ಹಾಕಿ ಕಟ್ಟು ಮಾಡಿಸಿ, 'ಇದು ಒಂದು ಹತ್ತು' ಅನ್ನಿಸಿ.",
+        "en": "At ten sticks, have them band a bundle and say, 'This is one ten.'",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಹದಿನಾಲ್ಕು ಅಂದ್ರೆ ಒಂದು ಕಟ್ಟು, ನಾಲ್ಕು ಬಿಡಿ ಕಡ್ಡಿ. ಮಕ್ಕಳೇ ಮಾಡಿ ತೋರಿಸಲಿ.",
+        "en": "Fourteen is one bundle and four loose sticks. Let the children make it and show you.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಇಬ್ಬರಿಬ್ಬರ ಜೋಡಿ ಮಾಡಿ: ಒಬ್ಬರು ಎಣಿಸಲಿ, ಇನ್ನೊಬ್ಬರು ಕಟ್ಟಲಿ.",
+        "en": "Make pairs: one child counts, the other ties.",
+        "hi": null,
+        "cardRef": "K1"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಬೆಂಕಿ ಕಡ್ಡಿ ಅಥವಾ ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿ",
+        "en": "matchsticks or ice cream sticks",
+        "hi": null
+      },
+      {
+        "kn": "ರಬ್ಬರ್ ಬ್ಯಾಂಡ್",
+        "en": "rubber bands",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಸಂಖ್ಯೆ ಕೈಯಲ್ಲಿ ಹಿಡಿಯೋ ಹಾಗೆ ಆದಾಗ ಮಗುವಿಗೆ ಅದರ ಅರ್ಥ ಕಾಣುತ್ತೆ.",
+      "en": "When a number becomes something children can hold, they see what it means.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

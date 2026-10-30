@@ -1,0 +1,21 @@
+{
+  "key": "ce7b3a7bac02b6c0022f77ced9bb5278cd687e6be56c8bb44c84b79071fca6b3",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v1",
+  "itemId": "triage-15-school-violence:name_check:0",
+  "recordedAt": "2026-10-24T09:28:35.202Z",
+  "usage": {
+    "inputTokens": 754,
+    "outputTokens": 11,
+    "cacheReadTokens": 582,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000029,
+  "latencyMs": 1532,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

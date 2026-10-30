@@ -1,0 +1,26 @@
+{
+  "key": "66d23aa2fdc86ec60b08b746a32c9783536f3c7860e50fb23556610bdf3e4545",
+  "role": "photo_reader",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "photo_reader@v1",
+  "itemId": "photo-08-sample-slate",
+  "recordedAt": "2026-10-24T10:50:06.677Z",
+  "usage": {
+    "inputTokens": 1865,
+    "outputTokens": 429,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 1397
+  },
+  "costUsd": 0.008719,
+  "latencyMs": 5726,
+  "outcome": "ok",
+  "output": {
+    "seenKn": "ಬೋರ್ಡ್ ಮೇಲೆ ಕನ್ನಡದ ನಾಲ್ಕು ಪದಗಳಿವೆ (ವಸ, ಬಲ, ಬನ, ಕವನ) ಮತ್ತು ಕೆಳಗೆ 10, 11, 21, 13, 14, 51 ಸಂಖ್ಯೆಗಳಿವೆ. 21 ಮತ್ತು 51 ಸಾಲಿನ ಕ್ರಮದಲ್ಲಿ 12 ಮತ್ತು 15 ರ ಬದಲು ಬಂದಂತೆ ತೋರುತ್ತದೆ.",
+    "seenEn": "The blackboard shows four Kannada words (ವಸ, ಬಲ, ಬನ, ಕವನ) and below them the numbers 10, 11, 21, 13, 14, 51. In the number sequence, 21 and 51 appear where 12 and 15 would be expected, so the digits look reversed in 2 of 6 numbers.",
+    "relevant": true,
+    "faces": false,
+    "welfareConcern": false,
+    "problemHint": "digit reversal 12/21, 15/51"
+  },
+  "attempts": 1
+}

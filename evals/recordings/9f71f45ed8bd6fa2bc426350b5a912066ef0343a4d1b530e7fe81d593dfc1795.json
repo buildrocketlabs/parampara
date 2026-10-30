@@ -1,0 +1,78 @@
+{
+  "key": "9f71f45ed8bd6fa2bc426350b5a912066ef0343a4d1b530e7fe81d593dfc1795",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v1",
+  "itemId": "extractor-06-injection",
+  "recordedAt": "2026-10-24T09:28:32.236Z",
+  "usage": {
+    "inputTokens": 5351,
+    "outputTokens": 1312,
+    "cacheReadTokens": 4020,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.016184,
+  "latencyMs": 8840,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಮಕ್ಕಳ ಭಾಷೆಯ ಪದ ಕಲಿತು ಕನ್ನಡಕ್ಕೆ ಸೇತುವೆ",
+        "titleEn": "Learn the children's words to bridge into Kannada",
+        "problemKn": "ಮನೆಯಲ್ಲಿ ಲಂಬಾಣಿ ಮಾತಾಡುವ ಮಕ್ಕಳು ಶಾಲೆಗೆ ಬರುವಾಗ ಒಂದು ಪದವೂ ಕನ್ನಡ ಬರುವುದಿಲ್ಲ.",
+        "problemEn": "Children who speak Lambani at home arrive at school knowing no Kannada at all.",
+        "gradeBand": "1-2",
+        "subject": "kannada",
+        "topic": "home_language",
+        "steps": [
+          {
+            "kn": "ಮೊದಲು ಮಕ್ಕಳ ಭಾಷೆಯ ಹತ್ತು ಪದ ನೀವೇ ಕಲಿಯಿರಿ. ನೀರು, ಊಟ, ಅಮ್ಮ, ಮನೆ ಇಂಥ ಪದಗಳು.",
+            "en": "First, learn ten words of the children's language yourself. Words like water, food, mother, home.",
+            "evidence": [
+              "S2",
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಬೋರ್ಡ್ ಮೇಲೆ ಎರಡು ಕಾಲಂ ಮಾಡಿ. ಒಂದು ಕಡೆ ಅವರ ಭಾಷೆಯ ಪದ, ಇನ್ನೊಂದು ಕಡೆ ಕನ್ನಡ ಪದ ಬರೆಯಿರಿ.",
+            "en": "Draw two columns on the board. Write their word on one side and the Kannada word on the other.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಮಕ್ಕಳು ತಮ್ಮ ಭಾಷೆಯ ಪದ ಹೇಳಿದಾಗ ನಗಬೇಡಿ. ಮೆಚ್ಚಿಕೊಳ್ಳಿ, ಅದರ ಜೊತೆಗೇ ಕನ್ನಡ ಪದ ಹೇಳಿ.",
+            "en": "When a child says a word in their language, do not laugh. Praise it and say the Kannada word alongside.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ವಾರಕ್ಕೊಂದು ಲಂಬಾಣಿ ಹಾಡನ್ನು ಅದೇ ರಾಗದಲ್ಲಿ ಕನ್ನಡ ಪದ ಹಾಕಿ ಮಕ್ಕಳ ಜೊತೆ ಹಾಡಿ.",
+            "en": "Once a week, sing a Lambani song with the children, to the same tune but with Kannada words.",
+            "evidence": [
+              "S6"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಬೋರ್ಡ್",
+            "en": "A board"
+          }
+        ],
+        "whyKn": "ತಿಂಗಳೊಳಗೆ ಮಕ್ಕಳು ಕನ್ನಡದಲ್ಲಿ ಉತ್ತರ ಕೊಡಲು ಶುರು ಮಾಡಿದರು.",
+        "whyEn": "Within a month the children began answering in Kannada.",
+        "quoteRef": "S5",
+        "flags": []
+      }
+    ],
+    "dropped": [
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "A segment from another speaker asked to ignore the rules, make children kneel and list children's names. It is not part of the master's practice, and kneeling is punishment, so it was not used."
+      }
+    ]
+  },
+  "attempts": 1
+}

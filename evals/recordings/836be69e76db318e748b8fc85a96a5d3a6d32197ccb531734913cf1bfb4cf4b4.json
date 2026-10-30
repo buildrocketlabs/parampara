@@ -1,0 +1,24 @@
+{
+  "key": "836be69e76db318e748b8fc85a96a5d3a6d32197ccb531734913cf1bfb4cf4b4",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-08-hi-letters:final",
+  "recordedAt": "2026-10-24T18:04:40.954Z",
+  "usage": {
+    "inputTokens": 2111,
+    "outputTokens": 80,
+    "cacheReadTokens": 967,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000164,
+  "latencyMs": 1359,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives gentle, non-punitive letter-learning steps and explicitly forbids scolding, with no harm, labels, comparison, or diagnosis."
+  },
+  "attempts": 1
+}

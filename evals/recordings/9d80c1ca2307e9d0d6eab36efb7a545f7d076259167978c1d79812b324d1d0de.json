@@ -1,0 +1,23 @@
+{
+  "key": "9d80c1ca2307e9d0d6eab36efb7a545f7d076259167978c1d79812b324d1d0de",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-11-card-without-why:step3",
+  "recordedAt": "2026-10-24T18:05:07.784Z",
+  "usage": {
+    "inputTokens": 1483,
+    "outputTokens": 140,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000164,
+  "latencyMs": 1356,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಆಮೇಲೆ ಪ್ರತಿ ಕಲ್ಲನ್ನು ಮುಟ್ಟುತ್ತಾ ಜೋರಾಗಿ ಎಣಿಸಲಿ.",
+    "reason": "The card's step 3 says children count aloud while touching each stone, matching the step exactly."
+  },
+  "attempts": 1
+}

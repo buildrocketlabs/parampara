@@ -1,0 +1,32 @@
+{
+  "key": "a2a0c52b0d9c40ff00456c3f9c28eeb6107638bfd6b56a862c800d421508aec9",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-31-tired-night-work",
+  "recordedAt": "2026-10-24T10:46:59.034Z",
+  "usage": {
+    "inputTokens": 3014,
+    "outputTokens": 266,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000182,
+  "latencyMs": 2419,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಆ ಹುಡುಗಿ ರಾತ್ರಿ ಹೋಟೆಲ್ನಲ್ಲಿ ಕೆಲಸ ಮಾಡ್ತಾಳಂತೆ, ಅದಕ್ಕೆ ತರಗತಿಯಲ್ಲಿ ನಿದ್ದೆ ಮಾಡ್ತಾಳೆ. ಏನು ಮಾಡಲಿ?",
+    "language": "kn",
+    "topic": "engagement",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "child_labour"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+node scripts/check-secrets.mjs || { echo "Commit blocked. Remove the secret or personal data." >&2; exit 1; }

@@ -1,0 +1,27 @@
+{
+  "key": "ff5d2166ed94ef23bfb02a7fef9fea428794cc52b6c661b0d201a9d0b0bd0796",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-15-hindi-silent",
+  "recordedAt": "2026-10-24T10:05:32.101Z",
+  "usage": {
+    "inputTokens": 1301,
+    "outputTokens": 156,
+    "cacheReadTokens": 1198,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.0001,
+  "latencyMs": 1834,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C7",
+        "reason": "A master's card about a child who sits silently in class and never speaks, which matches your two quiet Class 2 children and gives a way to start a connection."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

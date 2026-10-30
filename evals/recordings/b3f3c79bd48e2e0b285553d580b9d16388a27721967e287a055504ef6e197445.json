@@ -1,0 +1,21 @@
+{
+  "key": "b3f3c79bd48e2e0b285553d580b9d16388a27721967e287a055504ef6e197445",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v1",
+  "itemId": "triage-18-venting:name_check:0",
+  "recordedAt": "2026-10-24T09:28:46.632Z",
+  "usage": {
+    "inputTokens": 800,
+    "outputTokens": 11,
+    "cacheReadTokens": 582,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000033,
+  "latencyMs": 1280,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

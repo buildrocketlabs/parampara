@@ -1,0 +1,35 @@
+<!-- {"title": "Problem", "nav": "Problem", "canvas": "dark", "src": "UDISE+ 2025-26 · ASER 2024 · KCSR Rule 95 · CSF EdTech BaSE 2025 · Kraft et al. 2018; Popova et al. 2022 · backdrop: the blackboard at Talakal, 29 Oct"} -->
+<style>
+  #s02 { --h: 72px; }
+  #s02 .backdrop img { opacity: 0.16; filter: grayscale(0.3); }
+  #s02 .backdrop::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgb(33 69 60 / 0.2), rgb(33 69 60 / 0.94) 55%); }
+  #s02 .head { top: 64px; }
+  #s02 .h1 { margin-top: 24px; }
+  #s02 .side { top: 110px; color: #d6e4dd; }
+  #s02 .tiles { top: 294px; bottom: 64px; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: 1fr 1fr; column-gap: 24px; row-gap: 24px; }
+  #s02 .t { display: flex; flex-direction: column; justify-content: flex-end; gap: 16px; box-shadow: var(--shadow); }
+  #s02 .t .num { font-size: var(--h); line-height: 0.9; letter-spacing: -0.02em; }
+  #s02 .t p { font: 400 var(--t-body)/1.4 var(--body); }
+  #s02 .hero { grid-column: 1 / span 4; grid-row: 1 / span 2; }
+  #s02 .hero .kicker { color: var(--ink); }
+  #s02 .hero .num { margin-top: auto; }
+  #s02 .hero p { margin-top: 8px; }
+  #s02 .hero .num { font-size: 176px; }
+  #s02 .hero p { font-size: var(--t-lead); }
+  #s02 .a { grid-column: 5 / span 4; }
+  #s02 .b { grid-column: 9 / span 4; }
+  #s02 .t.ink .num { color: var(--flame); }
+</style>
+<div class="backdrop"><img src="{{img:talkal-blackboard.jpg}}" alt=""></div>
+<div class="at head" style="--c: 1; --s: 8">
+  <div class="kicker">01 · The problem</div>
+  <h1 class="h1">Every master teacher’s knowledge<span class="l2">has a retirement date.</span></h1>
+</div>
+<p class="at side lede" style="--c: 9; --s: 4">When the colleague who solved her problem retires, the answer leaves too.</p>
+<div class="at tiles" style="--c: 1; --s: 12">
+  <div class="card flame t hero"><div class="kicker">Karnataka · UDISE+ 2025-26</div><div class="num">{{n:f_one_teacher}}</div><p>Karnataka schools with <b>one teacher</b>. No colleague to ask.</p></div>
+  <div class="card t a"><div class="num">{{n:f_reading}}</div><p>of Class 3 children in Karnataka government schools read a Class 2 text.</p></div>
+  <div class="card sage t b"><div class="num">{{n:f_retire}}</div><p>Retirement age. Decades of craft walk out with it.</p></div>
+  <div class="card ink t a"><div class="num">{{n:f_phones}}</div><p>of teachers already have a smartphone.</p></div>
+  <div class="card t b"><div class="num">{{n:f_coaching}}</div><p>Coaching changes practice this much, but rarely reaches scale.</p></div>
+</div>

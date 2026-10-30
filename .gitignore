@@ -1,0 +1,50 @@
+# secrets (never commit)
+.env
+.env.*
+!.env.example
+.vercel
+.vercel-cli/
+.supabase/
+*.pem
+
+# deps and builds
+node_modules/
+.next/
+out/
+dist/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# tests
+coverage/
+playwright-report/
+test-results/
+blob-report/
+evals/.cache/live-*
+
+# field data never lives in git
+field-private/
+*.wav
+*.m4a
+*.mp3
+!public/sounds/*.mp3
+
+# os
+.DS_Store
+*.log
+
+# supabase cli link state
+supabase/.temp/
+.pnpm-debug.log*
+
+# parallel agent worktrees
+.claude/worktrees/
+
+# public snapshot workspace (scripts/release-snapshot.sh)
+.release/
+# rehearsal voice notes (synthetic, regenerated on demand: scripts/rehearsal-notes.mjs)
+tests/rehearsal/out/
+
+# deck: raw app shots (25 MB, re-shot by deck/scripts/shots.mjs); prepared copies live in deck/assets/img
+deck/assets/shots/

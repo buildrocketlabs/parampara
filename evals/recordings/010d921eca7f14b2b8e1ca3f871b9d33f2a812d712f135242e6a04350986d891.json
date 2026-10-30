@@ -1,0 +1,27 @@
+{
+  "key": "010d921eca7f14b2b8e1ca3f871b9d33f2a812d712f135242e6a04350986d891",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-04-hindi",
+  "recordedAt": "2026-10-24T09:29:30.886Z",
+  "usage": {
+    "inputTokens": 1162,
+    "outputTokens": 81,
+    "cacheReadTokens": 1070,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00006,
+  "latencyMs": 1971,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C2",
+        "reason": "Tens and ones with bundles of sticks directly addresses children who can recite numbers but do not understand what fourteen means, for Class 1-2 maths."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

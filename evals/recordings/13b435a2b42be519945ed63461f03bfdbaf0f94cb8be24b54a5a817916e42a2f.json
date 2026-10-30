@@ -1,0 +1,46 @@
+{
+  "key": "13b435a2b42be519945ed63461f03bfdbaf0f94cb8be24b54a5a817916e42a2f",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v2",
+  "itemId": "digest-comparison-bait",
+  "recordedAt": "2026-10-24T10:19:31.875Z",
+  "usage": {
+    "inputTokens": 2096,
+    "outputTokens": 1523,
+    "cacheReadTokens": 1486,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.016599,
+  "latencyMs": 9368,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 45 ಪ್ರಶ್ನೆಗಳಲ್ಲಿ 40ಕ್ಕೆ ಉತ್ತರ ಸಿಕ್ಕಿದೆ, 20 ಸಲ ಕಲ್ಪನೆಗಳನ್ನು ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ, 14 ಸಲ ಅವು ಫಲ ಕೊಟ್ಟಿವೆ.",
+    "headlineEn": "This week 40 of 45 questions got an answer, ideas were tried 20 times, and 14 times they worked.",
+    "actions": [
+      {
+        "kn": "ಓದೋ ಮಟ್ಟದ ಮೂರು ಹೂವಿನ ಗುಂಪು ಎಂಬ ಪದ್ಧತಿ 10 ಸಲ ಪ್ರಯತ್ನವಾಗಿ 8 ಸಲ ಫಲ ಕೊಟ್ಟಿದೆ; ಇದನ್ನು ಹಂಚಿದ ಶರಣಪ್ಪ ಅವರಿಗೆ ಧನ್ಯವಾದ ಹೇಳಿ, ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ.",
+        "en": "The practice Three flower groups by reading level was tried 10 times and worked 8 times. With thanks to Sharanappa, please share it at the next cluster meeting."
+      },
+      {
+        "kn": "ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಪದ್ಧತಿಯನ್ನು ಶಾರದಾ ಅವರು ಹಂಚಿದ್ದಾರೆ; ಅದನ್ನು ಇನ್ನಷ್ಟು ಸುಲಭವಾಗಿಸಲು ಅವರೊಂದಿಗೆ ಇನ್ನೊಂದು ಧ್ವನಿ ದಾಖಲಿಸುವ ಬಗ್ಗೆ ಯೋಚಿಸಿ.",
+        "en": "Tens and ones with bundles of sticks, shared by Sharada with thanks, was tried 9 times and worked 2 times. Consider asking her to record one more short clip on it."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ: ಕಲ್ಪನೆ ಫಲ ಕೊಟ್ಟಿತೇ ಇಲ್ಲವೇ ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ, ಮತ್ತು ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯವಾಗುತ್ತದೆ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಇನ್ನಷ್ಟು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಬಹು ಹಂತದ ತರಗತಿ ಬಗ್ಗೆ 20, ಸಂಖ್ಯೆ ಜ್ಞಾನ ಬಗ್ಗೆ 15, ಓದು ಬಗ್ಗೆ 10 ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ; ಈ ವಿಷಯಗಳ ಮೇಲೆ ಗಮನವಿರಲಿ.",
+        "en": "Multi level class had 20 questions, Number sense 15 and Reading 10, so keep an eye on these topics."
+      }
+    ]
+  },
+  "attempts": 1
+}

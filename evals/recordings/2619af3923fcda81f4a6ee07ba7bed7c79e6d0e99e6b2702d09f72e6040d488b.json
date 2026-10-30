@@ -1,0 +1,26 @@
+{
+  "key": "2619af3923fcda81f4a6ee07ba7bed7c79e6d0e99e6b2702d09f72e6040d488b",
+  "role": "photo_reader",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "photo_reader@v1",
+  "itemId": "photo-06-name-in-header",
+  "recordedAt": "2026-10-24T09:27:48.610Z",
+  "usage": {
+    "inputTokens": 1793,
+    "outputTokens": 379,
+    "cacheReadTokens": 1397,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.004722,
+  "latencyMs": 3499,
+  "outcome": "ok",
+  "output": {
+    "seenKn": "ನೋಟ್‌ಬುಕ್ ಪುಟದಲ್ಲಿ ಸಂಖ್ಯಾ ಹೆಸರುಗಳ ಪಕ್ಕ ಅಂಕೆಗಳನ್ನು ಬರೆಯಲಾಗಿದೆ. 4 ರಲ್ಲಿ 3 ಸಂಖ್ಯೆಗಳಲ್ಲಿ ಅಂಕೆಗಳು ಅದಲುಬದಲಾಗಿವೆ (12 ಬದಲು 21, 14 ಬದಲು 41, 16 ಬದಲು 61); 19 ಸರಿಯಾಗಿದೆ.",
+    "seenEn": "A notebook page pairs number words with digits. Digits are reversed in 3 of 4 numbers (12 written 21, 14 written 41, 16 written 61); 19 is correct.",
+    "relevant": true,
+    "faces": false,
+    "welfareConcern": false,
+    "problemHint": "digit reversal in teen numbers"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,22 @@
+{
+  "key": "38da16088c5e8db397c526d325ceb15fc4b63db00887cd6eab333f7b7d97d10e",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-10-two-cards-overlap:step4",
+  "recordedAt": "2026-10-24T18:40:29.806Z",
+  "usage": {
+    "inputTokens": 3191,
+    "outputTokens": 825,
+    "cacheReadTokens": 1196,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000624,
+  "latencyMs": 5851,
+  "outcome": "needs_human",
+  "reason": "timeout",
+  "problems": [
+    "Your answer was cut off before it finished. Return fewer items and keep every field shorter."
+  ],
+  "attempts": 2
+}

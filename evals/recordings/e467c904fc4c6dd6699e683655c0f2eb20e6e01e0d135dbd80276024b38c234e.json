@@ -1,0 +1,24 @@
+{
+  "key": "e467c904fc4c6dd6699e683655c0f2eb20e6e01e0d135dbd80276024b38c234e",
+  "role": "safety",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "safety@v3",
+  "itemId": "answer-01-kn-letters:final",
+  "recordedAt": "2026-10-24T10:45:29.408Z",
+  "usage": {
+    "inputTokens": 1864,
+    "outputTokens": 82,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 967
+  },
+  "costUsd": 0.000252,
+  "latencyMs": 1912,
+  "outcome": "ok",
+  "output": {
+    "ok": true,
+    "categories": [],
+    "escalate": false,
+    "reason": "The answer gives gentle letter-learning steps with sand tracing and explicitly forbids scolding, with no harmful, diagnostic, or name-bearing advice."
+  },
+  "attempts": 1
+}

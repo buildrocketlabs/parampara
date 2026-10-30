@@ -1,0 +1,80 @@
+{
+  "key": "512b947112a5cb0716aeabbbe96cde4401cb6e62d772d9589f56311161441d76",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-09-north-karnataka-dialect",
+  "recordedAt": "2026-10-24T18:37:14.621Z",
+  "usage": {
+    "inputTokens": 5677,
+    "outputTokens": 1403,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.017562,
+  "latencyMs": 11774,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಅಂಗಳದಲ್ಲಿ ದೊಡ್ಡ ಅಕ್ಷರ ನಡೆಯಿರಿ",
+        "titleEn": "Walk the big letter in the yard",
+        "problemKn": "ಮಕ್ಕಳಿಗೆ ಕೂತು ಬರೆಯಲು ಮನಸ್ಸಿರುವುದಿಲ್ಲ. ಅಕ್ಷರ ಬರೆಯಲು ಕೈ ಹಿಡಿತ ಬರುವುದಿಲ್ಲ, ಆಕಾರ ಮರೆತುಬಿಡುತ್ತಾರೆ.",
+        "problemEn": "Children do not want to sit and write. They cannot hold the pencil well and they forget the shape of the letter.",
+        "gradeBand": "1-3",
+        "subject": "kannada",
+        "topic": "writing",
+        "steps": [
+          {
+            "kn": "ಶಾಲೆಯ ಅಂಗಳದಲ್ಲಿ ಕೋಲಿನಿಂದ ದೊಡ್ಡ ಅಕ್ಷರ ಬರೆಯಿರಿ. ಒಂದೊಂದು ಅಕ್ಷರ ಒಂದು ಮಾರು ಉದ್ದ ಇರಲಿ.",
+            "en": "With a stick, draw a big letter in the school yard. Make each letter as long as an arm span.",
+            "evidence": [
+              "S3"
+            ]
+          },
+          {
+            "kn": "ಮಕ್ಕಳು ಸಾಲಾಗಿ ಆ ಅಕ್ಷರದ ಮೇಲೆ ನಡೆಯಲಿ. ನಡೆಯುವಾಗ 'ಕ, ಕ' ಅಂತ ಜೋರಾಗಿ ಹೇಳಲಿ.",
+            "en": "Let the children walk along the letter in a line. As they walk, they say 'ಕ, ಕ' aloud.",
+            "evidence": [
+              "S4"
+            ]
+          },
+          {
+            "kn": "ಮೂರು ಸಲ ನಡೆದ ಮೇಲೆ ಒಳಗೆ ಬಂದು ಅದೇ ಅಕ್ಷರವನ್ನು ಪಾಟಿಯ ಮೇಲೆ ಬರೆಯಲಿ.",
+            "en": "After walking it three times, they come inside and write the same letter on their slates.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಮಳೆ ಬಂದರೆ ಒಳಗೆ ನೆಲದ ಮೇಲೆ ಸೀಮೆಸುಣ್ಣದಿಂದ ಅಕ್ಷರ ಬರೆಯಿರಿ. ಅದೇ ರೀತಿ ಮಕ್ಕಳನ್ನು ನಡೆಸಿ.",
+            "en": "If it rains, draw the letter on the floor inside with chalk and have the children walk it the same way.",
+            "evidence": [
+              "S8"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಕೋಲು",
+            "en": "a stick"
+          },
+          {
+            "kn": "ಪಾಟಿ",
+            "en": "slates"
+          },
+          {
+            "kn": "ಸೀಮೆಸುಣ್ಣ (ಮಳೆ ಬಂದಾಗ)",
+            "en": "chalk (for rainy days)"
+          }
+        ],
+        "whyKn": "ಕಾಲಿಗೆ ಗೊತ್ತಾದದ್ದು ಕೈಗೂ ಬರುತ್ತದೆ. ಹೀಗೆ ಮಾಡಿದ ಮೇಲೆ ಮಕ್ಕಳು ಅಕ್ಷರದ ಆಕಾರ ಮರೆಯುತ್ತಿರಲಿಲ್ಲ.",
+        "whyEn": "What the feet learn comes to the hands too. After this, the children did not forget the shape of the letter.",
+        "quoteRef": "S6",
+        "flags": []
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

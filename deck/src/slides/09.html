@@ -1,0 +1,41 @@
+<!-- {"title": "Real school, real headmaster", "nav": "Field", "src": "Field rows, read at build time, as /how shows · photos: Talakal, 29 Oct"} -->
+<style>
+  #s09 { --h: 72px; }
+  #s09 .left { top: 64px; bottom: 64px; display: flex; flex-direction: column; }
+  #s09 .h1 { margin-top: 24px; }
+  #s09 .where { margin-top: 24px; font: 400 var(--t-body)/1.45 var(--body); color: var(--ink-3); }
+  #s09 .where .kn { display: block; color: var(--clay); margin-top: 8px; }
+  #s09 .tag { align-self: flex-start; margin-top: auto; }
+  #s09 .kpis { margin-top: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  #s09 .kpi .num { font-size: 64px; line-height: 1; }
+  #s09 .kpi p { font: 600 var(--t-label)/1.3 var(--body); color: var(--ink-3); margin-top: 8px; }
+  #s09 .kpi.hero { grid-column: 1 / -1; display: grid; grid-template-columns: auto 1fr; gap: 24px; align-items: center; }
+  #s09 .kpi.hero .num { font-size: 96px; line-height: 0.85; }
+  #s09 .kpi.hero p { margin: 0; font: 600 var(--t-body)/1.35 var(--body); color: var(--ink); }
+  #s09 .claim { margin-top: 16px; font: 400 var(--t-label)/1.45 var(--body); color: var(--muted); }
+  #s09 .photo .label { left: 16px; bottom: 16px; }
+  #s09 .p1 { top: 24px; height: 512px; }
+  #s09 .p1 img { object-position: 50% 40%; }
+  #s09 .p4 { top: 560px; bottom: 24px; }
+  #s09 .p4 img { object-position: 50% 45%; }
+  #s09 .p2 { top: 24px; height: 232px; width: auto; right: 24px; }
+  #s09 .p3 { top: 280px; bottom: 24px; width: auto; right: 24px; }
+  #s09 .p3 img { object-position: 30% 50%; }
+  #s09 .sources { right: calc(7 * var(--P) + 96px); }
+</style>
+<div class="at left" style="--c: 1; --s: 5">
+  <div class="kicker">08 · User inputs</div>
+  <h1 class="h1">Real school.<span class="l2">Real headmaster.</span></h1>
+  <p class="where">Government Higher Primary School, Talakal, Koppal.<span class="kn">ಸರಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ, ಅಂಬೇಡ್ಕರ ನಗರ, ತಳಕಲ್ಲ</span></p>
+  <span class="pill tag" style="color:var(--clay-cta)">Koppal field test</span>
+  <div class="kpis">
+    <div class="card flame kpi hero"><div class="num">{{n:field_teachers}}</div><p>colleagues joined since {{n:field_first_join}}, from a link the headmaster forwarded on WhatsApp</p></div>
+    <div class="card kpi"><div class="num">{{n:field_cards}}</div><p>practice cards approved, from {{n:field_masters}} master</p></div>
+    <div class="card sage kpi"><div class="num">{{n:field_voice_notes}}</div><p>voice notes, {{n:field_voice_len}}</p></div>
+  </div>
+  <p class="claim">{{n:field_claim}}</p>
+</div>
+<div class="photo at p1" style="--c: 6; --s: 4"><img src="{{img:talkal-headmaster-shows-app.jpg}}" alt="The headmaster shows a colleague Parampara"><span class="label">He shows a colleague, 29 Oct</span></div>
+<div class="photo at p4" style="--c: 6; --s: 4"><img src="{{img:talkal-two-teachers-phone.jpg}}" alt="Two teachers look at Parampara on a phone"><span class="label">On their own phones</span></div>
+<div class="photo at p2" style="--c: 10; --s: 3"><img src="{{img:talkal-board.jpg}}" alt="The school's name board"><span class="label">His school</span></div>
+<div class="photo at p3" style="--c: 10; --s: 3"><img src="{{img:talkal-teacher-reads-app.jpg}}" alt="A teacher reads Parampara on her phone"><span class="label">A Talakal teacher reads an answer</span></div>

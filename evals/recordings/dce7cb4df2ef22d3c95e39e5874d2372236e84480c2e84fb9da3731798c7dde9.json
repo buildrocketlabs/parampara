@@ -1,0 +1,79 @@
+{
+  "key": "dce7cb4df2ef22d3c95e39e5874d2372236e84480c2e84fb9da3731798c7dde9",
+  "role": "answerer",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "answerer@v2",
+  "itemId": "answer-04-two-cards",
+  "recordedAt": "2026-10-24T10:46:31.005Z",
+  "usage": {
+    "inputTokens": 3579,
+    "outputTokens": 2166,
+    "cacheReadTokens": 1701,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.001288,
+  "latencyMs": 7909,
+  "outcome": "ok",
+  "output": {
+    "title": {
+      "kn": "ಓದು ಮಟ್ಟದ ಮೂರು ಗುಂಪು",
+      "en": "Three reading-level groups",
+      "hi": null
+    },
+    "steps": [
+      {
+        "kn": "ತರಗತಿ ನೋಡಬೇಡಿ, ಓದೋ ಮಟ್ಟ ನೋಡಿ ಮೂರು ಗುಂಪು ಮಾಡಿ.",
+        "en": "Make three groups by reading level, not by class.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಪ್ರತಿ ಗುಂಪಿಗೆ ಹೂವಿನ ಹೆಸರು ಕೊಡಿ, ಯಾವ ಗುಂಪೂ ಕೀಳು ಅನ್ನಿಸಬಾರದು.",
+        "en": "Give each group a flower's name, so no group feels lower.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಒಂದು ಗುಂಪಿನ ಜೊತೆ ಕೂರುವ ಮೊದಲೇ ಉಳಿದ ಎರಡಕ್ಕೆ ಕೆಲಸ ಕೊಡಿ.",
+        "en": "Before sitting with one group, give the other two their work.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಒಂದು ಗುಂಪಿಗೆ ಹದಿನೈದು ನಿಮಿಷ; ಸಣ್ಣ ಗಂಟೆ ಹೊಡೆದಾಗ ಗುಂಪು ಬದಲಾಯಿಸಿ.",
+        "en": "Give each group fifteen minutes; switch when the small bell rings.",
+        "hi": null,
+        "cardRef": "K1"
+      },
+      {
+        "kn": "ಓದಲು ಬಾರದ ಗುಂಪಿಗೆ ಎರಡಕ್ಷರದ ಪದ ಬೋರ್ಡ್ ಮೇಲೆ ಬರೆದು ಎಳೆದು ಓದಿಸಿ.",
+        "en": "For the group that cannot read, write two-letter words on the board and have them stretch each word out.",
+        "hi": null,
+        "cardRef": "K2"
+      }
+    ],
+    "materials": [
+      {
+        "kn": "ಸಣ್ಣ ಗಂಟೆ",
+        "en": "small bell",
+        "hi": null
+      },
+      {
+        "kn": "ಅಕ್ಷರ ಕಾರ್ಡ್",
+        "en": "letter cards",
+        "hi": null
+      },
+      {
+        "kn": "ಬೋರ್ಡ್",
+        "en": "blackboard",
+        "hi": null
+      }
+    ],
+    "why": {
+      "kn": "ಪ್ರತಿ ಮಗು ತನ್ನ ಮಟ್ಟಕ್ಕೆ ತಕ್ಕ ಕೆಲಸ ಮಾಡುತ್ತೆ, ಯಾವ ಗುಂಪೂ ಕಾಯ್ತಾ ಕೂರಲ್ಲ.",
+      "en": "Each child works at their own level, and no group sits waiting.",
+      "hi": null
+    }
+  },
+  "attempts": 1
+}

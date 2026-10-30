@@ -1,0 +1,26 @@
+{
+  "key": "6ea168351acd93aa70426835a423793928dabf92e67f5d8dd4c6bafb74deb696",
+  "role": "interviewer",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "interviewer@v2",
+  "itemId": "interviewer-04-child-name",
+  "recordedAt": "2026-10-24T10:03:32.125Z",
+  "usage": {
+    "inputTokens": 2420,
+    "outputTokens": 382,
+    "cacheReadTokens": 2167,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.004543,
+  "latencyMs": 4853,
+  "outcome": "ok",
+  "output": {
+    "questionKn": "ಮಗುವಿನ ಹೆಸರು ಬೇಡ, ಆ ಮಗುವನ್ನು 'ಒಂದು ಮಗು' ಅಂತ ಕರೆಯೋಣ. ಆ ಮಗುವಿಗೆ ಓದೋಕೆ ಬರ್ತಿರ್ಲಿಲ್ಲ ಅಂದಾಗ ನೀವು ಮೊದಲು ಏನು ಮಾಡಿದಿರಿ? ಮಗುವಿಗೆ ಏನು ಹೇಳಿದಿರಿ ಅಂತ ನಿಮ್ಮ ಮಾತಿನಲ್ಲೇ ಹೇಳಿ.",
+    "questionEn": "No need for the child's name; let us call the child 'a child'. When that child could not read, what did you do first? Tell me in your own words what you said to the child.",
+    "why": "The master has begun a real reading story, so we ask for the first action and the exact words used.",
+    "topic": "reading",
+    "probe": true,
+    "done": false
+  },
+  "attempts": 1
+}

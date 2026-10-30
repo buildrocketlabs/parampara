@@ -1,0 +1,22 @@
+{
+  "key": "77b44c4910a0b3319078740f56ef8cea81dfd1094e5f2c5fef263a29abaad2ca",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-11-adjacent-writing",
+  "recordedAt": "2026-10-24T09:30:08.772Z",
+  "usage": {
+    "inputTokens": 1282,
+    "outputTokens": 17,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000037,
+  "latencyMs": 4521,
+  "outcome": "ok",
+  "output": {
+    "picks": [],
+    "noneFit": true
+  },
+  "attempts": 1
+}

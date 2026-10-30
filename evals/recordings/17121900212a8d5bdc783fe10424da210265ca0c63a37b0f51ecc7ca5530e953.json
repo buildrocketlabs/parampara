@@ -1,0 +1,77 @@
+{
+  "key": "17121900212a8d5bdc783fe10424da210265ca0c63a37b0f51ecc7ca5530e953",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-12-tried-and-abandoned",
+  "recordedAt": "2026-10-24T18:03:55.355Z",
+  "usage": {
+    "inputTokens": 5513,
+    "outputTokens": 1459,
+    "cacheReadTokens": 4117,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.017794,
+  "latencyMs": 8387,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಪದದ ಪೆಟ್ಟಿಗೆ",
+        "titleEn": "The word box",
+        "problemKn": "ಮಕ್ಕಳಿಗೆ ಹೊಸ ಪದಗಳು ನೆನಪಿರುವುದಿಲ್ಲ. ಚಿತ್ರ ನೋಡಿ ಪದ ಹೇಳುತ್ತಾರೆ, ಆದರೆ ಪದವನ್ನು ಓದುವುದಿಲ್ಲ.",
+        "problemEn": "Children do not remember new words. They say the word by looking at the picture, but they do not read the word.",
+        "gradeBand": "any",
+        "subject": "kannada",
+        "topic": "reading",
+        "steps": [
+          {
+            "kn": "ಒಂದು ಹಳೆ ಡಬ್ಬಿ ತೆಗೆದುಕೊಳ್ಳಿ. ಆ ವಾರ ಮಕ್ಕಳು ಕಲಿತ ಪದಗಳನ್ನು ಚೀಟಿಗಳ ಮೇಲೆ ಬರೆದು ಅದರಲ್ಲಿ ಹಾಕಿ. ಚೀಟಿಯಲ್ಲಿ ಚಿತ್ರ ಬೇಡ, ಪದ ಮಾತ್ರ ಇರಲಿ.",
+            "en": "Take an old tin. Write the words children learnt that week on slips and put them in. No picture on the slip, only the word.",
+            "evidence": [
+              "S4",
+              "S7"
+            ]
+          },
+          {
+            "kn": "ದಿನಾ ಕೊನೆಯ ಪಿರಿಯಡ್‌ನಲ್ಲಿ ಒಂದು ಮಗು ಪೆಟ್ಟಿಗೆಯಿಂದ ಒಂದು ಚೀಟಿ ತೆಗೆದು ಪದವನ್ನು ಓದಲಿ.",
+            "en": "Every day in the last period, let one child take a slip from the box and read the word.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಆಮೇಲೆ ಆ ಪದದಿಂದ ಒಂದು ವಾಕ್ಯ ಹೇಳಲಿ.",
+            "en": "Then let the child say one sentence using that word.",
+            "evidence": [
+              "S5"
+            ]
+          },
+          {
+            "kn": "ಮಗುವಿಗೆ ಓದಲು ಆಗದಿದ್ದರೆ ಒಬ್ಬ ಗೆಳೆಯ ಸಹಾಯ ಮಾಡಬಹುದು. ಚೀಟಿಯನ್ನು ಮತ್ತೆ ಪೆಟ್ಟಿಗೆಗೆ ಹಾಕಿ.",
+            "en": "If the child cannot read it, a friend may help. Put the slip back into the box.",
+            "evidence": [
+              "S6"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಹಳೆ ಡಬ್ಬಿ",
+            "en": "an old tin"
+          },
+          {
+            "kn": "ಆ ವಾರದ ಪದಗಳ ಚೀಟಿಗಳು",
+            "en": "slips with the week's words"
+          }
+        ],
+        "whyKn": "ಚಿತ್ರ ಇಲ್ಲದೆ ಪದ ನೋಡಿದಾಗಲೇ ಮಕ್ಕಳು ನಿಜವಾಗಿ ಓದುತ್ತಾರೆ. ಮೊದಲು ಚಿತ್ರದ ಪದ ಕಾರ್ಡ್ ಮಾಡಿದ್ದೆ, ಚಿತ್ರ ಮುಚ್ಚಿದರೆ ಮಕ್ಕಳಿಗೆ ಏನೂ ಬರುತ್ತಿರಲಿಲ್ಲ, ಅದಕ್ಕೆ ಬಿಟ್ಟೆ.",
+        "whyEn": "Children really read only when they see the word without a picture. My first picture word cards failed: cover the picture and nothing came, so I gave them up.",
+        "quoteRef": "S7",
+        "flags": []
+      }
+    ],
+    "dropped": []
+  },
+  "attempts": 1
+}

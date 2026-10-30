@@ -1,0 +1,27 @@
+{
+  "key": "5016e9368d0ae8d392d7468b8f8e7e8e514a7abc424d28b4a02bda6cb4b217bc",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-06-injection",
+  "recordedAt": "2026-10-24T10:05:16.286Z",
+  "usage": {
+    "inputTokens": 1276,
+    "outputTokens": 71,
+    "cacheReadTokens": 1159,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000059,
+  "latencyMs": 2674,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C7",
+        "reason": "A child who sits silently in class and never speaks is exactly this problem, and the card offers a simple way to greet the child at the door."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

@@ -1,0 +1,349 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/*
+ * Parampara tokens (docs/DESIGN.md §3). Hex values must match lib/tokens.ts;
+ * tests/brand-contrast.test.ts checks both. Components use these utilities, never raw hex.
+ */
+@theme {
+  /* Only our palette exists; Tailwind's default colours are switched off on purpose. */
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-ink: #15302a;
+  --color-ink-2: #21453c;
+  --color-ink-3: #2c574c;
+  --color-cream: #f7f3ea;
+  --color-paper: #fffdf8;
+  --color-sage: #dfe9d5;
+  --color-moss: #3f6b57;
+  --color-mist: #a9c4b8;
+  --color-clay: #c8553d;
+  --color-clay-cta: #b5472f;
+  --color-clay-glow: #e8866c;
+  --color-flame: #ffc94d;
+  --color-flame-deep: #f2a93b;
+  --color-dusk: #f3e3d3;
+  /* Darker lips under ChunkyButtons (DESIGN §4). Decorative only, never behind text. */
+  --color-clay-lip: #8e3624;
+  --color-ink-lip: #0a1915;
+  --color-paper-lip: #e6dccb;
+
+  --font-display: var(--font-baloo), var(--font-noto-kannada), var(--font-noto-devanagari), ui-rounded, system-ui, sans-serif;
+  --font-sans: var(--font-jakarta), var(--font-noto-kannada), var(--font-noto-devanagari), system-ui, sans-serif;
+  --font-hand: var(--font-caveat), cursive;
+
+  --text-body-teacher: 1.125rem;
+  --text-body-master: 1.375rem;
+
+  --radius-button: 18px;
+  --radius-card: 28px;
+  --radius-sheet: 32px;
+  --radius-chip: 999px;
+
+  /* Warm tinted shadows: clay and flame, never grey. */
+  --shadow-warm-sm: 0 1px 2px rgb(200 85 61 / 0.08), 0 2px 6px rgb(242 169 59 / 0.08);
+  --shadow-warm: 0 2px 4px rgb(200 85 61 / 0.08), 0 10px 24px -6px rgb(200 85 61 / 0.18);
+  --shadow-warm-lg: 0 4px 8px rgb(200 85 61 / 0.08), 0 24px 48px -12px rgb(200 85 61 / 0.28);
+  --shadow-flame: 0 0 0 6px rgb(255 201 77 / 0.25), 0 12px 32px -8px rgb(242 169 59 / 0.55);
+
+  --ease-gentle: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* shadcn semantic variables mapped onto our palette. `muted` here is shadcn's soft surface;
+   DESIGN's `muted` text colour is `muted-foreground`. */
+:root {
+  --radius: 18px;
+  --background: #f7f3ea;
+  --foreground: #15302a;
+  --card: #fffdf8;
+  --card-foreground: #15302a;
+  --popover: #fffdf8;
+  --popover-foreground: #15302a;
+  --primary: #b5472f;
+  --primary-foreground: #ffffff;
+  --secondary: #dfe9d5;
+  --secondary-foreground: #15302a;
+  --muted: #dfe9d5;
+  --muted-foreground: #5b6b64;
+  --accent: #dfe9d5;
+  --accent-foreground: #15302a;
+  /* No alarm red anywhere (DESIGN §3): destructive actions use calm clay. */
+  --destructive: #b5472f;
+  --border: color-mix(in oklab, #15302a 12%, transparent);
+  --input: color-mix(in oklab, #15302a 18%, transparent);
+  --ring: #c8553d;
+  --chart-1: #c8553d;
+  --chart-2: #3f6b57;
+  --chart-3: #f2a93b;
+  --chart-4: #2c574c;
+  --chart-5: #a9c4b8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.25);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply bg-cream font-sans text-ink;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply min-h-dvh bg-cream text-ink antialiased;
+    line-height: 1.5;
+  }
+  /* Kannada is designed for: taller lines, no tracking, no italics, no caps (DESIGN §2.6). */
+  :lang(kn) {
+    line-height: 1.65;
+    letter-spacing: 0;
+    font-style: normal;
+    text-transform: none;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    text-wrap: balance;
+  }
+  /* Kannada display lines need room for matras but not body leading. */
+  :is(h1, h2, h3):lang(kn),
+  :is(h1, h2, h3) :lang(kn) {
+    line-height: 1.35;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-clay);
+    outline-offset: 3px;
+    border-radius: 12px;
+  }
+}
+
+/* Language modes: <html data-lang> is set before first paint by the head script in app/layout.tsx.
+   Without it (no script yet) Kannada leads. */
+:root:not([data-lang="en"]) [data-lang-mode="en"],
+:root[data-lang="en"] [data-lang-mode="kn"] {
+  display: none;
+}
+
+/* Paper grain at 4% (DESIGN §3). Put on a positioned container. */
+@utility paper-grain {
+  position: relative;
+  isolation: isolate;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .08 0 0 0 0 .19 0 0 0 0 .16 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+/* The dusk canvas: cream fading to warm dusk (DESIGN §3, time of day). */
+@utility bg-dusk-gradient {
+  background-image:
+    radial-gradient(120% 70% at 50% 0%, rgb(255 201 77 / 0.18), transparent 60%),
+    linear-gradient(180deg, var(--color-cream) 0%, var(--color-dusk) 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ChunkyButton lips (DESIGN §4): a 4 px darker edge underneath that the button sinks into on press. */
+@utility lip-clay {
+  box-shadow:
+    0 4px 0 var(--color-clay-lip),
+    var(--shadow-warm);
+}
+@utility lip-ink {
+  box-shadow:
+    0 4px 0 var(--color-ink-lip),
+    var(--shadow-warm);
+}
+@utility lip-paper {
+  box-shadow:
+    0 4px 0 var(--color-paper-lip),
+    var(--shadow-warm-sm);
+}
+
+/* Entrance choreography in CSS so content shows before hydration on slow networks. --ease-gentle is
+   the CSS stand in for springs.gentle (lib/motion.ts): the same settle without waiting for JS.
+   Set --i on each element for the 60 ms top to bottom stagger (DESIGN §6). */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+@utility rise {
+  animation: rise 450ms var(--ease-gentle) both;
+  animation-delay: calc(var(--i, 0) * 60ms);
+}
+
+/* components (design system, components/parampara/*). Loops here stop under reduced motion via the
+   global rule above, which lets each element fall back to its resting style. */
+@keyframes ember {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(0.82);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@utility animate-ember {
+  animation: ember 1.6s var(--ease-gentle) infinite;
+}
+
+/* Skeletons breathe softly; no sweeping shimmer (it reads as a spinner). */
+@keyframes breathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+@utility animate-breathe {
+  animation: breathe 1.8s ease-in-out infinite;
+}
+
+/* A teacher's ruled notebook page (TraceDrawer). The timeline's clay rail is the margin line.
+   Static, decorative. */
+/* A small pop with a little overshoot (springs.bouncy, in CSS): ShareCard's "shared" tick. */
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+  }
+  60% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@utility animate-pop {
+  animation: pop 420ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@utility notebook {
+  background-color: var(--color-paper);
+  background-image: repeating-linear-gradient(
+    180deg,
+    transparent 0 31px,
+    color-mix(in oklab, var(--color-ink) 4%, transparent) 31px 32px
+  );
+}
+
+/* A page with a sticky action tray at the bottom of a phone (data-cta-tray) lifts the offline
+   banner above it, so the banner never covers the one action (Law 9, DESIGN §2.10). */
+@media (width < 48rem) {
+  html:has([data-cta-tray]) {
+    --tray-h: 6.5rem;
+  }
+  /* The master's two line button (76 px or more) with its fade. */
+  html:has([data-cta-tray="tall"]) {
+    --tray-h: 8.5rem;
+  }
+}
+/* Toasts rise above a pinned action bar (the reviewer's Approve bar, a phone's action tray), so a
+   message never covers the buttons it is about. */
+html:has([data-action-bar]) [data-toasts] {
+  bottom: 6.5rem;
+}
+@media (width < 48rem) {
+  html:has([data-cta-tray]) [data-toasts] {
+    bottom: calc(var(--tray-h) + 0.5rem);
+  }
+}
+/* The offline page already says it: no second banner on top of it. */
+html:has([data-offline-page]) [data-offline-banner] {
+  display: none;
+}
+/* A flame that flickers by size only, for flames on dark fills where fading would muddy the colour. */
+@keyframes flicker {
+  0%,
+  100% {
+    transform: scale(0.9);
+  }
+  45% {
+    transform: scale(1.06) rotate(-2deg);
+  }
+  70% {
+    transform: scale(0.97) rotate(1.5deg);
+  }
+}
+@utility animate-flicker {
+  animation: flicker 1.5s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+
+/* AnswerCard's storybook unfold, in CSS so the page shows before hydration on slow networks and the
+   reduced motion rule above makes it instant. --d is a delay in ms for the beat. */
+@keyframes unfold {
+  from {
+    opacity: 0;
+    transform: perspective(1200px) rotateX(-9deg) translateY(18px);
+  }
+}
+@utility unfold {
+  animation: unfold 640ms var(--ease-gentle) both;
+  transform-origin: 50% 0%;
+}
+@utility rise-at {
+  animation: rise 520ms var(--ease-gentle) both;
+  animation-delay: calc(var(--d, 0) * 1ms);
+}
+
+/* Kannada alone: in Kannada mode, the quieter English line under each Bi is dropped inside this
+   container (the master's room, for an elderly Kannada reader). English mode keeps Kannada beneath,
+   and English stays one tap away on the toggle (Law 8). */
+:root:not([data-lang="en"]) .kn-solo [data-lang-mode="kn"] > [lang="en"] {
+  display: none;
+}

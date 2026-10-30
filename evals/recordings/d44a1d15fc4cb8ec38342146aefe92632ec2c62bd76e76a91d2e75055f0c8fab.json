@@ -1,0 +1,30 @@
+{
+  "key": "d44a1d15fc4cb8ec38342146aefe92632ec2c62bd76e76a91d2e75055f0c8fab",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-05-hi-question",
+  "recordedAt": "2026-10-24T09:27:50.578Z",
+  "usage": {
+    "inputTokens": 2543,
+    "outputTokens": 149,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000108,
+  "latencyMs": 2197,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "मेरी कक्षा 1 में बच्चे गिनती रट लेते हैं पर 14 का मतलब नहीं समझते। क्या करूँ?",
+    "language": "hi",
+    "topic": "number_sense",
+    "subject": "maths",
+    "gradeBand": "1",
+    "intent": "pedagogy",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

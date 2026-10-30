@@ -1,0 +1,38 @@
+{
+  "key": "f5e6f35d29f87f3265f1aa6955926440d810718231794ea3a63802eb5223abb3",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-04-master-and-places-kept",
+  "recordedAt": "2026-10-24T09:27:40.241Z",
+  "usage": {
+    "inputTokens": 2849,
+    "outputTokens": 502,
+    "cacheReadTokens": 2453,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000315,
+  "latencyMs": 2975,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "ನನ್ನ ಹೆಸರು ಶಂಕರಪ್ಪ ಹಿರೇಮಠ, ಕೊಪ್ಪಳ ಜಿಲ್ಲೆ ಕುಷ್ಟಗಿ ತಾಲೂಕಿನ ಹನುಮಸಾಗರದ ಶಾಲೆಯಲ್ಲಿ ಮೂವತ್ತೆರಡು ವರ್ಷ ಪಾಠ ಮಾಡಿದ್ದೀನಿ.",
+        "textEn": "My name is Shankarappa Hiremath. I taught for thirty-two years at a school in Hanumasagar, Kushtagi taluk, Koppal district.",
+        "childNameRedacted": false,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P2",
+        "textKn": "ನಲಿ ಕಲಿ ಬಂದಾಗ ನಮ್ಮ ತಾಲೂಕಿನಲ್ಲಿ ನಾನೇ ಮೊದಲು ತರಬೇತಿ ತಗೊಂಡಿದ್ದು.",
+        "textEn": "When Nali Kali came, I was the first in our taluk to take the training.",
+        "childNameRedacted": false,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}

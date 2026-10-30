@@ -1,0 +1,12 @@
+node_modules/
+# Renders, stills and the .srt: rebuilt on demand (a few stills are kept in docs/demos/F-E/)
+out/
+# The founder's media and the recorded clips never enter git (people, voices, large files)
+public/clips/*
+public/photos/*
+public/audio/*
+public/selfie/*
+public/illustrations/*
+# Storyboard frames hold his photo and the teachers' photos: kept on this Mac, never in git
+craft/storyboard/*
+!public/*/.gitkeep

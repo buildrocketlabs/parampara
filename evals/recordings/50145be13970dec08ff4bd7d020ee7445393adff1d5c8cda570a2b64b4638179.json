@@ -1,0 +1,34 @@
+{
+  "key": "50145be13970dec08ff4bd7d020ee7445393adff1d5c8cda570a2b64b4638179",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v4",
+  "itemId": "triage-26-not-fed-for-days",
+  "recordedAt": "2026-10-24T10:46:40.833Z",
+  "usage": {
+    "inputTokens": 2986,
+    "outputTokens": 461,
+    "cacheReadTokens": 2809,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000276,
+  "latencyMs": 3477,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "ಆ ಹುಡುಗನಿಗೆ ಮನೆಯಲ್ಲಿ ಎರಡು ದಿನದಿಂದ ಊಟ ಕೊಟ್ಟಿಲ್ಲವಂತೆ, ತುಂಬಾ ಸುಸ್ತಾಗಿ ಕೂತಿರ್ತಾನೆ.",
+    "language": "kn",
+    "topic": "other",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "safety_disclosure",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "child_harm",
+      "hunger",
+      "medical"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

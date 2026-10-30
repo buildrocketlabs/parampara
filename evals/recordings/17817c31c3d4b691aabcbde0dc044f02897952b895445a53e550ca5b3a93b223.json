@@ -1,0 +1,88 @@
+{
+  "key": "17817c31c3d4b691aabcbde0dc044f02897952b895445a53e550ca5b3a93b223",
+  "role": "card_extractor",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "card_extractor@v2",
+  "itemId": "extractor-08-long-digression",
+  "recordedAt": "2026-10-24T18:37:02.841Z",
+  "usage": {
+    "inputTokens": 6414,
+    "outputTokens": 1365,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 4117
+  },
+  "costUsd": 0.028537,
+  "latencyMs": 8827,
+  "outcome": "ok",
+  "output": {
+    "cards": [
+      {
+        "titleKn": "ಹುಣಸೆ ಬೀಜದಿಂದ ಕೂಡಿಸುವುದು",
+        "titleEn": "Adding with tamarind seeds",
+        "problemKn": "ಮಕ್ಕಳಿಗೆ ಕೂಡಿಸುವುದು ಕಷ್ಟವಾಗುತ್ತದೆ. ಸಂಖ್ಯೆಗಳು ಬರೀ ಮಾತಾಗಿ ಉಳಿಯುತ್ತವೆ.",
+        "problemEn": "Children find adding hard. The numbers stay as words and mean little to them.",
+        "gradeBand": "any",
+        "subject": "maths",
+        "topic": "operations",
+        "steps": [
+          {
+            "kn": "ಪ್ರತಿ ಮಗುವಿಗೂ ಇಪ್ಪತ್ತು ಹುಣಸೆ ಬೀಜ ಕೊಡಿ.",
+            "en": "Give every child twenty tamarind seeds.",
+            "evidence": [
+              "S6"
+            ]
+          },
+          {
+            "kn": "'ಮೂರು ಮತ್ತು ನಾಲ್ಕು ಕೂಡಿಸು' ಅಂದರೆ, ಮಕ್ಕಳು ಎಡಗಡೆ ಮೂರು ಬೀಜ, ಬಲಗಡೆ ನಾಲ್ಕು ಬೀಜ ಇಡಲಿ.",
+            "en": "Say 'add three and four'. The children put three seeds on the left and four seeds on the right.",
+            "evidence": [
+              "S7"
+            ]
+          },
+          {
+            "kn": "ಆಮೇಲೆ ಎರಡೂ ಗುಂಪನ್ನು ಒಟ್ಟಿಗೆ ತಳ್ಳಿ, ಎಲ್ಲವನ್ನೂ ಎಣಿಸಲಿ.",
+            "en": "Then they push both heaps together and count them all.",
+            "evidence": [
+              "S7"
+            ]
+          },
+          {
+            "kn": "ಹತ್ತರ ಒಳಗಿನ ಕೂಡಿಸುವಿಕೆಯನ್ನು ಒಂದು ತಿಂಗಳು ಬೀಜದಿಂದಲೇ ಮಾಡಿಸಿ.",
+            "en": "Do sums within ten with seeds only, for one month.",
+            "evidence": [
+              "S8"
+            ]
+          },
+          {
+            "kn": "ಒಂದು ತಿಂಗಳ ನಂತರ ಬೀಜ ಇಲ್ಲದೆ ಬೆರಳಿನಿಂದ ಮಾಡಿಸಿ.",
+            "en": "After that month, let them do it with fingers instead of seeds.",
+            "evidence": [
+              "S8"
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "kn": "ಪ್ರತಿ ಮಗುವಿಗೆ ಇಪ್ಪತ್ತು ಹುಣಸೆ ಬೀಜ",
+            "en": "Twenty tamarind seeds for each child"
+          }
+        ],
+        "whyKn": "ಮಕ್ಕಳು ಬೀಜ ಮುಟ್ಟಿ ಎಣಿಸಿದಾಗ ಕೂಡಿಸುವುದು ಅಂದರೆ ಏನು ಅಂತ ಮೊದಲು ಕೈಗೆ ಗೊತ್ತಾಗುತ್ತದೆ, ಆಮೇಲೆ ತಲೆಗೆ.",
+        "whyEn": "When children touch and count the seeds, their hands understand what adding means first, and then their heads.",
+        "quoteRef": "S10",
+        "flags": []
+      }
+    ],
+    "dropped": [
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "Memories of the first posting in a village school without a roof, teaching on a temple platform, and a transfer closer to family."
+      },
+      {
+        "reason": "not_a_practice",
+        "summaryEn": "An invitation to the village fair and talk of the areca garden after retirement."
+      }
+    ]
+  },
+  "attempts": 1
+}

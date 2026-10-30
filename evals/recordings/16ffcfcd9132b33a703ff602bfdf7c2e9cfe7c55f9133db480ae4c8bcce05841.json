@@ -1,0 +1,23 @@
+{
+  "key": "16ffcfcd9132b33a703ff602bfdf7c2e9cfe7c55f9133db480ae4c8bcce05841",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-10-two-cards-overlap:step3",
+  "recordedAt": "2026-10-24T18:40:23.954Z",
+  "usage": {
+    "inputTokens": 1780,
+    "outputTokens": 162,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000205,
+  "latencyMs": 1754,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಮರೆತುಬಿಟ್ಟರೆ ಬೈಯಬೇಡಿ. ಮರುದಿನ ಅದೇ ಅಕ್ಷರ ಮತ್ತೆ ಮರಳಲ್ಲಿ.",
+    "reason": "The card says not to scold if the child forgets and to repeat the same letter in sand the next day; the step matches this in simpler words."
+  },
+  "attempts": 1
+}

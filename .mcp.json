@@ -1,0 +1,6 @@
+{
+  "mcpServers": {
+    "playwright": { "command": "npx", "args": ["-y", "@playwright/mcp@latest"] },
+    "next-devtools": { "command": "npx", "args": ["-y", "next-devtools-mcp@latest"] }
+  }
+}

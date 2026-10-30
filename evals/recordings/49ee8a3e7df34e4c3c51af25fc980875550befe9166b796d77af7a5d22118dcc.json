@@ -1,0 +1,21 @@
+{
+  "key": "49ee8a3e7df34e4c3c51af25fc980875550befe9166b796d77af7a5d22118dcc",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-30-hungry-locked-out:name_check:0",
+  "recordedAt": "2026-10-24T10:46:56.614Z",
+  "usage": {
+    "inputTokens": 748,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000019,
+  "latencyMs": 1673,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

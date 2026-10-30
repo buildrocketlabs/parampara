@@ -1,0 +1,42 @@
+{
+  "key": "d8a665388b9d9b76899641fcb670b456e5adafea930bd74673e29f8f78d38e95",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v1",
+  "itemId": "digest-small-field-week",
+  "recordedAt": "2026-10-24T09:27:59.684Z",
+  "usage": {
+    "inputTokens": 3660,
+    "outputTokens": 2441,
+    "cacheReadTokens": 2798,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.026414,
+  "latencyMs": 17812,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ ಬಹು ಹಂತದ ತರಗತಿ ಬಗ್ಗೆ ಪ್ರಶ್ನೆಗಳಿವೆ, ಆದರೆ ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ 5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು ಇದ್ದಾರೆ.",
+    "headlineEn": "This week questions came on multi level classes, but each group has fewer than 5 teachers.",
+    "actions": [
+      {
+        "kn": "ಬಹು ಹಂತದ ತರಗತಿಯ ಬಗ್ಗೆ ಒಬ್ಬ ಮಾದರಿ ಶಿಕ್ಷಕರ ಅನುಭವವನ್ನು ದಾಖಲಿಸಿ, ಕಾದಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಸಿಗಲಿ.",
+        "en": "Record a master teacher on multi level classes so waiting questions get a master's answer."
+      },
+      {
+        "kn": "ಎಲ್ಲ ಶಿಕ್ಷಕರಿಗೆ ನೆನಪಿಸಿ: ಕೆಲಸ ಮಾಡಿತು ಅಥವಾ ಮಾಡಲಿಲ್ಲ ಎಂದು ಒತ್ತುವುದು ಖಾಸಗಿ, ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ.",
+        "en": "Remind all teachers that tapping It worked or Did not work is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು ವಿಷಯದಲ್ಲಿ ಮಾದರಿ ಉತ್ತರಕ್ಕಾಗಿ ಕಾಯುತ್ತಿರುವ ಪ್ರಶ್ನೆ ಈಗ 0 ಇದೆ.",
+        "en": "Letter sounds has 0 questions waiting for a master's answer right now."
+      }
+    ]
+  },
+  "attempts": 2
+}

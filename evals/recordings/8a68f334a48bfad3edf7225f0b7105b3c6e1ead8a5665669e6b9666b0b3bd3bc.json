@@ -1,0 +1,23 @@
+{
+  "key": "8a68f334a48bfad3edf7225f0b7105b3c6e1ead8a5665669e6b9666b0b3bd3bc",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-04-two-cards:step3",
+  "recordedAt": "2026-10-24T10:07:02.867Z",
+  "usage": {
+    "inputTokens": 1676,
+    "outputTokens": 171,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000199,
+  "latencyMs": 2349,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಒಂದು ಗುಂಪಿಗೆ ಹದಿನೈದು ನಿಮಿಷ. ಸಣ್ಣ ಗಂಟೆ ಹೊಡೆದಾಗ ಗುಂಪು ಬದಲಾಯಿಸಿ.",
+    "reason": "The card's step 4 states fifteen minutes per group and switching groups when the small bell rings, matching the step exactly."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "key": "19f4bc8e31990705ea87ba366ec17d19c3a5ee1176d0d6af1f8c1cee64a14515",
+  "role": "name_check",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "name_check@v2",
+  "itemId": "triage-24-hindi-silent:name_check:0",
+  "recordedAt": "2026-10-24T10:04:56.733Z",
+  "usage": {
+    "inputTokens": 778,
+    "outputTokens": 11,
+    "cacheReadTokens": 678,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000022,
+  "latencyMs": 1799,
+  "outcome": "ok",
+  "output": {
+    "flagged": []
+  },
+  "attempts": 1
+}

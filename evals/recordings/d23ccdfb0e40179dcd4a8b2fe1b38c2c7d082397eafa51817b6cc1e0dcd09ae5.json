@@ -1,0 +1,23 @@
+{
+  "key": "d23ccdfb0e40179dcd4a8b2fe1b38c2c7d082397eafa51817b6cc1e0dcd09ae5",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-09-asks-for-more:step1",
+  "recordedAt": "2026-10-24T18:04:42.724Z",
+  "usage": {
+    "inputTokens": 1779,
+    "outputTokens": 161,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000205,
+  "latencyMs": 1687,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಎಲ್ಲಾ ಅಕ್ಷರ ಒಟ್ಟಿಗೆ ಕಲಿಸೋದು ಬಿಡಿ. ದಿನಕ್ಕೆ ಒಂದೇ ಅಕ್ಷರ.",
+    "reason": "The card's step 1 says to stop teaching all letters together and teach just one letter a day, matching the step."
+  },
+  "attempts": 1
+}

@@ -1,0 +1,23 @@
+{
+  "key": "6da070c4d8cf1bb9f310099d4e563925e86cf50edc8ebf934bb13328b173ff20",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-08-hi-letters:step4",
+  "recordedAt": "2026-10-24T18:04:36.514Z",
+  "usage": {
+    "inputTokens": 1831,
+    "outputTokens": 157,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000208,
+  "latencyMs": 2068,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಮರೆತುಬಿಟ್ಟರೆ ಬೈಯಬೇಡಿ. ಮರುದಿನ ಅದೇ ಅಕ್ಷರ ಮತ್ತೆ ಮರಳಲ್ಲಿ.",
+    "reason": "The step matches card step 4: do not scold if the child forgets, and repeat the same letter in sand the next day."
+  },
+  "attempts": 1
+}

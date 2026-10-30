@@ -1,0 +1,23 @@
+{
+  "key": "84bedc763a9ab6498de990505ea48ea35797cd394f8556c3e179ad0a12d7b2fa",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-03-invented",
+  "recordedAt": "2026-10-24T09:34:07.094Z",
+  "usage": {
+    "inputTokens": 1749,
+    "outputTokens": 69,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000156,
+  "latencyMs": 3205,
+  "outcome": "ok",
+  "output": {
+    "verdict": "unsupported",
+    "cardQuote": null,
+    "reason": "The card never mentions singing the alphabet song; it prescribes writing one letter in sand after morning prayer for ten minutes."
+  },
+  "attempts": 1
+}

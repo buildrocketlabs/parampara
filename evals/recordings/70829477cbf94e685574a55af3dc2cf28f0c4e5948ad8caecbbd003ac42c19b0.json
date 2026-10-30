@@ -1,0 +1,42 @@
+{
+  "key": "70829477cbf94e685574a55af3dc2cf28f0c4e5948ad8caecbbd003ac42c19b0",
+  "role": "insights_digest",
+  "model": "claude-sonnet-5-5",
+  "promptVersion": "insights_digest@v1",
+  "itemId": "digest-nothing-waiting",
+  "recordedAt": "2026-10-24T09:28:15.619Z",
+  "usage": {
+    "inputTokens": 3892,
+    "outputTokens": 2464,
+    "cacheReadTokens": 2798,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.027108,
+  "latencyMs": 15934,
+  "outcome": "ok",
+  "output": {
+    "headlineKn": "ಈ ವಾರ 30 ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಸಿಕ್ಕಿದೆ, 12 ಬಾರಿ ಪ್ರಯತ್ನಿಸಿದ್ದಾರೆ, 9 ಬಾರಿ ಫಲಿಸಿದೆ.",
+    "headlineEn": "This week 30 questions were answered, ideas were tried 12 times, and 9 times they worked.",
+    "actions": [
+      {
+        "kn": "ಕಡ್ಡಿ ಕಟ್ಟಿನಿಂದ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಕಲಿಸುವ ಶಾರದಾ ಅವರ ಪದ್ಧತಿಯನ್ನು ಮುಂದಿನ ಕ್ಲಸ್ಟರ್ ಸಭೆಯಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ.",
+        "en": "Share Sharada's practice of tens and ones with bundles of sticks at the next cluster meeting."
+      },
+      {
+        "kn": "ಪ್ರಯತ್ನಿಸಿದ ಮೇಲೆ \"ಫಲಿಸಿತು\" ಅಥವಾ \"ಫಲಿಸಲಿಲ್ಲ\" ಒತ್ತುವುದು ಗೌಪ್ಯ, ಮುಂದಿನ ಶಿಕ್ಷಕರಿಗೆ ಸಹಾಯ ಎಂದು ಎಲ್ಲರಿಗೂ ನೆನಪಿಸಿ.",
+        "en": "Remind all teachers that tapping \"It worked\" or \"Did not work\" is private and helps the next teacher."
+      },
+      {
+        "kn": "ಹೆಚ್ಚು ಶಿಕ್ಷಕರು ಪ್ರಶ್ನೆ ಕೇಳಲು ಆಹ್ವಾನ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ.",
+        "en": "Send invite links so more teachers can ask."
+      }
+    ],
+    "watch": [
+      {
+        "kn": "ಅಕ್ಷರ ಗುರುತು, ಓದು ಮತ್ತು ಸಂಖ್ಯೆ ಜ್ಞಾನ ವಿಷಯಗಳಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಶ್ನೆಗಳು ಬಂದಿವೆ.",
+        "en": "Letter sounds, reading and number sense drew the most questions."
+      }
+    ]
+  },
+  "attempts": 2
+}

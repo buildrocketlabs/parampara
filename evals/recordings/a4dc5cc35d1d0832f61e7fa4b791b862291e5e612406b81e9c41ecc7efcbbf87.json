@@ -1,0 +1,27 @@
+{
+  "key": "a4dc5cc35d1d0832f61e7fa4b791b862291e5e612406b81e9c41ecc7efcbbf87",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-12-parent-conflict",
+  "recordedAt": "2026-10-24T09:30:12.973Z",
+  "usage": {
+    "inputTokens": 1184,
+    "outputTokens": 83,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.00006,
+  "latencyMs": 4068,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C8",
+        "reason": "A learning fair for parents on the last Saturday offers a calm, planned setting to build trust with a parent who has been upset, instead of confronting her in front of the class."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

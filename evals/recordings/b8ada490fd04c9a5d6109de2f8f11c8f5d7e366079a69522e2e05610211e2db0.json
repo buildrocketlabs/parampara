@@ -1,0 +1,27 @@
+{
+  "key": "b8ada490fd04c9a5d6109de2f8f11c8f5d7e366079a69522e2e05610211e2db0",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v2",
+  "itemId": "rank-04-hindi",
+  "recordedAt": "2026-10-24T10:05:12.266Z",
+  "usage": {
+    "inputTokens": 1251,
+    "outputTokens": 172,
+    "cacheReadTokens": 1159,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000107,
+  "latencyMs": 2334,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C2",
+        "reason": "This card describes the same problem: Class 1 children can recite the numbers but do not understand how much fourteen is, and its tens and ones bundles of sticks address that directly."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

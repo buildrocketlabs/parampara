@@ -1,0 +1,32 @@
+{
+  "key": "ce78cd61671c2d608294e5d5828b5ba414a5859747f56aa7f76f7c96f5787500",
+  "role": "triage",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "triage@v2",
+  "itemId": "triage-14-teacher-crisis",
+  "recordedAt": "2026-10-24T09:28:29.442Z",
+  "usage": {
+    "inputTokens": 2504,
+    "outputTokens": 118,
+    "cacheReadTokens": 2450,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000089,
+  "latencyMs": 1851,
+  "outcome": "ok",
+  "output": {
+    "redactedText": "I want to die, nothing I do works and the children never listen to me.",
+    "language": "en",
+    "topic": "classroom",
+    "subject": null,
+    "gradeBand": null,
+    "intent": "teacher_distress",
+    "needsClarification": false,
+    "clarifyingQuestion": null,
+    "safetyFlags": [
+      "teacher_distress"
+    ],
+    "namesRedacted": false
+  },
+  "attempts": 1
+}

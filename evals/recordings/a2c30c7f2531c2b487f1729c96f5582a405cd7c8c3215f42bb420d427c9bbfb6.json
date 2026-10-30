@@ -1,0 +1,23 @@
+{
+  "key": "a2c30c7f2531c2b487f1729c96f5582a405cd7c8c3215f42bb420d427c9bbfb6",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-12-invented-material",
+  "recordedAt": "2026-10-24T18:06:06.134Z",
+  "usage": {
+    "inputTokens": 2089,
+    "outputTokens": 104,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000207,
+  "latencyMs": 1665,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಪ್ರತಿ ಮಗುವಿಗೂ ಒಂದು ಡಬ್ಬಿ.",
+    "reason": "The card gives each child a box for sticks, but says nothing about giving a slate; the slate is an added material."
+  },
+  "attempts": 1
+}

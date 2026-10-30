@@ -1,0 +1,23 @@
+{
+  "key": "4da45c0eb67f220c1b5bad8323cf956263de7e653ab82aee094761527a404684",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "answer-07-mixed-kn-en:step1",
+  "recordedAt": "2026-10-24T18:39:48.973Z",
+  "usage": {
+    "inputTokens": 2153,
+    "outputTokens": 207,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000265,
+  "latencyMs": 2084,
+  "outcome": "ok",
+  "output": {
+    "verdict": "supported",
+    "cardQuote": "ಬೆಂಕಿ ಕಡ್ಡಿ, ಐಸ್ಕ್ರೀಮ್ ಕಡ್ಡಿಯನ್ನು ಮಕ್ಕಳೇ ಸಂಗ್ರಹ ಮಾಡಲಿ. ಪ್ರತಿ ಮಗುವಿಗೂ ಒಂದು ಡಬ್ಬಿ.",
+    "reason": "The step matches card step 1: children collect the sticks themselves and each child gets one box."
+  },
+  "attempts": 1
+}

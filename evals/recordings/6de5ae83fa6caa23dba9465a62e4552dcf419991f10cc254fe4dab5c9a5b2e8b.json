@@ -1,0 +1,46 @@
+{
+  "key": "6de5ae83fa6caa23dba9465a62e4552dcf419991f10cc254fe4dab5c9a5b2e8b",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-05-code-mixed",
+  "recordedAt": "2026-10-24T09:27:50.590Z",
+  "usage": {
+    "inputTokens": 2802,
+    "outputTokens": 2350,
+    "cacheReadTokens": 2453,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.001234,
+  "latencyMs": 10348,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "Actually ಆ class ಅಲ್ಲಿ ಒಂದು ಮಗು ಇದ್ಲು, very shy, ಏನೂ ಮಾತಾಡ್ತಿರ್ಲಿಲ್ಲ.",
+        "textEn": "Actually, in that class there was a girl, very shy, who would not say anything.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P2",
+        "textKn": "ಆ ಮಗುವಿನ ತಾಯಿ ಒಂದಿನ school ಗೆ ಬಂದ್ರು, ಅವರ ಹೆಸರು ಇಲ್ಲಿ ಬೇಡ, she was very supportive.",
+        "textEn": "The child's mother came to school one day, her name is not given here, she was very supportive.",
+        "childNameRedacted": true,
+        "otherNameRedacted": true,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P3",
+        "textKn": "ನಾವು Nali Kali kit ಇಂದ phonics cards use ಮಾಡಿದ್ವಿ, ಆ girl ನಿಧಾನವಾಗಿ ಮಾತಾಡೋಕೆ ಶುರು ಮಾಡಿದ್ಲು.",
+        "textEn": "We used phonics cards from the Nali Kali kit, and the girl slowly started to speak.",
+        "childNameRedacted": false,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}

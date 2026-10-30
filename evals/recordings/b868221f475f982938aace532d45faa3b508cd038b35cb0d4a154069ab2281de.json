@@ -1,0 +1,31 @@
+{
+  "key": "b868221f475f982938aace532d45faa3b508cd038b35cb0d4a154069ab2281de",
+  "role": "retriever",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "retriever@v1",
+  "itemId": "rank-13-two-letter-words-en",
+  "recordedAt": "2026-10-24T09:30:15.280Z",
+  "usage": {
+    "inputTokens": 1176,
+    "outputTokens": 135,
+    "cacheReadTokens": 1109,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000085,
+  "latencyMs": 2109,
+  "outcome": "ok",
+  "output": {
+    "picks": [
+      {
+        "ref": "C6",
+        "reason": "It targets exactly this gap: Class 1 children know their letters but cannot join them to read words, and it gives a stretch-and-read method for two letter words."
+      },
+      {
+        "ref": "C9",
+        "reason": "Paired reading lets children who can already read two letter words support those who are still learning, which a teacher can run tomorrow with no materials."
+      }
+    ],
+    "noneFit": false
+  },
+  "attempts": 1
+}

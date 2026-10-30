@@ -1,0 +1,23 @@
+{
+  "key": "c7b309f08e02b51008c5164ed32c415526c78d1b4a75f997554b2606463fcfe0",
+  "role": "grounding_judge",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "grounding_judge@v1",
+  "itemId": "judge-16-faithful-kannada-rewording",
+  "recordedAt": "2026-10-24T18:06:12.378Z",
+  "usage": {
+    "inputTokens": 1605,
+    "outputTokens": 224,
+    "cacheReadTokens": 598,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000219,
+  "latencyMs": 1979,
+  "outcome": "ok",
+  "output": {
+    "verdict": "partial",
+    "cardQuote": "ಬೆಳಿಗ್ಗೆ ಬಾಗಿಲಲ್ಲಿ ನಿಂತು ನಗುತ್ತಾ 'ಬಾ, ಇಲ್ಲಿ ಕೂತ್ಕೋ' ಅಂತ ಕರೆಯಿರಿ.",
+    "reason": "The card supports greeting the child at the door with a smile and inviting them to sit in the morning, but says nothing about doing it each morning as a daily routine; it is a step in week one context only, and the step drops the card's step-by-step sequence.</br>"
+  },
+  "attempts": 1
+}

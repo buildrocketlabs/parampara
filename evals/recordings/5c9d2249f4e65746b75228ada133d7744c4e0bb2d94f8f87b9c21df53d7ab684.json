@@ -1,0 +1,30 @@
+{
+  "key": "5c9d2249f4e65746b75228ada133d7744c4e0bb2d94f8f87b9c21df53d7ab684",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-09-cross-chunk-bare-name",
+  "recordedAt": "2026-10-24T09:28:12.956Z",
+  "usage": {
+    "inputTokens": 2737,
+    "outputTokens": 221,
+    "cacheReadTokens": 2453,
+    "cacheWriteTokens": 0
+  },
+  "costUsd": 0.000163,
+  "latencyMs": 1980,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "ಆ ಮಗುವಿಗೆ ಮರಳಿನ ತಟ್ಟೆಯಲ್ಲಿ ಅಕ್ಷರ ಬರೆಯೋಕೆ ಹೇಳಿದೆ, ಆ ಮಗು ತುಂಬಾ ಖುಷಿಪಟ್ಟ.",
+        "textEn": "I asked the child to write letters in the sand tray, and the child was very happy.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}

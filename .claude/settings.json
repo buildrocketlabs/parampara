@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm dev)",
+      "Bash(pnpm build)",
+      "Bash(pnpm typecheck)",
+      "Bash(pnpm lint)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm e2e:*)",
+      "Bash(pnpm exec playwright test:*)",
+      "Bash(pnpm exec vitest:*)",
+      "Bash(pnpm dlx shadcn@latest add:*)",
+      "Bash(./scripts/gh.sh repo view:*)",
+      "Bash(./scripts/gh.sh pr:*)",
+      "Bash(./scripts/gh.sh run:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push origin:*)",
+      "Bash(git branch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git switch:*)",
+      "Bash(node scripts/check-secrets.mjs)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./.env.local)",
+      "Read(./.vercel-cli/**)",
+      "Read(./.vercel/**)",
+      "Read(~/.config/gh/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/.netrc)",
+      "Read(~/.gitconfig)",
+      "Edit(./.env*)",
+      "Write(./.env)",
+      "Write(./.env.local)",
+      "Bash(gh:*)",
+      "Bash(vercel:*)",
+      "Bash(npx vercel:*)",
+      "Bash(supabase login:*)",
+      "Bash(git config --global:*)",
+      "Bash(git config --system:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(npm login:*)",
+      "Bash(npm publish:*)",
+      "Bash(supabase:*)",
+      "Bash(pnpm exec supabase link:*)",
+      "Bash(pnpm exec supabase projects:*)",
+      "Bash(./scripts/keys.sh:*)",
+      "Read(./supabase/.temp/**)",
+      "Read(~/.supabase/**)"
+    ],
+    "ask": [
+      "Bash(./scripts/vc.sh:*)",
+      "Bash(./scripts/gh.sh repo create:*)",
+      "Bash(./scripts/gh.sh repo edit:*)",
+      "Bash(./scripts/setup-accounts.sh)",
+      "Bash(pnpm db:push)",
+      "Bash(pnpm seed:demo)",
+      "Bash(pnpm evals:live)",
+      "Bash(ALLOW_DB_PUSH=1 pnpm db:push)",
+      "Bash(ALLOW_DB_PUSH=1 DRY=1 pnpm db:push)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/scripts/hooks/guard-commands.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Read|Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/scripts/hooks/guard-paths.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/scripts/hooks/post-edit.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/scripts/hooks/stop.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

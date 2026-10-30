@@ -1,0 +1,46 @@
+{
+  "key": "2b4e54e1c4be8155a4e7229e64278ae85b641929eff3616ac1052d852b701cb4",
+  "role": "redactor",
+  "model": "claude-haiku-5-5",
+  "promptVersion": "redactor@v1",
+  "itemId": "redactor-01-kn-name-intro",
+  "recordedAt": "2026-10-24T09:27:30.085Z",
+  "usage": {
+    "inputTokens": 2793,
+    "outputTokens": 462,
+    "cacheReadTokens": 0,
+    "cacheWriteTokens": 2453
+  },
+  "costUsd": 0.000572,
+  "latencyMs": 4408,
+  "outcome": "ok",
+  "output": {
+    "phrases": [
+      {
+        "ref": "P1",
+        "textKn": "ಒಬ್ಬ ಹುಡುಗ ಇದ್ದ, ಎರಡನೇ ಕ್ಲಾಸು.",
+        "textEn": "There was a boy in Class 2.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P2",
+        "textKn": "ಆ ಮಗುವಿಗೆ ಓದೋಕೆ ಬರ್ತಿರ್ಲಿಲ್ಲ, ಆದ್ರೆ ಲೆಕ್ಕದಲ್ಲಿ ತುಂಬಾ ಚುರುಕು.",
+        "textEn": "The child could not read, but was very quick at arithmetic.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      },
+      {
+        "ref": "P3",
+        "textKn": "ನಾನು ಆ ಮಗುವನ್ನ ಮುಂದಿನ ಬೆಂಚಿನಲ್ಲಿ ಕೂರಿಸ್ಕೊಂಡೆ.",
+        "textEn": "I seated the child on the front bench.",
+        "childNameRedacted": true,
+        "otherNameRedacted": false,
+        "speakerGuess": "master"
+      }
+    ]
+  },
+  "attempts": 1
+}
