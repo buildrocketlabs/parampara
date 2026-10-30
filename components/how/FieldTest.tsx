@@ -141,11 +141,11 @@ function Numbers({ s }: { s: FieldSummary }) {
               </dt>
               <dd className="flex min-h-9 items-end font-display text-[34px] leading-none font-extrabold text-ink tabular-nums">
                 {count.hidden ? (
-                  <Bi
-                    k="pulse.fewer.cap"
-                    sub={false}
-                    className="font-sans text-[16px] leading-snug font-semibold text-ink-3"
-                  />
+                  // Words, never a lone "5": a count kept private must not read as a count.
+                  <span className="flex flex-col font-sans text-[16px] leading-snug font-semibold text-ink-3">
+                    <Bi k="field.n.private" sub={false} />
+                    <Bi k="field.n.privateWhy" sub={false} className="text-[14px] font-normal" />
+                  </span>
                 ) : (
                   count.n
                 )}

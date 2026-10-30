@@ -1280,6 +1280,8 @@ export const en: Record<MessageKey, string> = {
   "field.n.cards": "Approved cards",
   "field.n.teachers": "Teachers who joined",
   "field.n.questions": "Questions asked",
+  "field.n.private": "Kept private",
+  "field.n.privateWhy": "until 5 teachers have asked",
   "field.outcomes": "After trying an answer, teachers said",
   "field.outcomes.none": "No teacher has told us yet.",
   "field.outcomes.few": "Fewer than 5 teachers have told us so far, so this stays private.",

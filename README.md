@@ -164,7 +164,7 @@ Enforced in code, the database and tests, not by goodwill.
 ## Evaluation
 `pnpm evals` replays recorded model outputs and checks every gate deterministically. It spends nothing and CI runs it on every push. `pnpm evals:live` (founder approval) records new outputs. A gate with no recorded outputs says "not measured yet" and shows no number.
 
-The recordings are real model outputs from live runs on 24 and 25 Oct 2026 (`evals/recordings/`; the last one recorded answerer@v3 and the corrected cases). Replaying them checks today's code against what the models really said, at no cost; a prompt change needs a new live run. The cases were written by the team, each with a line on why it exists (D65, D75), in Kannada, English, Hindi and mixes of them; no outside language expert has reviewed them.
+The recordings are real model outputs from live runs on 24 and 25 Oct 2026 (`evals/recordings/`; the last one recorded answerer@v3 and the corrected cases). Replaying them checks today's code against what the models really said, at no cost; a prompt change needs a new live run. The cases were written by the team, each with a line on why it exists (D65, D75), in Kannada, English, Hindi and mixes of them; no outside language expert has reviewed them. The cases are public, one file per role, each case with its reason: [`evals/`](evals/) (`triage.jsonl`, `retriever.jsonl`, `answerer.jsonl`, `grounding_judge.jsonl`, `safety.jsonl`, `card_extractor.jsonl`), with the recorded model outputs in [`evals/recordings/`](evals/recordings/).
 
 From `docs/evals/latest.md` (run of 24 Oct 2026; 637 checks passed, 0 failed):
 

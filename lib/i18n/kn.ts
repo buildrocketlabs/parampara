@@ -1256,6 +1256,8 @@ export const kn = {
   "field.n.cards": "ಒಪ್ಪಿದ ಕಾರ್ಡ್‌ಗಳು",
   "field.n.teachers": "ಸೇರಿದ ಶಿಕ್ಷಕರು",
   "field.n.questions": "ಕೇಳಿದ ಪ್ರಶ್ನೆಗಳು",
+  "field.n.private": "ಖಾಸಗಿ",
+  "field.n.privateWhy": "5 ಶಿಕ್ಷಕರು ಕೇಳುವವರೆಗೆ",
   "field.outcomes": "ಉತ್ತರವನ್ನು ಪ್ರಯತ್ನಿಸಿದ ಮೇಲೆ ಶಿಕ್ಷಕರು ಹೇಳಿದ್ದು",
   "field.outcomes.none": "ಇನ್ನೂ ಯಾವ ಶಿಕ್ಷಕರೂ ಹೇಳಿಲ್ಲ.",
   "field.outcomes.few":

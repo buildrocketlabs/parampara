@@ -69,7 +69,7 @@ for (const lang of ["kn", "en"] as const) {
       );
       // Small groups read as words, with no number.
       await expect(section.locator('[data-field-tile="questions"]').nth(1)).toContainText(
-        lang === "kn" ? "5ಕ್ಕಿಂತ ಕಡಿಮೆ ಶಿಕ್ಷಕರು" : "Fewer than 5 teachers",
+        lang === "kn" ? "ಖಾಸಗಿ" : "Kept private",
       );
       // Before and after open the full picture; the thumbnails load.
       const shots = section.locator('[data-field-shot="linked"] a');
