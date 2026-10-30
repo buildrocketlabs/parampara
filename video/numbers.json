@@ -7,27 +7,27 @@
     },
     "masters": {
       "value": 1,
-      "source": "lib/field/summary.ts masters: field master teachers with consent on record, as /how 'From the field' shows; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "lib/field/summary.ts masters: field master teachers with consent on record, as /how 'From the field' shows; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     },
     "cards": {
       "value": 6,
-      "source": "lib/field/summary.ts approvedCards: approved field cards, as /how 'From the field' shows; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "lib/field/summary.ts approvedCards: approved field cards, as /how 'From the field' shows; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     },
     "teachers": {
       "value": 8,
-      "source": "lib/field/summary.ts teachers: field teachers who joined and agreed, as /how 'From the field' shows; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "lib/field/summary.ts teachers: field teachers who joined and agreed, as /how 'From the field' shows; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     },
     "questions": {
       "value": null,
-      "source": "lib/field/summary.ts questions: field questions, private while fewer than 5 different teachers asked; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "lib/field/summary.ts questions: field questions, private while fewer than 5 different teachers asked; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": true
     },
     "worked": {
       "value": 0,
-      "source": "lib/field/summary.ts worked: field 'it worked' taps, private while fewer than 5 different teachers tried; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "lib/field/summary.ts worked: field 'it worked' taps, private while fewer than 5 different teachers tried; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     },
     "cost_per_teacher_month": {
@@ -49,32 +49,32 @@
     },
     "tried": {
       "value": 0,
-      "source": "lib/field/summary.ts tried: field 'tried' reports, private while fewer than 5 different teachers reported; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "lib/field/summary.ts tried: field 'tried' reports, private while fewer than 5 different teachers reported; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     },
     "answered_from_cards": {
       "value": null,
-      "source": "field questions with an answer from approved field cards (answers.status = answered), private with the question count; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "field questions with an answer from approved field cards (answers.status = answered), private with the question count; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": true
     },
     "sent_to_person": {
       "value": null,
-      "source": "field questions sent to a person (human_queue, or needs_human / escalated), private with the question count; read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "field questions sent to a person (human_queue, or needs_human / escalated), private with the question count; read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": true
     },
     "first_join_day": {
       "value": "29 Oct",
-      "source": "the first field teacher's consent (profiles.consented_at, IST day); read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "the first field teacher's consent (profiles.consented_at, IST day); read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     },
     "first_question_day": {
       "value": "30 Oct",
-      "source": "the first field question (questions.created_at, IST day); read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "the first field question (questions.created_at, IST day); read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     },
     "master_years": {
       "value": 32,
-      "source": "masters.years of the consented field master (his record, D101); read 2026-10-30T10:34Z by scripts/field-numbers.mjs",
+      "source": "masters.years of the consented field master (his record, D101); read 2026-10-30T11:29Z by scripts/field-numbers.mjs",
       "hidden": false
     }
   }

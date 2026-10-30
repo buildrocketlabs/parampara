@@ -15,12 +15,13 @@ export function SectionNav({
   const [current, setCurrent] = useState<string | null>(null);
 
   useEffect(() => {
-    const heads = items
-      .map((i) => document.getElementById(i.id))
-      .filter((el): el is HTMLElement => el !== null);
-    if (heads.length === 0) return;
-    // The part whose heading last passed under the nav is the one being read.
+    // The part whose heading last passed under the nav is the one being read. Headings are looked
+    // up on every pick: the streamed parts (one answer, the field test) arrive after this runs.
     const pick = () => {
+      const heads = items
+        .map((i) => document.getElementById(i.id))
+        .filter((el): el is HTMLElement => el !== null);
+      if (heads.length === 0) return;
       // The first part is marked from the start, so the nav shows what it does at once.
       let at: string | null = heads[0]!.id;
       for (const h of heads) if (h.getBoundingClientRect().top < 160) at = h.id;

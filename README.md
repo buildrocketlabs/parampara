@@ -10,12 +10,38 @@ Team **Namma Shaale** · AI for Foundational Learning Hackathon (ShikshaNext · 
 | Live demo | **https://parampara-eta.vercel.app/?lang=en** (Kannada first; English one tap away, top right) |
 | How it works, with live numbers | https://parampara-eta.vercel.app/how |
 | Film (2 min 58 s) | https://youtu.be/JD4pzalBlUU |
-| Deck (PDF, 13 slides) | https://drive.google.com/file/d/1h7FvnxmScGkeR0LD59qebQEyzOca3dU0/view?usp=sharing |
+| Deck (PDF, 13 slides) | https://drive.google.com/file/d/1h7FvnxmScGkeR0LD59qebQEyzOca3dU0/view?usp=sharing · the same PDF [in this repo](docs/deck/parampara-deck.pdf) and [on the live site](https://parampara-eta.vercel.app/deck/parampara-deck.pdf) · [text version](docs/deck/DECK.md) |
 | Code (open source) | https://github.com/buildrocketlabs/parampara |
 | Licence | Apache 2.0 (code) · CC BY 4.0 (approved practice cards) |
 
+## For evaluators: where to find each criterion
+Every line links to its evidence. Field numbers are read from the database (`pnpm field:numbers`); synthetic data says Sample.
+
+### Efficacy of the solution and user centricity (impact potential; intuitive interface; vernacular, voice first, contextual; proof of testing and refinement based on user input) [35%]
+- Real users: Headmaster Mahesh Bedavatti's WhatsApp voice notes became approved cards, and Talakal teachers joined on their own phones: [Field](#field-koppal-district) · [/how, From the field](https://parampara-eta.vercel.app/how?lang=en#field)
+- Proof of refinement, dated and sourced: [What we heard and what we changed](#what-we-heard-and-what-we-changed) · [docs/field/CHANGES.md](docs/field/CHANGES.md)
+- Kannada first and voice first, English one tap away, one tap entry for every role: [live](https://parampara-eta.vercel.app/?lang=en) · [Try it](#try-it-5-minutes)
+- Built for weak networks and cheap phones: [Low network](#low-network-low-data-low-cost-phones) · [docs/evals/network.md](docs/evals/network.md)
+
+### Effective AI use and technical strength (AI used for its strengths; technical depth; guardrails for wrong outputs; works in real scenarios) [30%]
+- Each model's role and why: [AI services and models](#ai-services-models-and-keys) · [/how, six layers](https://parampara-eta.vercel.app/how?lang=en#layers) · [ai/router.ts](ai/router.ts)
+- Guardrails for wrong outputs, in code and the database: [Guardrails](#guardrails) · [lib/ask/pipeline.ts](lib/ask/pipeline.ts) · [ai/safety/patterns.ts](ai/safety/patterns.ts)
+- Eval gates, including the one we miss (latency): [Evaluation](#evaluation) · [docs/evals/latest.md](docs/evals/latest.md)
+- A real shipped answer's trace, step by step: [/how, one answer](https://parampara-eta.vercel.app/how?lang=en#trace) · judge path on live: [tests/e2e/judge.spec.ts](tests/e2e/judge.spec.ts)
+
+### Innovation and creativity [25%]
+- A retiring master's tacit practice, captured from WhatsApp voice notes and cited to the second: [How it works](#how-it-works) · [lib/import/pipeline.ts](lib/import/pipeline.ts)
+- Answers only from named, approved practice, with his own voice one tap away: [Five sample inputs](#five-sample-inputs)
+- The practice card as open data (CC BY 4.0): [/api/open/cards](https://parampara-eta.vercel.app/api/open/cards) · [docs/open/](docs/open/)
+
+### Future roadmap: pathways and integration into existing systems [10%]
+- [Roadmap](#roadmap) · deck slides 11 and 12 in [docs/deck/DECK.md](docs/deck/DECK.md#slide-11--10--future-roadmap)
+- Cost a state can pay, worked out live: [Cost](#cost) · [/how, cost](https://parampara-eta.vercel.app/how?lang=en#cost)
+
+**Deliverables:** [live link](https://parampara-eta.vercel.app/?lang=en) · [test credentials](#test-credentials) · [five sample inputs](#five-sample-inputs) · [film](https://youtu.be/JD4pzalBlUU) · deck: [Drive](https://drive.google.com/file/d/1h7FvnxmScGkeR0LD59qebQEyzOca3dU0/view?usp=sharing), [PDF in repo](docs/deck/parampara-deck.pdf), [text version](docs/deck/DECK.md)
+
 ## Contents
-[Try it](#try-it-5-minutes) · [Test credentials](#test-credentials) · [Sample inputs](#five-sample-inputs) · [How it works](#how-it-works) · [AI services and models](#ai-services-models-and-keys) · [Architecture](#architecture) · [Guardrails](#guardrails) · [Evaluation](#evaluation) · [Cost](#cost) · [Low network](#low-network-low-data-low-cost-phones) · [Field](#field-koppal-district) · [Run locally](#run-locally) · [Limitations](#limitations) · [Roadmap](#roadmap) · [Licence](#licence-and-open-source)
+[Try it](#try-it-5-minutes) · [Film, in text](#the-film-in-text) · [Test credentials](#test-credentials) · [Sample inputs](#five-sample-inputs) · [How it works](#how-it-works) · [AI services and models](#ai-services-models-and-keys) · [Architecture](#architecture) · [Guardrails](#guardrails) · [Evaluation](#evaluation) · [Cost](#cost) · [Low network](#low-network-low-data-low-cost-phones) · [Field](#field-koppal-district) · [What we heard](#what-we-heard-and-what-we-changed) · [Run locally](#run-locally) · [Limitations](#limitations) · [Roadmap](#roadmap) · [Licence](#licence-and-open-source)
 
 ## Try it (5 minutes)
 1. Open the live link. Tap **Teacher** (one tap, no typing).
@@ -51,6 +77,10 @@ Each is a one tap chip on the teacher screen, in Kannada, with English under it.
 | 5 | ಮಕ್ಕಳಿಗೆ ಕಂಪ್ಯೂಟರ್ ಕೋಡಿಂಗ್ ಹೇಗೆ ಕಲಿಸಲಿ? *How do I teach computer coding to my children?* | no master has answered this: the honest path to a reviewer |
 
 To hear a real master in his own voice, type the film's question, answered from Mahesh Bedavatti's approved field card: ಒಂದನೇ ತರಗತಿಯ ಒಂದು ಮಗುವಿಗೆ ಇನ್ನೂ ಅಕ್ಷರ ಬರೆಯಲು ಬರುತ್ತಿಲ್ಲ. ಗೆರೆ, ವೃತ್ತದಿಂದ ಹೇಗೆ ಶುರು ಮಾಡಲಿ? *A child in Class 1 still cannot write letters. How do I start with lines and circles?* Then tap **Hear Mahesh Bedavatti say it**. (Sample masters have no recorded voice.)
+
+## The film, in text
+[Watch on YouTube](https://youtu.be/JD4pzalBlUU) (2 min 58 s, English subtitles). Chapters, from the film's scene list (`video/script.json`):
+0:00 His voice: a headmaster, 32 years · 0:21 The problem: one teacher, no colleague to ask · 0:39 Parampara: one lamp lights another · 0:48 Capture and check: seven voice notes, every card approved · 1:07 Nine at night: a teacher asks in Kannada · 1:26 Hear the master say it · 1:39 It worked, other languages, the Teacher Pulse · 2:04 Trust: checked steps, children's safety, offline, cost, Talakal · 2:33 What comes next, and his request.
 
 ## How it works
 | Step | What happens | Where |
@@ -134,6 +164,8 @@ Enforced in code, the database and tests, not by goodwill.
 ## Evaluation
 `pnpm evals` replays recorded model outputs and checks every gate deterministically. It spends nothing and CI runs it on every push. `pnpm evals:live` (founder approval) records new outputs. A gate with no recorded outputs says "not measured yet" and shows no number.
 
+The recordings are real model outputs from live runs on 24 and 25 Oct 2026 (`evals/recordings/`; the last one recorded answerer@v3 and the corrected cases). Replaying them checks today's code against what the models really said, at no cost; a prompt change needs a new live run. The cases were written by the team, each with a line on why it exists (D65, D75), in Kannada, English, Hindi and mixes of them; no outside language expert has reviewed them.
+
 From `docs/evals/latest.md` (run of 24 Oct 2026; 637 checks passed, 0 failed):
 
 | Gate | Target | Value | Rests on |
@@ -151,7 +183,7 @@ The deterministic guardrails are also tested on hand written bad outputs: 17 of 
 The latency gate above is an upper estimate from recorded calls. Measured on the live site (`docs/evals/latency.md`, 27 Oct 21:51 UTC, one emulated phone, 8 fresh questions): a fresh answer's text p50 **12.9 s** (p95 13.6 s), its voice ready p50 **13.5 s**; the warm sample chips come back in about **0.8 s**. Still over the 10 s target for a new question.
 
 Other evidence, each dated and kept in the repo:
-- **Import rehearsal on live** (`docs/evals/rehearsal.md`, 28 Oct): seven synthetic WhatsApp voice notes, 27 minutes of audio, picked out of order; put in WhatsApp's order, consent first, **4 min 52 s** from Begin to six draft cards, none drawn from the consent note; about $0.38 of speech and model time.
+- **Import rehearsal on live, Sample** (`docs/evals/rehearsal.md`, 28 Oct): seven synthetic WhatsApp voice notes, 27 minutes of audio (not his: his real interview is 5 min 42 s), picked out of order; put in WhatsApp's order, consent first, **4 min 52 s** from Begin to six draft cards, none drawn from the consent note; about $0.38 of speech and model time.
 - **Typed questions on live** (`docs/evals/probe-2026-10-28.md`, 28 Oct): 15 questions worded as teachers type them; 5 answered, 2 sent to a person after checking, 8 found no card (one, parents, on purpose). Nothing was invented; eight Sample cards were added for the real gaps (D99). Re-asked after: 12 of 15 answer, 2 go to a person after checking, parents stays a gap on purpose.
 
 ## Cost
@@ -168,7 +200,7 @@ At an assumed 12 questions a month, that is **about ₹33 per teacher per month*
 
 ## Low network, low data, low cost phones
 Checked on the live site with Chrome's own Slow 3G and Fast 3G presets (`docs/evals/network.md`, run 27 Oct 22:30 UTC, the morning of 28 Oct in India; the 24 Oct run was within 0.2 s of it):
-- Slow 3G: home page first paint 6.2 s cold, 2.7 s warm; fully interactive 14.6 s cold; a sample answer readable 6.7 s after the tap (warm).
+- Slow 3G: home page first paint 6.2 s cold, 2.7 s warm (the teacher's screen `/t`: 2.8 s warm, the deck's number); fully interactive 14.6 s cold; a sample answer readable 6.7 s after the tap (warm).
 - A jury walk on 28 Oct timed a cold home page load on Slow 3G at 9.3 s, in its own browser. The two measure different moments: 6.2 s is the first words on screen (first contentful paint, Playwright with the DevTools preset over CDP), and the page is fully interactive at 14.6 s.
 - Offline: saved answers open; a typed question waits on the phone with an honest message and sends on reconnect; a page never visited shows a kind offline page; "Show me" says a photo needs the network (checked 24 Oct; the 28 Oct run ran out of time before that step, `docs/evals/network.md`).
 - Text first, voice on tap: the answer is readable before any audio is fetched, and audio is mp3.
@@ -178,7 +210,7 @@ Checked on the live site with Chrome's own Slow 3G and Fast 3G presets (`docs/ev
 
 ## Field: Koppal district
 <!-- field:start (written by pnpm field:numbers from the database; edits here are overwritten) -->
-*Read from the database on 30 Oct, 16:04 IST (field rows only, `is_sample = false`; the same loader as `/how` "From the field", `lib/field/summary.ts`). Written by `pnpm field:numbers`; nothing here is typed by hand.*
+*Read from the database on 30 Oct, 16:59 IST (field rows only, `is_sample = false`; the same loader as `/how` "From the field", `lib/field/summary.ts`). Written by `pnpm field:numbers`; nothing here is typed by hand.*
 
 - **First master teacher:** Headmaster Mahesh Bedavatti, Government Higher Primary School, Ambedkar Nagar, Talakal (ಸರಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ, ಅಂಬೇಡ್ಕರ ನಗರ, ತಳಕಲ್ಲ), Koppal district, 32 years in government schools. His interview is **7 WhatsApp voice notes, 5 min 42 s** in all (28 Oct), the first one his spoken consent ("ನನ್ನ ಹೆಸರು ಮತ್ತು ಧ್ವನಿಯೊಂದಿಗೆ": with his name and voice). Credited by full name, with clips of his own voice.
 - **Talakal teachers:** From 29 Oct, his colleagues joined on their own phones through a link the headmaster forwarded on WhatsApp: 8 teachers so far. They began asking real questions in Kannada on 30 Oct. How many, and how each was answered, stay private until 5 different teachers have asked, as /how keeps them. The photos in the video are from 29 Oct (adults who agreed; no children's faces).
@@ -195,6 +227,20 @@ Checked on the live site with Chrome's own Slow 3G and Fast 3G presets (`docs/ev
 
 No field teacher has told us yet whether an answer worked. The numbers above update on `/how` as they change (counts about fewer than 5 teachers stay private there, by design).
 <!-- field:end -->
+
+## What we heard and what we changed
+Only real, dated items with a source in this repository. Who is a role; Mahesh Bedavatti is named because he asked to be credited by name (D102). A synthetic probe is marked **Sample**. The same list is on [/how](https://parampara-eta.vercel.app/how?lang=en#field) and in [docs/field/CHANGES.md](docs/field/CHANGES.md); its data is [`docs/field/heard.json`](docs/field/heard.json).
+
+| Date | Who | What we heard or saw | What we changed | Where |
+|---|---|---|---|---|
+| 28 Oct | Master teacher (Mahesh Bedavatti) | Saw: his interview came as WhatsApp voice notes, his consent in the first one, not as a sit down interview | Many voice notes now import as one interview, in WhatsApp's order; the consent note is kept but never becomes a card | D78 · `/m/import` · `lib/import/order.ts` |
+| 28 Oct | **Sample** probe (synthetic) | Saw: 15 questions typed the way teachers type, on the live site; 8 found no card | Eight Sample cards for the seven real gaps (parents stays a gap on purpose); asked again, 12 of 15 answer | D99 · `docs/evals/probe-2026-10-28.md` |
+| 29 Oct | Master teacher (Mahesh Bedavatti) | Heard, in his consent note: "ಕಳೆದ 32 ವರ್ಷಗಳಿಂದ" (for the last 32 years). Our notes said 37, and had his school's name wrong | Corrected to 32 years and to the name on the school board, Government Higher Primary School, Ambedkar Nagar, Talakal, in the database, the docs and the film | D101 |
+| 29 Oct | Our team, in the field | Saw: his notes had once been brought in under a Sample reviewer account, so a Sample copy of real data existed | The Sample copy was deleted; a clear Sample warning now shows before a Sample reviewer imports or reviews | `components/parampara/SampleReviewerWarning.tsx` · `/m/import` · `/r/cards` |
+| 29 Oct | Headmaster (Mahesh Bedavatti) | Saw: he forwarded the join link to his colleagues on WhatsApp, instead of the QR code we had planned | No code change was needed (the link is the same door the QR held); the docs say what really happened, and field numbers are written from the database | D103 · `scripts/field-numbers.mjs` |
+| 30 Oct | Master teacher (Mahesh Bedavatti) | Heard, in his consent note: "ನನ್ನ ಹೆಸರು ಮತ್ತು ಧ್ವನಿಯೊಂದಿಗೆ" (with my name and voice) | He is credited by his full name, and teachers can hear the exact seconds of his own voice behind a step | D102 · `lib/import/clips.ts` |
+
+Not in this table, because nothing in the repository records them yet: a mentor session (`docs/field/mentor-input.md` is empty), and any field teacher saying whether an answer worked (none has yet). Field questions themselves stay private until 5 different teachers have asked. A field question that no card answers goes to the reviewers' queue (`/r/queue`), where a reviewer can answer it with an approved card or ask a master to record one (D83).
 
 ## Run locally
 Node 22.12 or later, pnpm 10. With no keys the app runs in **fixture mode**: Sample data, no network calls, no database. CI runs this way.
@@ -227,21 +273,30 @@ Then: `ALLOW_DB_PUSH=1 pnpm db:push` (applies `supabase/migrations/`), `pnpm see
 | `node scripts/measure-js.mjs` | first load JavaScript per route |
 
 ## Limitations
-- **Speed.** A new question's answer text p50 is 12.9 s on the live site (27 Oct), against a 10 s target. Sample questions replay their checked answer in about a second; a new question takes longer.
+- **Speed.** A new question's answer text p50 is 12.9 s on the live site (27 Oct), against a 10 s target. Sample questions replay their checked answer in about a second; a new question takes longer. Where the time goes (`docs/evals/latency.md`, p50 per stage): understanding and the second name reader 3.0 s, ranking 2.0 s (partly in parallel), drafting on Sonnet 6.4 s, the slowest step judge 3.3 s. What we already changed (D85 to D87): each step goes to its judge as soon as it is written, the voice is made during checking, and the function is warmed when the ask screen opens; time to text went from 15.8 s to 12.9 s. What is left is the model work itself. The next levers are trade offs we have not taken: a Haiku answerer is faster and cheaper but shipped 5 of 6 answers against Sonnet's 6 of 6 (`docs/evals/answerer-compare.md`), and shorter answers would cut drafting time. We chose answer quality over seconds (D100).
 - **Small evidence so far.** The eval set has 16 recorded answers and 14 safety cases; the field test is days old. Quality at scale is not yet measured.
 - **Speech.** Speech to text in strong North Karnataka dialects is imperfect, so the teacher always sees and can fix the words.
 - **Names.** Redaction relies on two model readers plus deterministic patterns. A reviewer still reads every card before it reaches teachers.
 - **Kannada copy** was drafted with Claude and checked by the team; it has not had a professional language review.
 - **The master's talk screen** (`/m/talk`) loads about 284 KB of JavaScript, over our 200 KB budget; the teacher's screens are under it.
+- **Hindi.** A teacher can choose Hindi answers on first run; the answer is written in Hindi from the Kannada and English cards and spoken by Bulbul v3. The screens stay Kannada or English, and only a few eval cases are in Hindi (2 answerer, 3 triage), so Hindi is measured less than Kannada.
 - **The shareable card image** is English only: the image library cannot shape Kannada script yet (D57).
 - **Free tier hosting** (Vercel Hobby, Supabase Free) until the pilot moves to paid tiers.
 
 ## Roadmap
-1. **Koppal pilot** with the DIET and CRPs: more master teachers, the master panel rating answers, monthly cluster meetings using the Pulse.
-2. **Karnataka:** Samagra Shiksha teacher support, the state teacher helpline, NISHTHA and DSERT grade and subject tags.
-3. **Open standard:** the Parampara practice card as open data on DIKSHA (`/api/open/cards` already serves approved cards under CC BY 4.0).
-4. **Reach:** WhatsApp and a phone call line for teachers without data; more Indian languages through the same pipeline.
-5. **The next apps on this foundation:** Kannadi (reading a child's notebook) and Hejje.
+A plan, not a result. The months are the deck's timeline (slide 11, [docs/deck/DECK.md](docs/deck/DECK.md#slide-11--10--future-roadmap)); nothing here is agreed with a government body yet.
+
+| When | Phase | What we deliver | How we will know it is working | Status |
+|---|---|---|---|---|
+| Today | Open card format | approved cards as open data, CC BY 4.0, with a JSON Schema and a DIKSHA metadata mapping (`/api/open/cards`, `docs/open/`) | the endpoint serves every approved card | live |
+| Nov 2026 | Talakal cluster pilot | 10 master teachers and 100 teachers around Talakal, Koppal | 5 or more field teachers report whether answers worked, so the counts can be shown; masters rate answers ("I would give this advice myself") | planned |
+| Dec 2026 to Feb 2027 | Koppal district, with the DIET | DIET faculty and CRPs review cards; the Teacher Pulse in monthly cluster meetings (CRC and BRC) | cards reviewed by the DIET, not only by us | planned |
+| Jan to Dec 2027 | DIKSHA | offer the open card format to DIKSHA | a card readable from DIKSHA | planned |
+| Feb to Jun 2027 | WhatsApp, then a phone line | answers for teachers with little data | a question answered without the app | planned |
+| Mar to Dec 2027 | Karnataka | Samagra Shiksha teacher support, the state teacher helpline, NISHTHA follow up, DSERT grade and subject tags | funded from state teacher development budgets at about ₹33 per teacher a month ([Cost](#cost)) | planned |
+| Apr to Dec 2027 | More Indian languages | the same pipeline beyond Kannada (Hindi answers work today) | a master interviewed in another language | planned |
+
+Our ask: the Koppal DIET as card reviewers, and a line on the state teacher helpline. The next apps on this foundation are Kannadi (a teacher sees every child's learning from a notebook photo) and Hejje.
 
 ## Licence and open source
 Code: **Apache 2.0** (`LICENSE`). Approved practice cards: **CC BY 4.0**, credited to each master as they chose. We consent to open source this work.

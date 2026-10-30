@@ -3,7 +3,7 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import { Bi } from "@/components/parampara/Bi";
 import { BiText } from "@/components/parampara/BiText";
-import { FieldBadge } from "@/components/parampara/Badges";
+import { FieldBadge, SampleBadge } from "@/components/parampara/Badges";
 import { ErrorState } from "@/components/parampara/ErrorState";
 import { Hanate } from "@/components/parampara/hanate/Hanate";
 import type { Bilingual } from "@/lib/domain/fln";
@@ -12,6 +12,7 @@ import { messages } from "@/lib/i18n/messages";
 import { fill } from "@/lib/i18n/fill";
 import { dayOf } from "@/lib/insights/format";
 import { fieldChanges, type FieldChange } from "@/lib/field/changes";
+import { heardEntries, type HeardEntry } from "@/lib/field/heard";
 import {
   fieldIsEmpty,
   loadFieldSummary,
@@ -40,10 +41,18 @@ export async function FieldTest() {
       : fieldIsEmpty(summary)
         ? { kind: "empty" }
         : { kind: "numbers", summary };
-  return <FieldTestSection body={body} changes={fieldChanges()} />;
+  return <FieldTestSection body={body} changes={fieldChanges()} heard={heardEntries()} />;
 }
 
-export function FieldTestSection({ body, changes }: { body: FieldBody; changes: FieldChange[] }) {
+export function FieldTestSection({
+  body,
+  changes,
+  heard,
+}: {
+  body: FieldBody;
+  changes: FieldChange[];
+  heard: HeardEntry[];
+}) {
   return (
     <section aria-labelledby="field" className="mt-12" data-field={body.kind}>
       <h2 id="field" className="text-[26px] font-bold">
@@ -52,7 +61,7 @@ export function FieldTestSection({ body, changes }: { body: FieldBody; changes: 
       <p className="mt-2 max-w-2xl text-lg text-ink-3">
         <Bi k="field.sub" subClassName="text-base" />
       </p>
-      <FieldTestCard body={body} changes={changes} badge={<FieldBadge />} />
+      <FieldTestCard body={body} changes={changes} heard={heard} badge={<FieldBadge />} />
     </section>
   );
 }
@@ -61,10 +70,13 @@ export function FieldTestSection({ body, changes }: { body: FieldBody; changes: 
 export function FieldTestCard({
   body,
   changes,
+  heard = [],
   badge,
 }: {
   body: FieldBody;
   changes: FieldChange[];
+  /** The sourced "what we heard and what we changed" items (docs/field/heard.json). */
+  heard?: HeardEntry[];
   badge: ReactNode;
 }) {
   return (
@@ -73,7 +85,8 @@ export function FieldTestCard({
       {body.kind === "numbers" && <Numbers s={body.summary} />}
       {body.kind === "empty" && <Empty />}
       {body.kind === "error" && <ErrorState body="field.error" className="mt-2" />}
-      <Changes changes={changes} />
+      {heard.length > 0 && <Heard entries={heard} />}
+      {(changes.length > 0 || heard.length === 0) && <Changes changes={changes} />}
     </div>
   );
 }
@@ -248,6 +261,60 @@ function Changes({ changes }: { changes: FieldChange[] }) {
           </ol>
         </>
       )}
+    </div>
+  );
+}
+
+/** What we heard or saw, dated, with where the source and the change live in the repo. */
+function Heard({ entries }: { entries: HeardEntry[] }) {
+  return (
+    <div data-field-heard className="mt-6 border-t border-border pt-5">
+      <h3 className="text-[19px] leading-snug font-bold text-ink">
+        <Bi k="field.heard" subClassName="font-sans text-[15px] font-semibold" />
+      </h3>
+      <p className="mt-1 max-w-prose text-[15px] text-ink-3">
+        <Bi k="field.heard.sub" sub={false} />
+      </p>
+      <ol className="mt-4 grid gap-4 lg:grid-cols-2">
+        {entries.map((e, i) => (
+          <li
+            key={`${e.date}-${i}`}
+            data-field-heard-item={e.sample ? "sample" : "field"}
+            className="rounded-[20px] bg-cream p-4 sm:p-5"
+          >
+            <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[14px] text-ink-3">
+              <time dateTime={e.date}>
+                <BiText text={dayOf(e.date)} sub={false} inline />
+              </time>
+              <span aria-hidden>·</span>
+              <Bi k={`field.heard.who.${e.who}` as MessageKey} sub={false} className="inline" />
+              {e.sample && <SampleBadge className="ml-1" />}
+            </p>
+            <p className="mt-2 text-[14px] font-semibold tracking-wide text-clay-cta uppercase">
+              <Bi k={`field.heard.${e.kind}` as MessageKey} sub={false} />
+            </p>
+            <p className="mt-0.5 text-[17px] leading-snug font-semibold text-ink">
+              <BiText text={e.heard} subClassName="text-[15px] font-normal" />
+            </p>
+            <p className="mt-3 text-[14px] font-semibold tracking-wide text-moss uppercase">
+              <Bi k="field.changes.changed" sub={false} />
+            </p>
+            <p className="mt-0.5 text-[16px] text-ink">
+              <BiText text={e.changed} subClassName="text-[14px] text-ink-3" />
+            </p>
+            <p className="mt-3 flex flex-wrap gap-1.5" aria-label="sources">
+              {e.where.map((w) => (
+                <span
+                  key={w}
+                  className="rounded-chip bg-paper px-2.5 py-0.5 font-mono text-[14px] break-all text-ink-2"
+                >
+                  {w}
+                </span>
+              ))}
+            </p>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }

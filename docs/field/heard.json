@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "about": "What we heard and what we changed (README, docs/field/CHANGES.md, /how). Only real, dated items with a source in this repository; a synthetic probe is marked sample. kind heard quotes his own words; kind saw is what we saw, never written as a quote. where lists the decision ids and files that hold the source and the change. No field counts are typed here: they come from pnpm field:numbers. Checked by lib/field/heard.test.ts.",
+  "entries": [
+    {
+      "date": "2026-10-28",
+      "who": "master",
+      "kind": "saw",
+      "sample": false,
+      "heard": {
+        "kn": "ಅವರ ಸಂದರ್ಶನ ಕುಳಿತು ಮಾತಾಡುವ ಬದಲು ವಾಟ್ಸಾಪ್ ಧ್ವನಿ ಸಂದೇಶಗಳಾಗಿ ಬಂತು, ಮೊದಲ ಸಂದೇಶದಲ್ಲಿ ಅವರ ಒಪ್ಪಿಗೆ.",
+        "en": "His interview came as WhatsApp voice notes, his consent in the first one, not as a sit down interview."
+      },
+      "changed": {
+        "kn": "ಹಲವು ಧ್ವನಿ ಸಂದೇಶಗಳು ಈಗ ವಾಟ್ಸಾಪ್ ಕ್ರಮದಲ್ಲೇ ಒಂದು ಸಂದರ್ಶನವಾಗಿ ಬರುತ್ತವೆ. ಒಪ್ಪಿಗೆಯ ಸಂದೇಶ ಉಳಿಯುತ್ತದೆ, ಆದರೆ ಎಂದೂ ಕಾರ್ಡ್ ಆಗುವುದಿಲ್ಲ.",
+        "en": "Many voice notes now import as one interview, in WhatsApp's order. The consent note is kept but never becomes a card."
+      },
+      "where": ["D78", "app/m/import", "lib/import/order.ts"]
+    },
+    {
+      "date": "2026-10-29",
+      "who": "master",
+      "kind": "heard",
+      "sample": false,
+      "heard": {
+        "kn": "ಒಪ್ಪಿಗೆಯ ಸಂದೇಶದಲ್ಲಿ: “ಕಳೆದ 32 ವರ್ಷಗಳಿಂದ”. ನಮ್ಮ ಟಿಪ್ಪಣಿಯಲ್ಲಿ 37 ಎಂದಿತ್ತು, ಶಾಲೆಯ ಹೆಸರೂ ತಪ್ಪಿತ್ತು.",
+        "en": "In his consent note: “ಕಳೆದ 32 ವರ್ಷಗಳಿಂದ” (for the last 32 years). Our notes said 37, and had his school's name wrong."
+      },
+      "changed": {
+        "kn": "32 ವರ್ಷ ಮತ್ತು ಶಾಲೆಯ ಫಲಕದ ಮೇಲಿನ ಹೆಸರು (ಸರಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ, ಅಂಬೇಡ್ಕರ ನಗರ, ತಳಕಲ್ಲ) ಡೇಟಾಬೇಸ್, ದಾಖಲೆಗಳು ಮತ್ತು ಚಿತ್ರದಲ್ಲಿ ಸರಿಯಾಗಿದೆ.",
+        "en": "Corrected to 32 years and to the name on the school board, Government Higher Primary School, Ambedkar Nagar, Talakal, in the database, the docs and the film."
+      },
+      "where": ["D101"]
+    },
+    {
+      "date": "2026-10-29",
+      "who": "team",
+      "kind": "saw",
+      "sample": false,
+      "heard": {
+        "kn": "ಅವರ ಸಂದೇಶಗಳನ್ನು ಒಮ್ಮೆ ಮಾದರಿ ಪರಿಶೀಲಕರ ಖಾತೆಯಿಂದ ತರಲಾಗಿತ್ತು, ಹೀಗಾಗಿ ನಿಜವಾದ ದತ್ತಾಂಶದ ಮಾದರಿ ಪ್ರತಿ ಇತ್ತು.",
+        "en": "His notes had once been brought in under a Sample reviewer account, so a Sample copy of real data existed."
+      },
+      "changed": {
+        "kn": "ಆ ಮಾದರಿ ಪ್ರತಿಯನ್ನು ಅಳಿಸಲಾಯಿತು. ಮಾದರಿ ಪರಿಶೀಲಕರು ತರುವ ಅಥವಾ ಪರಿಶೀಲಿಸುವ ಮೊದಲು ಈಗ ಸ್ಪಷ್ಟ ಎಚ್ಚರಿಕೆ ಕಾಣುತ್ತದೆ.",
+        "en": "The Sample copy was deleted. A clear Sample warning now shows before a Sample reviewer imports or reviews."
+      },
+      "where": ["components/parampara/SampleReviewerWarning.tsx", "/m/import", "/r/cards"]
+    },
+    {
+      "date": "2026-10-29",
+      "who": "headmaster",
+      "kind": "saw",
+      "sample": false,
+      "heard": {
+        "kn": "ನಾವು ಯೋಜಿಸಿದ್ದ QR ಕೋಡ್ ಬದಲು, ಮುಖ್ಯ ಶಿಕ್ಷಕರು ಸೇರುವ ಲಿಂಕ್ ಅನ್ನು ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ಸಹೋದ್ಯೋಗಿಗಳಿಗೆ ಕಳುಹಿಸಿದರು.",
+        "en": "The headmaster forwarded the join link to his colleagues on WhatsApp, instead of the QR code we had planned."
+      },
+      "changed": {
+        "kn": "ಕೋಡ್ ಬದಲಿಸುವ ಅಗತ್ಯ ಇರಲಿಲ್ಲ: QR ಹಿಡಿದಿದ್ದ ಅದೇ ಬಾಗಿಲು ಆ ಲಿಂಕ್. ನಮ್ಮ ದಾಖಲೆಗಳು ನಿಜವಾಗಿ ಆದದ್ದನ್ನೇ ಹೇಳುತ್ತವೆ, ಕ್ಷೇತ್ರದ ಸಂಖ್ಯೆಗಳು ಡೇಟಾಬೇಸ್‌ನಿಂದಲೇ ಬರುತ್ತವೆ.",
+        "en": "No code change was needed: the link is the same door the QR held. Our docs now say what really happened, and field numbers are written from the database."
+      },
+      "where": ["D103", "scripts/field-numbers.mjs"]
+    },
+    {
+      "date": "2026-10-30",
+      "who": "master",
+      "kind": "heard",
+      "sample": false,
+      "heard": {
+        "kn": "ಒಪ್ಪಿಗೆಯ ಸಂದೇಶದಲ್ಲಿ: “ನನ್ನ ಹೆಸರು ಮತ್ತು ಧ್ವನಿಯೊಂದಿಗೆ”.",
+        "en": "In his consent note: “ನನ್ನ ಹೆಸರು ಮತ್ತು ಧ್ವನಿಯೊಂದಿಗೆ” (with my name and voice)."
+      },
+      "changed": {
+        "kn": "ಅವರ ಪೂರ್ಣ ಹೆಸರಿನಿಂದ ಶ್ರೇಯ. ಹಂತದ ಹಿಂದಿನ ಅವರದೇ ಧ್ವನಿಯ ಆ ಕ್ಷಣಗಳನ್ನು ಶಿಕ್ಷಕರು ಕೇಳಬಹುದು.",
+        "en": "He is credited by his full name, and teachers can hear the exact seconds of his own voice behind a step."
+      },
+      "where": ["D102", "lib/import/clips.ts"]
+    },
+    {
+      "date": "2026-10-28",
+      "who": "probe",
+      "kind": "saw",
+      "sample": true,
+      "heard": {
+        "kn": "ಶಿಕ್ಷಕರು ಬರೆಯುವಂತೆ ಬರೆದ 15 ಪ್ರಶ್ನೆಗಳು, ನೇರ ತಾಣದಲ್ಲಿ: 8ಕ್ಕೆ ಕಾರ್ಡ್ ಸಿಗಲಿಲ್ಲ.",
+        "en": "15 questions typed the way teachers type, on the live site: 8 found no card."
+      },
+      "changed": {
+        "kn": "ಏಳು ನಿಜವಾದ ಕೊರತೆಗಳಿಗೆ ಎಂಟು ಮಾದರಿ ಕಾರ್ಡ್‌ಗಳು (ಪೋಷಕರ ವಿಷಯ ಉದ್ದೇಶಪೂರ್ವಕವಾಗಿ ಕೊರತೆಯಾಗಿಯೇ ಇದೆ). ಮತ್ತೆ ಕೇಳಿದಾಗ 15ರಲ್ಲಿ 12ಕ್ಕೆ ಉತ್ತರ.",
+        "en": "Eight Sample cards for the seven real gaps (parents stays a gap on purpose). Asked again, 12 of 15 answer."
+      },
+      "where": ["D99", "docs/evals/probe-2026-10-28.md"]
+    }
+  ]
+}

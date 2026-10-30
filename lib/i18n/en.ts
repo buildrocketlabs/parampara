@@ -16,6 +16,8 @@ export const en: Record<MessageKey, string> = {
   "hero.sub":
     "The classroom wisdom of Karnataka's master teachers, from their own recordings, for a young teacher at 9 pm.",
   "hero.cta": "Choose a role",
+  "hero.judges": "For judges: how it works, live numbers, code",
+  "hero.judges.code": "Code on GitHub",
 
   "doors.title": "Step in as",
   "doors.hint": "Each door signs you in to a Sample demo account with one tap.",
@@ -997,14 +999,27 @@ export const en: Record<MessageKey, string> = {
   "howpage.trace": "How one real answer was made",
   "howpage.trace.note": "The latest Sample answer, read straight from the database",
   "howpage.trace.none": "No answer yet. Enter as a teacher and ask a sample question.",
+  "howpage.trace.field":
+    "A Sample demo teacher's question, answered from {master}'s approved Koppal field test card, read straight from the database. No field teacher's question is shown here.",
+  "howpage.trace.cards":
+    "The card this answer cites, and the seconds of the recording behind each of its steps",
+  "howpage.trace.cardsMany":
+    "The cards this answer cites, and the seconds of the recording behind each of their steps",
+  "howpage.trace.span": "Card step {n}: {from} to {to}",
+  "howpage.trace.by": "From {master}",
+  "howpage.trace.this": "This answer: time and cost",
+  "howpage.trace.byAnon": "From a master teacher who chose not to be named",
   "howpage.numbers": "Computed from the database",
   "howpage.n.cards": "Approved cards",
   "howpage.n.answers": "Answers given",
   "howpage.n.cost": "Average cost per answer",
   "howpage.n.latency": "Average time to answer",
-  "howpage.n.spend": "Total AI spend so far",
+  "howpage.n.spend": "Total AI spend so far, every logged model and speech call",
   "howpage.n.none": "Not yet",
-  "howpage.rate": "₹ at {rate} per US dollar",
+  "howpage.n.private": "Kept private",
+  "howpage.n.privateNote":
+    "Field answers, their cost and their time stay private until 5 or more teachers are behind them, the same rule as From the field.",
+  "howpage.rate": "at ₹{rate} per US dollar",
   "howpage.evals": "Evaluation gates",
   "howpage.evals.pending": "Not measured yet",
   "howpage.g.grounding": "Every shipped step backed by an approved card",
@@ -1016,6 +1031,9 @@ export const en: Record<MessageKey, string> = {
   "howpage.o2": "A question asked offline is sent when the network returns",
   "howpage.o3": "Text first; voice only when tapped",
   "howpage.o4": "Long recordings go in small pieces and resume where they stopped",
+  "howpage.o.measured":
+    "Measured on the live site on {date} with Chrome's Slow 3G: the home page shows its first words in {cold} on a first visit and {warm} on a return, and a sample answer is readable {answer} after the tap.",
+  "howpage.o.source": "How it was measured",
   "howpage.open": "Open source, open data",
   "howpage.open.body":
     "Code under Apache 2.0. Approved cards under CC BY 4.0, with a documented JSON Schema and a mapping to DIKSHA content metadata.",
@@ -1169,7 +1187,7 @@ export const en: Record<MessageKey, string> = {
   "howpage.g.needs_human": "Questions sent to a person",
   "howpage.g.latency": "Answer time per question",
   "howpage.g.cost": "Model cost per answered question",
-  "howpage.t.reported": "reported",
+  "howpage.t.reported": "Reported only, no target",
   "howpage.t.cost": "about 2 to 3 US cents",
   "howpage.evals.none": "Not measured yet (no recordings)",
   "howpage.evals.rests": "From {n} recorded cases",
@@ -1179,7 +1197,7 @@ export const en: Record<MessageKey, string> = {
     "Last eval run {date}: the guardrail tests only. No model outputs are recorded yet, so model scores are not measured.",
   "howpage.evals.target": "Target",
   "howpage.evals.pass": "meets it",
-  "howpage.evals.fail": "below target",
+  "howpage.evals.fail": "misses target",
   // What it costs (M6, jury: Roadmap)
   "howpage.cost.title": "What it costs",
   "howpage.cost.lead":
@@ -1290,6 +1308,15 @@ export const en: Record<MessageKey, string> = {
   "field.who.reviewer": "A reviewer",
   "field.who.officer": "An education officer",
   "field.who.mentor": "A mentor",
+  "field.heard": "What we heard and what we changed",
+  "field.heard.sub":
+    "Each item is dated and names where its source and the change live in the code. Synthetic checks say Sample.",
+  "field.heard.heard": "We heard",
+  "field.heard.saw": "We saw",
+  "field.heard.who.master": "Mahesh Bedavatti, master teacher",
+  "field.heard.who.headmaster": "Mahesh Bedavatti, headmaster",
+  "field.heard.who.team": "Our team, in the field",
+  "field.heard.who.probe": "A probe of typed questions",
 
   // ── Field path (F-A): one QR for many teachers, field chips, feedback after an answer ──
   "join.group.eyebrow": "Welcome to Parampara",

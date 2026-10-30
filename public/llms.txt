@@ -1,0 +1,66 @@
+# Parampara (ಪರಂಪರೆ)
+
+A living library of Karnataka's best teaching, in Kannada, by voice. Team Namma Shaale, AI for Foundational Learning Hackathon (ShikshaNext, Central Square Foundation, Anthropic), Challenge 3: Teacher Support and Training. Open source (Apache 2.0); approved practice cards are open data (CC BY 4.0).
+
+## What it is
+- A master teacher talks, with an AI interviewer or as WhatsApp voice notes. Claude turns the talk into practice cards (problem, class, steps, materials, whose method). Every step cites the seconds of the recording it came from. A human reviewer approves each card.
+- A young teacher asks by voice or text, often at night. The answer is built only from approved, named cards, checked step by step by a second model, and spoken in Kannada with English under it. A teacher may choose Hindi answers; the screens are Kannada or English.
+- Next day she taps It worked, Partly or Didn't work. The master hears that their wisdom helped.
+- A child at risk gets no teaching advice: Childline 1098 and a person.
+
+## The four roles (one tap entry on the home page, no typing)
+- Teacher: /t (ask, answers, saved answers, It worked)
+- Master teacher: /m (talk with the interviewer, import voice notes, thank yous)
+- Reviewer: /r (approve cards beside the master's audio, the human queue)
+- Officer: /i (anonymous Teacher Pulse; any group under 5 teachers is hidden)
+Test credentials for /login are in the README (Sample demo accounts; they can change only Sample data).
+
+## Five sample inputs (chips on the teacher screen)
+1. A child in Class 1 still cannot recognise letters after six months: a grounded answer, every step citing a named master's card.
+2. Children recite one to a hundred but do not know how many: number sense from a Sample master's card, read aloud in Kannada.
+3. Class 1 and Class 2 together, forty children, one teacher: a multi grade classroom.
+4. A child says her father beats her at home every day: the safety path, Childline 1098 and a person, no pedagogy.
+5. How do I teach computer coding: no master has answered this, so it goes to a reviewer instead of a guess.
+A sixth question reaches Mahesh Bedavatti's approved field card and plays his own voice: "A child in Class 1 still cannot write letters. How do I start with lines and circles?"
+
+## AI roles and models
+All model calls are in ai/; ai/router.ts is the only file that names a model. Every output is a Zod validated structured object, with 2 retries and then a safe "needs a person".
+- Claude Sonnet 5.5 (claude-sonnet-5-5): interviewer, card extractor, answerer, photo reader (vision), officer digest.
+- Claude Haiku 5.5 (claude-haiku-5-5): redactor, name readers, triage, retriever, grounding judge, safety.
+- Sarvam Saaras v4 (kn-IN): speech to text. Sarvam Bulbul v3: the answer spoken aloud.
+- No embeddings and no vector database: the retriever ranks a cached index of approved cards.
+
+## Guardrails
+- Grounded or silent: a step ships only if it cites an approved card and the judge finds it supported; with fewer than 2 supported steps the question goes to a person.
+- Children's names are redacted before storage, answering, logs and traces. Punishment, shaming or fear never ship (deterministic patterns in Kannada, English and Hindi behind the models).
+- Teachers are never monitored: no rankings; aggregates only, hidden under 5 teachers.
+- A card cannot be approved without the master's recorded consent (database trigger). Row level security on every table, checked by SQL assertions in CI.
+- Budget caps (total, daily, per session); every call is logged with tokens and cost.
+
+## Eval gates (docs/evals/latest.md, replay of 24 Oct 2026, 637 checks passed, 0 failed)
+- Grounding, shipped steps citing an approved card and judged supported: 100% (63 steps in 16 recorded answers; 4 of 67 drafted steps removed)
+- Unsafe advice in shipped answers: 0 (16 recorded answers)
+- Safety escalation recall: 100% (14 of 14)
+- Retrieval, expected card in the top three: 100% (14 of 14; 5 of 5 with no fitting card left empty)
+- Card evidence, every citation resolves to the recording: 100% (13 recorded interviews)
+- Answer latency: p50 13.1 s, p95 29.8 s, which misses the target (p50 under 10 s, p95 under 18 s). Measured on the live site on 27 Oct: a fresh answer's text p50 12.9 s; sample questions replay in about 0.8 s.
+- Model cost per answered question: $0.0152. With speech, about ₹2.76 a question and about ₹33 per teacher a month at an assumed 12 questions.
+
+## Bad networks (docs/evals/network.md, live site, 27 Oct 2026, Chrome Slow 3G)
+Home page first words in 6.2 s on a first visit and 2.7 s on a return; a sample answer readable 6.7 s after the tap. Saved answers open offline; a question asked offline waits and sends on reconnect.
+
+## Koppal field test (field rows only, read from the database by pnpm field:numbers on 30 Oct 2026)
+- 1 master teacher with consent on record: Headmaster Mahesh Bedavatti, Government Higher Primary School, Ambedkar Nagar, Talakal, Koppal district, 32 years in government schools.
+- His interview: 7 WhatsApp voice notes, 5 min 42 s. 6 practice cards approved from it, every step citing a second of his recording.
+- 8 field teachers joined on their own phones from 29 Oct, through a link the headmaster forwarded on WhatsApp.
+- Field questions, answers and outcomes stay private until 5 different teachers stand behind them (the same rule on /how, in the README and here). No field teacher has reported yet whether an answer worked.
+- What we heard and what we changed, dated and sourced: https://github.com/buildrocketlabs/parampara/blob/main/docs/field/CHANGES.md
+
+## Links
+- Live app: https://parampara-eta.vercel.app (English: https://parampara-eta.vercel.app/?lang=en)
+- How it works, with live numbers: https://parampara-eta.vercel.app/how?lang=en
+- Code: https://github.com/buildrocketlabs/parampara
+- Film (2 min 58 s, English subtitles): https://youtu.be/JD4pzalBlUU
+- Deck PDF (13 slides): https://parampara-eta.vercel.app/deck/parampara-deck.pdf
+- Deck as text: https://github.com/buildrocketlabs/parampara/blob/main/docs/deck/DECK.md
+- Open data: https://parampara-eta.vercel.app/api/open/cards

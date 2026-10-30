@@ -182,6 +182,28 @@ export default function Home() {
         </main>
 
         <footer className="mx-auto max-w-6xl px-5 pb-10 text-[15px] text-ink-3 sm:px-8">
+          {/* One quiet door for judges: the reasoning, the live numbers and the code. */}
+          <p
+            data-judges-link
+            className="flex flex-col items-start gap-1 pb-4 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5"
+          >
+            <Link
+              href="/how"
+              className="group inline-block py-3 text-base font-semibold text-ink-2 underline decoration-ink-3/40 decoration-1 underline-offset-4 hover:text-ink"
+            >
+              <Bi k="hero.judges" sub={false} className="inline" />
+              <ArrowRight
+                className="ml-1.5 inline size-4 align-[-2px] transition-transform duration-200 group-hover:translate-x-0.5"
+                aria-hidden
+              />
+            </Link>
+            <a
+              href="https://github.com/buildrocketlabs/parampara"
+              className="inline-block py-3 text-base font-semibold text-ink-3 underline decoration-ink-3/40 decoration-1 underline-offset-4 hover:text-ink"
+            >
+              <Bi k="hero.judges.code" sub={false} />
+            </a>
+          </p>
           <div className="flex flex-col gap-1 border-t border-border pt-6 md:flex-row md:justify-between">
             <Bi k="footer.team" sub={false} className="font-semibold text-ink-3" />
             <Bi k="footer.event" sub={false} />

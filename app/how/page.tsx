@@ -30,9 +30,14 @@ import { SiteHeader } from "@/components/parampara/SiteHeader";
 import { SAMPLE_TRACE } from "@/app/design/sample-data";
 import type { Trace } from "@/lib/ask/types";
 import { formatLatency, formatUsd, verdictCounts } from "@/lib/trace-format";
-import { DEMO_ACCOUNTS } from "@/lib/auth/roles";
+import { loadFieldSummary } from "@/lib/field/summary";
+import { NETWORK_MEASURED, NETWORK_SOURCE_URL } from "@/lib/how/network";
+import { clock, loadShowcase, type Showcase } from "@/lib/how/showcase";
 import type { MessageKey } from "@/lib/i18n";
-import { createAdminClient } from "@/lib/supabase/admin";
+import { messages } from "@/lib/i18n/messages";
+import { fill } from "@/lib/i18n/fill";
+import { dayOf } from "@/lib/insights/format";
+import { createAdminClient, type AdminClient } from "@/lib/supabase/admin";
 import evalReport from "@/docs/evals/latest.json";
 import type { EvalReport, Gate, GateId } from "@/evals/gates";
 
@@ -233,6 +238,17 @@ export default function Page() {
               </li>
             ))}
           </ul>
+          {/* The measured numbers, as docs/evals/network.md recorded them (lib/how/network.ts). */}
+          <p data-network-measured className="mt-5 max-w-3xl text-base text-white">
+            <BiText text={networkLine()} subClassName="text-[14px] text-mist" />
+          </p>
+          <a
+            href={NETWORK_SOURCE_URL}
+            className="mt-2 inline-flex min-h-12 items-center gap-1.5 text-base font-semibold text-flame underline underline-offset-4"
+          >
+            <Bi k="howpage.o.source" sub={false} />
+            <span className="font-mono text-[14px]">docs/evals/network.md</span>
+          </a>
         </section>
 
         <section aria-labelledby="open" className="mt-12">
@@ -256,39 +272,36 @@ export default function Page() {
   );
 }
 
+/** The bad network sentence, in both languages, with the numbers from docs/evals/network.md. */
+function networkLine(): { kn: string; en: string } {
+  const day = dayOf(NETWORK_MEASURED.date);
+  const line = (lang: "kn" | "en") =>
+    fill(messages[lang]["howpage.o.measured"], {
+      date: day[lang],
+      cold: NETWORK_MEASURED.coldFirstPaint,
+      warm: NETWORK_MEASURED.warmFirstPaint,
+      answer: NETWORK_MEASURED.sampleAnswer,
+    });
+  return { kn: line("kn"), en: line("en") };
+}
+
+const PAGE = 1_000;
+
 /**
- * The trace shown to anonymous visitors comes only from the seeded demo teacher's own questions:
- * never from anyone who joined by invite, even a Sample one (safety audit re check, 24 Oct).
+ * Every row of a read, a page at a time: the database API returns at most 1,000 rows per request,
+ * so one query would quietly undercount (ai/spend.ts pages for the same reason).
  */
-async function latestDemoTrace(
-  db: NonNullable<ReturnType<typeof createAdminClient>>,
-): Promise<Trace | null> {
-  const { data: demo } = await db
-    .from("profiles")
-    .select("id")
-    .eq("role", "teacher")
-    .eq("is_sample", true)
-    .eq("display_name", DEMO_ACCOUNTS.teacher.displayName)
-    .maybeSingle();
-  if (!demo) return null;
-  const { data: qs } = await db
-    .from("questions")
-    .select("id")
-    .eq("teacher_id", demo.id)
-    .order("created_at", { ascending: false })
-    .limit(20);
-  const ids = (qs ?? []).map((q) => q.id as string);
-  if (ids.length === 0) return null;
-  const { data } = await db
-    .from("answers")
-    .select("trace")
-    .in("question_id", ids)
-    .eq("status", "answered")
-    .eq("replayed", false)
-    .order("created_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-  return (data?.trace as Trace | null) ?? null;
+async function allRows<T>(
+  read: (from: number, to: number) => PromiseLike<{ data: T[] | null; error: unknown }>,
+): Promise<T[] | null> {
+  const rows: T[] = [];
+  for (let page = 0; page < 200; page++) {
+    const { data, error } = await read(page * PAGE, page * PAGE + PAGE - 1);
+    if (error) return null;
+    rows.push(...(data ?? []));
+    if (!data || data.length < PAGE) break;
+  }
+  return rows;
 }
 
 function usd(n: number): string {
@@ -299,20 +312,30 @@ async function Live() {
   const db = createAdminClient();
   // No database (fixture mode): no numbers to show, but the trace drawer's Sample answer, labelled.
   if (!db) return <SampleTrace />;
-  const [counts, answers, spend, latest] = await Promise.all([
+  const [counts, answers, spend, showcase, field] = await Promise.all([
     db.from("v_library_counts").select("is_sample, approved_cards"),
-    db
-      .from("answers")
-      .select("is_sample, cost_usd, latency_ms")
-      .eq("status", "answered")
-      .eq("replayed", false)
-      .limit(5000),
-    db.from("ai_calls").select("cost_usd").limit(100000),
-    latestDemoTrace(db),
+    allRows<{ is_sample: boolean; cost_usd: number | null; latency_ms: number | null }>(
+      (from, to) =>
+        db
+          .from("answers")
+          .select("is_sample, cost_usd, latency_ms")
+          .eq("status", "answered")
+          .eq("replayed", false)
+          .order("id")
+          .range(from, to),
+    ),
+    allRows<{ cost_usd: number | null }>((from, to) =>
+      db.from("ai_calls").select("cost_usd").gt("cost_usd", 0).order("id").range(from, to),
+    ),
+    loadShowcase(db as AdminClient),
+    loadFieldSummary(db as AdminClient),
   ]);
   const cardsBy = (sample: boolean) =>
     (counts.data ?? []).find((c) => c.is_sample === sample)?.approved_cards ?? 0;
-  const rows = answers.data ?? [];
+  const rows = answers ?? [];
+  // One privacy rule everywhere (lib/field/summary.ts): field answers, and what they cost and
+  // took, stay private while fewer than 5 different teachers asked. Unread counts stay private.
+  const fieldPrivate = !field || field.questions.hidden;
   const stat = (sample: boolean) => {
     const r = rows.filter((a) => a.is_sample === sample);
     const n = r.length;
@@ -322,8 +345,7 @@ async function Live() {
       latency: n ? r.reduce((s, a) => s + Number(a.latency_ms ?? 0), 0) / n : null,
     };
   };
-  const totalSpend = (spend.data ?? []).reduce((s, c) => s + Number(c.cost_usd ?? 0), 0);
-  const trace = latest;
+  const totalSpend = spend ? spend.reduce((s, c) => s + Number(c.cost_usd ?? 0), 0) : null;
 
   return (
     <>
@@ -334,6 +356,7 @@ async function Live() {
         <div className="mt-5 grid gap-4 md:grid-cols-2">
           {([false, true] as const).map((sample) => {
             const s = stat(sample);
+            const hidden = !sample && fieldPrivate;
             return (
               <div
                 key={String(sample)}
@@ -342,7 +365,7 @@ async function Live() {
                 {sample ? <SampleBadge /> : <FieldBadge />}
                 <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-3">
                   <Num label="howpage.n.cards" value={String(cardsBy(sample))} />
-                  <Num label="howpage.n.answers" value={String(s.n)} />
+                  <Num label="howpage.n.answers" value={String(s.n)} hidden={hidden} />
                   <Num
                     label="howpage.n.cost"
                     value={
@@ -350,32 +373,115 @@ async function Live() {
                         ? null
                         : `${usd(s.cost)} · ₹${(s.cost * INR_PER_USD).toFixed(2)}`
                     }
+                    hidden={hidden}
                   />
                   <Num
                     label="howpage.n.latency"
                     value={s.latency === null ? null : `${(s.latency / 1000).toFixed(1)} s`}
+                    hidden={hidden}
                   />
                 </dl>
+                {hidden && (
+                  <p className="mt-3 text-[14px] text-ink-3">
+                    <Bi k="howpage.n.privateNote" sub={false} />
+                  </p>
+                )}
               </div>
             );
           })}
         </div>
-        <p className="mt-3 text-[15px] text-ink-3">
-          <Bi k="howpage.n.spend" sub={false} className="inline" />: {usd(totalSpend)} ·{" "}
-          <BiText text="howpage.rate" vars={{ rate: INR_PER_USD }} sub={false} inline />
-        </p>
+        {totalSpend !== null && (
+          <p data-total-spend className="mt-3 text-[15px] text-ink-3">
+            <Bi k="howpage.n.spend" sub={false} className="inline" />:{" "}
+            <span className="font-semibold text-ink tabular-nums">
+              {usd(totalSpend)} · ₹{(totalSpend * INR_PER_USD).toFixed(2)}
+            </span>
+            , <BiText text="howpage.rate" vars={{ rate: INR_PER_USD }} sub={false} inline />
+          </p>
+        )}
       </section>
 
-      <section aria-labelledby="trace" className="mt-12">
-        <h2 id="trace" className="text-[26px] font-bold">
-          <Bi k="howpage.trace" sub={false} />
-        </h2>
-        <p className="mt-1 text-[15px] text-ink-3">
-          <Bi k={trace ? "howpage.trace.note" : "howpage.trace.none"} sub={false} />
-        </p>
-        {trace && <TraceWithVerdict trace={trace} />}
-      </section>
+      {showcase ? <ShowcaseTrace showcase={showcase} /> : <SampleTrace />}
     </>
+  );
+}
+
+/** One real shipped answer: its trace, and the card it cites with the seconds behind each step. */
+function ShowcaseTrace({ showcase }: { showcase: Showcase }) {
+  const { trace, cards, field } = showcase;
+  const lead = cards[0]?.master;
+  return (
+    <section aria-labelledby="trace" className="mt-12" data-showcase={field ? "field" : "sample"}>
+      <h2 id="trace" className="flex flex-wrap items-center gap-3 text-[26px] font-bold">
+        <Bi k="howpage.trace" sub={false} />
+        <SampleBadge />
+        {field && <FieldBadge />}
+      </h2>
+      <p className="mt-1 max-w-prose text-[15px] text-ink-3">
+        {field && lead ? (
+          <BiText
+            text={{
+              kn: fill(messages.kn["howpage.trace.field"], { master: lead.kn }),
+              en: fill(messages.en["howpage.trace.field"], { master: lead.en }),
+            }}
+            sub={false}
+          />
+        ) : (
+          <Bi k="howpage.trace.note" sub={false} />
+        )}
+      </p>
+      {cards.length > 0 && (
+        <div className="mt-4 rounded-card border border-border bg-paper p-5 shadow-warm-sm">
+          <h3 className="text-[17px] font-bold text-ink">
+            <Bi
+              k={cards.length > 1 ? "howpage.trace.cardsMany" : "howpage.trace.cards"}
+              sub={false}
+            />
+          </h3>
+          <ul className="mt-3 grid gap-4 md:grid-cols-2">
+            {cards.map((c) => (
+              <li key={c.id} data-cited-card className="rounded-[20px] bg-cream p-4">
+                {c.isSample ? <SampleBadge /> : <FieldBadge />}
+                <p className="mt-2 font-display text-[19px] leading-snug font-bold text-ink">
+                  <BiText text={c.title} subClassName="font-sans text-[15px] font-medium" />
+                </p>
+                <p className="mt-1 text-[15px] text-ink-3">
+                  {c.master ? (
+                    <BiText
+                      text={{
+                        kn: fill(messages.kn["howpage.trace.by"], { master: c.master.kn }),
+                        en: fill(messages.en["howpage.trace.by"], { master: c.master.en }),
+                      }}
+                      sub={false}
+                    />
+                  ) : (
+                    <Bi k="howpage.trace.byAnon" sub={false} />
+                  )}
+                </p>
+                {c.spans.length > 0 && (
+                  <ul className="mt-2 flex flex-wrap gap-1.5">
+                    {c.spans.map((sp) => (
+                      <li
+                        key={sp.step}
+                        className="rounded-chip bg-paper px-2.5 py-0.5 text-[14px] text-ink-2 tabular-nums"
+                      >
+                        <BiText
+                          text="howpage.trace.span"
+                          vars={{ n: sp.step, from: clock(sp.from), to: clock(sp.to) }}
+                          sub={false}
+                          inline
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <TraceWithVerdict trace={trace} />
+    </section>
   );
 }
 
@@ -401,7 +507,10 @@ function TraceWithVerdict({ trace, sample = false }: { trace: Trace; sample?: bo
             <BiText text="trace.kept" vars={{ kept, removed }} sub={false} />
           </p>
         )}
-        <p className="mt-3 font-display text-[22px] font-bold text-ink tabular-nums">
+        <p className="mt-3 text-[14px] font-semibold text-moss">
+          <Bi k="howpage.trace.this" sub={false} />
+        </p>
+        <p className="font-display text-[22px] font-bold text-ink tabular-nums">
           {formatLatency(trace.totals.latencyMs)} · {formatUsd(trace.totals.costUsd)}
         </p>
       </aside>
@@ -424,14 +533,27 @@ function SampleTrace() {
   );
 }
 
-function Num({ label, value }: { label: MessageKey; value: string | null }) {
+function Num({
+  label,
+  value,
+  hidden = false,
+}: {
+  label: MessageKey;
+  value: string | null;
+  /** Kept private by the field rule (fewer than 5 teachers): no number at all. */
+  hidden?: boolean;
+}) {
   return (
     <div>
       <dt className="text-[14px] text-ink-3">
         <Bi k={label} sub={false} />
       </dt>
       <dd className="mt-0.5 font-display text-[22px] font-bold tabular-nums">
-        {value ?? <Bi k="howpage.n.none" sub={false} className="text-lg text-ink-3" />}
+        {hidden ? (
+          <Bi k="howpage.n.private" sub={false} className="text-lg text-ink-3" />
+        ) : (
+          (value ?? <Bi k="howpage.n.none" sub={false} className="text-lg text-ink-3" />)
+        )}
       </dd>
     </div>
   );
@@ -500,7 +622,13 @@ function EvalGate({ gate }: { gate: Gate }) {
           </span>
         )}
         <span className="text-[14px] text-ink-3">
-          <Bi k="howpage.evals.target" sub={false} className="inline" /> {target}
+          {copy.target === "howpage.t.reported" ? (
+            target
+          ) : (
+            <>
+              <Bi k="howpage.evals.target" sub={false} className="inline" /> {target}
+            </>
+          )}
         </span>
       </div>
     </li>

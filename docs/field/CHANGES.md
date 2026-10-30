@@ -1,0 +1,15 @@
+# What we heard and what we changed
+The same list as the README section and the "From the field" part of [/how](https://parampara-eta.vercel.app/how?lang=en#field). Its data is [`heard.json`](heard.json), checked by `lib/field/heard.test.ts`. Only real, dated items with a source in this repository. Who is a role; Mahesh Bedavatti is named because he asked to be credited by name (D102). A synthetic probe is marked **Sample**. Decision ids (D78 and so on) are in [`docs/DECISIONS.md`](../DECISIONS.md).
+
+| Date | Who | What we heard or saw | What we changed | Where |
+|---|---|---|---|---|
+| 28 Oct | Master teacher (Mahesh Bedavatti) | Saw: his interview came as WhatsApp voice notes, his consent in the first one, not as a sit down interview | Many voice notes now import as one interview, in WhatsApp's order; the consent note is kept but never becomes a card | D78 · `/m/import` · `lib/import/order.ts` |
+| 28 Oct | **Sample** probe (synthetic) | Saw: 15 questions typed the way teachers type, on the live site; 8 found no card | Eight Sample cards for the seven real gaps (parents stays a gap on purpose); asked again, 12 of 15 answer | D99 · `docs/evals/probe-2026-10-28.md` |
+| 29 Oct | Master teacher (Mahesh Bedavatti) | Heard, in his consent note: "ಕಳೆದ 32 ವರ್ಷಗಳಿಂದ" (for the last 32 years). Our notes said 37, and had his school's name wrong | Corrected to 32 years and to the name on the school board, Government Higher Primary School, Ambedkar Nagar, Talakal, in the database, the docs and the film | D101 |
+| 29 Oct | Our team, in the field | Saw: his notes had once been brought in under a Sample reviewer account, so a Sample copy of real data existed | The Sample copy was deleted; a clear Sample warning now shows before a Sample reviewer imports or reviews | `components/parampara/SampleReviewerWarning.tsx` · `/m/import` · `/r/cards` |
+| 29 Oct | Headmaster (Mahesh Bedavatti) | Saw: he forwarded the join link to his colleagues on WhatsApp, instead of the QR code we had planned | No code change was needed (the link is the same door the QR held); the docs say what really happened, and field numbers are written from the database | D103 · `scripts/field-numbers.mjs` |
+| 30 Oct | Master teacher (Mahesh Bedavatti) | Heard, in his consent note: "ನನ್ನ ಹೆಸರು ಮತ್ತು ಧ್ವನಿಯೊಂದಿಗೆ" (with my name and voice) | He is credited by his full name, and teachers can hear the exact seconds of his own voice behind a step | D102 · `lib/import/clips.ts` |
+
+Not in this table, because nothing in the repository records them yet: a mentor session (`docs/field/mentor-input.md` is empty), and any field teacher saying whether an answer worked (none has yet). Field questions themselves stay private until 5 different teachers have asked. A field question that no card answers goes to the reviewers' queue (`/r/queue`), where a reviewer can answer it with an approved card or ask a master to record one (D83).
+
+`changes.json` beside this file is for a teacher's own quoted words, added only with her yes to being quoted (`pnpm add:change`). It has no entries yet.

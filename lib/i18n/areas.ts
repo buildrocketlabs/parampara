@@ -173,6 +173,16 @@ export const DYNAMIC_KEYS: ReadonlyArray<{ file: string; prefix: string; why: st
     why: "each field change names who made it (master, teacher or reviewer)",
   },
   {
+    file: "components/how/FieldTest.tsx",
+    prefix: "field.heard.",
+    why: "each heard item says whether it was heard or seen",
+  },
+  {
+    file: "components/how/FieldTest.tsx",
+    prefix: "field.heard.who.",
+    why: "each heard item names who it came from",
+  },
+  {
     file: "app/how/page.tsx",
     prefix: "howpage.",
     why: "an evaluation gate's target is either a howpage key or a literal number",

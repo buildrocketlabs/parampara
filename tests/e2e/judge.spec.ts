@@ -122,3 +122,26 @@ test("the reviewer sees the question no master has answered yet", async ({ page 
   await open(page, "/r/queue?lang=en");
   await expect(page.getByText(/computer coding/i).first()).toBeVisible();
 });
+
+// /how is where a judge checks the numbers (F-T11): signed out, nothing may read as a placeholder,
+// every rupee sign carries its amount, and one real shipped answer is shown with its trace.
+test("/how, signed out, shows real numbers and a real answer, never a placeholder", async ({
+  page,
+}) => {
+  for (const lang of ["en", "kn"] as const) {
+    await open(page, `/how?lang=${lang}`);
+    await expect(page.locator("[data-showcase]")).toBeVisible();
+    await expect(page.locator("[data-total-spend]")).toBeVisible();
+    await expect(page.locator("[data-field-heard-item]").first()).toBeVisible();
+    const text = await page.locator("main").innerText();
+    for (const placeholder of [
+      "will be written here",
+      "No answer yet",
+      "ಮೊದಲ ಬದಲಾವಣೆ ಇಲ್ಲಿ ಬರುತ್ತದೆ",
+      "ಇನ್ನೂ ಯಾವ ಉತ್ತರವೂ ಇಲ್ಲ",
+    ]) {
+      expect(text, `${lang}: ${placeholder}`).not.toContain(placeholder);
+    }
+    expect(text.match(/₹(?!\s?\d)/g), `${lang}: a ₹ with no amount`).toBeNull();
+  }
+});
